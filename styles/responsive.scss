@@ -1,0 +1,1949 @@
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+    .navbar {
+        .container-fluid {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    .ptb-100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+    .pt-70 {
+        padding-top: 20px;
+    }
+    .pb-70 {
+        padding-bottom: 20px;
+    }
+    .agency-banner-area {
+        .container-fluid {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .banner-bottom-shape {
+            bottom: -1px;
+        }
+    }
+    .agency-banner-content {
+        text-align: center;
+        h1 {
+            font-size: 30px;
+            color: #ffffff;
+            margin-bottom: 25px;
+            line-height: 1.3;
+        }
+        .social-link ul {
+            margin-top: 10px;
+        }
+    }
+    .agency-banner-img {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .single-feature {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #f1f1f1;
+        padding-bottom: 15px;
+        &::before {
+            display: none;
+        }
+        span {
+            font-size: 17px;
+        }
+    }
+    .feature-area {
+        .feature-content {
+            padding: 20px;
+        }
+        .col-lg-4 {
+            &:nth-child(3) {
+                .single-feature {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .about-img {
+        margin-bottom: 30px;
+        .video-button {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+    }
+    .about-content {
+        text-align: center;
+        margin: auto;
+        h2 {
+            font-size: 25px;
+        }
+        ul li {
+            padding-right: 7px;
+            margin-right: 8px;
+        }
+    }
+    .single-counter {
+        i {
+            font-size: 60px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+    .section-title {
+        margin-bottom: 35px;
+        span {
+            font-size: 15px;
+            &::before {
+                top: 0;
+            }
+            &::after {
+                top: 0;
+            }
+        }
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .single-services-box {
+        padding: 20px;
+        .services-content {
+            margin: 0;
+        }
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .get-in-touch-content {
+        text-align: center;
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .testimonial-content {
+        padding: 20px;
+        padding-left: 20px;
+    }
+    .testimonial-content {
+        &::before {
+            display: none;
+        }
+    }
+    .testimonial-area {
+        .owl-nav {
+            left: 195px;
+            position: absolute;
+            bottom: 9px;
+            .owl-prev {
+                margin-right: 10px !important;
+                i {
+                    font-size: 25px;
+                }
+            }
+            .owl-next {
+                margin-left: 10px !important;
+                i {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    .single-footer-widget {
+        h3 {
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+    }
+    .single-services-box {
+        text-align: center;
+        .services-box-shape {
+            display: none;
+        }
+    }
+    .single-team {
+        img {
+            width: 100%;
+        }
+    }
+    .get-in-touch-btn {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .saas-banner-area {
+        padding-top: 140px;
+        padding-bottom: 70px;
+    }
+    .saas-banner-content {
+        margin: 0 auto 35px;
+        h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+    }
+    .saas-banner-img {
+        .banner-shape-1 {
+            display: none;
+        }
+        .banner-shape-2 {
+            display: none;
+        }
+    }
+    .new-services-content {
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .new-services-img {
+        margin-bottom: 30px;
+    }
+    .services-contents {
+        h2 {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+    }
+    .sass-services-area {
+        .col-sm-6 {
+            &:nth-child(2) {
+                .sass-single-services-box {
+                    margin-top: 0;
+                }
+            }
+            &:nth-child(3) {
+                .sass-single-services-box {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    .our-work-area {
+        .owl-nav {
+            .owl-next {
+                right: 0;
+            }
+            .owl-prev {
+                left: 0;
+            }
+        }
+    }
+    .saas-testimonial-area {
+        .testimonial-title {
+            h2 {
+                font-size: 25px;
+            }
+        }
+    }
+    .thumbs {
+        display: none;
+    }
+    .saas-blog-area .single-blog-post .news-content .admin-content .date {
+        float: unset;
+    }
+    .saas-contact-area {
+        .contact-form {
+            margin-bottom: 30px;
+            h2 {
+                font-size: 25px;
+            }
+        }
+    }
+    .single-pricing.active p {
+        top: 18px;
+        right: -60px;
+        font-size: 15px;
+    }
+    .faq-accordion {
+        .accordion {
+            .accordion-item {
+                padding-left: 0;
+            }
+        }
+    }
+    .price-tab .tabs {
+        margin-bottom: 30px;
+    }
+    .sass-services-area .col-lg-6 .row::before {
+        display: none;
+    }
+    .consulting-banner-content {
+        text-align: center;
+        h1 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .social-link {
+            ul {
+                margin-top: 15px;
+            }
+            span {
+                margin-right: 10px;
+                &::before {
+                    display: none;
+                }
+            }
+        }
+    }
+    .consulting-banner-img {
+        .video-button {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+    }
+    .single-consulting-feature {
+        padding: 30px;
+        padding-top: 30px;
+    }
+    .consulting-about-content {
+        text-align: center;
+    }
+    .partner-area.consulting-partner-area {
+        padding-top: 50px;
+    }
+    .single-consulting-services {
+        text-align: center;
+        i {
+            position: unset;
+            margin: 0 auto 25px;
+        }
+        p {
+            padding-left: 0;
+        }
+    }
+    .consulting-counter-area .shape {
+        display: none;
+    }
+    .consultancy-area {
+        &::before {
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .consultancy-area {
+        .container-fluid {
+            padding-left: 15px;
+            padding-right: 15px;
+            max-width: 100%;
+        }
+    }
+    .consulting-testimonial-area {
+        .testimonial-title {
+            max-width: 600px;
+            margin-left: auto;
+            position: unset;
+            margin: 0 auto 30px;
+            text-align: center;
+            h2 {
+                font-size: 25px;
+            }
+        }
+    }
+    .consulting-testimonial-area {
+        padding-top: 50px;
+        span {
+            margin-bottom: 10px;
+            display: block;
+        }
+        .testimonial-content {
+            text-align: center;
+        }
+    }
+    .testimonial-img {
+        text-align: center;
+    }
+    .navbar-brand {
+        img {
+            max-width: 140px;
+        }
+    }
+    .consulting-pricing-area {
+        .shape {
+            display: none;
+        }
+    }
+    .contact-info {
+        margin-bottom: 30px;
+    }
+    .consulting-testimonial-area .owl-nav {
+        margin-top: 0 !important;
+        width: unset;
+        position: unset;
+        text-align: center;
+    }
+    .consulting-testimonial-area {
+        .owl-nav {
+            .owl-prev {
+                margin: 5px !important;
+                i {
+                    line-height: 1;
+                }
+            }
+            .owl-next {
+                margin: 5px !important;
+                i {
+                    line-height: 1;
+                }
+            }
+        }
+    }
+    .single-consulting-feature {
+        padding: 20px;
+    }
+    .single-consulting-services {
+        padding: 20px;
+    }
+    .personal-banner-area {
+        padding-bottom: 50px;
+    }
+    .personal-banner-content {
+        margin-top: 50px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: unset;
+        span {
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 35px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .shape-1 {
+            display: none;
+        }
+        .shape-2 {
+            display: none;
+        }
+        .shape-3 {
+            display: none;
+        }
+    }
+    .skill-area .shape-3 {
+        display: none;
+    }
+    .skill-area {
+        .introduction {
+            padding-bottom: 30px;
+        }
+    }
+    .personal-services-area {
+        .services-content {
+            h2 {
+                font-size: 25px;
+            }
+        }
+    }
+    .personal-services-area {
+        .services-content {
+            a {
+                font-size: 22px;
+            }
+        }
+    }
+    .skill-content {
+        padding: 20px;
+        .shape-1 {
+            display: none;
+        }
+    }
+    .skill-img {
+        top: 20px;
+        .skill-shape {
+            top: -5px;
+        }
+    }
+    .services-content {
+        margin-bottom: 30px;
+    }
+    .personal-testimonial-area {
+        .shape-1 {
+            display: none;
+        }
+        .shape-2 {
+            display: none;
+        }
+        .shape-3 {
+            display: none;
+        }
+    }
+    .personal-blog-area .admin-content .date {
+        float: unset;
+        margin-bottom: 10px;
+    }
+    .personal-contact-area {
+        .shape-1 {
+            display: none;
+        }
+        .shape-2 {
+            display: none;
+        }
+        .shape-3 {
+            display: none;
+        }
+        .shape-4 {
+            display: none;
+        }
+    }
+    .seo-banner-area {
+        height: 100%;
+        padding-top: 45px;
+        text-align: center;
+        .container-fluid {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    .seo-banner-content {
+        h1 {
+            font-size: 30px;
+        }
+    }
+    .seo-about-area .faq-accordion .accordion .accordion-title {
+        text-align: left;
+    }
+    .seo-counter-area {
+        background-color: #f7f0ef;
+    }
+    .seo-services-area {
+        .single-services .services-content {
+            padding: 20px;
+        }
+    }
+    .seo-work-area {
+        background-color: #f7f0ef;
+    }
+    .seo-pricing-area {
+        background-color: #f8f3f2;
+    }
+    .seo-blog-area .admin-content li {
+        display: inline-block;
+        font-size: 12px;
+    }
+    .seo-blog-area .admin-content .date {
+        position: relative;
+        top: 5px;
+    }
+    .default-btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .contact-img {
+        margin-top: 30px;
+    }
+    .seo-partner-area {
+        background-color: #f7f0ef;
+    }
+    .testimonial-bg {
+        img {
+            display: none;
+        }
+    }
+    .seo-testimonial-area {
+        .seo-testimonial-slider {
+            position: unset;
+        }
+        .seo-testimonial-slider .testimonial-contents {
+            text-align: center;
+            padding: 0;
+            height: 100%;
+            margin-top: 0;
+        }
+    }
+    .seo-testimonial-slider .testimonial-contents {
+        padding: 0;
+        height: 100%;
+        margin-top: 0;
+    }
+    .seo-testimonial-area .seo-testimonial-slider .testimonial-contents .testimonial-post {
+        top: 30px;
+        right: 0;
+        height: 110px;
+    }
+    .seo-testimonial-area .seo-testimonial-slider .testimonial-contents p {
+        font-size: 16px;
+    }
+    .seo-testimonial-area .testimonial-bg i {
+        display: none;
+    }
+    .seo-testimonial-area {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .single-process {
+        text-align: center;
+        box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+        img {
+            display: none;
+        }
+        .process-content {
+            padding: 20px;
+            position: unset;
+            span {
+                text-align: center;
+            }
+        }
+    }
+    .different-img {
+        margin-top: 30px;
+    }
+    .seo-body-color h3 {
+        font-size: 22px;
+    }
+    .single-pricing {
+        padding: 20px;
+    }
+    .blog-details-content {
+        .blog-top-content blockquote p {
+            padding: 20px;
+        }
+        .social li a {
+            margin-right: 8px;
+        }
+        .comments {
+            h3 {
+                font-size: 20px;
+            }
+            ul li {
+                padding-left: 0;
+                h3 {
+                    display: block;
+                }
+                img {
+                    position: unset;
+                }
+            }
+        }
+        .leave-reply h3 {
+            font-size: 20px;
+        }
+    }
+    .sidebar-widget {
+        &.search {
+            margin-top: 35px;
+        }
+        &.tags {
+            margin-bottom: 0;
+            ul li a {
+                padding: 8px 9px;
+            }
+        }
+    }
+    .page-title-area {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .page-title-content {
+            h2 {
+                font-size: 30px;
+            }
+        }
+    }
+    .single-seo-work a {
+        display: block;
+    }
+    .single-seo-work a img {
+        width: 100%;
+    }
+    .seo-testimonial-area  {
+        .testimonial-img {
+            margin-bottom: 0;
+        }
+    }
+    .seo-testimonial-area .single-testimonial {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .single-process {
+        padding: 20px;
+    }
+    .modal-video-body {
+        padding: 0 20px;
+    }
+    .single-case {
+        .case-content {
+            padding: 25px 15px;
+            left: 0;
+            h3 {
+                font-size: 18px;
+            }
+        }
+    } 
+    .navbar.consulting-navbar {
+        .other-option {
+            margin-top: 10px;
+            padding-left: 15px;
+            i {
+                font-size: 20px;
+            }
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+    .consulting-about-content {
+        h3 {
+            font-size: 25px;
+        }
+    }
+
+    .consultancy-area .project-slider.owl-theme .owl-nav .owl-prev, .consultancy-area .project-slider.owl-theme .owl-nav .owl-next {
+        top: -13px;
+    }
+    .consulting-testimonial-slider.owl-theme .owl-nav {
+        text-align: center;
+        margin-top: 20px;
+        bottom: 15px;
+        width: 100%;
+        position: initial;
+    }
+    .skill-area {
+        .introduction {
+            h3 {
+                font-size: 25px;
+            }
+        }
+    }
+    .skill-content {
+        .skill-title {
+            h3 {
+                font-size: 25px;
+            }
+        }
+    }
+    .our-work-slider.owl-theme .owl-nav .owl-prev, .our-work-slider.owl-theme .owl-nav .owl-next {
+        left: 3%;
+        font-size: 30px;
+    }
+    .our-work-slider.owl-theme .owl-nav .owl-next {
+        left: auto;
+        right: 3%;
+    }
+    .saas-client-images {
+        display: none;
+    }
+    .faq-accordion {
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .personal-contact-area {
+        .personal-title {
+            h2 {
+                font-size: 25px;
+            }
+        }
+    }
+    .different-content {
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .seo-contact-area {
+        .contact-form {
+            h2 {
+                font-size: 25px;
+            }
+        }
+    }
+    .blog-details-content {
+        .blog-top-content {
+            padding: 20px;
+            .news-content {
+                h3 {
+                    font-size: 25px;
+                    line-height: 1.3;
+                }
+            }
+        }
+        .comments {
+            padding: 20px;
+        }
+        .leave-reply {
+            padding: 20px;
+        }
+    }
+    .demos-side-content {
+        width: 300px;
+    }
+    .demo-side-icon {
+        .modal-btn {
+            span {
+                padding: 5px 5px;
+                font-size: 11px;
+            }
+        }
+    }
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .agency-banner-area {
+        .container-fluid {
+            max-width: 540px;
+        }
+    }
+    .about-area {
+        .container-fluid {
+            max-width: 540px;
+        }
+    }
+    .get-in-touch-area .container {
+        max-width: 540px;
+        margin: auto;
+    }
+    .consulting-banner-area .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 540px;
+    }
+    .seo-banner-area {
+        .container-fluid {
+            max-width: 540px;
+        }
+    }
+    .seo-about-area {
+        .container-fluid {
+            max-width: 540px;
+        }
+    }
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ptb-100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+    .pt-70 {
+        padding-top: 20px;
+    }
+    .pb-70 {
+        padding-bottom: 20px;
+    }
+    .agency-banner-area {
+        .container-fluid {
+            padding-left: 15px;
+            padding-right: 15px;
+            max-width: 720px;
+        }
+        .banner-bottom-shape {
+            bottom: -1px;
+        }
+    }
+    .agency-banner-content {
+        text-align: center;
+        h1 {
+            font-size: 35px;
+            color: #ffffff;
+            margin-bottom: 25px;
+            line-height: 1.4;
+        }
+        .social-link ul {
+            margin-top: 10px;
+        }
+    }
+    .agency-banner-img {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .single-feature {
+        margin-bottom: 30px;
+        &::before {
+            display: none;
+        }
+    }
+    .feature-area {
+        .feature-content {
+            padding: 20px;
+        }
+        .col-lg-4 {
+            &:nth-child(3) {
+                .single-feature {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .about-area {
+        .container-fluid {
+            max-width: 720px;
+        }
+    }
+    .about-img {
+        margin-bottom: 30px;
+        .video-button {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+    }
+    .about-content {
+        text-align: center;
+        margin: auto;
+        h2 {
+            font-size: 25px;
+        }
+        ul li {
+            padding-right: 7px;
+            margin-right: 8px;
+        }
+    }
+    .single-counter {
+        i {
+            font-size: 60px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+    .section-title {
+        margin-bottom: 35px;
+        span {
+            font-size: 15px;
+            &::before {
+                top: 0;
+            }
+            &::after {
+                top: 0;
+            }
+        }
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .single-services-box {
+        padding: 20px;
+    }
+    .get-in-touch-content {
+        text-align: center;
+        h2 {
+            font-size: 30px;
+            line-height: 1.4;
+        }
+    }
+    .testimonial-content {
+        padding: 20px;
+        padding-left: 20px;
+    }
+    .testimonial-content {
+        &::before {
+            display: none;
+        }
+    }
+    .testimonial-area {
+        .owl-nav {
+            left: 195px;
+            position: absolute;
+            bottom: 9px;
+            .owl-prev {
+                margin-right: 10px !important;
+                i {
+                    font-size: 25px;
+                }
+            }
+            .owl-next {
+                margin-left: 10px !important;
+                i {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    .single-footer-widget {
+        h3 {
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+    }
+    .single-services-box {
+        text-align: center;
+        .services-box-shape {
+            display: none;
+        }
+    }
+    .single-team {
+        img {
+            width: 100%;
+        }
+    }
+    .get-in-touch-btn {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .saas-banner-area {
+        padding-top: 140px;
+        padding-bottom: 70px;
+    }
+    .saas-banner-content {
+        margin: 0 auto 35px;
+        h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+    }
+    .saas-banner-img {
+        .banner-shape-1 {
+            display: none;
+        }
+        .banner-shape-2 {
+            display: none;
+        }
+    }
+    .new-services-content {
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .new-services-img {
+        margin-bottom: 30px;
+    }
+    .services-contents {
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .sass-services-area {
+        .col-sm-6 {
+            &:nth-child(2) {
+                .sass-single-services-box {
+                    margin-top: 0;
+                }
+            }
+            &:nth-child(3) {
+                .sass-single-services-box {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    .our-work-area {
+        .owl-nav {
+            .owl-next {
+                right: 0;
+            }
+            .owl-prev {
+                left: 0;
+            }
+        }
+    }
+    .saas-testimonial-area {
+        .testimonial-title {
+            h2 {
+                font-size: 30px;
+            }
+        }
+    }
+    .thumbs {
+        display: none;
+    }
+    .saas-blog-area .single-blog-post .news-content .admin-content .date {
+        float: unset;
+    }
+    .saas-contact-area {
+        .contact-form {
+            margin-bottom: 30px;
+            h2 {
+                font-size: 30px;
+            }
+        }
+    }
+    .faq-accordion {
+        .accordion {
+            .accordion-item {
+                padding-left: 0;
+            }
+        }
+    }
+    .price-tab .tabs {
+        margin-bottom: 30px;
+    }
+    .consulting-banner-area {
+        height: 100%;
+        padding-top: 150px;
+        padding-bottom: 70px;
+        .container-fluid {
+            max-width: 720px;
+        }
+    }
+    .consulting-banner-content {
+        text-align: center;
+        h1 {
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+        .social-link {
+            ul {
+                margin-top: 15px;
+            }
+            span {
+                margin-right: 10px;
+                &::before {
+                    display: none;
+                }
+            }
+        }
+    }
+    .consulting-banner-img {
+        .video-button {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+    }
+    .consulting-feature-area {
+        margin-top: 0;
+        padding-top: 50px;
+    }
+    .single-consulting-feature {
+        padding: 30px;
+        padding-top: 30px;
+    }
+    .consulting-about-content {
+        text-align: center;
+    }
+    .consulting-about-img {
+        margin-top: 0;
+        img {
+            width: 100%;
+        }
+        &::before {
+            display: none;
+        }
+    }
+    .partner-area.consulting-partner-area {
+        padding-top: 50px;
+    }
+    .single-consulting-services {
+        text-align: center;
+        i {
+            position: unset;
+            margin: 0 auto 25px;
+        }
+        p {
+            padding-left: 0;
+        }
+    }
+    .consulting-counter-area .shape {
+        display: none;
+    }
+    .consultancy-area {
+        &::before {
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .consultancy-area {
+        .container-fluid {
+            padding-left: 15px;
+            padding-right: 15px;
+            max-width:740px;
+        }
+    }
+    .consultancy-content {
+        margin-right: auto;
+    }
+    .consulting-testimonial-area {
+        .testimonial-title {
+            max-width: 600px;
+            margin-left: auto;
+            position: unset;
+            margin: 0 auto 30px;
+            text-align: center;
+        }
+    }
+    .consulting-testimonial-area {
+        padding-top: 50px;
+        span {
+            margin-bottom: 10px;
+            display: block;
+        }
+        .testimonial-content {
+            text-align: center;
+        }
+    }
+    .testimonial-img {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .consulting-pricing-area {
+        .shape {
+            display: none;
+        }
+    }
+    .contact-info {
+        margin-bottom: 30px;
+    }
+    .consulting-testimonial-area .owl-nav {
+        margin-top: 0 !important;
+        width: unset;
+        position: unset;
+        text-align: center;
+    }
+    .consulting-testimonial-area {
+        .owl-nav {
+            .owl-prev {
+                margin: 5px !important;
+                i {
+                    line-height: 1;
+                }
+            }
+            .owl-next {
+                margin: 5px !important;
+                i {
+                    line-height: 1;
+                }
+            }
+        }
+    }
+    .single-consulting-feature {
+        padding: 20px;
+    }
+    .single-consulting-services {
+        padding: 20px;
+    }
+    .get-in-touch-area .container {
+        max-width: 720px;
+        margin: auto;
+    }
+    .personal-banner-area {
+        padding-bottom: 50px;
+    }
+    .personal-banner-content {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 50px auto 0;
+        span {
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .shape-1 {
+            display: none;
+        }
+        .shape-2 {
+            display: none;
+        }
+        .shape-3 {
+            display: none;
+        }
+    }
+    .consulting-banner-img {
+        img {
+            width: 100%;
+        }
+    }
+    .skill-area .shape-3 {
+        display: none;
+    }
+    .skill-area {
+        .introduction {
+            padding-bottom: 50px;
+        }
+    }
+    .skill-content {
+        padding: 20px;
+        .shape-1 {
+            display: none;
+        }
+    }
+    .skill-img {
+        top: 20px;
+        .skill-shape {
+            top: -5px;
+        }
+    }
+    .services-content {
+        margin-bottom: 30px;
+    }
+    .personal-testimonial-area {
+        .shape-1 {
+            display: none;
+        }
+        .shape-2 {
+            display: none;
+        }
+        .shape-3 {
+            display: none;
+        }
+    }
+    .personal-blog-area .admin-content .date {
+        float: unset;
+        margin-bottom: 10px;
+    }
+    .personal-contact-area {
+        .shape-1 {
+            display: none;
+        }
+        .shape-2 {
+            display: none;
+        }
+        .shape-3 {
+            display: none;
+        }
+        .shape-4 {
+            display: none;
+        }
+    }
+    .personal-body-color h3 {
+        font-size: 22px;
+    }
+    .seo-banner-area {
+        height: 100%;
+        padding-top: 45px;
+        text-align: center;
+        .container-fluid {
+            padding-left: 15px;
+            padding-right: 15px;
+            max-width: 720px;
+        }
+    }
+    .seo-banner-content {
+        h1 {
+            font-size: 40px;
+        }
+    }
+    .different-content {
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .seo-about-area .faq-accordion .accordion .accordion-title {
+        text-align: left;
+    }
+    .seo-counter-area {
+        background-color: #f7f0ef;
+    }
+    seo-about-area {
+        .container-fluid {
+            max-width: 720px;
+        }
+    }
+    .seo-services-area {
+        .single-services .services-content {
+            padding: 20px;
+        }
+    }
+    .seo-work-area {
+        background-color: #f7f0ef;
+    }
+    .seo-pricing-area {
+        background-color: #f8f3f2;
+    }
+    .seo-blog-area .admin-content li {
+        display: inline-block;
+        font-size: 12px;
+    }
+    .seo-blog-area .admin-content .date {
+        position: relative;
+        top: 5px;
+    }
+    .default-btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .contact-img {
+        margin-top: 30px;
+    }
+    .seo-partner-area {
+        background-color: #f7f0ef;
+    }
+    .testimonial-bg {
+        img {
+            display: none;
+        }
+    }
+    .seo-testimonial-area {
+        .seo-testimonial-slider {
+            position: unset;
+        }
+        .seo-testimonial-slider .testimonial-contents {
+            text-align: center;
+            padding: 0;
+            height: 100%;
+            margin-top: 0;
+        }
+    }
+    .seo-testimonial-slider .testimonial-contents {
+        padding: 0;
+        height: 100%;
+        margin-top: 0;
+    }
+    .seo-testimonial-area .seo-testimonial-slider .testimonial-contents .testimonial-post {
+        top: 30px;
+        right: 0;
+        height: 110px;
+    }
+    .seo-testimonial-area .seo-testimonial-slider .testimonial-contents p {
+        font-size: 16px;
+    }
+    .seo-testimonial-area .testimonial-bg i {
+        display: none;
+    }
+    .seo-testimonial-area {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .single-process {
+        text-align: center;
+        box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+        img {
+            display: none;
+        }
+        .process-content {
+            padding: 20px;
+            position: unset;
+            span {
+                text-align: center;
+            }
+        }
+    }
+    .different-img {
+        margin-top: 30px;
+    }
+    .seo-body-color h3 {
+        font-size: 22px;
+    }
+    .single-pricing {
+        padding: 20px;
+    }
+    .page-title-area {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        .page-title-content {
+            h2 {
+                font-size: 35px;
+            }
+        }
+    }
+    .services-contents {
+        max-width: 600px;
+        margin: auto;
+        text-align: center;
+    }
+    .new-services-img {
+        text-align: center;
+    }
+    .seo-testimonial-area  {
+        .testimonial-img {
+            margin-bottom: 0;
+        }
+    }
+    .single-process {
+        padding: 20px;
+    }
+    .single-case {
+        .case-content {
+            left: 0;
+        }
+    }
+    .case-area .case-slider.owl-theme .owl-nav .owl-prev, .case-area .case-slider.owl-theme .owl-nav .owl-next {
+        font-size: 35px;
+    }
+    .single-team {
+        .team-content {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+    .navbar.consulting-navbar {
+        .other-option {
+            padding-left: 15px;
+            margin-top: 10px;
+            i {
+                font-size: 20px;
+            }
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+    .saas-client-images {
+        display: none;
+    }
+    .skill-area {
+        .introduction {
+            h3 {
+                font-size: 35px;
+            }
+        }
+    }
+    .skill-content {
+        .skill-title {
+            h3 {
+                font-size: 25px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .personal-contact-area {
+        .personal-title {
+            h2 {
+                font-size: 30px;
+            }
+        }
+    }
+    .navbar {
+        padding: 10px 0;
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    font-size: 15px;
+                    margin-left: 11px;
+                    margin-right: 11px;
+                    padding-top: 0 !important;
+                }
+            }
+        }
+
+        &.consulting-navbar {
+            .other-option {
+                display: none;
+            }
+        }
+        &.personal-navbar {
+            .other-option {
+                margin-top: 0 !important;
+                ul {
+                    li {
+                        margin-left: 5px;
+                        a {
+                            i {
+                                font-size: 15px;
+                                width: 26px;
+                                height: 26px;
+                                line-height: 26px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .consultancy-area .project-slider.owl-theme .owl-nav .owl-prev, .consultancy-area .project-slider.owl-theme .owl-nav .owl-next {
+        top: -15px;
+    }
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+    .single-counter {
+        padding-left: 60px;
+        i {
+            font-size: 50px;
+            &::after {
+                display: none;
+            }
+        }
+        h2 {
+            font-size: 33px;
+        }    
+    }
+    .single-services-box {
+        .services-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+    .agency-banner-content {
+        h1 {
+            font-size: 45px;
+            line-height: 1.4;
+        }
+        .social-link ul {
+            margin-top: 30px;
+        }
+    }
+    .about-content h2 {
+        font-size: 29px;
+    }
+    .single-counter p {
+        font-size: 14px;
+    }
+    .testimonial-content {
+        padding: 30px;
+        padding-left: 30px;
+    }
+    .testimonial-area .owl-nav {
+        right: 25px;
+        left: unset;
+        bottom: 9px;
+    }
+    .single-blog-post {
+        .news-content {
+            a {
+                h3 {
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+    .sass-single-services-box {
+        padding: 20px;
+    }
+    .thumbs .owl-thumb-item .testimonial-thumbs {
+        &.img-2 {
+            left: 270px;
+            top: 0;
+            z-index: 1;
+        }
+        &.img-3 {
+            left: 360px;
+        }
+        &.img-5 {
+            top: 280px;
+        }
+    }
+    .saas-blog-area .single-blog-post .news-content .admin-content .date {
+        float: unset;
+    }
+    .consulting-about-content {
+        .single-about {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+    .single-consulting-services {
+        text-align: center;
+        i {
+            position: unset;
+            margin: 0 auto 25px;
+        }
+        p {
+            padding-left: 0;
+        }
+    }
+    .consulting-testimonial-area {
+        .testimonial-title {
+            max-width: 600px;
+            position: unset;
+            margin: 0 auto 30px;
+            text-align: center;
+        }
+    }
+    .consulting-testimonial-area {
+        .owl-nav {
+            width: 605px;
+            margin-left: auto;
+            position: unset;
+            margin-right: auto;
+            text-align: center;
+        }
+        .owl-nav {
+            .owl-prev {
+                margin-right: 10px !important;
+                margin: 0;
+                i {
+                    line-height: 1;
+                }
+            }
+            .owl-next {
+                margin-right: 10px !important;
+                margin: 0;
+                i {
+                    line-height: 1;
+                }
+            }
+        }
+    }
+    .personal-banner-content {
+        h1 {
+            font-size: 50px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+    }
+    .skill-area .shape-3 {
+        left: 0;
+    }
+    .skill-content .shape-1 {
+        right: -20px;
+    }
+    .personal-testimonial-area {
+        .testimonial-bg {
+            top: 25px;
+        }
+    }
+    .personal-blog-area .admin-content li {
+        display: inline-block;
+        font-size: 12px;
+    }
+    .personal-blog-area .admin-content .date {
+        position: relative;
+        top: 5px;
+    }
+    .seo-banner-area {
+        height: 100%;
+        padding-top: 100px;
+    }
+    .seo-banner-content {
+        h1 {
+            font-size: 39px;
+            margin-bottom: 20px;
+        }
+    }
+    .testimonial-bg {
+        img {
+            display: none;
+        }
+    }
+    .seo-testimonial-area {
+        .seo-testimonial-slider {
+            position: unset;
+        }
+        .seo-testimonial-slider .testimonial-contents {
+            text-align: center;
+            padding: 0;
+            height: 100%;
+            margin-top: 0;
+        }
+    }
+    .seo-testimonial-slider .testimonial-contents {
+        padding: 0;
+        height: 100%;
+        margin-top: 0;
+    }
+    .seo-testimonial-area .seo-testimonial-slider .testimonial-contents .testimonial-post {
+        top: 30px;
+        right: 0;
+        height: 110px;
+    }
+    .seo-testimonial-area .seo-testimonial-slider .testimonial-contents p {
+        font-size: 16px;
+    }
+    .seo-testimonial-area .testimonial-bg i {
+        display: none;
+    }
+    .seo-testimonial-area {
+        padding-bottom: 0;
+    }
+    .single-process {
+        text-align: center;
+        box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+        img {
+            display: none;
+        }
+        .process-content {
+            padding: 20px;
+            position: unset;
+            span {
+                text-align: center;
+            }
+        }
+    }
+    .seo-blog-area .admin-content li {
+        font-size: 12px;
+    }
+    .seo-blog-area .admin-content .date {
+        position: relative;
+        top: 5px;
+    }
+    .single-process {
+        padding: 20px;
+    }
+    .consulting-banner-content {
+        h1 {
+            font-size: 45px;
+        }
+    }
+    .navbar.consulting-navbar {
+        .other-option {
+            i {
+                font-size: 20px;
+                margin-right: 6px;
+            }
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+    .saas-contact-area {
+        .contact-form {
+            h2 {
+                font-size: 30px;
+            }
+        }
+    }
+    .faq-accordion {
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .saas-banner-content {
+        h1 {
+            font-size: 60px;
+        }
+    }
+    .new-services-content {
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .services-contents {
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .sass-single-services-box {
+        h3 {
+            font-size: 18px;
+        }
+    }
+    .saas-testimonial-area {
+        .testimonial-title {
+            h2 {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+/* Max width 1700px */
+@media only screen and (min-width: 1700px) {
+    .agency-banner-content {
+        max-width: 640px;
+        margin-left: auto;
+    }
+    .case-area {
+        .owl-nav {
+            .owl-next {
+                right: -80px;
+            }
+            .owl-prev {
+                left: -80px;
+            }
+        }
+    }
+    .saas-banner-img {
+        .banner-shape-2 {
+            right: -170px;
+        }
+    }
+    .consulting-banner-area {
+        height: 100vh;
+        .shape-1 {
+            left: 150px;
+            top: 250px;
+        }
+    }
+    .agency-banner-area {
+        .container-fluid {
+            max-width: 1820px;
+        }
+    }
+}
+
+/* Only Mobil Menu Max width 991px */
+@media only screen and (max-width: 991px) {
+    .navbar {
+        background-image: linear-gradient(to right, #1c86de, #1d50df);
+        &.saas-navbar {
+            background-image: linear-gradient(to right, #edfaf9, #edfaf9);
+        }
+        &.consulting-navbar {
+            background-image: linear-gradient(to right, #edfaf9, #edfaf9);
+        }
+        &.personal-navbar {
+            background-image: linear-gradient(to right, #eff0f4, #eff0f4);
+            .other-option {
+                margin-top: 10px;
+            }
+        }
+        &.seo-navbar {
+            background-image: linear-gradient(to right, #fafafa, #fafafa);
+            .other-option {
+                margin-top: 10px;
+            }
+        }
+    }
+    .navbar {
+        .navbar-nav {
+            .nav-item {
+                &:first-child {
+                    .nav-link {
+                        margin-left: 13px;
+                    }
+                }
+                .nav-link {
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+/*
+Continuer Custom Width Area Style*/
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1260px;
+    }
+    .container-fluid {
+        max-width: 1470px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .agency-banner-content {
+        max-width: 715px;
+    }
+}

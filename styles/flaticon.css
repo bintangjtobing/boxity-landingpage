@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("/fonts/Flaticon.eot");
+  src: url("/fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("/fonts/Flaticon.woff2") format("woff2"),
+       url("/fonts/Flaticon.woff") format("woff"),
+       url("/fonts/Flaticon.ttf") format("truetype"),
+       url("/fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: "Flaticon";
+        src: url("/fonts/Flaticon.svg#Flaticon") format("svg");
+    }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+    font-family: Flaticon;
+    font-style: normal;
+}
+
+.flaticon-web:before { content: "\f100"; }
+.flaticon-smartphone:before { content: "\f101"; }
+.flaticon-application:before { content: "\f102"; }
+.flaticon-digital-marketing:before { content: "\f103"; }
+.flaticon-success:before { content: "\f104"; }
+.flaticon-24-hours:before { content: "\f105"; }
+.flaticon-coding:before { content: "\f106"; }
+.flaticon-app-development:before { content: "\f107"; }
+.flaticon-digital-marketing-1:before { content: "\f108"; }
+.flaticon-consulting:before { content: "\f109"; }
+.flaticon-analytics:before { content: "\f10a"; }
+.flaticon-solution:before { content: "\f10b"; }
+.flaticon-left-arrow:before { content: "\f10c"; }
+.flaticon-right-arrow:before { content: "\f10d"; }
+.flaticon-launch:before { content: "\f10e"; }
+.flaticon-sales:before { content: "\f10f"; }
+.flaticon-seo:before { content: "\f110"; }
+.flaticon-article:before { content: "\f111"; }
+.flaticon-quotation:before { content: "\f112"; }
+.flaticon-increase:before { content: "\f113"; }
+.flaticon-success-1:before { content: "\f114"; }
+.flaticon-send:before { content: "\f115"; }
+.flaticon-ecommerce:before { content: "\f116"; }
+.flaticon-customer:before { content: "\f117"; }
+.flaticon-advertising:before { content: "\f118"; }
+.flaticon-airplane:before { content: "\f119"; }
+.flaticon-usability:before { content: "\f11a"; }
+.flaticon-web-traffic:before { content: "\f11b"; }
+.flaticon-project-management:before { content: "\f11c"; }
+.flaticon-license:before { content: "\f11d"; }
+.flaticon-secure:before { content: "\f11e"; }
+.flaticon-strategy:before { content: "\f11f"; }
+.flaticon-link:before { content: "\f120"; }
+.flaticon-analysis:before { content: "\f121"; }
+.flaticon-competition:before { content: "\f122"; }
+.flaticon-research-and-development:before { content: "\f123"; }
+.flaticon-user-experience:before { content: "\f124"; }
+.flaticon-product:before { content: "\f125"; }
+.flaticon-seo-1:before { content: "\f126"; }
+.flaticon-implement:before { content: "\f127"; }
+.flaticon-data-storage:before { content: "\f128"; }
+.flaticon-product-design:before { content: "\f129"; }
+.flaticon-printer:before { content: "\f12a"; }
+.flaticon-left-arrow-1:before { content: "\f12b"; }
+.flaticon-right-arrow-1:before { content: "\f12c"; }
+.flaticon-twitter:before { content: "\f12d"; }
