@@ -20,7 +20,7 @@ const Services = () => {
 						<div className="row">
 							<div className="col-lg-6 col-sm-6">
 								<div className="sass-single-services-box">
-									<i className="flaticon-product"></i>
+									<i className="flaticon-data-storage"></i>
 									<h3>Warehouse Management System</h3>
 									<p>Complete control on the operational process including how you maintain your inventory</p>
 								</div>
@@ -28,7 +28,7 @@ const Services = () => {
 
 							<div className="col-lg-6 col-sm-6">
 								<div className="sass-single-services-box">
-									<i className="flaticon-license"></i>
+									<i className="flaticon-digital-marketing-1"></i>
 									<h3>Human Resources Management</h3>
 									<p>Provide help to reduce a lot of time on manage employee and optimize all the administrative functions</p>
 								</div>
@@ -36,7 +36,7 @@ const Services = () => {
 
 							<div className="col-lg-6 col-sm-6">
 								<div className="sass-single-services-box">
-									<i className="flaticon-secure"></i>
+									<i className="flaticon-ecommerce"></i>
 									<h3>E-commerce System</h3>
 									<p>Helps you with the best experience in the sales and also monitoring of every data reached to customers</p>
 								</div>
@@ -44,7 +44,7 @@ const Services = () => {
 
 							<div className="col-lg-6 col-sm-6">
 								<div className="sass-single-services-box">
-									<i className="flaticon-implement"></i>
+									<i className="flaticon-product"></i>
 									<h3>Hotel Reservation System</h3>
 									<p>helps you to manage your business through the easiest way possible. We provide better management system for hotel</p>
 								</div>
@@ -58,7 +58,7 @@ const Services = () => {
 							</div>
 							<div className="col-lg-6 col-sm-6">
 								<div className="sass-single-services-box">
-									<i className="flaticon-implement"></i>
+									<i className="flaticon-success"></i>
 									<h3>Issue Center System</h3>
 									<p>Any critic, complaint and inquiry you have can be directly sent through our Issue Center System</p>
 								</div>
