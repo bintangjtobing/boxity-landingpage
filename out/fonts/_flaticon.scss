@@ -1,0 +1,132 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 23/08/2020 07:32
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-web:before { content: "\f100"; }
+.flaticon-smartphone:before { content: "\f101"; }
+.flaticon-application:before { content: "\f102"; }
+.flaticon-digital-marketing:before { content: "\f103"; }
+.flaticon-success:before { content: "\f104"; }
+.flaticon-24-hours:before { content: "\f105"; }
+.flaticon-coding:before { content: "\f106"; }
+.flaticon-app-development:before { content: "\f107"; }
+.flaticon-digital-marketing-1:before { content: "\f108"; }
+.flaticon-consulting:before { content: "\f109"; }
+.flaticon-analytics:before { content: "\f10a"; }
+.flaticon-solution:before { content: "\f10b"; }
+.flaticon-left-arrow:before { content: "\f10c"; }
+.flaticon-right-arrow:before { content: "\f10d"; }
+.flaticon-launch:before { content: "\f10e"; }
+.flaticon-sales:before { content: "\f10f"; }
+.flaticon-seo:before { content: "\f110"; }
+.flaticon-article:before { content: "\f111"; }
+.flaticon-quotation:before { content: "\f112"; }
+.flaticon-increase:before { content: "\f113"; }
+.flaticon-success-1:before { content: "\f114"; }
+.flaticon-send:before { content: "\f115"; }
+.flaticon-ecommerce:before { content: "\f116"; }
+.flaticon-customer:before { content: "\f117"; }
+.flaticon-advertising:before { content: "\f118"; }
+.flaticon-airplane:before { content: "\f119"; }
+.flaticon-usability:before { content: "\f11a"; }
+.flaticon-web-traffic:before { content: "\f11b"; }
+.flaticon-project-management:before { content: "\f11c"; }
+.flaticon-license:before { content: "\f11d"; }
+.flaticon-secure:before { content: "\f11e"; }
+.flaticon-strategy:before { content: "\f11f"; }
+.flaticon-link:before { content: "\f120"; }
+.flaticon-analysis:before { content: "\f121"; }
+.flaticon-competition:before { content: "\f122"; }
+.flaticon-research-and-development:before { content: "\f123"; }
+.flaticon-user-experience:before { content: "\f124"; }
+.flaticon-product:before { content: "\f125"; }
+.flaticon-seo-1:before { content: "\f126"; }
+.flaticon-implement:before { content: "\f127"; }
+.flaticon-data-storage:before { content: "\f128"; }
+.flaticon-product-design:before { content: "\f129"; }
+.flaticon-printer:before { content: "\f12a"; }
+.flaticon-left-arrow-1:before { content: "\f12b"; }
+.flaticon-right-arrow-1:before { content: "\f12c"; }
+.flaticon-twitter:before { content: "\f12d"; }
+    
+    $font-Flaticon-web: "\f100";
+    $font-Flaticon-smartphone: "\f101";
+    $font-Flaticon-application: "\f102";
+    $font-Flaticon-digital-marketing: "\f103";
+    $font-Flaticon-success: "\f104";
+    $font-Flaticon-24-hours: "\f105";
+    $font-Flaticon-coding: "\f106";
+    $font-Flaticon-app-development: "\f107";
+    $font-Flaticon-digital-marketing-1: "\f108";
+    $font-Flaticon-consulting: "\f109";
+    $font-Flaticon-analytics: "\f10a";
+    $font-Flaticon-solution: "\f10b";
+    $font-Flaticon-left-arrow: "\f10c";
+    $font-Flaticon-right-arrow: "\f10d";
+    $font-Flaticon-launch: "\f10e";
+    $font-Flaticon-sales: "\f10f";
+    $font-Flaticon-seo: "\f110";
+    $font-Flaticon-article: "\f111";
+    $font-Flaticon-quotation: "\f112";
+    $font-Flaticon-increase: "\f113";
+    $font-Flaticon-success-1: "\f114";
+    $font-Flaticon-send: "\f115";
+    $font-Flaticon-ecommerce: "\f116";
+    $font-Flaticon-customer: "\f117";
+    $font-Flaticon-advertising: "\f118";
+    $font-Flaticon-airplane: "\f119";
+    $font-Flaticon-usability: "\f11a";
+    $font-Flaticon-web-traffic: "\f11b";
+    $font-Flaticon-project-management: "\f11c";
+    $font-Flaticon-license: "\f11d";
+    $font-Flaticon-secure: "\f11e";
+    $font-Flaticon-strategy: "\f11f";
+    $font-Flaticon-link: "\f120";
+    $font-Flaticon-analysis: "\f121";
+    $font-Flaticon-competition: "\f122";
+    $font-Flaticon-research-and-development: "\f123";
+    $font-Flaticon-user-experience: "\f124";
+    $font-Flaticon-product: "\f125";
+    $font-Flaticon-seo-1: "\f126";
+    $font-Flaticon-implement: "\f127";
+    $font-Flaticon-data-storage: "\f128";
+    $font-Flaticon-product-design: "\f129";
+    $font-Flaticon-printer: "\f12a";
+    $font-Flaticon-left-arrow-1: "\f12b";
+    $font-Flaticon-right-arrow-1: "\f12c";
+    $font-Flaticon-twitter: "\f12d";
