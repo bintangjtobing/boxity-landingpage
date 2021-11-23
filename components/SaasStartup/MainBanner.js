@@ -8,8 +8,8 @@ const MainBanner = () => {
 				<div className="d-table-cell">
 					<div className="container">
 						<div className="saas-banner-content">
-							<h1>Integrates everything you need to work</h1>
-							<p>A cloud-based system that helps companies to run their businesses as efficiently as possible. Provide a way for you to manage and integrate various activities and operations of anything that your business needs such as productions, assets, financial management, and human resources management through a software application.</p>
+							<h1>Integrate Every Works You Have</h1>
+							<p>A cloud-based system that helps companies to run their businesses as efficiently as possible. We provide a way for you to manage and integrate various activities and operations of anything that your business needs such as productions, assets, financial management, and human resources management through a software application.</p>
 
                             <Link href="#">
                                 <a className="default-btn saas-btn scroll-btn">

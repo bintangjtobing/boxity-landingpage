@@ -8,9 +8,9 @@ const Services = () => {
 					<div className="col-lg-6">
 						<div className="services-contents">
 							<span className="top-title">Our Products</span>
-							<h2>Powerfull services offered in one package application development</h2>
+							<h2>Powerful Services In One Package Application Development</h2>
 
-							<p> Boxity ERP system provides several modules within our software system including Warehouse Management System, HR Management System, E - commerce System, Hotel Reservation System and Payroll System.All benefits are available with one installation of our system in your company. </p>
+							<p> Boxity ERP system provides several modules within our software system including Warehouse Management System, HR Management System, E - commerce System, Hotel Reservation System and Payroll System. All benefits are available with one installation of our system in your company. </p>
 
 							<img src="/images/boxity/saas-service1.png" alt="Image" />
 						</div>

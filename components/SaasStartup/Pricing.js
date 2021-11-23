@@ -75,7 +75,7 @@ export default class Pricing extends Component {
                         
                                                     <ul>
                                                         <li>20 days free trial</li>
-                                                        <li>50% upfront payment and <br/>50% after 3 months used</li>
+                                                        <li>50% upfront payment and <br/>50% after 3 months of use</li>
                                                         <li>Monthly maintenance fee</li>
                                                         <li>24x7 Great support</li>
                                                         <li>Free 1 year website and domain subscription<span>*</span></li>
@@ -99,7 +99,7 @@ export default class Pricing extends Component {
                         
                                                     <ul>
                                                         <li>25 days free trial</li>
-                                                        <li>50% upfront payment and <br/>50% after 6 months used</li>
+                                                        <li>50% upfront payment and <br/>50% after 6 months of use</li>
                                                         <li>1x3 months payment maintenance fee</li>
                                                         <li>24x7 Great support</li>
                                                         <li>Free 1 year website and domain subscription<span>*</span></li>

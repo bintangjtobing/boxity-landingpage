@@ -17,7 +17,7 @@ const AboutUs = () => {
 
 					<div className="col-lg-6">
 						<div className="new-services-content">
-							<h2>Add a new service to better meet customer needs</h2>
+							<h2>Add New Service To Meet Better Customer Needs</h2>
 							<p> Provide a more effective business system in various industries from manufacturing, retails, education, health - care, professional services, and many other industries. </p>
 
 							<p><b>Optimizing your business operational system:</b> simplifying various operational activities that takes time and effort such as checking inventory, monitoring working hours, payroll, and making financial reports.
