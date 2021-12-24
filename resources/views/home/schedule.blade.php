@@ -25,6 +25,14 @@
 
         <!-- CONTACT FORM -->
         <div class="row justify-content-center">
+            @if (Session::has('success'))
+            <div class="col-lg-10 col-xl-8">
+                <div class="alert alert-success">
+                    <span>Congratulations! We have received your suggested date for demo. <br> We will get back to you
+                        as soon as possible.</span>
+                </div>
+            </div>
+            @endif
             <div class="col-lg-8 col-xl-8">
                 <div class="form-holder">
                     <form name="contactform" action="/contact" method="POST" class="row contact-form">
@@ -45,7 +53,8 @@
                         <div class="col-md-12">
                             <p class="p-lg">Your Phone Number: </p>
                             <span>We will not share your number to anybody else.</span>
-                            <input type="number" name="phone" class="form-control phone" placeholder="Phone Number*">
+                            <input type="number" min="10" minlength="10" name="phone" class="form-control phone"
+                                placeholder="Phone Number*">
                         </div>
 
                         <div class="col-md-12">
@@ -56,7 +65,8 @@
                         </div>
 
                         <!-- Contact Form Button -->
-                        <span>By registering, you agree to be contacted by the Boxity team in accordance with the
+                        <span>By requesting a schedule demo, you agree to be contacted by the Boxity team in accordance
+                            with the
                             applicable Terms and Conditions.</span>
                         <div class="col-md-12 mt-15 form-btn text-right">
                             <button type="submit" class="btn btn-skyboxity tra-boxity-hover submit">Submit

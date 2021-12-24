@@ -9,6 +9,7 @@ use CloudinaryLabs\CloudinaryLaravel\Facades\Cloudinary;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\confirmationToCandidate;
 use App\Mail\confirmationToHRD;
+use App\Mail\scheduleDemo;
 use Cloudinary\Cloudinary as CloudinaryCloudinary;
 use Illuminate\Support\Facades\DB;
 
@@ -80,6 +81,8 @@ class webpageController extends Controller
     // Process the data
     public function postContact(Request $request)
     {
-        dd($request->all());
+        $datas = $request->all();
+        Mail::to('sales@boxity.id')->send(new scheduleDemo($datas));
+        return redirect()->back()->with('success', 'Your message has been completed send to us!');
     }
 }
