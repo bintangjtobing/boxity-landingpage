@@ -59,10 +59,14 @@ class webpageController extends Controller
         $candidate->nohp = $request->nohp;
         $candidate->about = $request->about;
         if ($request->hasFile('supported_file')) {
-            $uploadFile = Cloudinary::upload($request->file('supported_file')->getRealPath(), [
-                'folder' => 'assets/candidate'
-            ])->getSecurePath();
-            $candidate->supported_file = $uploadFile;
+            // $uploadFile = Cloudinary::upload($request->file('supported_file')->getRealPath(), [
+            //     'folder' => 'assets/candidate'
+            // ])->getSecurePath();
+            $file = $request->file('supported_file');
+            $filename = time() . '.' . $request->file('supported_file')->extension();
+            $filePath = public_path() . '/files/uploads/';
+            $file->move($filePath, $filename);
+            $candidate->supported_file = $filename;
         }
         $candidate->save();
         Mail::to($candidate->email)->send(new confirmationToCandidate($candidate));
