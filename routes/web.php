@@ -41,3 +41,7 @@ Route::get('/terms-conditions', 'additionalController@terms');
 Route::get('/privacy-policy', 'additionalController@privacy');
 // Route::get('/faqs', 'additionalController@faqs');
 Route::get('/plans', 'additionalController@plans');
+
+Route::get('/get-ip', function (Request $request) {
+    dd(Request::ip());
+});

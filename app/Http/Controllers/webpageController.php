@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Crypt;
 use App\candidates;
+use App\careerViews;
 use CloudinaryLabs\CloudinaryLaravel\Facades\Cloudinary;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\confirmationToCandidate;
@@ -37,11 +38,25 @@ class webpageController extends Controller
         return view('home.career', ['job' => $job]);
         // dd($job);
     }
-    public function getJobs($id)
+    public function getJobs(Request $req, $id)
     {
         $job = DB::table('jobvacancies')->find(Crypt::decrypt($id));
+
+        // Update job count views
+        $jobGetViews = DB::table('jobvacancies_views')->where('job_id', Crypt::decrypt($id))->first();
+        if ($jobGetViews) {
+            $jobViews = careerViews::where('job_id', Crypt::decrypt($id))->first();
+            $jobViews->views += 1;
+            $jobViews->save();
+        } else {
+            $jobViews = new careerViews();
+            $jobViews->ip_address = $req->ip();
+            $jobViews->views += 1;
+            $jobViews->job_id = Crypt::decrypt($id);
+            $jobViews->save();
+        }
         return view('home.jobsDetail', ['job' => $job]);
-        // dd($job);
+        // dd($jobGetViews);
     }
     public function getJobsApply($id)
     {
