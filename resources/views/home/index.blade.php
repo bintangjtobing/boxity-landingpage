@@ -24,24 +24,7 @@ application.')
                         anything that your business needs such as productions, assets, financial management, and human
                         resources management through a software application.
                     </p>
-
-                    <!-- HERO QUICK FORM -->
-                    <form name="quickform" class="quick-form">
-
-                        <!-- Form Inputs -->
-                        <div class="input-group">
-                            <input type="email" name="email" class="form-control email" placeholder="Your email address"
-                                autocomplete="off" required>
-                            <span class="input-group-btn form-btn">
-                                <button type="submit" class="btn btn-md btn-stateblue black-hover submit">Get
-                                    Started</button>
-                            </span>
-                        </div>
-
-                        <!-- Form Message -->
-                        <div class="quick-form-msg"><span class="loading"></span></div>
-
-                    </form>
+                    <a href="/contact" class="btn btn-sm btn-stateblue black-hover mt-3">Contact our sales</a>
 
                 </div>
             </div> <!-- END HERO TEXT -->
@@ -99,7 +82,11 @@ application.')
             <div class="col text-center">
                 <div class="owl-carousel brands-carousel">
 
-
+                    <!-- BRAND LOGO IMAGE -->
+                    <div class="partner-logo-logo mx-2">
+                        <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-12.png')!!}"
+                            alt="partner-logo-logo" />
+                    </div>
                     <!-- BRAND LOGO IMAGE -->
                     <div class="partner-logo-logo mx-2">
                         <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-1.png')!!}"
@@ -238,7 +225,7 @@ application.')
 
                     <!-- Title -->
                     <h2 class="h2-lg">Powerful Services In One Package Application Development</h2>
-                    <p class="p-xl">Boxity ERP system provides several modules within our software system including
+                    <p>Boxity system provides several modules within our software system including
                         Warehouse Management System, HR Management System, E - commerce System, Hotel Reservation System
                         and Payroll System. All benefits are available with one installation of our system in your
                         company.
@@ -255,29 +242,96 @@ application.')
                 <div class="tabs-nav clearfix">
                     <ul class="tabs-1">
 
+                        <!-- TAB-2 LINK -->
+                        <li class="tab-link" data-tab="tab-2">
+
+                            <!-- Title -->
+                            <h4 class="h4-sm">Fornax</h4>
+                            <h6>Issue center
+                                management software.</h6>
+                            <!-- Text -->
+                            <p>Discover answer for your problem with our issue centre system.
+                                With customer at heart we provide the fastest, reliable and secure problem solving
+                                response for any of your inquiry.
+                            </p>
+
+                        </li>
+                        <!-- TAB-4 LINK -->
+                        <li class="tab-link" data-tab="tab-4">
+
+                            <!-- Title -->
+                            <h4 class="h4-sm">Orion</h4>
+                            <h6>
+                                Human resources
+                                information system software.
+                            </h6>
+                            <!-- Text -->
+                            <p>Optimize management of your employee with our module and HRIS integrated software.
+                            </p>
+
+                        </li>
+                        <!-- TAB-1 LINK -->
+                        <li class="tab-link current" data-tab="tab-1">
+
+                            <!-- Title -->
+                            <h4 class="h4-sm">Octans <sup>Soon</sup></h4>
+                            <h6>Finance and
+                                accounting software.</h6>
+                            <!-- Text -->
+                            <p>Advance your business module with ERP integrated finance and accounting software.
+                            </p>
+
+                        </li>
+
+
+
+                        <!-- TAB-3 LINK -->
+                        <li class="tab-link" data-tab="tab-3">
+
+                            <!-- Title -->
+                            <h4 class="h4-sm">Aquila <sup>Soon</sup></h4>
+                            <h6>
+                                Payroll management automated software.
+                            </h6>
+                            <!-- Text -->
+                            <p>Keep your company work efficiently every month with an automated payroll system.
+                            </p>
+
+                        </li>
+
+
+
+                    </ul>
+                </div>
+            </div> <!-- END TABS NAVIGATION -->
+
+
+            <div class="col">
+                <div class="tabs-nav clearfix">
+                    <ul class="tabs-1">
+
 
                         <!-- TAB-1 LINK -->
                         <li class="tab-link current" data-tab="tab-1">
 
                             <!-- Title -->
-                            <h5 class="h5-sm">Warehouse Management System</h5>
-
+                            <h4 class="h4-sm">Lyra</h4>
+                            <h6>E-Commerce
+                                management system software.</h6>
                             <!-- Text -->
-                            <p class="p-lg">Complete control on the operational process including how you maintain your
-                                inventory
+                            <p>Personalize your e-commerce business growth in a simple and advance software.
                             </p>
 
                         </li>
 
-                        <!-- TAB-2 LINK -->
-                        <li class="tab-link" data-tab="tab-2">
+                        <!-- TAB-1 LINK -->
+                        <li class="tab-link current" data-tab="tab-1">
 
                             <!-- Title -->
-                            <h5 class="h5-sm">E-Commmerce System</h5>
-
+                            <h4 class="h4-sm">Stockpile</h4>
+                            <h6>Warehouse management system software.</h6>
                             <!-- Text -->
-                            <p class="p-lg">Helps you with the best experience in the sales and also monitoring of every
-                                data reached to customers
+                            <p>Improve your logistics with a faster and accurate goods storing and distribution.
                             </p>
 
                         </li>
@@ -286,11 +340,13 @@ application.')
                         <li class="tab-link" data-tab="tab-3">
 
                             <!-- Title -->
-                            <h5 class="h5-sm">Issue Center Management System</h5>
-
+                            <h4 class="h4-sm">Pyxis <sup>Soon</sup></h4>
+                            <h6>
+                                Hotel
+                                reservation management system software.
+                            </h6>
                             <!-- Text -->
-                            <p class="p-lg">Any critic, complaint and inquiry you have can be directly sent through our
-                                Issue Center System
+                            <p>Discover more effective system for your hotel reservation management.
                             </p>
 
                         </li>
@@ -298,48 +354,19 @@ application.')
                         <li class="tab-link" data-tab="tab-4">
 
                             <!-- Title -->
-                            <h5 class="h5-sm">Human Resources Management System</h5>
-
+                            <h4 class="h4-sm">Chatifine <sup>Soon</sup></h4>
+                            <h6>
+                                Secure and
+                                encrypted business chat app.
+                            </h6>
                             <!-- Text -->
-                            <p class="p-lg">Provide help to reduce a lot of time on manage employee and optimize all the
-                                administrative functions
+                            <p>Engaging chat system with secure data conversation
                             </p>
 
                         </li>
 
 
                     </ul>
-                </div>
-            </div> <!-- END TABS NAVIGATION -->
-
-
-            <!-- IMAGE BLOCK -->
-            <div class="col">
-                <div class="img-block right-column wow fadeInLeft">
-                    <div class="tabs-content">
-
-                        <!-- TAB #1 IMAGE -->
-                        <div id="tab-1" class="tab-content current">
-                            <img class="img-fluid" src="{!!asset('images/boxity/wms.png')!!}" alt="tab-image" />
-                        </div>
-
-                        <!-- TAB #2 IMAGE -->
-                        <div id="tab-2" class="tab-content">
-                            <img class="img-fluid" src="{!!asset('images/boxity/ecommerce.png')!!}" alt="tab-preview">
-                        </div>
-
-                        <!-- TAB #3 IMAGE -->
-                        <div id="tab-3" class="tab-content">
-                            <img class="img-fluid" src="{!!asset('images/boxity/issue-center.png')!!}"
-                                alt="tab-image" />
-                        </div>
-                        <!-- TAB #4 IMAGE -->
-                        <div id="tab-4" class="tab-content">
-                            <img class="img-fluid" src="{!!asset('images/boxity/hrm.png')!!}" alt="tab-image" />
-                        </div>
-
-
-                    </div>
                 </div>
             </div> <!-- END IMAGE BLOCK -->
 
@@ -978,8 +1005,8 @@ application.')
         <div class="row">
             <div class="col">
                 <div class="more-questions">
-                    <h5 class="h5-sm">Have more questions? <a href="contacts.html">Ask your question
-                            here</a></h5>
+                    <h4 class="h4-sm">Have more questions? <a href="contacts.html">Ask your question
+                            here</a></h4>
                 </div>
             </div>
         </div>
@@ -1007,13 +1034,12 @@ application.')
                         <h2 class="h2-xs">Ready to Join Boxity?</h2>
 
                         <!-- Text -->
-                        <p class="p-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem
-                            sapiente, voluptatum incidunt excepturi, quaerat asperiores repellendus consectetur itaque
+                        <p class="p-lg">This is a place where your business can find a way to be faster, cheaper and
+                            agile. Full access to ERP system and full report analytic design only for your business.
                         </p>
 
                         <!-- Button -->
-                        <a href="#" class="btn btn-stateblue tra-stateblue-hover">Get Started
-                            Now</a>
+                        <a href="/contact" class="btn btn-stateblue tra-stateblue-hover">Contact our sales</a>
 
                     </div>
                 </div>

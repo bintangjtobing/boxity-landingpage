@@ -76,6 +76,7 @@
     <link href="{!!asset('webpage/css/magnific-popup.css')!!}" rel="stylesheet">
     <link href="{!!asset('webpage/css/owl.carousel.min.css')!!}" rel="stylesheet">
     <link href="{!!asset('webpage/css/owl.theme.default.min.css')!!}" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bf3b9c3659.js" crossorigin="anonymous"></script>
 
     <!-- ON SCROLL ANIMATION -->
     <link href="{!!asset('webpage/css/animate.css')!!}" rel="stylesheet">
@@ -125,9 +126,9 @@
 
                 <!-- MOBILE HEADER -->
                 <div class="wsmobileheader clearfix">
-                    <span class="smllogo"><img
-                            src="https://res.cloudinary.com/boxity-id/image/upload/v1638440373/assets/site%20needs/color_logo_boxity_yor31q.png"
-                            alt="mobile-logo" /></span>
+                    <span class="smllogo"><a href="/"><img
+                                src="https://res.cloudinary.com/boxity-id/image/upload/v1638440373/assets/site%20needs/color_logo_boxity_yor31q.png"
+                                alt="mobile-logo" /></a></span>
                     <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
                 </div>
 
@@ -153,13 +154,59 @@
 
                                 <!-- MEGAMENU -->
                                 <li class="nl-simple" aria-haspopup="true"><a href="/">Home</a></li>
+                                <li aria-haspopup="true" class="mg_link"><a href="#">Product <span
+                                            class="wsarrow"></span></a>
+                                    <div class="wsmegamenu w-75 clearfix">
+                                        <div class="container">
+                                            <div class="row">
+                                                <ul class="col-md-12 col-lg-12 link-list">
+                                                    <li>
+                                                        <a href="#">ERP<br><span class="sub-link-list">All modules
+                                                                packed in
+                                                                one package.</span></a>
+                                                    </li>
+                                                </ul>
+                                                <hr class="divider">
+                                                <!-- MEGAMENU LINKS -->
+                                                <ul class="col-md-12 col-lg-6 link-list">
+                                                    <li><a href="#">Octans<br><span class="sub-link-list">Finance and
+                                                                accounting software.</span></a>
+                                                    </li>
+                                                    <li><a href="#">Fornax<br><span class="sub-link-list">Issue center
+                                                                management software.</span></a></li>
+                                                    <li><a href="#">Pyxis<br><span class="sub-link-list">Hotel
+                                                                reservation management system software.</span></a></li>
+                                                    <li><a href="#">Aquila<br><span class="sub-link-list">Payroll
+                                                                management automated software.</span></a></li>
+                                                </ul>
 
+                                                <!-- MEGAMENU LINKS -->
+                                                <ul class="col-md-12 col-lg-6 link-list">
+                                                    <li><a href="#">Lyra<br><span class="sub-link-list">E-Commerce
+                                                                management system software.</span></a></li>
+                                                    <li><a href="#">Orion<br><span class="sub-link-list">Human resources
+                                                                information system software.</span></a></li>
+                                                    <li><a href="#">Chatifine<br><span class="sub-link-list">Secure and
+                                                                encrypted business chat app.</span></a></li>
+                                                    <li><a href="#">Stockpile<br><span class="sub-link-list">Warehouse
+                                                                management system software.</span></a></li>
+                                                </ul>
+
+                                            </div> <!-- End row -->
+                                        </div> <!-- End container -->
+                                    </div> <!-- End wsmegamenu -->
+                                </li>
                                 <!-- DROPDOWN MENU -->
                                 <li class="nl-simple" aria-haspopup="true"><a href="/about">About</a></li>
-                                <li class="nl-simple" aria-haspopup="true"><a href="/contact">Contact</a></li>
+                                <li class="nl-simple" aria-haspopup="true"><a href="/plans">Pricing</a></li>
 
                                 <!-- SIMPLE NAVIGATION LINK -->
                                 <li class="nl-simple" aria-haspopup="true"><a href="/career">Career</a></li>
+                                <li class="nl-simple" aria-haspopup="true">
+                                    <a href="/contact" class="btn btn-skyboxity">Contact
+                                        sales</a>
+                                </li>
+
                             </ul>
                         </nav> <!-- END MAIN MENU -->
 
@@ -205,9 +252,9 @@
                                 <li>
                                     <p class="p-md"><a href="/about">About Us</a></p>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <p class="p-md"><a href="/our-team">Our Team</a></p>
-                                </li>
+                                </li> --}}
                                 <li>
                                     <p class="p-md"><a href="/career">Careers</a></p>
                                 </li>
@@ -230,11 +277,11 @@
                                     <p class="p-md"><a href="#">Our Blog</a></p>
                                 </li> --}}
                                 <li>
-                                    <p class="p-md"><a href="/plans-pricing">Plans & Pricing</a></p>
+                                    <p class="p-md"><a href="/plans">Plans & Pricing</a></p>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <p class="p-md"><a href="/cookie-policy">Cookie Policy</a></p>
-                                </li>
+                                </li> --}}
                             </ul>
 
                         </div>
@@ -250,9 +297,9 @@
 
                             <!-- Footer List -->
                             <ul class="foo-links text-secondary clearfix">
-                                <li>
+                                {{-- <li>
                                     <p class="p-md"><a href="/faqs">FAQs</a></p>
-                                </li>
+                                </li> --}}
                                 <li>
                                     <p class="p-md"><a href="/contact">Contact Us</a></p>
                                 </li>
@@ -274,7 +321,8 @@
                                 <li><a href="/facebook" target="_blank"><span class="flaticon-facebook"></span></a></li>
                                 <li><a href="/instagram" target="_blank"><span class="flaticon-instagram"></span></a>
                                 </li>
-                                <li><a href="/linkedin" target="_blank"><span class="flaticon-linkedin"></span></a></li>
+                                <li><a href="/linkedin" target="_blank"><span class="flaticon-linkedin-logo"></span></a>
+                                </li>
                             </ul>
 
                         </div>

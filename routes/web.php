@@ -27,11 +27,17 @@ Route::get('/', 'webpageController@index');
 Route::get('/about', 'webpageController@about');
 Route::get('/contact', 'webpageController@contact');
 Route::get('/career', 'webpageController@career');
-Route::get('/our-team', 'webpageController@teams');
+Route::get('/jobs/{id}', 'webpageController@getJobs');
+Route::get('/jobs/a/{id}', 'webpageController@getJobsApply');
+Route::post('/jobs/a/{id}', 'webpageController@postJobsApply');
+// Route::get('/our-team', 'webpageController@teams');
+
+// Process the data
+Route::post('/contact', 'webpageController@postContact');
+Route::get('/schedule-demo', 'webpageController@scheduleDemo');
 
 // additional
 Route::get('/terms-conditions', 'additionalController@terms');
 Route::get('/privacy-policy', 'additionalController@privacy');
-Route::get('/faqs', 'additionalController@faqs');
-Route::get('/plans-pricing', 'additionalController@plans');
-Route::get('/cookie-policy', 'additionalController@cookie');
+// Route::get('/faqs', 'additionalController@faqs');
+Route::get('/plans', 'additionalController@plans');
