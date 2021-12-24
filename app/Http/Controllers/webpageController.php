@@ -58,16 +58,15 @@ class webpageController extends Controller
         $candidate->email = $request->email;
         $candidate->nohp = $request->nohp;
         $candidate->about = $request->about;
-        if ($request->hasFile('supported_file')) {
-            // $uploadFile = Cloudinary::upload($request->file('supported_file')->getRealPath(), [
-            //     'folder' => 'assets/candidate'
-            // ])->getSecurePath();
-            $file = $request->file('supported_file');
-            $filename = time() . '.' . $request->file('supported_file')->extension();
-            $filePath = public_path() . '/files/uploads/';
-            $file->move($filePath, $filename);
-            $candidate->supported_file = $filename;
-        }
+
+        $uploadFile = Cloudinary::upload($request->file('supported_file')->getRealPath(), [
+            'folder' => 'assets/candidate'
+        ])->getSecurePath();
+
+        // $file = $request->file('supported_file');
+        // $filename = time() . '.' . $request->file('supported_file')->extension();
+        // $file->move('webpage/career/file/', $filename);
+        $candidate->supported_file = $uploadFile;
         $candidate->save();
         Mail::to($candidate->email)->send(new confirmationToCandidate($candidate));
         Mail::to('hr@boxity.id')->send(new confirmationToHRD($candidate));
