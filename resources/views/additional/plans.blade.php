@@ -1,6 +1,7 @@
 @extends('welcome')
 @section('title', 'Plans & Pricing')
-@section('page_description', '')
+@section('page_description', 'No credit card required. Call, discuss, apply. Its that easy for us to make a deal. What
+are you waiting for?')
 @section('content')
 <section id="pricing-2" class="bg-snow pb-60 inner-page-hero pricing-section division">
     <div class="container">

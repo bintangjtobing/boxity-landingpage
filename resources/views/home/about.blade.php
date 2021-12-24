@@ -1,6 +1,7 @@
 @extends('welcome')
 @section('title', 'About')
-@section('page_description', '')
+@section('page_description', 'This page is about who Boxity Central Indonesia is, what is our vision, the companies we
+have worked with, whether its a contract system and others.')
 @section('content')
 <section id="about-2" class="about-section">
     <div class="bg-inner bg-lightgrey inner-page-hero division">

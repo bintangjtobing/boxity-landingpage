@@ -1,6 +1,8 @@
 @extends('welcome')
 @section('title', 'Career')
-@section('page_description', '')
+@section('page_description', 'At Boxity Central Indonesia, we aim to empower the progress of businesses and people in
+Indonesia’s 1 trillion dollar economy. To do that, we need heroes: people who always hold their work to the highest
+standard, people who continuously look for ways to empower themselves and empower others.')
 @section('content')
 <div id="download-page" class="page-hero-section division">
     <div class="page-hero-overlay division">
