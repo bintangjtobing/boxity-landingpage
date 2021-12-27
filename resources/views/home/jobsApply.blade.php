@@ -82,6 +82,17 @@
                             <span>Upload your latest resume/cv (Accept only <i>.pdf</i> file)</span>
                             <input type="file" accept="application/pdf" name="supported_file" class="form-control">
                         </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                {!! NoCaptcha::renderJs() !!}
+                                {!! NoCaptcha::display() !!}
+                                @error('g-recaptcha-response')
+                                <span class="text-danger" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                                @enderror
+                            </div>
+                        </div>
 
                         <!-- Contact Form Button -->
                         <div class="col-md-12 mt-15 form-btn text-right">

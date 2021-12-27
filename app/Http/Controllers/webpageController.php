@@ -66,6 +66,9 @@ class webpageController extends Controller
     }
     public function postJobsApply($id, Request $request)
     {
+        $request->validate([
+            'g-recaptcha-response' => 'required|captcha'
+        ]);
         $company = DB::table('company_details')->first();
         $candidate = new candidates();
         $candidate->posisi = Crypt::decrypt($id) ?? '-';
