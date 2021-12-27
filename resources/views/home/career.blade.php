@@ -47,7 +47,7 @@ standard, people who continuously look for ways to empower themselves and empowe
                 <div class="section-title title-01 mb-70">
 
                     <!-- Title -->
-                    <h2 class="h2-md">Open positions</h2>
+                    <h2 class="h2-md">Vacant Positions</h2>
 
                     <!-- Text -->
                     <p class="p-xl">We are looking for people to join a team as passionate as we are to help build a

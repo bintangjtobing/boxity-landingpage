@@ -224,7 +224,7 @@ application.')
                 <div class="hero-21-txt text-center">
 
                     <!-- Title -->
-                    <h2 class="h2-lg">Powerful Services In One Package Application Development</h2>
+                    <h2 class="h2-lg">Powerful Services In One Package Application</h2>
                     <p>Boxity system provides several modules within our software system including
                         Warehouse Management System, HR Management System, E - commerce System, Hotel Reservation System
                         and Payroll System. All benefits are available with one installation of our system in your
