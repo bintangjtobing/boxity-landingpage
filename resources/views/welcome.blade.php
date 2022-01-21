@@ -319,7 +319,7 @@
                                     <p><a href="#">Aquila <span>- Soon</span></a></p>
                                 </li>
                                 <li>
-                                    <p><a href="#">Chatifine</a></p>
+                                    <p><a href="/products/chatifine">Chatifine</a></p>
                                 </li>
                             </ul>
 
