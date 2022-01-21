@@ -4904,6 +4904,37 @@ p.terms-txt a,
 }
 
 /*------------------------------------------*/
+/*  HERO-BOXITY
+/*------------------------------------------*/
+
+#hero-boxity {
+    position: relative;
+    z-index: 3;
+    background-image: url(../images/hero-boxity.jpg);
+    padding-top: 150px;
+    margin-bottom: 50px;
+}
+
+.hero-boxity-txt {
+    padding-left: 15px;
+}
+
+.hero-boxity-txt h2 {
+    margin-bottom: 25px;
+}
+
+.hero-boxity-txt p.p-xl {
+    font-size: 1.35rem;
+    padding-right: 5%;
+    margin-bottom: 35px;
+}
+
+.hero-boxity-img {
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+/*------------------------------------------*/
 /*  Hero Request Form Placeholder
 /*------------------------------------------*/
 

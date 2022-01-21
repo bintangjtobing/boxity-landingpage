@@ -30,100 +30,131 @@
 
                 <!-- TERMS BOX -->
                 <div class="terms-box mt-60">
-                    <p class="p-lg">At Boxity Central Indonesia, accessible from https://boxity.id, one of our main
-                        priorities is the
-                        privacy of our visitors. This Privacy Policy document contains types of information that is
-                        collected and recorded by Boxity Central Indonesia and how we use it.</p>
-
-                    <p class="p-lg">If you have additional questions or require more information about our Privacy
-                        Policy, do not
-                        hesitate to contact us.</p>
-
-                    <h5 class="h5-xl">Log Files</h5>
-
-                    <p class="p-lg">Boxity Central Indonesia follows a standard procedure of using log files. These
-                        files log
-                        visitors when they visit websites. All hosting companies do this and a part of hosting services'
-                        analytics. The information collected by log files include internet protocol (IP) addresses,
-                        browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and
-                        possibly the number of clicks. These are not linked to any information that is personally
-                        identifiable. The purpose of the information is for analyzing trends, administering the site,
-                        tracking users' movement on the website, and gathering demographic information. Our Privacy
-                        Policy was created with the help of the <a
-                            href="https://www.privacypolicyonline.com/privacy-policy-generator/">Privacy Policy
-                            Generator</a>.</p>
-
-                    <h5 class="h5-xl">Cookies and Web Beacons</h5>
-
-                    <p class="p-lg">Like any other website, Boxity Central Indonesia uses 'cookies'. These cookies are
-                        used to store
-                        information including visitors' preferences, and the pages on the website that the visitor
-                        accessed or visited. The information is used to optimize the users' experience by customizing
-                        our web page content based on visitors' browser type and/or other information.</p>
-
-                    <p class="p-lg">For more general information on cookies, please read <a
-                            href="https://www.generateprivacypolicy.com/#cookies">"Cookies" article from the Privacy
-                            Policy Generator</a>.</p>
-
-
-
-                    <h5 class="h5-xl">Privacy Policies</h5>
-
-                    <p class="p-lg">You may consult this list to find the Privacy Policy for each of the advertising
-                        partners of
-                        Boxity Central Indonesia.</p>
-
-                    <p class="p-lg">Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or
-                        Web Beacons
-                        that are used in their respective advertisements and links that appear on Boxity Central
-                        Indonesia, which are sent directly to users' browser. They automatically receive your IP address
-                        when this occurs. These technologies are used to measure the effectiveness of their advertising
-                        campaigns and/or to personalize the advertising content that you see on websites that you visit.
+                    <p>Boxity Central Indonesia is committed to respecting and protecting your privacy. We understand
+                        how important your personal data is and we will not share it with other people or third parties
+                        without your permission. Please read the following Privacy Policy to learn more about how we
+                        will live up to our promises to you.
+                        <br>
+                        This policy describes how we collect, use and disclose your personal data that we obtain when
+                        you use Boxity Central Indonesia. By continuing to use or access our applications, you are
+                        accepting the practises described in this Policy.
                     </p>
+                    <h5 class="h5-xl"><strong>Information We Access and Collect</strong></h5>
+                    <ol class="simple-list">
+                        <li class="list-item"><b>Account Information:</b> By creating an account at Boxity Central
+                            Indonesia,
+                            you have provided your name and mobile number. Then, by allowing us to sync contacts, you
+                            have given us authorization to access contacts on your smartphone so that you can connect
+                            with other Boxity Central Indonesia users. Other information such as e-mail and other
+                            identification may also be viewed and stored by us.</li>
+                        <li class="list-item"><b>Connections:</b> To assist you in communicating with other users
+                            through our
+                            service, you can create a favourites list of your contacts, and you can create, join, or be
+                            added to groups. The groups and lists associated with your account will be automatically
+                            accessible to us. </li>
+                        <li class="list-item"><b>Data from Mobile Device Settings:</b> We obtain information that you
+                            allow us
+                            to receive such as access to your camera or photos, videos, voice messages, files and
+                            location to provide features of our services.</li>
+                    </ol>
+                    <br>
+                    <h5 class="h5-xl">Automatically Collected Information</h5>
+                    <ul class="simple-list">
+                        <li class="list-item"><b>Usage Information and Logs:</b> We collect service, diagnostic and
+                            performance related information. This includes information about your activities (such as
+                            how you use our services, how you interact with others using our services, etc.), log files,
+                            diagnostic reports, crash data, websites, and performance reports. </li>
+                        <li class="list-item"><b>Mobile Device and Connection Information:</b> We collect specific
+                            information
+                            about your device when installing, accessing, or using our services. This includes
+                            information such as hardware model, operating system, browser information, IP address,
+                            mobile network information including mobile number, and device identifier. We collect device
+                            location information if you use location sharing features, and for diagnostic and
+                            troubleshooting purposes such as if you are having problems with our app's location
+                            features.</li>
+                        <li class="list-item"><b>Cookies:</b> We use cookies to operate, including to provide our
+                            web-based
+                            services. We also use it to improve your experience by understanding how our services are
+                            used, and tailoring our services to suit you. We may use cookies and similar technologies on
+                            our website to collect information such as date and time of visit, geographic location,
+                            pages viewed, IP address, links to or from any page, browser type and version, operating
+                            system, referral source and time of day. spent on our website.</li>
+                        <li class="list-item"><b>Status Information:</b> We collect information about your online
+                            presence and
+                            changes to parts of your profile, such as whether you were online (your “online status”) and
+                            when you last used our services (your last status, e.g. “Active 5 minutes ago”) .</li>
+                    </ul>
+                    <h5 class="h5-xl">Use of Collected Information</h5>
+                    <p>
+                        Boxity Central Indonesia uses the information collected on the website for the purpose of: <br>
+                        To provide you with information, products or services that you request from us or which we
+                        feel may be important to you, where you agree to be contacted for such purposes. <br>
+                        We also use your information to ensure that the services you need are on our website. We also
+                        use it to improve our services to you according to what you need. <br>
+                        We use the information we collect to customise our services for you, including providing
+                        suggestions, personalised content and customised search results. <br>
+                        We use your information to guarantee to us that you have visited and or used our website.
+                    </p>
+                    <h5 class="h5-xl">Confidentiality of Information and Consumer Services</h5>
+                    <p>
+                        Boxity Central Indonesia will not provide or distribute users' personal information obtained
+                        through the use of the application to third parties. However, this does not include when the
+                        information is requested by the relevant authorities, including: the Indonesian National Police,
+                        certain Civil Servant Officers and the Standards of Commission Prosecutor's Office applying for
+                        information, or in other cases through legal procedures. <br>
+                        Boxity Central Indonesia must respond quickly to all user complaints about the service. If a
+                        brief description of the complaint is not sufficient, Boxity Central Indonesia will post or
+                        display an explanation on the application screen or via email and will plan a system upgrade.
+                        <br>
+                        Boxity Central Indonesia relies on the Criminal Code, the Civil Code, the Law on Consumer
+                        Protection, the Law on Information and Electronic Transactions and other relevant laws and
+                        regulations to operate and provide the service system. internet-based communication.
+                    </p>
+                    <h5 class="h5-xl">Disclosure of Your Information</h5>
+                    <p>
+                        We may disclose your information to third parties if we are obliged to disclose or share your
+                        personal data in an effort to comply with legal obligations or in an effort to enforce or
+                        enforce our terms of use and other agreements; or to protect the rights, property or safety of
+                        Boxity Central Indonesia, our customers or others. This includes exchanging information with
+                        other companies and organisations for the purpose of fraud protection and credit risk reduction.
+                    </p>
+                    <h5 class="h5-xl">Changes to this Privacy Policy</h5>
+                    <p>
+                        Boxity Central Indonesia may change this Privacy Policy to be in line with the development of
+                        Boxity Central Indonesia's business activities or as required by relevant laws and regulations
+                        and government institutions. If Boxity Central Indonesia changes this Privacy Policy, Boxity
+                        Central Indonesia will notify you via electronic mail (e-mail) or provide a notification on the
+                        Application 1 (one) day before the change takes effect. Boxity Central Indonesia asks you to
+                        review the Application regularly and continuously as long as you use the Application to find out
+                        the latest information on how the provisions of this Privacy Policy Boxity Central Indonesia
+                        apply.
+                    </p>
+                    <h5 class="h5-xl">ETC</h5>
+                    <p class="p-lg">Governing Law and Jurisdiction</p>
+                    <p>
+                        This Privacy Policy is governed by and construed in accordance with the laws of the Republic of
+                        Indonesia. Any and all disputes arising from this Privacy Policy will be governed by the
+                        exclusive jurisdiction of the East Jakarta District Court.
+                    </p>
+                    <h5 class="h5-xl">Recognition and Consent</h5>
+                    <p>
+                        By using the Application, you acknowledge that you have read and understand this Privacy Policy
+                        and the Terms of Use and agree and agree to the storage, use, processing, sharing and transfer
+                        of your Personal Information by Boxity Central Indonesia as stated in this Privacy Policy.
+                        <br><br>
+                        Boxity Central Indonesia also states that you have the right to provide all the information you
+                        have provided to Boxity Central Indonesia and to give Boxity Central Indonesia the right to
+                        process and use and provide information to support and carry out the functions of the
+                        Application and release Boxity Central Indonesia from all claims. if in the future there is a
+                        claim to the invalidity of your right to provide information.
 
-                    <p class="p-lg">Note that Boxity Central Indonesia has no access to or control over these cookies
-                        that are used
-                        by third-party advertisers.</p>
-
-                    <h5 class="h5-xl">Third Party Privacy Policies</h5>
-
-                    <p class="p-lg">Boxity Central Indonesia's Privacy Policy does not apply to other advertisers or
-                        websites. Thus,
-                        we are advising you to consult the respective Privacy Policies of these third-party ad servers
-                        for more detailed information. It may include their practices and instructions about how to
-                        opt-out of certain options. </p>
-
-                    <p class="p-lg">You can choose to disable cookies through your individual browser options. To know
-                        more detailed
-                        information about cookie management with specific web browsers, it can be found at the browsers'
-                        respective websites. What Are Cookies?</p>
-
-                    <h5 class="h5-xl">Children's Information</h5>
-
-                    <p class="p-lg">Another part of our priority is adding protection for children while using the
-                        internet. We
-                        encourage parents and guardians to observe, participate in, and/or monitor and guide their
-                        online activity.</p>
-
-                    <p class="p-lg">Boxity Central Indonesia does not knowingly collect any Personal Identifiable
-                        Information from
-                        children under the age of 13. If you think that your child provided this kind of information on
-                        our website, we strongly encourage you to contact us immediately and we will do our best efforts
-                        to promptly remove such information from our records.</p>
-
-                    <h5 class="h5-xl">Online Privacy Policy Only</h5>
-
-                    <p class="p-lg">This Privacy Policy applies only to our online activities and is valid for visitors
-                        to our
-                        website with regards to the information that they shared and/or collect in Boxity Central
-                        Indonesia. This policy is not applicable to any information collected offline or via channels
-                        other than this website.</p>
-
-                    <h5 class="h5-xl">Consent</h5>
-
-                    <p class="p-lg">By using our website, you hereby consent to our Privacy Policy and agree to its
-                        Terms and
-                        Conditions.</p>
+                    </p>
+                    <h5 class="h5-xl">How to Contact Boxity Central Indonesia</h5>
+                    <p>
+                        If you have further questions regarding the privacy and security of your information or wish to
+                        update or delete your data then please contact us at: <a
+                            href="mailto:info@boxity.id">info@boxity.id</a>
+                    </p>
                 </div> <!-- END TERMS BOX -->
 
 

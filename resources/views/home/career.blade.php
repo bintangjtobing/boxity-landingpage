@@ -3,6 +3,9 @@
 @section('page_description', 'At Boxity Central Indonesia, we aim to empower the progress of businesses and people in
 Indonesia’s 1 trillion dollar economy. To do that, we need heroes: people who always hold their work to the highest
 standard, people who continuously look for ways to empower themselves and empower others.')
+@section('page_keywords', 'career boxity, karir boxity, lowongan kerja di boxity, boxity, boxityerp, realizeboxity,
+boxity central indonesia, erp boxity, warehouse management,
+human resources management, financial management, boxity warehouse, boxity WMS, boxity financial, boxity indonesia')
 @section('content')
 <div id="download-page" class="page-hero-section division">
     <div class="page-hero-overlay division">
@@ -50,7 +53,7 @@ standard, people who continuously look for ways to empower themselves and empowe
                     <h2 class="h2-md">Vacant Positions</h2>
 
                     <!-- Text -->
-                    <p class="p-xl">We are looking for people to join a team as passionate as we are to help build a
+                    <p>We are looking for people to join a team as passionate as we are to help build a
                         platform that empowers enterprise resource planning systems across multiple sectors for future
                         success.
                     </p>
@@ -58,70 +61,72 @@ standard, people who continuously look for ways to empower themselves and empowe
                 </div>
             </div>
         </div>
+        @if(count($job) > 0)
+        @foreach ($job as $job)
+        <div id="cta-7" class="cta-section division">
+            <div class="container">
+                <div class="cta-12-wrapper bg-snow">
+                    <div class="row d-flex align-items-center">
 
 
-        <!-- FEATURES-4 WRAPPER -->
-        {{-- <div class="fbox-4-wrapper fbox-4-wide">
-            <div class="row row-cols-1 row-cols-md-2 justify-content-center">
-
-
-                <!-- Career BOX #1 -->
-                @foreach ($job as $job)
-                <div class="col text-center">
-                    <div class="fbox-4 mb-20 wow fadeInUp">
-                        <!-- Text -->
-                        <a href="#" class="fbox-txt rollover-career">
-                            <!-- Title -->
-                            <h5 class="h5">{{$job->title}}</h5>
-        <!-- Text -->
-        <p class="p-lg">{{$job->part}} - <span>{{$job->location}}</span>
-        </p>
-
-        </a>
-
-    </div>
-    </div>
-
-
-    @endforeach
-
-
-    </div>
-    </div> <!-- END FEATURES-4 WRAPPER --> --}}
-
-    @foreach ($job as $job)
-    <div id="cta-7" class="cta-section division">
-        <div class="container">
-            <div class="cta-12-wrapper bg-snow">
-                <div class="row d-flex align-items-center">
-
-
-                    <!-- TEXT -->
-                    <div class="col-lg-9">
-                        <div class="cta-7-txt">
-                            <h3>{{$job->title}}</h3>
-                            <p class="p">{{$job->part}} - <span>{{$job->location}}
-                            </p>
+                        <!-- TEXT -->
+                        <div class="col-lg-9">
+                            <div class="cta-7-txt">
+                                <h3>{{$job->title}}</h3>
+                                <p class="p">{{$job->part}} - <span>{{$job->location}}
+                                </p>
+                            </div>
                         </div>
+
+
+                        <!-- BUTTON -->
+                        <div class="col-lg-3 text-end">
+                            <div class="cta-7-btn">
+                                <a href="/jobs/{{Crypt::encrypt($job->id)}}"
+                                    class="btn btn-skyboxity tra-boxity-hover">Read
+                                    more</a>
+                            </div>
+                        </div>
+
+
+                    </div> <!-- End row -->
+                </div> <!-- End cta-7-wrapper -->
+            </div> <!-- End container -->
+        </div>
+        @endforeach
+        @else
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-xl-8 text-center">
+                @if (Session::has('success'))
+                <div class="alert alert-success">
+                    <span>Thank you for your subscription! We have received your email.</span>
+                </div>
+                @endif
+                <h3>We're sorry, There are currently no job openings.</h3>
+                <p>Thank you for being interested in joining us at Boxity Central Indonesia, but we really regret it
+                    because
+                    we have not opened up opportunities to join us. But don't worry, we will let you know if there is a
+                    new
+                    job opportunity by filling in your email address below. </p>
+                <form action="/subscription/new" method="POST" class="row">
+                    @csrf
+                    <!-- Form Input -->
+                    <div class="col-md-12">
+                        <input type="email" name="email" class="form-control email" placeholder="Enter Your Email*"
+                            autocomplete="off" required>
                     </div>
 
-
-                    <!-- BUTTON -->
-                    <div class="col-lg-3 text-end">
-                        <div class="cta-7-btn">
-                            <a href="/jobs/{{Crypt::encrypt($job->id)}}" class="btn btn-skyboxity tra-boxity-hover">Read
-                                more</a>
-                        </div>
+                    <!-- Form Button -->
+                    <div class="col-md-12 form-btn mt-15">
+                        <button type="submit" class="btn btn-md btn-skyboxity tra-boxity-hover submit">Subscribe
+                            Now</button>
                     </div>
 
-
-                </div> <!-- End row -->
-            </div> <!-- End cta-7-wrapper -->
-        </div> <!-- End container -->
+                </form>
+            </div>
+        </div>
     </div>
-    @endforeach
-
-
+    @endif
     </div> <!-- End container -->
 </section>
 @endsection

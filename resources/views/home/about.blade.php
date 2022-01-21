@@ -2,6 +2,9 @@
 @section('title', 'About')
 @section('page_description', 'This page is about who Boxity Central Indonesia is, what is our vision, the companies we
 have worked with, whether its a contract system and others.')
+@section('page_keywords', 'about boxity, boxity, boxityerp, realizeboxity, boxity central indonesia, erp boxity,
+warehouse management,
+human resources management, financial management, boxity warehouse, boxity WMS, boxity financial, boxity indonesia')
 @section('content')
 <section id="about-2" class="about-section">
     <div class="bg-inner bg-lightgrey inner-page-hero division">
@@ -133,7 +136,7 @@ have worked with, whether its a contract system and others.')
                             <h2 class="h2-md">We’re Better. Here’s Why…</h2>
 
                             <!-- Text -->
-                            <p class="p-xl">There are a lot of advantages that you can gain if you choose us.
+                            <p class="p-xl">Why are we so confident? Because we, have things that you might have to try.
                             </p>
 
                         </div>
@@ -142,18 +145,20 @@ have worked with, whether its a contract system and others.')
 
 
                 <!-- FEATURES-4 WRAPPER -->
-                <div class="fbox-4-wrapper fbox-4-wide">
+                <div class="fbox-4-wrapper">
                     <div class="row row-cols-1 row-cols-md-2">
 
 
                         <!-- FEATURE BOX #1 -->
                         <div class="col">
-                            <div class="fbox-4 pr-25 mb-40 wow fadeInUp">
+                            <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
 
                                 <!-- Icon -->
                                 <div class="fbox-ico">
-                                    <div class="ico-65">
-                                        <span class="flaticon-internet"></span>
+                                    <div class="ico-60 shape-ico boxity-primary-color">
+                                        <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}"
+                                            alt="ico-bkg">
+                                        <span class="flaticon-signal"></span>
                                     </div>
                                 </div>
 
@@ -161,11 +166,11 @@ have worked with, whether its a contract system and others.')
                                 <div class="fbox-txt">
 
                                     <!-- Title -->
-                                    <h5 class="h5-md">Integrated</h5>
+                                    <h5 class="h5-md">Quick Access</h5>
 
                                     <!-- Text -->
-                                    <p class="p-lg">Boxity has a system that has functions that are integrated into all
-                                        systems in the boxity application itself.
+                                    <p class="p-lg">Data rate of 1000Mbit/s with 10 cores CPU and 60 GB RAM installed
+                                        to maximize your traffic rate, so don't worry about slow data processing.
                                     </p>
 
                                 </div>
@@ -176,12 +181,14 @@ have worked with, whether its a contract system and others.')
 
                         <!-- FEATURE BOX #2 -->
                         <div class="col">
-                            <div class="fbox-4 pl-25 mb-40 wow fadeInUp">
+                            <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
 
                                 <!-- Icon -->
                                 <div class="fbox-ico">
-                                    <div class="ico-65">
-                                        <span class="flaticon-time"></span>
+                                    <div class="ico-60 shape-ico boxity-primary-color">
+                                        <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}"
+                                            alt="ico-bkg">
+                                        <span class="flaticon-smartphone-2"></span>
                                     </div>
                                 </div>
 
@@ -189,11 +196,12 @@ have worked with, whether its a contract system and others.')
                                 <div class="fbox-txt">
 
                                     <!-- Title -->
-                                    <h5 class="h5-md">Time Efficiency</h5>
+                                    <h5 class="h5-md">Device Accessibility</h5>
 
                                     <!-- Text -->
-                                    <p class="p-lg">You get better time management because you spend less time accessing
-                                        and processing data and it’s more effective for collaboration.
+                                    <p class="p-lg">We designed our systems to work across all the hardware that many
+                                        people
+                                        have today, including iOS, android, and laptops/PCs.
                                     </p>
 
                                 </div>
@@ -204,12 +212,14 @@ have worked with, whether its a contract system and others.')
 
                         <!-- FEATURE BOX #3 -->
                         <div class="col">
-                            <div class="fbox-4 pr-25 mb-40 wow fadeInUp">
+                            <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
 
                                 <!-- Icon -->
                                 <div class="fbox-ico">
-                                    <div class="ico-65">
-                                        <span class="flaticon-web-browser"></span>
+                                    <div class="ico-60 shape-ico boxity-primary-color">
+                                        <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}"
+                                            alt="ico-bkg">
+                                        <span class="flaticon-hosting-servers"></span>
                                     </div>
                                 </div>
 
@@ -217,11 +227,12 @@ have worked with, whether its a contract system and others.')
                                 <div class="fbox-txt">
 
                                     <!-- Title -->
-                                    <h5 class="h5-md">Accesible</h5>
+                                    <h5 class="h5-md">Customer's private hosting server</h5>
 
                                     <!-- Text -->
-                                    <p class="p-lg">In an our integrated system, you can access and manage your system
-                                        anywhere and anytime from your computer, android, and also the iOS system.
+                                    <p class="p-lg">Have priority to our customers which means we give our customers a
+                                        private hosting server free of charge for data security and as a token of our
+                                        appreciation for working with us.
                                     </p>
 
                                 </div>
@@ -232,12 +243,14 @@ have worked with, whether its a contract system and others.')
 
                         <!-- FEATURE BOX #4 -->
                         <div class="col">
-                            <div class="fbox-4 pl-25 mb-40 wow fadeInUp">
+                            <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
 
                                 <!-- Icon -->
                                 <div class="fbox-ico">
-                                    <div class="ico-65">
-                                        <span class="flaticon-increase-1"></span>
+                                    <div class="ico-60 shape-ico boxity-primary-color">
+                                        <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}"
+                                            alt="ico-bkg">
+                                        <span class="flaticon-flow-chart"></span>
                                     </div>
                                 </div>
 
@@ -245,11 +258,14 @@ have worked with, whether its a contract system and others.')
                                 <div class="fbox-txt">
 
                                     <!-- Title -->
-                                    <h5 class="h5-md">Effective flow with friendly User Interface</h5>
+                                    <h5 class="h5-md">Integration</h5>
 
                                     <!-- Text -->
-                                    <p class="p-lg">You would have less time spent, reduce cost, and more effective
-                                        management which increases overall productivity within one integrated system.
+                                    <p class="p-lg">We also innovate in integration with many vendors in order to
+                                        facilitate
+                                        services between our systems such as simplifying payment processing between
+                                        banks,
+                                        e-commerce, and other integrations.
                                     </p>
 
                                 </div>
@@ -260,12 +276,14 @@ have worked with, whether its a contract system and others.')
 
                         <!-- FEATURE BOX #5 -->
                         <div class="col">
-                            <div class="fbox-4 pr-25 mb-40 wow fadeInUp">
+                            <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
 
                                 <!-- Icon -->
                                 <div class="fbox-ico">
-                                    <div class="ico-65">
-                                        <span class="flaticon-phone-call"></span>
+                                    <div class="ico-60 shape-ico boxity-primary-color">
+                                        <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}"
+                                            alt="ico-bkg">
+                                        <span class="flaticon-cloud-computing"></span>
                                     </div>
                                 </div>
 
@@ -273,13 +291,45 @@ have worked with, whether its a contract system and others.')
                                 <div class="fbox-txt">
 
                                     <!-- Title -->
-                                    <h5 class="h5-md">24/7 Support</h5>
+                                    <h5 class="h5-md">Storage & Backup</h5>
 
                                     <!-- Text -->
-                                    <p class="p-lg">Did you get a problem? Take it easy. Any concern and problem you
-                                        have would be easily solved by our live customer service system that would be
-                                        available 24/7 and also you can submit your ticket from our system, and we'll
-                                        receive your ticket and do the job ticket based on your priority.
+                                    <p class="p-lg">Not stingy about providing our customers with sufficient storage
+                                        for their business needs. We provide 256GB of storage for the first year our
+                                        customers
+                                        subscribe.
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <!-- FEATURE BOX #6 -->
+                        <div class="col">
+                            <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+
+                                <!-- Icon -->
+                                <div class="fbox-ico">
+                                    <div class="ico-60 shape-ico boxity-primary-color">
+                                        <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}"
+                                            alt="ico-bkg">
+                                        <span class="flaticon-shield"></span>
+                                    </div>
+                                </div>
+
+                                <!-- Text -->
+                                <div class="fbox-txt">
+
+                                    <!-- Title -->
+                                    <h5 class="h5-md">Secure and safe</h5>
+
+                                    <!-- Text -->
+                                    <p class="p-lg">Don't have to worry about the data they store on our platform,
+                                        because we have 256bit security encryption and we work closely with Comodo SSL
+                                        for more
+                                        secure URL traffic.
                                     </p>
 
                                 </div>

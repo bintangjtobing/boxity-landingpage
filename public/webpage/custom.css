@@ -1,4 +1,4 @@
-.bg-tra-purple {
+.bg-tra-boxity {
     background-color: rgba(249, 91, 18, .08) !important;
 }
 
@@ -9,7 +9,7 @@
 .scroll .skyboxity-hover:hover,
 .white-color .skyboxity-hover:hover {
     color: #fff !important;
-    background-color: #F95B12;
+    background-color: rgb(249, 91, 18);
     border-color: #F95B12;
 }
 
@@ -34,6 +34,12 @@
 
 .sub-link-list {
     font-weight: 200;
+}
+
+.btn-skyboxity span {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.5;
 }
 
 .tra-boxity-hover:hover,
@@ -83,6 +89,13 @@
     font-size: 12px;
 }
 
+.link-list sup {
+    color: #fff;
+    background-color: #F95B12;
+    padding: 3px;
+    font-size: 10px;
+}
+
 .wsmenu-list>li .active {
     color: #F95B12;
 }
@@ -97,4 +110,12 @@
 
 .apply-jobs-class {
     padding-top: 3rem !important;
+}
+
+.foo-links span {
+    color: #F95B12;
+}
+
+.footer-links li p {
+    margin-bottom: 0px;
 }

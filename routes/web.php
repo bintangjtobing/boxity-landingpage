@@ -30,11 +30,23 @@ Route::get('/career', 'webpageController@career');
 Route::get('/jobs/{id}', 'webpageController@getJobs');
 Route::get('/jobs/a/{id}', 'webpageController@getJobsApply');
 Route::post('/jobs/a/{id}', 'webpageController@postJobsApply');
+Route::post('/subscription/new', 'webpageController@addSubscription');
 // Route::get('/our-team', 'webpageController@teams');
 
 // Process the data
 Route::post('/contact', 'webpageController@postContact');
 Route::get('/schedule-demo', 'webpageController@scheduleDemo');
+
+// Product Explanation
+Route::get('/products/boxity-erp', 'webpageController@erp');
+Route::get('/products/fornax', 'webpageController@fornax');
+Route::get('/products/lyra', 'webpageController@lyra');
+Route::get('/products/orion', 'webpageController@orion');
+Route::get('/products/stockpile', 'webpageController@stockpile');
+// Route::get('/products/octans', 'webpageController@octans');
+// Route::get('/products/pyxis', 'webpageController@pyxis');
+// Route::get('/products/aquila', 'webpageController@aquila');
+Route::get('/products/chatifine', 'webpageController@chatifine');
 
 // additional
 Route::get('/terms-conditions', 'additionalController@terms');

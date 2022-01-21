@@ -48,7 +48,7 @@
                         <div class="col-md-12">
                             <p class="p-lg">Your Email Address: </p>
                             <span>Please carefully check your email address for accuracy</span>
-                            <input type="text" name="email" class="form-control email" placeholder="Email Address*">
+                            <input type="email" name="email" class="form-control email" placeholder="Email Address*">
                         </div>
                         <div class="col-md-12">
                             <p class="p-lg">Your Phone Number: </p>
@@ -62,6 +62,40 @@
                             <span>Please pay attention to the date of your request, so our team can arrange the schedule
                                 properly.</span>
                             <input type="date" name="date" class="form-control date" placeholder="Date Suggestion">
+                        </div>
+                        <div class="col-md-12">
+                            <p class="p-lg">Your Application that you've interest: </p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <select name="application" id="" class="form-control">
+                                        <option value="" selected>Choose one...</option>
+                                        <option value="Octans">Octans - Finance and accounting software</option>
+                                        <option value="Fornax">Fornax - Issue center management software</option>
+                                        <option value="Pyxis">Pyxis - Hotel reservation management system software
+                                        </option>
+                                        <option value="Aquila">Aquila - Payroll management automated software</option>
+                                        <option value="Lyra">Lyra - E-Commerce management software</option>
+                                        <option value="Orion">Orion - Human resources information system software
+                                        </option>
+                                        <option value="Chatifine">Chatifine - Secure and encrypted business chat app
+                                        </option>
+                                        <option value="Stockpile">Stockpile - Warehouse management system software
+                                        </option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <select name="terms" id="" class="form-control">
+                                        <option value="" selected>Choose plans...</option>
+                                        <option value="1yr">1 Year</option>
+                                        <option value="3yrs">3 Years</option>
+                                        <option value="5yrs">5 Years</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea name="message" placeholder="Anything you wanna say to us?"
+                                        class="form-control" id="" cols="30" rows="5"></textarea>
+                                </div>
+                            </div>
                         </div>
 
                         <!-- Contact Form Button -->

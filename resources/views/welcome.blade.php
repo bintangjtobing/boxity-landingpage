@@ -5,11 +5,11 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="boxity central indonesia" />
+    <meta name="author" content="Boxity | PT Boxity Central Indonesia" />
     <meta name="description" content="@yield('page_description')" />
-    <meta name="keywords"
-        content="boxity, boxityerp, realizeboxity, boxity central indonesia, erp boxity, warehouse management, human resources management, financial management, boxity warehouse, boxity WMS, boxity financial, boxity indonesia" />
+    <meta name="keywords" content="@yield('page_keywords')" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="copyright" content="PT Boxity Central Indonesia">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VLZMGJP9FS"></script>
@@ -40,25 +40,27 @@
         href="https://res.cloudinary.com/boxity-id/image/upload/c_scale,w_76/v1634800361/assets/site%20needs/icon_za3vme.png">
 
     {{-- Meta --}}
-    <meta name="og:title" property="og:title" content="Boxity Central Indonesia" />
+    <meta name="og:title" property="og:title" content="Boxity | PT Boxity Central Indonesia" />
     <meta name="og:url" property="og:url" content="https://boxity.id" />
     <meta name="og:type" property="og:type" content="website" />
     <meta name="og:image" property="og:image"
-        content="https://res.cloudinary.com/boxity-id/image/upload/v1637316265/assets/site%20needs/parts_m9hpuu.png" />
+        content="https://res.cloudinary.com/boxity-id/image/upload/v1641778807/assets/site%20needs/LinkedIn_cover_-_1_w23wb0.png" />
     <meta name="og:description" property="og:description"
-        content="A cloud-based system that helps companies to run their businesses as efficiently as possible. We provide a way for you to manage and integrate various activities and operations of anything that your business needs such as productions, assets, financial management, and human resources management through a software application." />
-    <meta name="twitter:card" content="Boxity Central Indonesia" />
-    <meta name="twitter:title" property="og:title" content="Boxity Central Indonesia" />
+        content="Boxity Central Indonesia is here to help and support companies in the 4.0 business industrial revolution, by providing a cloud-based system with an ERP model for companies with large valuations, and the SAAS (Software as a Service) model for small to medium MSMEs." />
+    <meta name="twitter:card" content="Boxity | PT Boxity Central Indonesia" />
+    <meta name="twitter:title" property="og:title" content="Boxity | PT Boxity Central Indonesia" />
     <meta name="twitter:url" property="og:url" content="https://boxity.id" />
     <meta name="twitter:type" property="og:type" content="website" />
     <meta name="twitter:image" property="og:image"
-        content="https://res.cloudinary.com/boxity-id/image/upload/v1637316265/assets/site%20needs/parts_m9hpuu.png" />
+        content="https://res.cloudinary.com/boxity-id/image/upload/v1641778807/assets/site%20needs/LinkedIn_cover_-_1_w23wb0.png" />
     <meta name="twitter:description" property="og:description"
-        content="A cloud-based system that helps companies to run their businesses as efficiently as possible. We provide a way for you to manage and integrate various activities and operations of anything that your business needs such as productions, assets, financial management, and human resources management through a software application." />
+        content="Boxity Central Indonesia is here to help and support companies in the 4.0 business industrial revolution, by providing a cloud-based system with an ERP model for companies with large valuations, and the SAAS (Software as a Service) model for small to medium MSMEs." />
     <link rel="canonical" href="https://boxity.id/" />
     <link rel="shortcut icon"
         href="https://res.cloudinary.com/boxity-id/image/upload/v1634800361/assets/site%20needs/icon_za3vme.png"
         type="image/png" sizes="64x64" />
+    <meta name="og:email" content="info@boxity.id" />
+    <meta name="og:phone_number" content="02129021873" />
 
 
     <!-- GOOGLE FONTS -->
@@ -159,36 +161,46 @@
                                     <div class="wsmegamenu w-75 clearfix">
                                         <div class="container">
                                             <div class="row">
-                                                <ul class="col-md-12 col-lg-12 link-list">
+                                                {{-- <ul class="col-md-12 col-lg-12 link-list">
                                                     <li>
                                                         <a href="#">ERP<br><span class="sub-link-list">All modules
                                                                 packed in
                                                                 one package.</span></a>
                                                     </li>
                                                 </ul>
-                                                <hr class="divider">
+                                                <hr class="divider"> --}}
                                                 <!-- MEGAMENU LINKS -->
                                                 <ul class="col-md-12 col-lg-6 link-list">
-                                                    <li><a href="#">Octans<br><span class="sub-link-list">Finance and
+                                                    <li><a href="#">Octans <sup>Soon</sup><br><span
+                                                                class="sub-link-list">Finance and
                                                                 accounting software.</span></a>
                                                     </li>
-                                                    <li><a href="#">Fornax<br><span class="sub-link-list">Issue center
+                                                    <li><a href="/products/fornax">Fornax<br><span
+                                                                class="sub-link-list">Issue
+                                                                center
                                                                 management software.</span></a></li>
-                                                    <li><a href="#">Pyxis<br><span class="sub-link-list">Hotel
+                                                    <li><a href="#">Pyxis <sup>Soon</sup><br><span
+                                                                class="sub-link-list">Hotel
                                                                 reservation management system software.</span></a></li>
-                                                    <li><a href="#">Aquila<br><span class="sub-link-list">Payroll
+                                                    <li><a href="#">Aquila <sup>Soon</sup><br><span
+                                                                class="sub-link-list">Payroll
                                                                 management automated software.</span></a></li>
                                                 </ul>
 
                                                 <!-- MEGAMENU LINKS -->
                                                 <ul class="col-md-12 col-lg-6 link-list">
-                                                    <li><a href="#">Lyra<br><span class="sub-link-list">E-Commerce
+                                                    <li><a href="/products/lyra">Lyra<br><span
+                                                                class="sub-link-list">E-Commerce
                                                                 management system software.</span></a></li>
-                                                    <li><a href="#">Orion<br><span class="sub-link-list">Human resources
+                                                    <li><a href="/products/orion">Orion<br><span
+                                                                class="sub-link-list">Human
+                                                                resources
                                                                 information system software.</span></a></li>
-                                                    <li><a href="#">Chatifine<br><span class="sub-link-list">Secure and
+                                                    <li><a href="/products/chatifine">Chatifine<br><span
+                                                                class="sub-link-list">Secure and
                                                                 encrypted business chat app.</span></a></li>
-                                                    <li><a href="#">Stockpile<br><span class="sub-link-list">Warehouse
+                                                    <li><a href="/products/stockpile">Stockpile<br><span
+                                                                class="sub-link-list">Warehouse
                                                                 management system software.</span></a></li>
                                                 </ul>
 
@@ -198,7 +210,7 @@
                                 </li>
                                 <!-- DROPDOWN MENU -->
                                 <li class="nl-simple" aria-haspopup="true"><a href="/about">About</a></li>
-                                <li class="nl-simple" aria-haspopup="true"><a href="/plans">Pricing</a></li>
+                                {{-- <li class="nl-simple" aria-haspopup="true"><a href="/plans">Pricing</a></li> --}}
 
                                 <!-- SIMPLE NAVIGATION LINK -->
                                 <li class="nl-simple" aria-haspopup="true"><a href="/career">Career</a></li>
@@ -231,86 +243,93 @@
 
 
                     <!-- FOOTER INFO -->
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <div class="footer-info mb-40">
-                            <img class="footer-logo"
+                            <img class="footer-logo mb-25"
                                 src="https://res.cloudinary.com/boxity-id/image/upload/v1638440373/assets/site%20needs/color_logo_boxity_yor31q.png"
                                 alt="footer-logo">
+                            <!-- Text -->
+                            <p>Grand Silipi Tower, Lt 9 Unit O, <br> Jl. Jend. S.
+                                Parman Kav 22-24 <br> Jakarta Barat,
+                                11480 <br><br>
+                                Tel: <a href="tel:+622129021873">021 2902 1873</a> <br>
+                                Email: <a href="mailto:info@boxity.id">info@boxity.id</a>
+                            </p>
                         </div>
                     </div>
 
 
                     <!-- FOOTER LINKS -->
-                    <div class="col-sm-6 col-md-3 col-lg-2 col-lg-2 col-xl-2 offset-xl-1">
+                    <div class="col-sm-6 col-md-3 col-lg-2">
                         <div class="footer-links mb-40">
 
                             <!-- Title -->
-                            <h6 class="h6-xl">About</h6>
+                            <h6 class="h6-xl">Company</h6>
 
                             <!-- Footer Links -->
                             <ul class="foo-links text-secondary clearfix">
                                 <li>
-                                    <p class="p-md"><a href="/about">About Us</a></p>
+                                    <p><a href="/about">About Us</a></p>
                                 </li>
-                                {{-- <li>
-                                    <p class="p-md"><a href="/our-team">Our Team</a></p>
-                                </li> --}}
                                 <li>
-                                    <p class="p-md"><a href="/career">Careers</a></p>
+                                    <p><a href="/career">Career <span>- we're
+                                                hiring</span></a></p>
+                                </li>
+                                <li>
+                                    <p><a href="/contact">Contact Us</a></p>
+                                </li>
+                                <li>
+                                    <p><a href="/privacy-policy">Privacy Policy</a></p>
                                 </li>
                             </ul>
 
                         </div>
                     </div>
-
-
                     <!-- FOOTER LINKS -->
                     <div class="col-sm-6 col-md-3 col-lg-2">
                         <div class="footer-links mb-40">
 
                             <!-- Title -->
-                            <h6 class="h6-xl">Discover</h6>
+                            <h6 class="h6-xl">Product</h6>
 
-                            <!-- Footer List -->
+                            <!-- Footer Links -->
                             <ul class="foo-links text-secondary clearfix">
-                                {{-- <li>
-                                    <p class="p-md"><a href="#">Our Blog</a></p>
-                                </li> --}}
                                 <li>
-                                    <p class="p-md"><a href="/plans">Plans & Pricing</a></p>
+                                    <p><a href="/products/boxity-erp">Boxity ERP</a></p>
                                 </li>
-                                {{-- <li>
-                                    <p class="p-md"><a href="/cookie-policy">Cookie Policy</a></p>
-                                </li> --}}
+                                <li>
+                                    <p><a href="/products/fornax">Fornax</a></p>
+                                </li>
+                                <li>
+                                    <p><a href="/products/lyra">Lyra</a></p>
+                                </li>
+                                <li>
+                                    <p><a href="/products/orion">Orion</a></p>
+                                </li>
+                                <li>
+                                    <p><a href="/products/stockpile">Stockpile</a></p>
+                                </li>
+                                <li>
+                                    <p><a href="#">Octans <span>- Soon</span></a></p>
+                                </li>
+                                <li>
+                                    <p><a href="#">Pyxis <span>- Soon</span></a></p>
+                                </li>
+                                <li>
+                                    <p><a href="#">Aquila <span>- Soon</span></a></p>
+                                </li>
+                                <li>
+                                    <p><a href="#">Chatifine</a></p>
+                                </li>
                             </ul>
 
                         </div>
                     </div>
+
 
 
                     <!-- FOOTER LINKS -->
                     <div class="col-sm-6 col-md-3 col-lg-2">
-                        <div class="footer-links mb-40">
-
-                            <!-- Title -->
-                            <h6 class="h6-xl">Support</h6>
-
-                            <!-- Footer List -->
-                            <ul class="foo-links text-secondary clearfix">
-                                {{-- <li>
-                                    <p class="p-md"><a href="/faqs">FAQs</a></p>
-                                </li> --}}
-                                <li>
-                                    <p class="p-md"><a href="/contact">Contact Us</a></p>
-                                </li>
-                            </ul>
-
-                        </div>
-                    </div>
-
-
-                    <!-- FOOTER LINKS -->
-                    <div class="col-sm-6 col-md-3 col-lg-3 col-xl-2">
                         <div class="footer-links mb-40">
 
                             <!-- Title -->
@@ -344,7 +363,7 @@
                         <div class="col">
                             <div class="footer-copyright">
                                 <?php $y = Date('Y') ?>
-                                <p>&copy; 2019 - {{$y}} Boxity Central Indonesia</p>
+                                <p>&copy; 2019 - {{$y}} PT. Boxity Central Indonesia. All rights reserved.</p>
                             </div>
                         </div>
 

@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Mail;
 use App\Mail\confirmationToCandidate;
 use App\Mail\confirmationToHRD;
 use App\Mail\scheduleDemo;
+use App\subscription;
 use Cloudinary\Cloudinary as CloudinaryCloudinary;
 use Illuminate\Support\Facades\DB;
 
@@ -99,11 +100,56 @@ class webpageController extends Controller
     {
         return view('home.schedule');
     }
+    public function addSubscription(Request $request)
+    {
+        $sub = new subscription();
+        $sub->email = $request->email;
+        $sub->save();
+        return redirect()->back()->with('success', 'success');
+    }
     // Process the data
     public function postContact(Request $request)
     {
         $datas = $request->all();
         Mail::to('sales@boxity.id')->send(new scheduleDemo($datas));
         return redirect()->back()->with('success', 'Your message has been completed send to us!');
+    }
+
+    // Product Route
+    public function erp()
+    {
+        return view('product.erp');
+    }
+    public function fornax()
+    {
+        return view('product.fornax');
+    }
+    public function lyra()
+    {
+        return view('product.lyra');
+    }
+    public function orion()
+    {
+        return view('product.orion');
+    }
+    public function stockpile()
+    {
+        return view('product.stockpile');
+    }
+    public function octans()
+    {
+        return view('product.octans');
+    }
+    public function pyxis()
+    {
+        return view('product.pyxis');
+    }
+    public function aquila()
+    {
+        return view('product.aquila');
+    }
+    public function chatifine()
+    {
+        return view('product.chatifine');
     }
 }

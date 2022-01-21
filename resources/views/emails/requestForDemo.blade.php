@@ -150,7 +150,9 @@
                                                         Guest data: <br>
                                                         Phone number : {{$datas['phone']}} <br>
                                                         Recommended date : {{$datas['date']}} <br>
-
+                                                        Application that want to demo: {{$datas['application']}} <br>
+                                                        Commited Years : {{$datas['terms']}} <br>
+                                                        Message : {{$datas['message']}} <br>
                                                         <br>
                                                         <b><i>Message from CMO and CEO:</i></b> <br>
                                                         Hello sales team, you must be very happy, right, you got a new

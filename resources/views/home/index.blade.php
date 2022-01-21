@@ -1,9 +1,10 @@
 @extends('welcome')
 @section('title', 'Home')
-@section('page_description', 'A cloud-based system that helps companies to run their businesses as efficiently as
-possible. We provide a way for you to manage and integrate various activities and operations of anything that your
-business needs such as productions, assets, financial management, and human resources management through a software
-application.')
+@section('page_description', 'Boxity Central Indonesia is here to help and support companies in the 4.0 business
+industrial revolution, by providing a cloud-based system with an ERP model for companies with large valuations, and the
+SAAS (Software as a Service) model for small to medium MSMEs.')
+@section('page_keywords', 'boxity, boxityerp, realizeboxity, boxity central indonesia, erp boxity, warehouse management,
+human resources management, financial management, boxity warehouse, boxity WMS, boxity financial, boxity indonesia')
 @section('content')
 <!-- HERO-21
 			============================================= -->
@@ -19,10 +20,9 @@ application.')
                     <h2 class="h2-lg">Integrate Every Works You Have</h2>
 
                     <!-- Text -->
-                    <p class="p-xl">A cloud-based system that helps companies to run their businesses as efficiently as
-                        possible. We provide a way for you to manage and integrate various activities and operations of
-                        anything that your business needs such as productions, assets, financial management, and human
-                        resources management through a software application.
+                    <p class="p-xl">Boxity Central Indonesia is here to help and support companies in the 4.0 business
+                        industrial revolution, by providing a cloud-based system with an ERP model for companies with
+                        large valuations, and the SAAS (Software as a Service) model for small to medium MSMEs.
                     </p>
                     <a href="/contact" class="btn btn-sm btn-stateblue black-hover mt-3">Contact our sales</a>
 
@@ -150,12 +150,222 @@ application.')
     </div> <!-- End container -->
 </div> <!-- END BRANDS-1 -->
 
+<section id="features-4" class="wide-60 features-section division">
+    <div class="container">
 
 
+        <!-- SECTION TITLE -->
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-xl-8">
+                <div class="section-title title-01 mb-70">
+
+                    <!-- Title -->
+                    <h2 class="h2-md">We’re Better. Here’s Why…</h2>
+
+                    <!-- Text -->
+                    <p class="p-xl">Why are we so confident? Because we, have things that you might have to try.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- FEATURES-4 WRAPPER -->
+        <div class="fbox-4-wrapper">
+            <div class="row row-cols-1 row-cols-md-2">
+
+
+                <!-- FEATURE BOX #1 -->
+                <div class="col">
+                    <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+
+                        <!-- Icon -->
+                        <div class="fbox-ico">
+                            <div class="ico-60 shape-ico boxity-primary-color">
+                                <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}" alt="ico-bkg">
+                                <span class="flaticon-signal"></span>
+                            </div>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="fbox-txt">
+
+                            <!-- Title -->
+                            <h5 class="h5-md">Quick Access</h5>
+
+                            <!-- Text -->
+                            <p class="p-lg">Data rate of 1000Mbit/s with 10 cores CPU and 60 GB RAM installed
+                                to maximize your traffic rate, so don't worry about slow data processing.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- FEATURE BOX #2 -->
+                <div class="col">
+                    <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+
+                        <!-- Icon -->
+                        <div class="fbox-ico">
+                            <div class="ico-60 shape-ico boxity-primary-color">
+                                <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}" alt="ico-bkg">
+                                <span class="flaticon-smartphone-2"></span>
+                            </div>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="fbox-txt">
+
+                            <!-- Title -->
+                            <h5 class="h5-md">Device Accessibility</h5>
+
+                            <!-- Text -->
+                            <p class="p-lg">We designed our systems to work across all the hardware that many people
+                                have today, including iOS, android, and laptops/PCs.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- FEATURE BOX #3 -->
+                <div class="col">
+                    <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+
+                        <!-- Icon -->
+                        <div class="fbox-ico">
+                            <div class="ico-60 shape-ico boxity-primary-color">
+                                <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}" alt="ico-bkg">
+                                <span class="flaticon-hosting-servers"></span>
+                            </div>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="fbox-txt">
+
+                            <!-- Title -->
+                            <h5 class="h5-md">Customer's private hosting server</h5>
+
+                            <!-- Text -->
+                            <p class="p-lg">Have priority to our customers which means we give our customers a
+                                private hosting server free of charge for data security and as a token of our
+                                appreciation for working with us.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- FEATURE BOX #4 -->
+                <div class="col">
+                    <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+
+                        <!-- Icon -->
+                        <div class="fbox-ico">
+                            <div class="ico-60 shape-ico boxity-primary-color">
+                                <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}" alt="ico-bkg">
+                                <span class="flaticon-flow-chart"></span>
+                            </div>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="fbox-txt">
+
+                            <!-- Title -->
+                            <h5 class="h5-md">Integration</h5>
+
+                            <!-- Text -->
+                            <p class="p-lg">We also innovate in integration with many vendors in order to facilitate
+                                services between our systems such as simplifying payment processing between banks,
+                                e-commerce, and other integrations.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- FEATURE BOX #5 -->
+                <div class="col">
+                    <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+
+                        <!-- Icon -->
+                        <div class="fbox-ico">
+                            <div class="ico-60 shape-ico boxity-primary-color">
+                                <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}" alt="ico-bkg">
+                                <span class="flaticon-cloud-computing"></span>
+                            </div>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="fbox-txt">
+
+                            <!-- Title -->
+                            <h5 class="h5-md">Storage & Backup</h5>
+
+                            <!-- Text -->
+                            <p class="p-lg">Not stingy about providing our customers with sufficient storage
+                                for their business needs. We provide 256GB of storage for the first year our customers
+                                subscribe.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- FEATURE BOX #6 -->
+                <div class="col">
+                    <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+
+                        <!-- Icon -->
+                        <div class="fbox-ico">
+                            <div class="ico-60 shape-ico boxity-primary-color">
+                                <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}" alt="ico-bkg">
+                                <span class="flaticon-shield"></span>
+                            </div>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="fbox-txt">
+
+                            <!-- Title -->
+                            <h5 class="h5-md">Secure and safe</h5>
+
+                            <!-- Text -->
+                            <p class="p-lg">Don't have to worry about the data they store on our platform,
+                                because we have 256bit security encryption and we work closely with Comodo SSL for more
+                                secure URL traffic.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div> <!-- END FEATURES-4 WRAPPER -->
+
+
+    </div> <!-- End container -->
+</section>
+
+<hr class="divider">
 
 <!-- CONTENT-2
 			============================================= -->
-<section id="content-2" class="content-2 pb-60 content-section division">
+<section id="content-2" class="content-2 pb-60 pt-60 content-section division">
     <div class="container">
         <div class="row d-flex align-items-center">
 
@@ -354,7 +564,7 @@ application.')
                         <li class="tab-link" data-tab="tab-4">
 
                             <!-- Title -->
-                            <h4 class="h4-sm">Chatifine <sup>Soon</sup></h4>
+                            <h4 class="h4-sm">Chatifine</h4>
                             <h6>
                                 Secure and
                                 encrypted business chat app.
@@ -1022,7 +1232,7 @@ application.')
 			============================================= -->
 <section id="cta-11" class="cta-section division">
     <div class="container">
-        <div class="bg-tra-purple cta-11-wrapper">
+        <div class="bg-tra-boxity cta-11-wrapper">
             <div class="row d-flex align-items-center">
 
 
@@ -1063,6 +1273,5 @@ application.')
 
 
 <!-- DIVIDER LINE -->
-<hr class="divider">
 
 @endsection
