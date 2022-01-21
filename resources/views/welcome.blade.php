@@ -295,7 +295,7 @@
                             <!-- Footer Links -->
                             <ul class="foo-links text-secondary clearfix">
                                 <li>
-                                    <p><a href="/products/boxity-erp">Boxity ERP</a></p>
+                                    <p><a href="#">Boxity ERP</a></p>
                                 </li>
                                 <li>
                                     <p><a href="/products/fornax">Fornax</a></p>

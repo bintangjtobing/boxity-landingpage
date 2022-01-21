@@ -38,7 +38,7 @@ Route::post('/contact', 'webpageController@postContact');
 Route::get('/schedule-demo', 'webpageController@scheduleDemo');
 
 // Product Explanation
-Route::get('/products/boxity-erp', 'webpageController@erp');
+// Route::get('/products/boxity-erp', 'webpageController@erp');
 Route::get('/products/fornax', 'webpageController@fornax');
 Route::get('/products/lyra', 'webpageController@lyra');
 Route::get('/products/orion', 'webpageController@orion');
@@ -52,7 +52,7 @@ Route::get('/products/chatifine', 'webpageController@chatifine');
 Route::get('/terms-conditions', 'additionalController@terms');
 Route::get('/privacy-policy', 'additionalController@privacy');
 // Route::get('/faqs', 'additionalController@faqs');
-Route::get('/plans', 'additionalController@plans');
+// Route::get('/plans', 'additionalController@plans');
 
 Route::get('/get-ip', function (Request $request) {
     dd(Request::ip());
