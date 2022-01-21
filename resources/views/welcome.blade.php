@@ -84,11 +84,11 @@
     <link href="{!!asset('webpage/css/animate.css')!!}" rel="stylesheet">
 
     <!-- TEMPLATE CSS -->
-    <link href="{!!asset('webpage/css/style.css')!!}" rel="stylesheet">
+    <link href="{!!asset('webpage/css/style-min.css')!!}" rel="stylesheet">
 
     <!-- RESPONSIVE CSS -->
     <link href="{!!asset('webpage/css/responsive.css')!!}" rel="stylesheet">
-    <link href="{!!asset('webpage/custom.css')!!}" rel="stylesheet">
+    <link href="{!!asset('webpage/custom-min.css')!!}" rel="stylesheet">
 
 </head>
 

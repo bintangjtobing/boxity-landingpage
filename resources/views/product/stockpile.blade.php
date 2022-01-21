@@ -13,7 +13,7 @@ warehouse management system, stockpile WMS Boxity, stockpile WMS, stockpile boxi
             <!-- HERO IMAGE -->
             <div class="col-md-5 col-lg-6 order-last order-md-2">
                 <div class="hero-boxity-img pc-30 wow fadeInRight">
-                    <img class="img-fluid" src="{!!asset('product/Stockpile/logo-mockup/phone-mockup.png')!!}"
+                    <img class="img-fluid" src="{!!asset('product/stockpile/logo-mockup/phone-mockup.png')!!}"
                         alt="hero-image">
                 </div>
             </div>
