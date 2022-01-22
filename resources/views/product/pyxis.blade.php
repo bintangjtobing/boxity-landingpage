@@ -31,7 +31,7 @@
 
                     <!-- Buttons Group -->
                     <div class="btns-group mb-20">
-                        <a href="/contact" class="btn btn-skyboxity tra-white-hover mr-15">Contact sales</a>
+                        <a href="/contact" class="btn btn-skyboxity tra-white-hover mr-15">{{__('contact_sales')}}</a>
                         <a href="#"
                             class="video-popup2 btn btn-md btn-transparent ico-20 ico-left">
                             <span class="flaticon-play"></span> See FORNAX in Action
@@ -204,11 +204,10 @@
                 <div class="txt-block left-column wow fadeInRight">
 
                     <!-- Title -->
-                    <h2 class="h2-xs">Maximize business performance with some of our integrated modules.</h2>
+                    <h2 class="h2-xs">{{__('maximize_business')}}</h2>
 
                     <!-- Text -->
-                    <p class="p-lg">Accelerate your business development through integration between systems that will
-                        bring convenience, practicality, and cost savings.
+                    <p class="p-lg">{{__('dsc_maximize_business')}}
                     </p>
 
                 </div>
@@ -237,11 +236,10 @@
                 <div class="section-title title-01 mb-70">
 
                     <!-- Title -->
-                    <h2 class="h2-md">We're also prepare your needs in the future</h2>
+                    <h2 class="h2-md">{{__('prepare_your_needs')}}</h2>
 
                     <!-- Text -->
-                    <p class="p-xl">We have a benefit for you who wanna join with us, and calm down because it's our
-                        reward for you free.
+                    <p class="p-xl">{{__('dsc_prepare_your_needs')}}
                     </p>
 
                 </div>
@@ -264,41 +262,39 @@
                         </div>
 
                         <!-- Title -->
-                        <h5 class="h5-md">Domain & cloud storage</h5>
+                        <h5 class="h5-md">{{__('domain_cloud_storage')}}</h5>
 
                         <!-- Text -->
-                        <p>As long as we have a cooperation contract, you will get a free domain and
-                            server. So don' t worry about configuring our system for you because domain and server
-                                installation can be done online so it doesn't take a very long time. </p> </div> </div>
+                        <p>{{__('dsc_domain_cloud_storage')}} </p> </div> </div>
                                 <div class="col">
                             <div class="fbox-8 mb-40 wow fadeInUp">
 
                                 <!-- Image -->
                                 <div class="fbox-img bg-whitesmoke-gradient">
-                                    <img class="img-fluid" src="{!!asset('images/boxity/img-21.png"')!!} alt="feature-icon" />
+                                    <img class="img-fluid" src="{!!asset(' images/boxity/img-21.png"')!!}
+                                alt="feature-icon" />
                         </div>
 
                         <!-- Title -->
-                        <h5 class="h5-md">Business Website</h5>
+                        <h5 class="h5-md">{{__('business_website')}}</h5>
 
                         <!-- Text -->
-                        <p>As long as we have a cooperation contract, we will also help you get, create,
-                            design to launching the official website for your company to the wide internet. Don' t
-                                        worry about not having an official site for your great business. </p> </div>
-                                        </div> <div class="col">
-                                    <div class="fbox-8 mb-40 wow fadeInUp">
+                        <p>{{__('dsc_business_website')}}</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="fbox-8 mb-40 wow fadeInUp">
 
-                                        <!-- Image -->
-                                        <div class="fbox-img bg-whitesmoke-gradient">
-                                            <img class="img-fluid" src="{!!asset('images/boxity/img-24.png"')!!}" alt="feature-icon" />
+                        <!-- Image -->
+                        <div class="fbox-img bg-whitesmoke-gradient">
+                            <img class="img-fluid" src="{!!asset('images/boxity/img-24.png"')!!}" alt="feature-icon" />
                                         </div>
 
                                         <!-- Title -->
-                                        <h5 class="h5-md">Business mail</h5>
+                                        <h5 class="h5-md">{{__('business_mail')}}</h5>
 
                                         <!-- Text -->
-                                        <p class="p-lg">As long as we have a cooperation contract, we will also help you
-                                            to config your business email.  </p> </div> </div> </div> <!-- End row -->
+                                        <p class="p-lg">{{__('dsc_business_mail')}}</p> </div> </div> </div> <!-- End row -->
 
 </section>
 
@@ -565,12 +561,8 @@
                                     <!-- TEXT -->
                                     <div class="col-lg-12 text-center">
                                         <div class="cta-7-txt">
-                                            <h3>Ready to move forward with Boxity?</h3>
-                                            <p class="p-xl">Increase efficiency, productivity and business performance
-                                                with
-                                                Boxity
-                                                products.
-                                            </p>
+                                            <h3>{{__('ready_to_move')}}</h3>
+                                            <h3>{{__('dsc_ready_to_move')}}</h3>
                                         </div>
                                     </div>
 
@@ -578,8 +570,7 @@
                                     <!-- BUTTON -->
                                     <div class="col-lg-12 text-center">
                                         <div class="cta-7-btn">
-                                            <a href="/contact" class="btn btn-skyboxity tra-boxity-hover my-4">Contact
-                                                Sales</a>
+                                            <a href="/contact" class="btn btn-skyboxity tra-boxity-hover my-4">{{__('contact_sales')}}</a>
                                         </div>
                                     </div>
 

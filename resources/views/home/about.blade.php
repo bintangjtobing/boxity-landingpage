@@ -79,16 +79,11 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
 
                         <!-- Text -->
                         <div class="fbox-txt">
-                            <h5 class="h5-md">Who is Boxity?</h5>
+                            <h5 class="h5-md">{{__('who_is_boxity')}}</h5>
 
                             <!-- Text -->
                             <p>
-                                Boxity is an Enterprise Resources Planning (ERP) platform for planning, utilizing as
-                                well as developing resources to the fullest. Boxity provides a way for those of you who
-                                may have just started a business, as well as for those who already have a business that
-                                is 5-10 years old, to manage and integrate any activities and operations your business
-                                needs such as production, asset, financial management, and managing human resources
-                                through software applications that we have.
+                                {{__('dsc_who_is_boxity')}}
                             </p>
 
                         </div>
@@ -107,11 +102,10 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
 
                         <!-- Text -->
                         <div class="fbox-txt">
-                            <h5 class="h5-md">Our Vision</h5>
+                            <h5 class="h5-md">{{__('our_vision')}}</h5>
 
                             <!-- Text -->
-                            <p>To provide a more effective business system in various industries from manufacturing,
-                                retails, education, health-care, professional services, and many other industries.</p>
+                            <p>{{__('dsc_our_vision')}}</p>
 
                         </div>
 
@@ -133,10 +127,10 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         <div class="section-title title-01 mb-70">
 
                             <!-- Title -->
-                            <h2 class="h2-md">We’re Better. Here’s Why…</h2>
+                            <h2 class="h2-md">{{__('were_better')}}</h2>
 
                             <!-- Text -->
-                            <p class="p-xl">Why are we so confident? Because we, have things that you might have to try.
+                            <p class="p-xl">{{__('why_are_we_so_confident')}}
                             </p>
 
                         </div>
@@ -166,11 +160,10 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                                 <div class="fbox-txt">
 
                                     <!-- Title -->
-                                    <h5 class="h5-md">Quick Access</h5>
+                                    <h5 class="h5-md">{{__('quick_access')}}</h5>
 
                                     <!-- Text -->
-                                    <p class="p-lg">Data rate of 1000Mbit/s with 10 cores CPU and 60 GB RAM installed
-                                        to maximize your traffic rate, so don't worry about slow data processing.
+                                    <p class="p-lg">{{__('dsc_quick_access')}}
                                     </p>
 
                                 </div>
@@ -196,12 +189,10 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                                 <div class="fbox-txt">
 
                                     <!-- Title -->
-                                    <h5 class="h5-md">Device Accessibility</h5>
+                                    <h5 class="h5-md">{{__('device_accessibility')}}</h5>
 
                                     <!-- Text -->
-                                    <p class="p-lg">We designed our systems to work across all the hardware that many
-                                        people
-                                        have today, including iOS, android, and laptops/PCs.
+                                    <p class="p-lg">{{__('dsc_device_accessibility')}}
                                     </p>
 
                                 </div>
@@ -227,12 +218,10 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                                 <div class="fbox-txt">
 
                                     <!-- Title -->
-                                    <h5 class="h5-md">Customer's private hosting server</h5>
+                                    <h5 class="h5-md">{{__('customers_private')}}</h5>
 
                                     <!-- Text -->
-                                    <p class="p-lg">Have priority to our customers which means we give our customers a
-                                        private hosting server free of charge for data security and as a token of our
-                                        appreciation for working with us.
+                                    <p class="p-lg">{{__('dsc_customers_private')}}
                                     </p>
 
                                 </div>
@@ -258,14 +247,10 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                                 <div class="fbox-txt">
 
                                     <!-- Title -->
-                                    <h5 class="h5-md">Integration</h5>
+                                    <h5 class="h5-md">{{__('integration')}}</h5>
 
                                     <!-- Text -->
-                                    <p class="p-lg">We also innovate in integration with many vendors in order to
-                                        facilitate
-                                        services between our systems such as simplifying payment processing between
-                                        banks,
-                                        e-commerce, and other integrations.
+                                    <p class="p-lg">{{__('dsc_integration')}}
                                     </p>
 
                                 </div>
@@ -291,13 +276,10 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                                 <div class="fbox-txt">
 
                                     <!-- Title -->
-                                    <h5 class="h5-md">Storage & Backup</h5>
+                                    <h5 class="h5-md">{{__('storage_backup')}}</h5>
 
                                     <!-- Text -->
-                                    <p class="p-lg">Not stingy about providing our customers with sufficient storage
-                                        for their business needs. We provide 256GB of storage for the first year our
-                                        customers
-                                        subscribe.
+                                    <p class="p-lg">{{__('dsc_storage_backup')}}
                                     </p>
 
                                 </div>
@@ -323,13 +305,10 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                                 <div class="fbox-txt">
 
                                     <!-- Title -->
-                                    <h5 class="h5-md">Secure and safe</h5>
+                                    <h5 class="h5-md">{{__('secure_safe')}}</h5>
 
                                     <!-- Text -->
-                                    <p class="p-lg">Don't have to worry about the data they store on our platform,
-                                        because we have 256bit security encryption and we work closely with Comodo SSL
-                                        for more
-                                        secure URL traffic.
+                                    <p class="p-lg">{{__('dsc_secure_safe')}}
                                     </p>
 
                                 </div>
@@ -358,7 +337,7 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="brands-title text-center">
-                    <p class="p-xl">Over 10+ companies are already using our application every day</p>
+                    <p class="p-xl">{{__('clients')}}</p>
                 </div>
             </div>
         </div>
@@ -372,7 +351,7 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                     <div class="brand-logo">
                         <a href="#">
                             <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-12.png')!!}"
-                                alt="partner-logo-logo" />
+                                alt="partner-boxity-central-indonesia" />
                         </a>
                     </div>
                 </div>
@@ -382,7 +361,7 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                     <div class="brand-logo">
                         <a href="#">
                             <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-1.png')!!}"
-                                alt="partner-logo-logo" />
+                                alt="partner-boxity-central-indonesia" />
                         </a>
                     </div>
                 </div>
@@ -393,7 +372,7 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                     <div class="brand-logo">
                         <a href="#">
                             <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-3.png')!!}"
-                                alt="partner-logo-logo" />
+                                alt="partner-boxity-central-indonesia" />
                         </a>
                     </div>
                 </div>
@@ -404,7 +383,7 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                     <div class="brand-logo">
                         <a href="#">
                             <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-4.png')!!}"
-                                alt="partner-logo-logo" />
+                                alt="partner-boxity-central-indonesia" />
                         </a>
                     </div>
                 </div>
@@ -415,7 +394,7 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                     <div class="brand-logo">
                         <a href="#">
                             <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-5.png')!!}"
-                                alt="partner-logo-logo">
+                                alt="partner-boxity-central-indonesia">
                         </a>
                     </div>
                 </div>
@@ -426,7 +405,7 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                     <div class="brand-logo">
                         <a href="#">
                             <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-6.png')!!}"
-                                alt="partner-logo-logo">
+                                alt="partner-boxity-central-indonesia">
                         </a>
                     </div>
                 </div>
@@ -437,7 +416,7 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                     <div class="brand-logo">
                         <a href="#">
                             <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-7.png')!!}"
-                                alt="partner-logo-logo">
+                                alt="partner-boxity-central-indonesia">
                         </a>
                     </div>
                 </div>
@@ -448,7 +427,7 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                     <div class="brand-logo">
                         <a href="#">
                             <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-8.png')!!}"
-                                alt="partner-logo-logo">
+                                alt="partner-boxity-central-indonesia">
                         </a>
                     </div>
                 </div>
@@ -459,7 +438,7 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                     <div class="brand-logo">
                         <a href="#">
                             <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-9.png')!!}"
-                                alt="partner-logo-logo">
+                                alt="partner-boxity-central-indonesia">
                         </a>
                     </div>
                 </div>
@@ -474,317 +453,6 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
 
 <!-- DIVIDER LINE -->
 <hr class="divider">
-
-<!-- FEATURES-8
-			============================================= -->
-{{-- <section id="features-8" class="pb-60 features-section division">
-    <div class="container">
-
-
-        <!-- SECTION TITLE -->
-        <div class="row justify-content-center">
-            <div class="col-lg-10 col-xl-8">
-                <div class="section-title title-01 mb-70">
-
-                    <!-- Title -->
-                    <h2 class="h2-md">What Makes Boxity Different</h2>
-
-                    <!-- Text -->
-                    <p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero
-                        tempus, blandit and cursus varius and magnis sapien
-                    </p>
-
-                </div>
-            </div>
-        </div>
-
-
-        <!-- FEATURES-8 WRAPPER -->
-        <div class="fbox-8-wrapper text-center">
-            <div class="row row-cols-1 row-cols-md-3">
-
-
-                <!-- FEATURE BOX #1 -->
-                <div class="col">
-                    <div class="fbox-8 mb-40 wow fadeInUp">
-
-                        <!-- Image -->
-                        <div class="fbox-img bg-whitesmoke-gradient">
-                            <img class="img-fluid" src="{!!asset('webpage/images/img-21.png')!!}" alt="feature-icon" />
-                        </div>
-
-                        <!-- Title -->
-                        <h5 class="h5-md">One-stop Solutions</h5>
-
-                        <!-- Text -->
-                        <p class="p-lg">Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a
-                            ligula an auctor tempus magnis
-                        </p>
-
-                    </div>
-                </div>
-
-
-                <!-- FEATURE BOX #2 -->
-                <div class="col">
-                    <div class="fbox-8 mb-40 wow fadeInUp">
-
-                        <!-- Image -->
-                        <div class="fbox-img bg-whitesmoke-gradient">
-                            <img class="img-fluid" src="{!!asset('webpage/images/img-24.png')!!}" alt="feature-icon" />
-                        </div>
-
-                        <!-- Title -->
-                        <h5 class="h5-md">Online Marketing</h5>
-
-                        <!-- Text -->
-                        <p class="p-lg">Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a
-                            ligula an auctor tempus magnis
-                        </p>
-
-                    </div>
-                </div>
-
-
-                <!-- FEATURE BOX #3 -->
-                <div class="col">
-                    <div class="fbox-8 mb-40 wow fadeInUp">
-
-                        <!-- Image -->
-                        <div class="fbox-img bg-whitesmoke-gradient">
-                            <img class="img-fluid" src="{!!asset('webpage/images/img-25.png')!!}" alt="feature-icon" />
-                        </div>
-
-                        <!-- Title -->
-                        <h5 class="h5-md">Design & Development</h5>
-
-                        <!-- Text -->
-                        <p class="p-lg">Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a
-                            ligula an auctor tempus magnis
-                        </p>
-
-                    </div>
-                </div>
-
-
-            </div> <!-- End row -->
-        </div> <!-- END FEATURES-8 WRAPPER -->
-
-
-    </div> <!-- End container -->
-</section> <!-- END FEATURES-8 --> --}}
-
-
-<!-- TEAM-1
-			============================================= -->
-{{-- <section id="team-1" class="wide-50 team-section division">
-    <div class="container">
-
-
-        <!-- SECTION TITLE -->
-        <div class="row justify-content-center">
-            <div class="col-lg-10 col-xl-8">
-                <div class="section-title title-01 mb-80">
-
-                    <!-- Title -->
-                    <h2 class="h2-md">One Team Many Talents</h2>
-
-                    <!-- Text -->
-                    <p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero
-                        tempus, blandit and cursus varius and magnis sapien
-                    </p>
-
-                </div>
-            </div>
-        </div>
-
-
-        <!-- TEAM MEMBERS HOLDER -->
-        <div class="team-members-wrapper text-center">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
-
-
-                <!-- TEAM MEMBER #1 -->
-                <div class="col">
-                    <div class="team-member wow fadeInUp">
-
-                        <!-- Team Member Photo -->
-                        <div class="team-member-photo">
-                            <img class="img-fluid" src="{!!asset('webpage/images/team-1.jpg')!!}"
-                                alt="team-member-foto">
-                        </div>
-
-                        <!-- Team Member Data -->
-                        <div class="team-member-data">
-                            <h5 class="h5-sm">Jonathan Barnes</h5>
-                            <p class="p-lg">Founder and CEO</p>
-                            <p class="p-lg tm-social"><a href="#" class="text-secondary">@jonatanbarnes</a></p>
-                        </div>
-
-                    </div>
-                </div> <!-- END TEAM MEMBER #1 -->
-
-
-                <!-- TEAM MEMBER #2 -->
-                <div class="col">
-                    <div class="team-member wow fadeInUp">
-
-                        <!-- Team Member Photo -->
-                        <div class="team-member-photo">
-                            <img class="img-fluid" src="{!!asset('webpage/images/team-2.jpg')!!}"
-                                alt="team-member-foto">
-                        </div>
-
-                        <!-- Team Member Data -->
-                        <div class="team-member-data">
-                            <h5 class="h5-sm">Jamie Bartlett</h5>
-                            <p class="p-lg">Software Engineer</p>
-                            <p class="p-lg tm-social text-secondary"><a href="#">@jamiebartlett</a></p>
-                        </div>
-
-                    </div>
-                </div> <!-- END TEAM MEMBER #2 -->
-
-
-                <!-- TEAM MEMBER #3 -->
-                <div class="col">
-                    <div class="team-member wow fadeInUp">
-
-                        <!-- Team Member Photo -->
-                        <div class="team-member-photo">
-                            <img class="img-fluid" src="{!!asset('webpage/images/team-3.jpg')!!}"
-                                alt="team-member-foto">
-                        </div>
-
-                        <!-- Team Member Data -->
-                        <div class="team-member-data">
-                            <h5 class="h5-sm">Matthew Anderson</h5>
-                            <p class="p-lg">Software Engineer</p>
-                            <p class="p-lg tm-social text-secondary"><a href="#">@matthewanderson</a></p>
-                        </div>
-
-                    </div>
-                </div> <!-- END TEAM MEMBER #3 -->
-
-
-                <!-- TEAM MEMBER #4 -->
-                <div class="col">
-                    <div class="team-member wow fadeInUp">
-
-                        <!-- Team Member Photo -->
-                        <div class="team-member-photo">
-                            <img class="img-fluid" src="{!!asset('webpage/images/team-4.jpg')!!}"
-                                alt="team-member-foto">
-                        </div>
-
-                        <!-- Team Member Data -->
-                        <div class="team-member-data">
-                            <h5 class="h5-sm">Megan Coleman</h5>
-                            <p class="p-lg">UX / UI Designer</p>
-                            <p class="p-lg tm-social text-secondary"><a href="#">@megancoleman</a></p>
-                        </div>
-
-                    </div>
-                </div> <!-- END TEAM MEMBER #4 -->
-
-
-                <!-- TEAM MEMBER #5 -->
-                <div class="col">
-                    <div class="team-member wow fadeInUp">
-
-                        <!-- Team Member Photo -->
-                        <div class="team-member-photo">
-                            <img class="img-fluid" src="{!!asset('webpage/images/team-5.jpg')!!}"
-                                alt="team-member-foto">
-                        </div>
-
-                        <!-- Team Member Data -->
-                        <div class="team-member-data">
-                            <h5 class="h5-sm">Charlotte Johnson</h5>
-                            <p class="p-lg">Quality Assurance</p>
-                            <p class="p-lg tm-social text-secondary"><a href="#">@charlottejohnson</a></p>
-                        </div>
-
-                    </div>
-                </div> <!-- END TEAM MEMBER #5 -->
-
-
-                <!-- TEAM MEMBER #6 -->
-                <div class="col">
-                    <div class="team-member wow fadeInUp">
-
-                        <!-- Team Member Photo -->
-                        <div class="team-member-photo">
-                            <img class="img-fluid" src="{!!asset('webpage/images/team-6.jpg')!!}"
-                                alt="team-member-foto">
-                        </div>
-
-                        <!-- Team Member Data -->
-                        <div class="team-member-data">
-                            <h5 class="h5-sm">Olivia Steiner</h5>
-                            <p class="p-lg">Head of Marketing</p>
-                            <p class="p-lg tm-social text-secondary"><a href="#">@oliviasteiner</a></p>
-                        </div>
-
-                    </div>
-                </div> <!-- END TEAM MEMBER #6 -->
-
-
-                <!-- TEAM MEMBER #7 -->
-                <div class="col">
-                    <div class="team-member wow fadeInUp">
-
-                        <!-- Team Member Photo -->
-                        <div class="team-member-photo">
-                            <img class="img-fluid" src="{!!asset('webpage/images/team-7.jpg')!!}"
-                                alt="team-member-foto">
-                        </div>
-
-                        <!-- Team Member Data -->
-                        <div class="team-member-data">
-                            <h5 class="h5-sm">Mark Brayton</h5>
-                            <p class="p-lg">Customer Care</p>
-                            <p class="p-lg tm-social text-secondary"><a href="#">@markbrayton</a></p>
-                        </div>
-
-                    </div>
-                </div> <!-- END TEAM MEMBER #7 -->
-
-
-                <!-- TEAM MEMBER #8 -->
-                <div class="col">
-                    <div class="team-member wow fadeInUp">
-
-                        <!-- Team Member Photo -->
-                        <div class="team-member-photo">
-                            <img class="img-fluid" src="{!!asset('webpage/images/team-8.jpg')!!}"
-                                alt="team-member-foto">
-                        </div>
-
-                        <!-- Team Member Data -->
-                        <div class="team-member-data">
-                            <h5 class="h5-sm">Grow With Us</h5>
-                            <p class="p-lg text-secondary"><a href="mailto:youremail@mail.com">hireme@domain.com</a></p>
-                            <p class="p-lg tm-social text-secondary">
-                                <a href="mailto:youremail@mail.com">hireme1@domain.com</a>
-                            </p>
-                        </div>
-
-                    </div>
-                </div> <!-- END TEAM MEMBER #8 -->
-
-
-            </div> <!-- End row -->
-        </div> <!-- TEAM MEMBERS HOLDER -->
-
-
-    </div> <!-- End container -->
-</section> <!-- END TEAM-1 --> --}}
-
-
-
-
-
 
 
 
@@ -805,8 +473,8 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                 <!-- TEXT -->
                 <div class="col-lg-12 text-center">
                     <div class="cta-7-txt">
-                        <h3>Ready to move forward with Boxity?</h3>
-                        <p class="p-xl">Increase efficiency, productivity and business performance with Boxity products.
+                        <h3>{{__('ready_to_move')}}</h3>
+                        <p class="p-xl">{{__('dsc_ready_to_move')}}
                         </p>
                     </div>
                 </div>
@@ -815,7 +483,7 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                 <!-- BUTTON -->
                 <div class="col-lg-12 text-center">
                     <div class="cta-7-btn">
-                        <a href="/contact" class="btn btn-skyboxity tra-boxity-hover my-4">Contact Sales</a>
+                        <a href="/contact" class="btn btn-skyboxity tra-boxity-hover my-4">{{__('contact_sales')}}</a>
                     </div>
                 </div>
 

@@ -15,12 +15,11 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                 <div class="section-title title-02">
 
                     <!-- Title -->
-                    <span>Contact us</span>
-                    <h2 class="h2-xs">Have a question? <br> Discuss your business needs with us.</h2>
+                    <span>{{__('contact')}}</span>
+                    <h2 class="h2-xs">{{__('have_question')}} <br> {{__('have_question_2')}}</h2>
 
                     <!-- Text -->
-                    <p class="p-xl">Our team is ready to answer business problems and provide the most appropriate
-                        solution for you.
+                    <p class="p-xl">{{__('dsc_have_question')}}
                     </p>
 
                 </div>
@@ -52,11 +51,10 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         <div class="fbox-txt-center">
 
                             <!-- Title -->
-                            <h5 class="h5-md">Contact Sales</h5>
+                            <h5 class="h5-md">{{__('contact_sales')}}</h5>
 
                             <!-- Text -->
-                            <p class="p">Send an inquiry and get directly connected to our sales team Send an inquiry
-                                and get directly connected to our sales team
+                            <p class="p">{{__('dsc_contact_sales')}}
                             </p>
                             <a href="mailto:sales@boxity.id" class="btn btn-skyboxity btn-sm my-4">sales@boxity.id</a>
                         </div>
@@ -79,10 +77,10 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         <div class="fbox-txt-center">
 
                             <!-- Title -->
-                            <h5 class="h5-md">Live Chat</h5>
+                            <h5 class="h5-md">{{__('live_chat')}}</h5>
 
                             <!-- Text -->
-                            <p class="p">Ready to help you answer all questions about Boxity products
+                            <p class="p">{{__('dsc_live_chat')}}
                             </p>
                             <a href="https://wa.me/6281262845980?&text=Halo%20saya%20ingin%20menanyakan%20tentang%20produk%20Boxity"
                                 class="btn btn-skyboxity btn-sm my-4">Chat via Whatsapp</a>
@@ -107,10 +105,10 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         <div class="fbox-txt-center">
 
                             <!-- Title -->
-                            <h5 class="h5-md">Product Demo</h5>
+                            <h5 class="h5-md">{{__('product_demo')}}</h5>
 
                             <!-- Text -->
-                            <p class="p">Schedule a demo of your preferred product live with our team
+                            <p class="p">{{__('dsc_product_demo')}}
                             </p>
                             <a href="/schedule-demo" class="btn btn-skyboxity btn-sm my-4">Schedule a demo</a>
 
@@ -142,8 +140,8 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                 <!-- TEXT -->
                 <div class="col-lg-12 text-center">
                     <div class="cta-7-txt">
-                        <h3>Ready to move forward with Boxity?</h3>
-                        <p class="p-xl">Increase efficiency, productivity and business performance with Boxity products.
+                        <h3>{{__('ready_to_move')}}</h3>
+                        <p class="p-xl">{{__('dsc_ready_to_move')}}
                         </p>
                     </div>
                 </div>
@@ -152,7 +150,7 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                 <!-- BUTTON -->
                 <div class="col-lg-12 text-center">
                     <div class="cta-7-btn">
-                        <a href="/contact" class="btn btn-skyboxity tra-boxity-hover my-4">Contact Sales</a>
+                        <a href="/contact" class="btn btn-skyboxity tra-boxity-hover my-4">{{__('contact_sales')}}</a>
                     </div>
                 </div>
 

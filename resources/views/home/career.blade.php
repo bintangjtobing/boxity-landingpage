@@ -15,11 +15,10 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                     <div class="hero-txt text-center dark-color">
 
                         <!-- Title -->
-                        <h2 class="h2-xs">Ready to join our great team?</h2>
+                        <h2 class="h2-xs">{{__('ready_to_join_team')}}</h2>
 
                         <!-- Text -->
-                        <p class="p-xl">Join our team to help shape the future of cross-platform integrated systems for
-                            the many businesses in need.
+                        <p class="p-xl">{{__('dsc_ready_to_join_team')}}
                         </p>
 
                     </div>
@@ -50,12 +49,10 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                 <div class="section-title title-01 mb-70">
 
                     <!-- Title -->
-                    <h2 class="h2-md">Vacant Positions</h2>
+                    <h2 class="h2-md">{{__('vacant_positions')}}</h2>
 
                     <!-- Text -->
-                    <p>We are looking for people to join a team as passionate as we are to help build a
-                        platform that empowers enterprise resource planning systems across multiple sectors for future
-                        success.
+                    <p>{{__('dsc_vacant_positions')}}
                     </p>
 
                 </div>
@@ -102,12 +99,8 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                     <span>Thank you for your subscription! We have received your email.</span>
                 </div>
                 @endif
-                <h3>We're sorry, There are currently no job openings.</h3>
-                <p>Thank you for being interested in joining us at Boxity Central Indonesia, but we really regret it
-                    because
-                    we have not opened up opportunities to join us. But don't worry, we will let you know if there is a
-                    new
-                    job opportunity by filling in your email address below. </p>
+                <h3>{{__('no_job_openings')}}</h3>
+                <p>{{__('dsc_no_job_openings')}}</p>
                 <form action="/subscription/new" method="POST" class="row">
                     @csrf
                     <!-- Form Input -->

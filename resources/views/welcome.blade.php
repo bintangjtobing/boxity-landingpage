@@ -37,6 +37,7 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-217791541-1');
+
     </script>
 
     <!-- SITE TITLE -->
@@ -169,8 +170,8 @@
 
 
                                 <!-- MEGAMENU -->
-                                <li class="nl-simple" aria-haspopup="true"><a href="/">Home</a></li>
-                                <li aria-haspopup="true" class="mg_link"><a href="#">Product <span
+                                <li class="nl-simple" aria-haspopup="true"><a href="/">{{__('home')}}</a></li>
+                                <li aria-haspopup="true" class="mg_link"><a href="#">{{__('product')}} <span
                                             class="wsarrow"></span></a>
                                     <div class="wsmegamenu w-75 clearfix">
                                         <div class="container">
@@ -186,36 +187,28 @@
                                                 <!-- MEGAMENU LINKS -->
                                                 <ul class="col-md-12 col-lg-6 link-list">
                                                     <li><a href="#">Octans <sup>Soon</sup><br><span
-                                                                class="sub-link-list">Finance and
-                                                                accounting software.</span></a>
+                                                                class="sub-link-list">{{__('octans')}}</span></a>
                                                     </li>
                                                     <li><a href="/products/fornax">Fornax<br><span
-                                                                class="sub-link-list">Issue
-                                                                center
-                                                                management software.</span></a></li>
+                                                                class="sub-link-list">{{__('fornax')}}</span></a></li>
                                                     <li><a href="#">Pyxis <sup>Soon</sup><br><span
-                                                                class="sub-link-list">Hotel
-                                                                reservation management system software.</span></a></li>
+                                                                class="sub-link-list">{{__('pyxis')}}</span></a></li>
                                                     <li><a href="#">Aquila <sup>Soon</sup><br><span
-                                                                class="sub-link-list">Payroll
-                                                                management automated software.</span></a></li>
+                                                                class="sub-link-list">{{__('aquila')}}</span></a></li>
                                                 </ul>
 
                                                 <!-- MEGAMENU LINKS -->
                                                 <ul class="col-md-12 col-lg-6 link-list">
                                                     <li><a href="/products/lyra">Lyra<br><span
-                                                                class="sub-link-list">E-Commerce
-                                                                management system software.</span></a></li>
+                                                                class="sub-link-list">{{__('lyra')}}</span></a></li>
                                                     <li><a href="/products/orion">Orion<br><span
-                                                                class="sub-link-list">Human
-                                                                resources
-                                                                information system software.</span></a></li>
+                                                                class="sub-link-list">{{__('orion')}}</span></a></li>
                                                     <li><a href="/products/chatifine">Chatifine<br><span
-                                                                class="sub-link-list">Secure and
-                                                                encrypted business chat app.</span></a></li>
+                                                                class="sub-link-list">{{__('chatifine')}}</span></a>
+                                                    </li>
                                                     <li><a href="/products/stockpile">Stockpile<br><span
-                                                                class="sub-link-list">Warehouse
-                                                                management system software.</span></a></li>
+                                                                class="sub-link-list">{{__('stockpile')}}</span></a>
+                                                    </li>
                                                 </ul>
 
                                             </div> <!-- End row -->
@@ -223,14 +216,13 @@
                                     </div> <!-- End wsmegamenu -->
                                 </li>
                                 <!-- DROPDOWN MENU -->
-                                <li class="nl-simple" aria-haspopup="true"><a href="/about">About</a></li>
+                                <li class="nl-simple" aria-haspopup="true"><a href="/about">{{__('about')}}</a></li>
                                 {{-- <li class="nl-simple" aria-haspopup="true"><a href="/plans">Pricing</a></li> --}}
 
                                 <!-- SIMPLE NAVIGATION LINK -->
-                                <li class="nl-simple" aria-haspopup="true"><a href="/career">Career</a></li>
+                                <li class="nl-simple" aria-haspopup="true"><a href="/career">{{__('career')}}</a></li>
                                 <li class="nl-simple" aria-haspopup="true">
-                                    <a href="/contact" class="btn btn-skyboxity">Contact
-                                        sales</a>
+                                    <a href="/contact" class="btn btn-skyboxity">{{__('contact_sales')}}</a>
                                 </li>
 
                             </ul>
@@ -283,17 +275,16 @@
                             <!-- Footer Links -->
                             <ul class="foo-links text-secondary clearfix">
                                 <li>
-                                    <p><a href="/about">About Us</a></p>
+                                    <p><a href="/about">{{__('about')}}</a></p>
                                 </li>
                                 <li>
-                                    <p><a href="/career">Career <span>- we're
-                                                hiring</span></a></p>
+                                    <p><a href="/career">{{__('career')}} <span>- {{__('we_hiring')}}</span></a></p>
                                 </li>
                                 <li>
-                                    <p><a href="/contact">Contact Us</a></p>
+                                    <p><a href="/contact">{{__('contact')}}</a></p>
                                 </li>
                                 <li>
-                                    <p><a href="/privacy-policy">Privacy Policy</a></p>
+                                    <p><a href="/privacy-policy">{{__('privacy_policy')}}</a></p>
                                 </li>
                             </ul>
 
@@ -304,7 +295,7 @@
                         <div class="footer-links mb-40">
 
                             <!-- Title -->
-                            <h6 class="h6-xl">Product</h6>
+                            <h6 class="h6-xl">{{__('product')}}</h6>
 
                             <!-- Footer Links -->
                             <ul class="foo-links text-secondary clearfix">
@@ -347,7 +338,7 @@
                         <div class="footer-links mb-40">
 
                             <!-- Title -->
-                            <h6 class="h6-xl">Connect With Us</h6>
+                            <h6 class="h6-xl">{{__('connect_with_us')}}</h6>
 
                             <!-- Social Links -->
                             <ul class="footer-socials text-secondary ico-25 text-center clearfix">
@@ -386,10 +377,10 @@
                         <div class="col">
                             <ul class="bottom-footer-list text-secondary text-end">
                                 <li class="first-li">
-                                    <p><a href="/privacy-policy">Privacy Policy</a></p>
+                                    <p><a href="/privacy-policy">{{__('privacy_policy')}}</a></p>
                                 </li>
                                 <li class="last-li">
-                                    <p><a href="/terms-conditions">Terms & Conditions</a></p>
+                                    <p><a href="/terms-conditions">{{__('terms_condition')}}</a></p>
                                 </li>
                             </ul>
                         </div>

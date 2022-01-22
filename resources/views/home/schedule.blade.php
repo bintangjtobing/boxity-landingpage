@@ -12,10 +12,10 @@
                 <div class="section-title title-02 mb-80">
 
                     <!-- Title -->
-                    <h2 class="h2-xs">Demo schedule registration</h2>
+                    <h2 class="h2-xs">{{__('demo_schedule_registration')}}</h2>
 
                     <!-- Text -->
-                    <p class="p">Schedule a live Boxity product demo with the sales team from Boxity.
+                    <p class="p">{{__('dsc_demo_schedule_registration')}}
                     </p>
 
                 </div>
@@ -99,9 +99,7 @@
                         </div>
 
                         <!-- Contact Form Button -->
-                        <span>By requesting a schedule demo, you agree to be contacted by the Boxity team in accordance
-                            with the
-                            applicable Terms and Conditions.</span>
+                        <span>{{__('accept_terms_demo')}}</span>
                         <div class="col-md-12 mt-15 form-btn text-right">
                             <button type="submit" class="btn btn-skyboxity tra-boxity-hover submit">Submit
                                 Request</button>
