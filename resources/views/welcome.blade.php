@@ -44,7 +44,7 @@
     <meta name="og:url" property="og:url" content="https://boxity.id" />
     <meta name="og:type" property="og:type" content="website" />
     <meta name="og:image" property="og:image"
-        content="https://res.cloudinary.com/boxity-id/image/upload/v1641778807/assets/site%20needs/LinkedIn_cover_-_1_w23wb0.png" />
+        content="https://res.cloudinary.com/boxity-id/image/upload/v1642815378/assets/site%20needs/tag_cover_hsiapv.jpg" />
     <meta name="og:description" property="og:description"
         content="Boxity Central Indonesia is here to help and support companies in the 4.0 business industrial revolution, by providing a cloud-based system with an ERP model for companies with large valuations, and the SAAS (Software as a Service) model for small to medium MSMEs." />
     <meta name="twitter:card" content="Boxity | PT Boxity Central Indonesia" />
@@ -52,7 +52,7 @@
     <meta name="twitter:url" property="og:url" content="https://boxity.id" />
     <meta name="twitter:type" property="og:type" content="website" />
     <meta name="twitter:image" property="og:image"
-        content="https://res.cloudinary.com/boxity-id/image/upload/v1641778807/assets/site%20needs/LinkedIn_cover_-_1_w23wb0.png" />
+        content="https://res.cloudinary.com/boxity-id/image/upload/v1642815378/assets/site%20needs/tag_cover_hsiapv.jpg" />
     <meta name="twitter:description" property="og:description"
         content="Boxity Central Indonesia is here to help and support companies in the 4.0 business industrial revolution, by providing a cloud-based system with an ERP model for companies with large valuations, and the SAAS (Software as a Service) model for small to medium MSMEs." />
     <link rel="canonical" href="https://boxity.id/" />
