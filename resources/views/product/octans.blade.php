@@ -13,7 +13,7 @@ Octans by Boxity, the best online accounting software.')
             <div class="col-md-5 col-lg-6 order-last order-md-2">
                 <div class="hero-boxity-img pc-30 wow fadeInRight">
                     <img class="img-fluid" src="{!!asset('product/octans/logo-mockup/phone-mockup.png')!!}"
-                        alt="hero-image">
+                        alt="octans-by-boxity">
                 </div>
             </div>
 

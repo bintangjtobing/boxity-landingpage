@@ -13,7 +13,7 @@ management system, lyra boxity, ecommerce management system')
             <div class="col-md-5 col-lg-6 order-last order-md-2">
                 <div class="hero-boxity-img pc-30 wow fadeInRight">
                     <img class="img-fluid" src="{!!asset('product/lyra/logo-mockup/phone-mockup.png')!!}"
-                        alt="hero-image">
+                        alt="lyra-by-boxity">
                 </div>
             </div>
 

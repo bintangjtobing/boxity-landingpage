@@ -14,7 +14,7 @@ orion Human Resources Information system, orion HRM, orion boxity, HRIS terbaik'
             <div class="col-md-5 col-lg-6 order-last order-md-2">
                 <div class="hero-boxity-img pc-30 wow fadeInRight">
                     <img class="img-fluid" src="{!!asset('product/orion/logo-mockup/phone-mockup.png')!!}"
-                        alt="hero-image">
+                        alt="orion-by-boxity">
                 </div>
             </div>
 
