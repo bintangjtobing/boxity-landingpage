@@ -25,6 +25,20 @@
 
     </script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-217791541-1">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-217791541-1');
+    </script>
+
     <!-- SITE TITLE -->
     <title>Boxity Central Indonesia - @yield('title')</title>
 
