@@ -3,7 +3,7 @@
 @section('page_description', 'Manage employee data, attendance and administration with the cloud -based HRD application
 , Orion by Boxity.')
 @section('page_keywords', 'boxity, boxityerp, realizeboxity, boxity central indonesia, orion by boxity, orion HRIS,
-orion Human Resources Information system, orion HRM, orion boxity, HRIS terbaik')
+orion Human Resources Information system, orion HRM, orion boxity, HRIS terbaik, hrm, human resources, human resources management system, payroll, best hris, HR partner, hr talent, junior hr')
 @section('content')
 <section id="hero-boxity" class="bg-scroll hero-section division">
     <div class="container">
