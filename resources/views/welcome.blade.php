@@ -171,20 +171,12 @@
 
                                 <!-- MEGAMENU -->
                                 <li class="nl-simple" aria-haspopup="true"><a href="/">{{__('home')}}</a></li>
+
                                 <li aria-haspopup="true" class="mg_link"><a href="#">{{__('product')}} <span
                                             class="wsarrow"></span></a>
                                     <div class="wsmegamenu w-75 clearfix">
                                         <div class="container">
                                             <div class="row">
-                                                {{-- <ul class="col-md-12 col-lg-12 link-list">
-                                                    <li>
-                                                        <a href="#">ERP<br><span class="sub-link-list">All modules
-                                                                packed in
-                                                                one package.</span></a>
-                                                    </li>
-                                                </ul>
-                                                <hr class="divider"> --}}
-                                                <!-- MEGAMENU LINKS -->
                                                 <ul class="col-md-12 col-lg-6 link-list">
                                                     <li><a href="#">Octans <sup>Soon</sup><br><span
                                                                 class="sub-link-list">{{__('octans')}}</span></a>
@@ -221,6 +213,17 @@
 
                                 <!-- SIMPLE NAVIGATION LINK -->
                                 <li class="nl-simple" aria-haspopup="true"><a href="/career">{{__('career')}}</a></li>
+                                <li aria-haspopup="true"><a href="#">{{ Config::get('languages')[App::getLocale()] }}
+                                        <span class="wsarrow"></span></a>
+                                    <ul class="sub-menu">
+                                        @foreach (Config::get('languages') as $lang => $language)
+                                        @if ($lang != App::getLocale())
+                                        <li><a href="{{ route('lang.switch', $lang) }}">{{$language}}</a>
+                                        </li>
+                                        @endif
+                                        @endforeach
+                                    </ul>
+                                </li>
                                 <li class="nl-simple" aria-haspopup="true">
                                     <a href="/contact" class="btn btn-skyboxity">{{__('contact_sales')}}</a>
                                 </li>

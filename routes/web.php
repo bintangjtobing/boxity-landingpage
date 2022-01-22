@@ -23,6 +23,8 @@ Route::get('/facebook', function () {
     return Redirect::to('http://www.facebook.com/boxitycentralindonesia');
 });
 
+Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => 'LanguageController@switchLang']);
+
 Route::get('/', 'webpageController@index');
 Route::get('/about', 'webpageController@about');
 Route::get('/contact', 'webpageController@contact');
