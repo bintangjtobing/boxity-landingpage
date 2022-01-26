@@ -553,7 +553,7 @@ erp saas, best erp, best saas')
 			============================================= -->
 <section id="cta-11" class="cta-section division">
     <div class="container">
-        <div class="bg-tra-boxity cta-11-wrapper">
+        <div class="bg-tra-white cta-11-wrapper">
             <div class="row d-flex align-items-center">
 
 

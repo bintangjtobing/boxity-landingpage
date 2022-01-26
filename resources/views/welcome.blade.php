@@ -371,7 +371,7 @@
                         <div class="col">
                             <div class="footer-copyright">
                                 <?php $y = Date('Y') ?>
-                                <p>&copy; 2019 - {{$y}} PT. Boxity Central Indonesia. All rights reserved.</p>
+                                <p>&copy;{{$y}} PT. Boxity Central Indonesia. All rights reserved.</p>
                             </div>
                         </div>
 
