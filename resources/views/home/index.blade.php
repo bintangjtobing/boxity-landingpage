@@ -363,7 +363,7 @@ erp saas, best erp, best saas')
             <!-- IMAGE BLOCK -->
             <div class="col-md-5 col-lg-6">
                 <div class="rel img-block left-column wow fadeInRight">
-                    <img class="img-fluid" src="{!!asset('images/boxity/saas-services-img.png')!!}" alt="content-image">
+                    <img class="img-fluid" src="{!!asset('images/boxity/saas-services-img.png')!!}" alt="boxity central indonesia">
                 </div>
             </div>
 
@@ -579,7 +579,7 @@ erp saas, best erp, best saas')
                 <div class="col-lg-5">
                     <div class="text-end">
                         <div class="cta-11-img text-center">
-                            <img class="img-fluid" src="{!!asset('images/boxity/saas-service1.png')!!}" alt="cta-image">
+                            <img class="img-fluid" src="{!!asset('images/boxity/saas-service1.png')!!}" alt="ready-to-join boxity central">
                         </div>
                     </div>
                 </div>
