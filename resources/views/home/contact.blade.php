@@ -82,7 +82,7 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                             <!-- Text -->
                             <p class="p">{{__('dsc_live_chat')}}
                             </p>
-                            <a href="https://wa.me/6281262845980?&text=Halo%20saya%20ingin%20menanyakan%20tentang%20produk%20Boxity"
+                            <a href="https://wa.me/message/MJB3SRIR3ADHL1"
                                 class="btn btn-skyboxity btn-sm my-4">Chat via Whatsapp</a>
 
                         </div>

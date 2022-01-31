@@ -261,8 +261,14 @@
                             <p>Grand Silipi Tower, Lt 9 Unit O, <br> Jl. Jend. S.
                                 Parman Kav 22-24 <br> Jakarta Barat,
                                 11480 <br><br>
-                                Tel: <a href="tel:+622129021873">021 2902 1873</a> <br>
-                                Email: <a href="mailto:info@boxity.id">info@boxity.id</a>
+                                <span><i class="fal fa-phone-alt"></i></span> <a href="tel:+622129021873">021
+                                    2902
+                                    1873</a> <br>
+                                <span><i class="fab fa-whatsapp"></i></span> <a
+                                    href="https://wa.me/message/MJB3SRIR3ADHL1">0812 6357
+                                    4797</a> <br>
+                                <span><i class="fal fa-envelope-open-text"></i></span> <a
+                                    href="mailto:info@boxity.id">info@boxity.id</a>
                             </p>
                         </div>
                     </div>
