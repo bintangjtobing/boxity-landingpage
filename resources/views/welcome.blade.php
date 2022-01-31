@@ -10,6 +10,8 @@
     <meta name="keywords" content="@yield('page_keywords')" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="copyright" content="PT Boxity Central Indonesia">
+    <meta name="url" content="http://www.boxity.id">
+    <meta name="identifier-URL" content="http://www.boxity.id">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VLZMGJP9FS"></script>
@@ -76,6 +78,13 @@
         type="image/png" sizes="64x64" />
     <meta name="og:email" content="info@boxity.id" />
     <meta name="og:phone_number" content="02129021873" />
+    <meta name="og:latitude" content="-6.1465558" />
+    <meta name="og:longitude" content="106.7843094" />
+    <meta name="og:street-address" content="Grand Silipi Tower, Jl. Jend Jl. Jelambar Barat No.22-24" />
+    <meta name="og:locality" content="DKI Jakarta" />
+    <meta name="og:region" content="ID" />
+    <meta name="og:postal-code" content="11480" />
+    <meta name="og:country-name" content="Indonesia" />
 
 
     <!-- GOOGLE FONTS -->
