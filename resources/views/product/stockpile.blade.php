@@ -13,7 +13,7 @@ warehouse management system, stockpile WMS Boxity, stockpile WMS, stockpile boxi
             <!-- HERO IMAGE -->
             <div class="col-md-5 col-lg-6 order-last order-md-2">
                 <div class="hero-boxity-img pc-30 wow fadeInRight">
-                    <img class="img-fluid" src="{!!asset('product/stockpile/logo-mockup/phone-mockup.png')!!}"
+                    <img class="img-fluid" src="{!!asset('product/stockpile/logo-mockup/desktop-phone.png')!!}"
                         alt="stockpile-by-boxity">
                 </div>
             </div>
@@ -34,8 +34,7 @@ warehouse management system, stockpile WMS Boxity, stockpile WMS, stockpile boxi
                     <!-- Buttons Group -->
                     <div class="btns-group mb-20">
                         <a href="/contact" class="btn btn-skyboxity tra-white-hover mr-15">{{__('contact_sales')}}</a>
-                        <a href="#"
-                            class="video-popup2 btn btn-md btn-transparent ico-20 ico-left">
+                        <a href="#" class="video-popup2 btn btn-md btn-transparent ico-20 ico-left">
                             <span class="flaticon-play"></span> See STOCKPILE in Action
                         </a>
                     </div>
@@ -245,7 +244,7 @@ warehouse management system, stockpile WMS Boxity, stockpile WMS, stockpile boxi
 
                                 <!-- Image -->
                                 <div class="fbox-img bg-whitesmoke-gradient">
-                                    <img class="img-fluid" src="{!!asset('images/boxity/img-21.png"')!!}
+                                    <img class="img-fluid" src="{!!asset(' images/boxity/img-21.png"')!!}
                                 alt="feature-icon" />
                         </div>
 
@@ -527,30 +526,31 @@ warehouse management system, stockpile WMS Boxity, stockpile WMS, stockpile boxi
 
                 <div class="col-lg-12 text-center">
                     <div class="cta-7-img">
-                        <img src="{!!asset('images/boxity/just-logo.png')!!}" class="img-responsive img-logo-cta"
-                                                alt="Boxity Central Indonesia Logo">
-                                        </div>
-                                    </div>
-
-                                    <!-- TEXT -->
-                                    <div class="col-lg-12 text-center">
-                                        <div class="cta-7-txt">
-                                            <h3>{{__('ready_to_move')}}</h3>
-                                            <h3>{{__('dsc_ready_to_move')}}</h3>
-                                        </div>
-                                    </div>
-
-
-                                    <!-- BUTTON -->
-                                    <div class="col-lg-12 text-center">
-                                        <div class="cta-7-btn">
-                                            <a href="/contact" class="btn btn-skyboxity tra-boxity-hover my-4">{{__('contact_sales')}}</a>
-                                        </div>
-                                    </div>
-
-
-                                </div> <!-- End row -->
-                            </div> <!-- End cta-7-wrapper -->
-                        </div> <!-- End container -->
+                        <img src="{!!asset(' images/boxity/just-logo.png')!!}" class="img-responsive img-logo-cta"
+                                alt="Boxity Central Indonesia Logo">
+                        </div>
                     </div>
-@endsection
+
+                    <!-- TEXT -->
+                    <div class="col-lg-12 text-center">
+                        <div class="cta-7-txt">
+                            <h3>{{__('ready_to_move')}}</h3>
+                            <h3>{{__('dsc_ready_to_move')}}</h3>
+                        </div>
+                    </div>
+
+
+                    <!-- BUTTON -->
+                    <div class="col-lg-12 text-center">
+                        <div class="cta-7-btn">
+                            <a href="/contact"
+                                class="btn btn-skyboxity tra-boxity-hover my-4">{{__('contact_sales')}}</a>
+                        </div>
+                    </div>
+
+
+                </div> <!-- End row -->
+            </div> <!-- End cta-7-wrapper -->
+        </div> <!-- End container -->
+    </div>
+    @endsection
