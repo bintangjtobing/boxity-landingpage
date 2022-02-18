@@ -45,6 +45,7 @@ Route::get('/products/fornax', 'webpageController@fornax');
 Route::get('/products/lyra', 'webpageController@lyra');
 Route::get('/products/orion', 'webpageController@orion');
 Route::get('/products/stockpile', 'webpageController@stockpile');
+Route::get('/products/lunar', 'webpageController@lunar');
 // Route::get('/products/octans', 'webpageController@octans');
 // Route::get('/products/pyxis', 'webpageController@pyxis');
 // Route::get('/products/aquila', 'webpageController@aquila');

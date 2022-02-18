@@ -128,6 +128,10 @@ class webpageController extends Controller
     {
         return view('product.lyra');
     }
+    public function lunar()
+    {
+        return view('product.lunar');
+    }
     public function orion()
     {
         return view('product.orion');
