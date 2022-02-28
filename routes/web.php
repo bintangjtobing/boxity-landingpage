@@ -24,10 +24,13 @@ Route::get('/facebook', function () {
 });
 
 Route::get('/sc/business/plan/2022/id', function () {
-    return Redirect::to('https://res.cloudinary.com/boxity-id/image/upload/v1646063833/assets/business/2022/Ind_Business_Plan_2022_compressed_vygng2.pdf');
+    return Redirect::to('/business/plan/Ind_Business_Plan_2022.pdf');
 });
 Route::get('/sc/business/plan/2022/en', function () {
-    return Redirect::to('https://res.cloudinary.com/boxity-id/image/upload/v1645868923/assets/business/2022/Eng_Business_Plan_2022_rfucgd.pdf');
+    return Redirect::to('/business/plan/Eng_Business_Plan_2022.pdf');
+});
+Route::get('/sc/business/profile/2022/id', function () {
+    return Redirect::to('/business/profile/Company Profile - 2022.pdf');
 });
 Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => 'LanguageController@switchLang']);
 
