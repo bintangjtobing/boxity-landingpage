@@ -24,7 +24,7 @@ Route::get('/facebook', function () {
 });
 
 Route::get('/sc/business/plan/2022/id', function () {
-    return Redirect::to('https://res.cloudinary.com/boxity-id/image/upload/v1645868923/assets/business/2022/Ind_Business_Plan_2022_qof90d.pdf');
+    return Redirect::to('https://res.cloudinary.com/boxity-id/image/upload/v1646063833/assets/business/2022/Ind_Business_Plan_2022_compressed_vygng2.pdf');
 });
 Route::get('/sc/business/plan/2022/en', function () {
     return Redirect::to('https://res.cloudinary.com/boxity-id/image/upload/v1645868923/assets/business/2022/Eng_Business_Plan_2022_rfucgd.pdf');
