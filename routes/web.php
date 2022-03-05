@@ -32,6 +32,12 @@ Route::get('/sc/business/plan/2022/en', function () {
 Route::get('/sc/business/profile/2022/id', function () {
     return Redirect::to('/business/profile/Company Profile - 2022.pdf');
 });
+Route::get('/business/pitch/en', function () {
+    return Redirect::to('/business/pitch/Eng_pitch_deck_2022.pdf');
+});
+Route::get('/business/pitch/id', function () {
+    return Redirect::to('/business/pitch/Ind_pitch_deck_2022.pdf');
+});
 Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => 'LanguageController@switchLang']);
 
 Route::get('/', 'webpageController@index');
