@@ -38,6 +38,9 @@ Route::get('/business/pitch/en', function () {
 Route::get('/business/pitch/id', function () {
     return Redirect::to('/business/pitch/Ind_pitch_deck_2022.pdf');
 });
+Route::get('/study/case/webstatic', function () {
+    return Redirect::to('/study/case/static-web-2022.png');
+});
 Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => 'LanguageController@switchLang']);
 
 Route::get('/', 'webpageController@index');
