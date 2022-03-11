@@ -3,7 +3,8 @@
 @section('page_description', 'At Boxity Central Indonesia, we aim to empower the progress of businesses and people in
 Indonesia’s 1 trillion dollar economy. To do that, we need heroes: people who always hold their work to the highest
 standard, people who continuously look for ways to empower themselves and empower others.')
-@section('page_keywords', 'career boxity, karir boxity, lowongan kerja di boxity, boxity, boxityerp, realizeboxity,
+@section('page_keywords', 'career boxity, karir boxity, lowongan kerja di boxity, boxity,
+boxityerp, realizeboxity,
 boxity central indonesia, erp boxity, warehouse management,
 human resources management, financial management, boxity warehouse, boxity WMS, boxity financial, boxity indonesia')
 @section('content')

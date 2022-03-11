@@ -1,7 +1,8 @@
 @extends('welcome')
 @section('title', 'Pyxis by Boxity')
 @section('page_description', '')
-@section('page_keywords', 'boxity, boxityerp, realizeboxity, boxity central indonesia, pyxis by boxity, pyxis hotel reservation system, hotel reservation system, pyxis HRS')
+@section('page_keywords', 'boxity, boxityerp, realizeboxity, boxity central indonesia, pyxis by
+boxity, pyxis hotel reservation system, hotel reservation system, pyxis HRS')
 @section('content')
 <section id="hero-boxity" class="bg-scroll hero-section division">
     <div class="container">
@@ -32,8 +33,7 @@
                     <!-- Buttons Group -->
                     <div class="btns-group mb-20">
                         <a href="/contact" class="btn btn-skyboxity tra-white-hover mr-15">{{__('contact_sales')}}</a>
-                        <a href="#"
-                            class="video-popup2 btn btn-md btn-transparent ico-20 ico-left">
+                        <a href="#" class="video-popup2 btn btn-md btn-transparent ico-20 ico-left">
                             <span class="flaticon-play"></span> See FORNAX in Action
                         </a>
                     </div>
@@ -554,29 +554,30 @@
                 <div class="col-lg-12 text-center">
                     <div class="cta-7-img">
                         <img src="{!!asset('images/boxity/just-logo.png')!!}" class="img-responsive img-logo-cta"
-                                                alt="Boxity Central Indonesia Logo">
-                                        </div>
-                                    </div>
-
-                                    <!-- TEXT -->
-                                    <div class="col-lg-12 text-center">
-                                        <div class="cta-7-txt">
-                                            <h3>{{__('ready_to_move')}}</h3>
-                                            <h3>{{__('dsc_ready_to_move')}}</h3>
-                                        </div>
-                                    </div>
-
-
-                                    <!-- BUTTON -->
-                                    <div class="col-lg-12 text-center">
-                                        <div class="cta-7-btn">
-                                            <a href="/contact" class="btn btn-skyboxity tra-boxity-hover my-4">{{__('contact_sales')}}</a>
-                                        </div>
-                                    </div>
-
-
-                                </div> <!-- End row -->
-                            </div> <!-- End cta-7-wrapper -->
-                        </div> <!-- End container -->
+                                alt="Boxity Central Indonesia Logo">
+                        </div>
                     </div>
-@endsection
+
+                    <!-- TEXT -->
+                    <div class="col-lg-12 text-center">
+                        <div class="cta-7-txt">
+                            <h3>{{__('ready_to_move')}}</h3>
+                            <h3>{{__('dsc_ready_to_move')}}</h3>
+                        </div>
+                    </div>
+
+
+                    <!-- BUTTON -->
+                    <div class="col-lg-12 text-center">
+                        <div class="cta-7-btn">
+                            <a href="/contact"
+                                class="btn btn-skyboxity tra-boxity-hover my-4">{{__('contact_sales')}}</a>
+                        </div>
+                    </div>
+
+
+                </div> <!-- End row -->
+            </div> <!-- End cta-7-wrapper -->
+        </div> <!-- End container -->
+    </div>
+    @endsection

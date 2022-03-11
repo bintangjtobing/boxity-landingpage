@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="Boxity | PT Boxity Central Indonesia" />
     <meta name="description" content="@yield('page_description')" />
-    <meta name="keywords" content="@yield('page_keywords')" />
+    <meta name="keywords" content="godigitalwithboxity, @yield('page_keywords')" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="copyright" content="PT Boxity Central Indonesia">
     <meta name="url" content="http://www.boxity.id">

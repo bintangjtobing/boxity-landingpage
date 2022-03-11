@@ -1,7 +1,8 @@
 @extends('welcome')
 @section('title', 'Contact')
 @section('page_description', 'If you need further information, please contact us via the contact provided as needed.')
-@section('page_keywords', 'hubungi boxity, contact boxity, boxity, boxityerp, realizeboxity, boxity central indonesia,
+@section('page_keywords', 'hubungi boxity, contact boxity, boxity, boxityerp, realizeboxity, boxity
+central indonesia,
 erp boxity, warehouse management,
 human resources management, financial management, boxity warehouse, boxity WMS, boxity financial, boxity indonesia')
 @section('content')
@@ -82,8 +83,8 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                             <!-- Text -->
                             <p class="p">{{__('dsc_live_chat')}}
                             </p>
-                            <a href="https://wa.me/message/MJB3SRIR3ADHL1"
-                                class="btn btn-skyboxity btn-sm my-4">Chat via Whatsapp</a>
+                            <a href="https://wa.me/message/MJB3SRIR3ADHL1" class="btn btn-skyboxity btn-sm my-4">Chat
+                                via Whatsapp</a>
 
                         </div>
 

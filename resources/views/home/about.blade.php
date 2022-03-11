@@ -2,7 +2,8 @@
 @section('title', 'About')
 @section('page_description', 'This page is about who Boxity Central Indonesia is, what is our vision, the companies we
 have worked with, whether its a contract system and others.')
-@section('page_keywords', 'about boxity, boxity, boxityerp, realizeboxity, boxity central indonesia, erp boxity,
+@section('page_keywords', 'about boxity, boxity, boxityerp, realizeboxity, boxity central
+indonesia, erp boxity,
 warehouse management,
 human resources management, financial management, boxity warehouse, boxity WMS, boxity financial, boxity indonesia')
 @section('content')

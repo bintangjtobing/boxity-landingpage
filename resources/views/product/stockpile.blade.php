@@ -2,7 +2,8 @@
 @section('title', 'Stockpile by Boxity')
 @section('page_description', 'Manage warehouse management optimally, real-time and can be accessed anywhere with
 Stockpile by Boxity.')
-@section('page_keywords', 'boxity, boxityerp, realizeboxity, boxity central indonesia, stockpile by boxity, stockpile
+@section('page_keywords', 'boxity, boxityerp, realizeboxity, boxity central indonesia, stockpile by
+boxity, stockpile
 warehouse management system, stockpile WMS Boxity, stockpile WMS, stockpile boxity, WMS, warehouse management system')
 @section('content')
 <section id="hero-boxity" class="bg-scroll hero-section division">

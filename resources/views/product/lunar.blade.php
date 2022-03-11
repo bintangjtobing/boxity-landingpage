@@ -1,7 +1,8 @@
 @extends('welcome')
 @section('title', 'Lyra by Boxity')
 @section('page_description', 'Manage online shop data optimally and in real-time with Lyra by Boxity')
-@section('page_keywords', 'boxity, boxityerp, realizeboxity, boxity central indonesia, lyra by boxity, lyra ecommerce
+@section('page_keywords', 'boxity, boxityerp, realizeboxity, boxity central indonesia, lyra by
+boxity, lyra ecommerce
 management system, lyra boxity, ecommerce management system, cms ecommerce, ecommerce online, e business e commerce')
 @section('content')
 <section id="hero-boxity" class="bg-scroll hero-section division">
