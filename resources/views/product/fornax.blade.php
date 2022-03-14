@@ -94,7 +94,7 @@ boxity, fornax issue center system, issue center system, issue center management
                         <div class="fbox-txt">
 
                             <!-- Title -->
-                            <h5 class="h5-md">Problem Management</h5>
+                            <h5 class="h5-md">Accurate with target time</h5>
 
                             <!-- Text -->
                             <p class="p-lg">Problem management with target time
@@ -150,7 +150,7 @@ boxity, fornax issue center system, issue center system, issue center management
                         <div class="fbox-txt">
 
                             <!-- Title -->
-                            <h5 class="h5-md">Manage issue data</h5>
+                            <h5 class="h5-md">Safety because of monitoring and approval</h5>
 
                             <!-- Text -->
                             <p class="p-lg">Manage issue data with verifiable ones from superiors/business partners
@@ -272,7 +272,7 @@ boxity, fornax issue center system, issue center system, issue center management
 
                                 <!-- Image -->
                                 <div class="fbox-img bg-whitesmoke-gradient">
-                                    <img class="img-fluid" src="{!!asset('images/boxity/img-21.png"')!!}
+                                    <img class="img-fluid" src="{!!asset(' images/boxity/img-21.png"')!!}
                                 alt="feature-icon" />
                         </div>
 
@@ -554,7 +554,7 @@ boxity, fornax issue center system, issue center system, issue center management
 
                 <div class="col-lg-12 text-center">
                     <div class="cta-7-img">
-                        <img src="{!!asset('images/boxity/just-logo.png')!!}" class="img-responsive img-logo-cta"
+                        <img src="{!!asset(' images/boxity/just-logo.png')!!}" class="img-responsive img-logo-cta"
                                 alt="Boxity Central Indonesia Logo">
                         </div>
                     </div>
