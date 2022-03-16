@@ -23,6 +23,12 @@ Route::get('/facebook', function () {
     return Redirect::to('http://www.facebook.com/boxitycentralindonesia');
 });
 
+Route::get('/sc/business/pitch/2022/en', function () {
+    return Redirect::to('/business/pitch/Eng_pitch_deck_2022.pdf');
+});
+Route::get('/sc/business/pitch/2022/id', function () {
+    return Redirect::to('/business/pitch/Ind_pitch_deck_2022.pdf');
+});
 Route::get('/sc/business/plan/2022/id', function () {
     return Redirect::to('/business/plan/Ind_Business_Plan_2022.pdf');
 });
@@ -31,12 +37,6 @@ Route::get('/sc/business/plan/2022/en', function () {
 });
 Route::get('/sc/business/profile/2022/id', function () {
     return Redirect::to('/business/profile/Company Profile - 2022.pdf');
-});
-Route::get('/business/pitch/en', function () {
-    return Redirect::to('/business/pitch/Eng_pitch_deck_2022.pdf');
-});
-Route::get('/business/pitch/id', function () {
-    return Redirect::to('/business/pitch/Ind_pitch_deck_2022.pdf');
 });
 Route::get('/study/case/webstatic', function () {
     return Redirect::to('/study/case/static-web-2022.png');
