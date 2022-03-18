@@ -45,6 +45,8 @@ Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => 'LanguageController@
 
 Route::get('/', 'webpageController@index');
 Route::get('/about', 'webpageController@about');
+Route::get('/blog', 'webpageController@blog');
+Route::get('/blog/read/{id}', 'webpageController@readBlog');
 Route::get('/contact', 'webpageController@contact');
 Route::get('/career', 'webpageController@career');
 Route::get('/jobs/{id}', 'webpageController@getJobs');

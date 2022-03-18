@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Crypt;
 use App\candidates;
 use App\careerViews;
+use App\blog;
 use CloudinaryLabs\CloudinaryLaravel\Facades\Cloudinary;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\confirmationToCandidate;
@@ -24,6 +25,24 @@ class webpageController extends Controller
     public function index()
     {
         return view('home.index');
+    }
+    public function blog()
+    {
+        $blog = blog::orderBy('created_at', 'desc')->with('user', 'image')->paginate(9);
+        return view('home.blog', ['blogs' => $blog]);
+        // return response()->json($blog);
+    }
+    public function readBlog($id, Request $request)
+    {
+        // Update job count views
+        $blogView = blog::where('id', Crypt::decrypt($id))->with('user', 'image')->first();
+        $blogView->views += 1;
+        $blogView->save();
+
+        $blog = DB::table('blogs')->find(Crypt::decrypt($id));
+        $blogGet = blog::where('id', '!=', Crypt::decrypt($id))->with('user', 'image')->inRandomOrder()->get();
+        return view('home.read-blog', ['blogs' => $blogView, 'blogArr' => $blogGet]);
+        // return response()->json($blogView);
     }
     public function about()
     {
