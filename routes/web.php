@@ -23,6 +23,12 @@ Route::get('/facebook', function () {
     return Redirect::to('http://www.facebook.com/boxitycentralindonesia');
 });
 
+Route::prefix('e-certificate/v')->group(function () {
+    Route::get('/5f61e3c6-a6a0-11ec-b909-0242ac120002', function () {
+        return Redirect::to('/e-certificate/v/0242ac120002.jpg');
+    });
+});
+
 Route::get('/sc/business/pitch/2022/en', function () {
     return Redirect::to('/business/pitch/Eng_pitch_deck_2022.pdf');
 });
