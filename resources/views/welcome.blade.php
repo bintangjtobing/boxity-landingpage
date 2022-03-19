@@ -63,7 +63,7 @@
     <meta name="og:image" property="og:image"
         content="https://res.cloudinary.com/boxity-id/image/upload/v1642815378/assets/site%20needs/tag_cover_hsiapv.jpg" />
     <meta name="og:description" property="og:description"
-        content="Boxity Central Indonesia is here to help and support companies in the 4.0 business industrial revolution, by providing a cloud-based system with an ERP model for companies with large valuations, and the SAAS (Software as a Service) model for small to medium MSMEs." />
+        content="PT Boxity Central Indonesia is here to help and support companies in the 4.0 business industrial revolution, by providing a cloud-based system with a full focus on developing ERP (Enterprise Resources and Planning) and SaaS (Software as a Service) applications with the latest mobile and web models for companies with large valuations, and for MSMEs (Micro, Small, and Medium Enterprise)." />
     <meta name="twitter:card" content="Boxity | PT Boxity Central Indonesia" />
     <meta name="twitter:title" property="og:title" content="Boxity | PT Boxity Central Indonesia" />
     <meta name="twitter:url" property="og:url" content="https://boxity.id" />
@@ -71,7 +71,7 @@
     <meta name="twitter:image" property="og:image"
         content="https://res.cloudinary.com/boxity-id/image/upload/v1642815378/assets/site%20needs/tag_cover_hsiapv.jpg" />
     <meta name="twitter:description" property="og:description"
-        content="Boxity Central Indonesia is here to help and support companies in the 4.0 business industrial revolution, by providing a cloud-based system with an ERP model for companies with large valuations, and the SAAS (Software as a Service) model for small to medium MSMEs." />
+        content="PT Boxity Central Indonesia is here to help and support companies in the 4.0 business industrial revolution, by providing a cloud-based system with a full focus on developing ERP (Enterprise Resources and Planning) and SaaS (Software as a Service) applications with the latest mobile and web models for companies with large valuations, and for MSMEs (Micro, Small, and Medium Enterprise)." />
     <link rel="canonical" href="https://boxity.id/" />
     <link rel="shortcut icon"
         href="https://res.cloudinary.com/boxity-id/image/upload/v1634800361/assets/site%20needs/icon_za3vme.png"

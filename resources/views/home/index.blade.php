@@ -1,8 +1,6 @@
 @extends('welcome')
 @section('title', 'Home')
-@section('page_description', 'Boxity Central Indonesia is here to help and support companies in the 4.0 business
-industrial revolution, by providing a cloud-based system with an ERP model for companies with large valuations, and the
-SAAS (Software as a Service) model for small to medium MSMEs.')
+@section('page_description', 'PT Boxity Central Indonesia is here to help and support companies in the 4.0 business industrial revolution, by providing a cloud-based system with a full focus on developing ERP (Enterprise Resources and Planning) and SaaS (Software as a Service) applications with the latest mobile and web models for companies with large valuations, and for MSMEs (Micro, Small, and Medium Enterprise).')
 @section('page_keywords', 'sistem erp terbaik, erp terbaik, erp indonesia, erp di indonesia, solusi erp, software erp
 terbaik di Indonesia, boxity, boxityerp, boxity central indonesia, erp boxity, hris, saas, erp business suite, saas
 business suite, cloud based ERP, erp sap, erp crm, erp cloud, saas cloud, software saas, best erp in Indonesia, cheapest
