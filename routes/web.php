@@ -28,25 +28,29 @@ Route::prefix('e-certificate/v')->group(function () {
         return Redirect::to('/e-certificate/v/0242ac120002.jpg');
     });
 });
+Route::prefix('sc/business')->group(function () {
+    Route::get('/pitch/2022/en', function () {
+        return Redirect::to('/business/pitch/Eng_pitch_deck_2022.pdf');
+    });
+    Route::get('/pitch/2022/id', function () {
+        return Redirect::to('/business/pitch/Ind_pitch_deck_2022.pdf');
+    });
+    Route::get('/plan/2022/id', function () {
+        return Redirect::to('/business/plan/Ind_Business_Plan_2022.pdf');
+    });
+    Route::get('/plan/2022/en', function () {
+        return Redirect::to('/business/plan/Eng_Business_Plan_2022.pdf');
+    });
+    Route::get('/profile/2022/id', function () {
+        return Redirect::to('/business/profile/Company Profile - 2022.pdf');
+    });
+});
+Route::prefix('sc/matching-fund')->group(function () {
+    Route::get('/gantt/2022', function () {
+        return Redirect::to('https://docs.google.com/spreadsheets/d/e/2PACX-1vTMQWQ7kKNSXosaLOk-SXJAyoLIitk8EFlYu2Drp641QQTgFFRM52-qsbMGbTmVuvQCVjz6coVAk3zD/pubhtml?gid=234046683&single=true');
+    });
+});
 
-Route::get('/sc/business/pitch/2022/en', function () {
-    return Redirect::to('/business/pitch/Eng_pitch_deck_2022.pdf');
-});
-Route::get('/sc/business/pitch/2022/id', function () {
-    return Redirect::to('/business/pitch/Ind_pitch_deck_2022.pdf');
-});
-Route::get('/sc/business/plan/2022/id', function () {
-    return Redirect::to('/business/plan/Ind_Business_Plan_2022.pdf');
-});
-Route::get('/sc/business/plan/2022/en', function () {
-    return Redirect::to('/business/plan/Eng_Business_Plan_2022.pdf');
-});
-Route::get('/sc/business/profile/2022/id', function () {
-    return Redirect::to('/business/profile/Company Profile - 2022.pdf');
-});
-Route::get('/sc/matching-fund/2022', function () {
-    return Redirect::to('https://docs.google.com/spreadsheets/d/e/2PACX-1vTMQWQ7kKNSXosaLOk-SXJAyoLIitk8EFlYu2Drp641QQTgFFRM52-qsbMGbTmVuvQCVjz6coVAk3zD/pubhtml?gid=234046683&single=true');
-});
 Route::get('/study/case/webstatic', function () {
     return Redirect::to('/study/case/static-web-2022.png');
 });
