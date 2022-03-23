@@ -44,6 +44,9 @@ Route::get('/sc/business/plan/2022/en', function () {
 Route::get('/sc/business/profile/2022/id', function () {
     return Redirect::to('/business/profile/Company Profile - 2022.pdf');
 });
+Route::get('/sc/matching-fund/2022', function () {
+    return Redirect::to('https://docs.google.com/spreadsheets/d/e/2PACX-1vTMQWQ7kKNSXosaLOk-SXJAyoLIitk8EFlYu2Drp641QQTgFFRM52-qsbMGbTmVuvQCVjz6coVAk3zD/pubhtml?gid=234046683&single=true');
+});
 Route::get('/study/case/webstatic', function () {
     return Redirect::to('/study/case/static-web-2022.png');
 });
