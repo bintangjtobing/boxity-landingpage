@@ -28,7 +28,7 @@ class webpageController extends Controller
     }
     public function blog()
     {
-        $blog = blog::orderBy('created_at', 'desc')->with('user', 'image')->paginate(9);
+        $blog = blog::orderBy('created_at', 'desc')->where('status', 1)->with('user', 'image')->paginate(9);
         return view('home.blog', ['blogs' => $blog]);
         // return response()->json($blog);
     }
