@@ -246,7 +246,7 @@ management system, payroll, best hris, HR partner, hr talent, junior hr')
 
                                 <!-- Image -->
                                 <div class="fbox-img bg-whitesmoke-gradient">
-                                    <img class="img-fluid" src="{!!asset('images/boxity/img-21.png"')!!}
+                                    <img class="img-fluid" src="{!!asset(' images/boxity/img-21.png"')!!}
                                 alt="feature-icon" />
                         </div>
 
@@ -311,11 +311,11 @@ management system, payroll, best hris, HR partner, hr talent, junior hr')
                                                         <h6 class="h6-sm bg-lightgrey">1 Year</h6>
                                                     </div>
 
-                                                    <p>for maintenance start from</p>
+                                                    {{-- <p>for maintenance start from</p>
                                                     <sup class="dark-color">IDR</sup>
-                                                    <span class="dark-color">3,5jt</span>
+                                                    <span class="dark-color">2,8jt</span>
                                                     <sup class="validity dark-color"> / month</sup>
-                                                    <p>*exclude license price</p>
+                                                    <p>*exclude license price</p> --}}
 
                                                     <a href="/schedule-demo"
                                                         target="_blank"
@@ -385,11 +385,11 @@ management system, payroll, best hris, HR partner, hr talent, junior hr')
                                                         <h6 class="h6-sm bg-lightgrey">3 Years</h6>
                                                     </div>
 
-                                                    <p>for maintenance start from</p>
+                                                    {{-- <p>for maintenance start from</p>
                                                     <sup class="dark-color">IDR</sup>
-                                                    <span class="dark-color">3jt</span>
+                                                    <span class="dark-color">2jt</span>
                                                     <sup class="validity dark-color"> / month</sup>
-                                                    <p>*exclude license price</p>
+                                                    <p>*exclude license price</p> --}}
                                                     <a href="/schedule-demo"
                                                         target="_blank" class="btn btn-sm btn-skyboxity tra-boxity-hover">Start free 20
                                                         days<br><span>Contact our sales</span></a>
@@ -454,11 +454,11 @@ management system, payroll, best hris, HR partner, hr talent, junior hr')
                                                         <h6 class="h6-sm bg-lightgrey">5 Years</h6>
                                                     </div>
 
-                                                    <p>for maintenance start from</p>
+                                                    {{-- <p>for maintenance start from</p>
                                                     <sup class="dark-color">IDR</sup>
-                                                    <span class="dark-color">2,6jt</span>
+                                                    <span class="dark-color">2,8jt</span>
                                                     <sup class="validity dark-color"> / month</sup>
-                                                    <p>*exclude license price</p>
+                                                    <p>*exclude license price</p> --}}
 
                                                     <!-- Pricing Plan Button -->
                                                     <a href="/schedule-demo"
