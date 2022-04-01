@@ -459,10 +459,10 @@
     <script src="{!!asset('webpage/js/request-form.js')!!}"></script>
     <script src="{!!asset('webpage/js/jquery.validate.min.js')!!}"></script>
     <script src="{!!asset('webpage/js/jquery.ajaxchimp.min.js')!!}"></script>
-    <script src="{!!asset('webpage/js/wow.js')!!}"></script>
+    <script src="{!!asset('webpage/js/wow-mini.js')!!}"></script>
 
     <!-- Custom Script -->
-    <script src="{!!asset('webpage/js/custom.js')!!}"></script>
+    <script src="{!!asset('webpage/js/custom-mini.js')!!}"></script>
 
 </body>
 
