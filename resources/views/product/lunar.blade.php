@@ -275,7 +275,7 @@ management system, lyra boxity, ecommerce management system, cms ecommerce, ecom
 
                                 <!-- Image -->
                                 <div class="fbox-img bg-whitesmoke-gradient">
-                                    <img class="img-fluid" src="{!!asset(' images/boxity/img-21.png"')!!}
+                                    <img class="img-fluid" src="{!!asset('images/boxity/img-21.png"')!!}
                                 alt="feature-icon" />
                         </div>
 
