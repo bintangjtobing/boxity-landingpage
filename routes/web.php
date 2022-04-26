@@ -45,6 +45,11 @@ Route::prefix('sc/business')->group(function () {
         return Redirect::to('/business/profile/Company Profile - 2022.pdf');
     });
 });
+Route::prefix('sc/dev')->group(function () {
+    Route::get('/uat', function () {
+        return Redirect::to('https://docs.google.com/spreadsheets/d/e/2PACX-1vSycOCdD0t9L7Hoo9PKTC21qMjzBY763d9q8Uf_ycSeeWzYErkjh4AJwDF7vS2ZpffhlVuuGLF0mhzJ/pubhtml?gid=0&single=true');
+    });
+});
 Route::prefix('sc/matching-fund')->group(function () {
     Route::get('/gantt/2022', function () {
         return Redirect::to('https://docs.google.com/spreadsheets/d/e/2PACX-1vTMQWQ7kKNSXosaLOk-SXJAyoLIitk8EFlYu2Drp641QQTgFFRM52-qsbMGbTmVuvQCVjz6coVAk3zD/pubhtml?gid=234046683&single=true');
