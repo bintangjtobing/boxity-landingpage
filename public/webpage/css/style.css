@@ -7669,6 +7669,7 @@ h5.posts-category {
 .author-senoff img {
     width: 100px;
     height: 100px;
+    object-fit: cover;
     float: left;
     text-align: center;
     -webkit-border-radius: 100%;
