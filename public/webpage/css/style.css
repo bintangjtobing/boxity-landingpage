@@ -7544,6 +7544,7 @@ h5.posts-category {
     -moz-border-radius: 100%;
     -o-border-radius: 100%;
     border-radius: 100%;
+    object-fit: cover;
 }
 
 /*------------------------------------------*/
