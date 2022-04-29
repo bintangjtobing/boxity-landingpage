@@ -50,6 +50,11 @@ Route::prefix('sc/dev')->group(function () {
         return Redirect::to('https://docs.google.com/spreadsheets/d/e/2PACX-1vSycOCdD0t9L7Hoo9PKTC21qMjzBY763d9q8Uf_ycSeeWzYErkjh4AJwDF7vS2ZpffhlVuuGLF0mhzJ/pubhtml?gid=0&single=true');
     });
 });
+Route::prefix('sc/marketing')->group(function () {
+    Route::get('/daily', function () {
+        return Redirect::to('https://docs.google.com/spreadsheets/d/e/2PACX-1vRRiPEQnStGTBBa1MnNfbniBfZW7VzgOOObmS4iu-yQ7N1n1zNXdg6vfv6qD-MfZjZ7ElBhxfvSNzja/pubhtml');
+    });
+});
 Route::prefix('sc/matching-fund')->group(function () {
     Route::get('/gantt/2022', function () {
         return Redirect::to('https://docs.google.com/spreadsheets/d/e/2PACX-1vTMQWQ7kKNSXosaLOk-SXJAyoLIitk8EFlYu2Drp641QQTgFFRM52-qsbMGbTmVuvQCVjz6coVAk3zD/pubhtml?gid=234046683&single=true');
