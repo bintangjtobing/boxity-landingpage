@@ -102,7 +102,7 @@
     <link href="{!!asset('webpage/css/magnific-popup.css')!!}" rel="stylesheet">
     <link href="{!!asset('webpage/css/owl.carousel.min.css')!!}" rel="stylesheet">
     <link href="{!!asset('webpage/css/owl.theme.default.min.css')!!}" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/bf3b9c3659.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/98c197c895.js" crossorigin="anonymous"></script>
 
     <!-- ON SCROLL ANIMATION -->
     <link href="{!!asset('webpage/css/animate.css')!!}" rel="stylesheet">
@@ -383,10 +383,16 @@
 
                             <!-- Social Links -->
                             <ul class="footer-socials text-secondary ico-25 text-center clearfix">
-                                <li><a href="/facebook" target="_blank"><span class="flaticon-facebook"></span></a></li>
-                                <li><a href="/instagram" target="_blank"><span class="flaticon-instagram"></span></a>
+                                <li><a href="/facebook" target="_blank"><i
+                                            class="fa-brands fa-facebook-square fa-2x"></i></a>
                                 </li>
-                                <li><a href="/linkedin" target="_blank"><span class="flaticon-linkedin-logo"></span></a>
+                                <li><a href="/instagram" target="_blank"><i
+                                            class="fa-brands fa-instagram fa-2x"></i></a>
+                                </li>
+                                <li><a href="/linkedin" target="_blank"><i
+                                            class="fa-brands fa-linkedin fa-2x"></i></span></a>
+                                </li>
+                                <li><a href="/tiktok" target="_blank"><i class="fa-brands fa-tiktok fa-2x"></i></a>
                                 </li>
                             </ul>
 

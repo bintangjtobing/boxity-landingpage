@@ -22,6 +22,9 @@ Route::get('/instagram', function () {
 Route::get('/facebook', function () {
     return Redirect::to('http://www.facebook.com/boxitycentralindonesia');
 });
+Route::get('/tiktok', function () {
+    return Redirect::to('https://www.tiktok.com/@godigitalwithboxity');
+});
 
 Route::prefix('e-certificate/v')->group(function () {
     Route::get('/5f61e3c6-a6a0-11ec-b909-0242ac120002', function () {
