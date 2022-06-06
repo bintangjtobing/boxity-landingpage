@@ -67,7 +67,15 @@ WMS, boxity financial, boxity indonesia, news from boxity')
                                     </a>
                                 </h5>
                                 <div class="post-meta">
-                                    <p class="p-md"><i class="fal fa-eye"></i> {{$blog->views}} Views</p>
+                                    <p class="p-md"><i class="fal fa-eye"></i>
+                                        @if ($blog->views<1000000)
+                                            {{number_format($blog->views/1000, 1).'K'}}
+                                        @elseif($blog->views<1000000000)
+                                            {{number_format($blog->views/1000000, 1).'M'}}
+                                        @else{
+                                            {{number_format($blog->views/1000000000, 1).'B'}}
+                                        }
+                                        @endif Views</p>
                                 </div>
                             </div>
                         </div>
@@ -81,12 +89,7 @@ WMS, boxity financial, boxity indonesia, news from boxity')
 
 
     </div> <!-- End container -->
-</section> <!-- END BLOG POSTS LISTING -->
-
-
-
-
-<!-- PAGE PAGINATION
+</section> <!-- END BLOG POSTS LISTING --><!-- PAGE PAGINATION
 			============================================= -->
 <div class="bg-snow pb-100 page-pagination division">
     <div class="container">
