@@ -577,7 +577,7 @@ Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bik
                             <span class="dark-color">2,99jt</span>
                             <sup class="validity dark-color"> /OTC</sup>
 
-                            <a href="/schedule-demo" target="_blank"
+                            <a href="/contact" target="_blank"
                                 class="btn btn-sm btn-skyboxity tra-boxity-hover">Contact our sales</a>
 
                         </div>
@@ -639,7 +639,7 @@ Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bik
                             <span class="dark-color">5,499jt</span>
                             <sup class="validity dark-color"> /OTC</sup>
 
-                            <a href="/schedule-demo" target="_blank"
+                            <a href="/contact" target="_blank"
                                 class="btn btn-sm btn-skyboxity tra-boxity-hover">Contact our sales</a>
 
                         </div>
@@ -701,7 +701,7 @@ Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bik
                             <span class="dark-color">8,499jt</span>
                             <sup class="validity dark-color"> /OTC</sup>
 
-                            <a href="/schedule-demo" target="_blank"
+                            <a href="/contact" target="_blank"
                                 class="btn btn-sm btn-skyboxity tra-boxity-hover">Contact our sales</a>
 
                         </div>
