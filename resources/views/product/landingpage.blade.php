@@ -3,7 +3,8 @@
 @section('page_description', 'Web creation services in Boxity are ready to help you to be able to scale-up in the online
 world. Enjoy the ease of managing the website according to your wishes with great performance and full features. Order
 your website now.')
-@section('page_keywords', 'jasa pembuatan landingpage berkualitas, jasa pembuatan landingpage terjangkau, landingpage
+@section('page_keywords', 'landingpage boxity, boxity landingpage, landingpage dari boxity, jasa pembuatan landingpage
+berkualitas, jasa pembuatan landingpage terjangkau, landingpage
 berkualitas di indonesia, jasa landingpage murah, Membuat Website, Membuat Website Gratis, Buat Website, Buat Website
 Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bikin web, Manfaat Website')
 @section('content')
