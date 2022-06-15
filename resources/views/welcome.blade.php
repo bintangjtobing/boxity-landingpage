@@ -204,8 +204,9 @@
                                         <div class="container">
                                             <div class="row">
                                                 <ul class="col-md-12 col-lg-6 link-list">
-                                                    <li><a href="#">Octans <sup>Soon</sup><br><span
-                                                                class="sub-link-list">{{__('octans')}}</span></a>
+                                                    <li><a href="/services/landingpage">Landing page
+                                                            <sup>New</sup><br><span
+                                                                class="sub-link-list">{{__('landingpage')}}</span></a>
                                                     </li>
                                                     <li><a href="/products/fornax">Fornax<br><span
                                                                 class="sub-link-list">{{__('fornax')}}</span></a></li>
@@ -228,6 +229,9 @@
                                                     </li>
                                                     <li><a href="/products/stockpile">Stockpile<br><span
                                                                 class="sub-link-list">{{__('stockpile')}}</span></a>
+                                                    </li>
+                                                    <li><a href="#">Octans <sup>Soon</sup><br><span
+                                                                class="sub-link-list">{{__('octans')}}</span></a>
                                                     </li>
                                                 </ul>
 
@@ -366,6 +370,21 @@
                                 </li>
                                 <li>
                                     <p><a href="/products/chatifine">Chatifine</a></p>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-2">
+                        <div class="footer-links mb-40">
+
+                            <!-- Title -->
+                            <h6 class="h6-xl">{{__('services')}}</h6>
+
+                            <!-- Footer Links -->
+                            <ul class="foo-links text-secondary clearfix">
+                                <li>
+                                    <p><a href="/services/landingpage">Landing page <span>- New</span></a></p>
                                 </li>
                             </ul>
 

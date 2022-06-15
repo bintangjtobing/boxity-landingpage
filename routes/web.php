@@ -96,6 +96,7 @@ Route::get('/products/lunar', 'webpageController@lunar');
 // Route::get('/products/pyxis', 'webpageController@pyxis');
 // Route::get('/products/aquila', 'webpageController@aquila');
 Route::get('/products/chatifine', 'webpageController@chatifine');
+Route::get('/services/landingpage', 'webpageController@landingpage');
 
 // additional
 Route::get('/terms-conditions', 'additionalController@terms');

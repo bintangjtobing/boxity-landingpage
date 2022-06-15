@@ -2,7 +2,9 @@
 
     "home": "Home",
     "product": "Product",
+    "services": "Services",
     "octans": "Finance and accounting software",
+    "landingpage": "Make your great landing page",
     "lyra": "E-Commerce management system software",
     "lunar": "Cloud-based or offline cashier application",
     "fornax": "Issue center management software",
@@ -12,6 +14,7 @@
     "aquila": "Payroll management automated software",
     "stockpile": "Warehouse management system software",
     "dsc_octans": "Advance your business module with ERP integrated finance and accounting software. ",
+    "dsc_landingpage": "We are ready to help you scale-up in the online world by creating a landing page.",
     "dsc_lyra": "Personalize your e-commerce business growth in simple and advanced software. ",
     "dsc_lunar": "Selling online, selling offline easily and anywhere with Lunar by Boxity.",
     "dsc_fornax": "Discover the answer for your problem with our issue center system. With the customer at heart, we provide the fastest, most reliable, and secure problem-solving response for any of your inquiries. ",

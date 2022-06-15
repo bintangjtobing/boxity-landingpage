@@ -69,6 +69,8 @@
                                 <div class="col-md-6">
                                     <select name="application" id="" class="form-control">
                                         <option value="" selected>Choose one...</option>
+                                        <option value="Landingpage">Landingpage - Make your great landing page with us
+                                        </option>
                                         <option value="Octans">Octans - Finance and accounting software</option>
                                         <option value="Fornax">Fornax - Issue center management software</option>
                                         <option value="Pyxis">Pyxis - Hotel reservation management system software

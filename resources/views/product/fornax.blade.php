@@ -259,7 +259,7 @@ boxity, fornax issue center system, issue center system, issue center management
 
                         <!-- Image -->
                         <div class="fbox-img bg-whitesmoke-gradient">
-                            <img class="img-fluid" src="{!!asset('images/boxity/img-23.png"')!!} alt="feature-icon" />
+                            <img class="img-fluid" src="{!!asset('images/boxity/img-23.png')!!}" alt="feature-icon" />
                         </div>
 
                         <!-- Title -->
@@ -272,7 +272,7 @@ boxity, fornax issue center system, issue center system, issue center management
 
                                 <!-- Image -->
                                 <div class="fbox-img bg-whitesmoke-gradient">
-                                    <img class="img-fluid" src="{!!asset('images/boxity/img-21.png"')!!}
+                                    <img class="img-fluid" src="{!!asset('images/boxity/img-21.png')!!}"
                                 alt="feature-icon" />
                         </div>
 
@@ -288,7 +288,7 @@ boxity, fornax issue center system, issue center system, issue center management
 
                         <!-- Image -->
                         <div class="fbox-img bg-whitesmoke-gradient">
-                            <img class="img-fluid" src="{!!asset('images/boxity/img-24.png"')!!}" alt="feature-icon" />
+                            <img class="img-fluid" src="{!!asset('images/boxity/img-24.png')!!}"" alt="feature-icon" />
                                         </div>
 
                                         <!-- Title -->

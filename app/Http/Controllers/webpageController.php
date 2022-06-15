@@ -175,4 +175,8 @@ class webpageController extends Controller
     {
         return view('product.chatifine');
     }
+    public function landingpage()
+    {
+        return view('product.landingpage');
+    }
 }
