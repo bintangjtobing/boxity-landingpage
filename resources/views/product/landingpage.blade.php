@@ -27,8 +27,7 @@ Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bik
                 <div class="hero-boxity-txt white-color wow fadeInLeft">
 
                     <!-- Title -->
-                    <h2 class="h2-xl">Web creation services in Boxity are ready to help you to be able to scale-up in
-                        the online world</h2>
+                    <h2 class="h2-xl">Get your great landing page now to scale up your business.</h2>
 
                     <!-- Text -->
                     {{-- <p class="p-xl">Feugiat primis a ligula sapien mauris an auctor laoreet and pretium augue
