@@ -56,30 +56,34 @@ class webpageController extends Controller
     public function career()
     {
         $job = DB::table('jobvacancies')
-            ->join('jobvacancies_views', 'jobvacancies.id', '=', 'jobvacancies_views.job_id')->orderBy('jobvacancies.created_at', 'DESC')->limit(5)->get();
+            ->join('jobvacancies_views', 'jobvacancies.id', '=', 'jobvacancies_views.job_id')
+            ->orderBy('jobvacancies.created_at', 'DESC')
+            ->select('jobvacancies.*', 'jobvacancies_views.views')
+            ->limit(5)
+            ->get();
         return view('home.career', ['job' => $job]);
         // return response()->json($job);
         // dd($job);
     }
     public function getJobs(Request $req, $id)
     {
-        $job = DB::table('jobvacancies')->find($id);
+        $job = DB::table('jobvacancies')->find(Crypt::decrypt($id));
 
         // Update job count views
-        $jobGetViews = DB::table('jobvacancies_views')->where('job_id', $id)->first();
+        $jobGetViews = DB::table('jobvacancies_views')->where('job_id', Crypt::decrypt($id))->first();
         if ($jobGetViews) {
-            $jobViews = careerViews::where('job_id', $id)->first();
+            $jobViews = careerViews::where('job_id', Crypt::decrypt($id))->first();
             $jobViews->views += 1;
             $jobViews->save();
         } else {
             $jobViews = new careerViews();
             $jobViews->ip_address = $req->ip();
             $jobViews->views += 1;
-            $jobViews->job_id = $id;
+            $jobViews->job_id = Crypt::decrypt($id);
             $jobViews->save();
         }
-        // return view('home.jobsDetail', ['job' => $job]);
-        return response()->json($job);
+        return view('home.jobsDetail', ['job' => $job]);
+        // return response()->json($job);
         // dd($job);
     }
     public function getJobsApply($id)
