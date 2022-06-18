@@ -91,13 +91,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
 
     <!-- BOOTSTRAP CSS -->
-    <link href="{!!asset('webpage/css/bootstrap.min.css')!!}" rel="stylesheet">
+    <link href="{!!asset('webpage/css/bootstrap.min.css?'.rand(10000,99999))!!}" rel="stylesheet">
 
     <!-- FONT ICONS -->
-    <link href="{!!asset('webpage/css/flaticon.css')!!}" rel="stylesheet">
+    <link href="{!!asset('webpage/css/flaticon.css?'.rand(10000,99999))!!}" rel="stylesheet">
 
     <!-- PLUGINS STYLESHEET -->
-    <link href="{!!asset('webpage/css/menu.css')!!}" rel="stylesheet">
+    <link href="{!!asset('webpage/css/menu.css?'.rand(10000,99999))!!}" rel="stylesheet">
     <link id="effect" href="{!!asset('webpage/css/dropdown-effects/fade-down.css')!!}" media="all" rel="stylesheet">
     <link href="{!!asset('webpage/css/magnific-popup.css')!!}" rel="stylesheet">
     <link href="{!!asset('webpage/css/owl.carousel.min.css')!!}" rel="stylesheet">
@@ -105,14 +105,14 @@
     <script src="https://kit.fontawesome.com/98c197c895.js" crossorigin="anonymous"></script>
 
     <!-- ON SCROLL ANIMATION -->
-    <link href="{!!asset('webpage/css/animate.css')!!}" rel="stylesheet">
+    <link href="{!!asset('webpage/css/animate.css?'.rand(10000,99999))!!}" rel="stylesheet">
 
     <!-- TEMPLATE CSS -->
-    <link href="{!!asset('webpage/css/style-min.css')!!}" rel="stylesheet">
+    <link href="{!!asset('webpage/css/style-min.css?'.rand(10000,99999))!!}" rel="stylesheet">
 
     <!-- RESPONSIVE CSS -->
-    <link href="{!!asset('webpage/css/responsive.css')!!}" rel="stylesheet">
-    <link href="{!!asset('webpage/custom-min.css')!!}" rel="stylesheet">
+    <link href="{!!asset('webpage/css/responsive.css?'.rand(10000,99999))!!}" rel="stylesheet">
+    <link href="{!!asset('webpage/custom-min.css?'.rand(10000,99999))!!}" rel="stylesheet">
 
 </head>
 
@@ -495,7 +495,7 @@
     <script src="{!!asset('webpage/js/wow-mini.js')!!}"></script>
 
     <!-- Custom Script -->
-    <script src="{!!asset('webpage/js/custom-mini.js')!!}"></script>
+    <script src="{!!asset('webpage/js/custom-mini.js?'.rand(10000,99999))!!}"></script>
 
 </body>
 
