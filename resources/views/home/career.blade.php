@@ -72,7 +72,8 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                             <div class="cta-7-txt">
                                 <h3>{{$job->title}}</h3>
                                 <p class="p"><b>Part of:</b> {{$job->part}}, <b>Job Location:</b>
-                                    <span>{{$job->location}} | <i class="far fa-eye"></i> <sup>{{$job->views}}</sup>
+                                    <span>{{$job->location}} | <i class="far fa-eye"></i> <sup>{{$job->views}}
+                                            views</sup>
                                 </p>
                             </div>
                         </div>
@@ -81,9 +82,13 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         <!-- BUTTON -->
                         <div class="col-lg-3 text-end">
                             <div class="cta-7-btn">
+                                @if ($job->status == 0)
                                 <a href="/jobs/{{Crypt::encrypt($job->id)}}"
                                     class="btn btn-skyboxity tra-boxity-hover">Read
                                     more</a>
+                                @else
+                                <a href="#" class="btn btn-skyboxity tra-boxity-hover disabled">Closed</a>
+                                @endif
                             </div>
                         </div>
 

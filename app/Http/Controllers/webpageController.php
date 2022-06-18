@@ -55,8 +55,7 @@ class webpageController extends Controller
     public function career()
     {
         $job = DB::table('jobvacancies')
-            ->join('jobvacancies_views', 'jobvacancies.id', '=', 'jobvacancies_views.job_id')
-            ->where('status', 0)->get();
+            ->join('jobvacancies_views', 'jobvacancies.id', '=', 'jobvacancies_views.job_id')->orderBy('jobvacancies.created_at', 'DESC')->limit(5)->get();
         return view('home.career', ['job' => $job]);
         // return response()->json($job);
         // dd($job);
