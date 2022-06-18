@@ -326,7 +326,10 @@
                                     <p><a href="/about">{{__('about')}}</a></p>
                                 </li>
                                 <li>
-                                    <p><a href="/career">{{__('career')}} @if ($career->count()>=1)
+                                    @php
+                                    $careerGet = DB::table('jobvacancies')->where('status','=', 0)->get();
+                                    @endphp
+                                    <p><a href="/career">{{__('career')}} @if ($careerGet->count()>=1)
                                             <span>- {{__('we_hiring')}}</span>
                                             @endif</a></p>
                                 </li>

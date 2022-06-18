@@ -78,6 +78,7 @@ class webpageController extends Controller
             $jobViews->save();
         }
         return view('home.jobsDetail', ['job' => $job]);
+        // return response()->json($job);
         // dd($jobGetViews);
     }
     public function getJobsApply($id)
