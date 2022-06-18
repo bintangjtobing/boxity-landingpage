@@ -245,7 +245,7 @@
                                 {{-- <li class="nl-simple" aria-haspopup="true"><a href="/plans">Pricing</a></li> --}}
                                 <!-- SIMPLE NAVIGATION LINK -->
                                 @php
-                                $career = DB::table('jobvacancies')->where('status','=', 2)->get();
+                                $career = DB::table('jobvacancies')->where('status','=', 0)->get();
                                 @endphp
                                 <li class="nl-simple" aria-haspopup="true"><a href="/career">{{__('career')}}
                                         @if ($career->count() >= 1)

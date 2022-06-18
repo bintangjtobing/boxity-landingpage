@@ -54,8 +54,11 @@ class webpageController extends Controller
     }
     public function career()
     {
-        $job = DB::table('jobvacancies')->where('status', 0)->get();
+        $job = DB::table('jobvacancies')
+            ->join('jobvacancies_views', 'jobvacancies.id', '=', 'jobvacancies_views.job_id')
+            ->where('status', 0)->get();
         return view('home.career', ['job' => $job]);
+        // return response()->json($job);
         // dd($job);
     }
     public function getJobs(Request $req, $id)

@@ -71,7 +71,8 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         <div class="col-lg-9">
                             <div class="cta-7-txt">
                                 <h3>{{$job->title}}</h3>
-                                <p class="p">{{$job->part}} - <span>{{$job->location}}
+                                <p class="p"><b>Part of:</b> {{$job->part}}, <b>Job Location:</b>
+                                    <span>{{$job->location}} | <i class="far fa-eye"></i> <sup>{{$job->views}}</sup>
                                 </p>
                             </div>
                         </div>
