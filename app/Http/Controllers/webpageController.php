@@ -63,20 +63,19 @@ class webpageController extends Controller
     }
     public function getJobs(Request $req, $id)
     {
-        $job = DB::table('jobvacancies')->find(Crypt::decrypt($id));
-        // $job = Http::get('https://boxity.id/jobs/eyJpdiI6IlpuSjB0STZ5dU1VRXkyK29hcURYR1E9PSIsInZhbHVlIjoiWUpieVJGUWdXTERuZWZxVW9YZEt4QT09IiwibWFjIjoiMzUwYmI5ZjliNTc1ODUxODVlODkxMzkxYTBiOTZkMjgwMWVmYTllM2ZkNmUyMWExNzcyODJjMTkyZjcwM2UyNiJ9');
+        $job = DB::table('jobvacancies')->find($id);
 
         // Update job count views
-        $jobGetViews = DB::table('jobvacancies_views')->where('job_id', Crypt::decrypt($id))->first();
+        $jobGetViews = DB::table('jobvacancies_views')->where('job_id', $id)->first();
         if ($jobGetViews) {
-            $jobViews = careerViews::where('job_id', Crypt::decrypt($id))->first();
+            $jobViews = careerViews::where('job_id', $id)->first();
             $jobViews->views += 1;
             $jobViews->save();
         } else {
             $jobViews = new careerViews();
             $jobViews->ip_address = $req->ip();
             $jobViews->views += 1;
-            $jobViews->job_id = Crypt::decrypt($id);
+            $jobViews->job_id = $id;
             $jobViews->save();
         }
         // return view('home.jobsDetail', ['job' => $job]);
