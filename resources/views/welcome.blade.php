@@ -243,9 +243,15 @@
                                 <li class="nl-simple" aria-haspopup="true"><a href="/about">{{__('about')}}</a></li>
                                 <li class="nl-simple" aria-haspopup="true"><a href="/blog">Blog</a></li>
                                 {{-- <li class="nl-simple" aria-haspopup="true"><a href="/plans">Pricing</a></li> --}}
-
                                 <!-- SIMPLE NAVIGATION LINK -->
-                                <li class="nl-simple" aria-haspopup="true"><a href="/career">{{__('career')}}</a></li>
+                                @php
+                                $career = DB::table('jobvacancies')->where('status','=', 2)->get();
+                                @endphp
+                                <li class="nl-simple" aria-haspopup="true"><a href="/career">{{__('career')}}
+                                        @if ($career->count() >= 1)
+                                        <sup>We're hiring</sup>
+                                        @else
+                                        @endif</a></li>
                                 <li aria-haspopup="true"><a href="#">{{ Config::get('languages')[App::getLocale()] }}
                                         <span class="wsarrow"></span></a>
                                     <ul class="sub-menu">
@@ -320,7 +326,9 @@
                                     <p><a href="/about">{{__('about')}}</a></p>
                                 </li>
                                 <li>
-                                    <p><a href="/career">{{__('career')}} <span>- {{__('we_hiring')}}</span></a></p>
+                                    <p><a href="/career">{{__('career')}} @if ($career->count()>=1)
+                                            <span>- {{__('we_hiring')}}</span>
+                                            @endif</a></p>
                                 </li>
                                 <li>
                                     <p><a href="/contact">{{__('contact')}}</a></p>

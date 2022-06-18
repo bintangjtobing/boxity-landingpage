@@ -7443,3 +7443,10 @@ img.footer-logo {
 nav a#pull {
     display: none
 }
+
+.nl-simple a sup {
+    color: #fff;
+    background-color: #F95B12;
+    padding: 3px;
+    font-size: 10px;
+}
