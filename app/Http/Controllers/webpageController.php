@@ -15,6 +15,7 @@ use App\Mail\scheduleDemo;
 use App\subscription;
 use Cloudinary\Cloudinary as CloudinaryCloudinary;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Http;
 
 class webpageController extends Controller
 {
@@ -63,6 +64,7 @@ class webpageController extends Controller
     public function getJobs(Request $req, $id)
     {
         $job = DB::table('jobvacancies')->find(Crypt::decrypt($id));
+        // $job = Http::get('https://boxity.id/jobs/eyJpdiI6IlpuSjB0STZ5dU1VRXkyK29hcURYR1E9PSIsInZhbHVlIjoiWUpieVJGUWdXTERuZWZxVW9YZEt4QT09IiwibWFjIjoiMzUwYmI5ZjliNTc1ODUxODVlODkxMzkxYTBiOTZkMjgwMWVmYTllM2ZkNmUyMWExNzcyODJjMTkyZjcwM2UyNiJ9');
 
         // Update job count views
         $jobGetViews = DB::table('jobvacancies_views')->where('job_id', Crypt::decrypt($id))->first();
@@ -77,9 +79,9 @@ class webpageController extends Controller
             $jobViews->job_id = Crypt::decrypt($id);
             $jobViews->save();
         }
-        return view('home.jobsDetail', ['job' => $job]);
-        // return response()->json($job);
-        // dd($jobGetViews);
+        // return view('home.jobsDetail', ['job' => $job]);
+        return response()->json($job);
+        // dd($job);
     }
     public function getJobsApply($id)
     {
