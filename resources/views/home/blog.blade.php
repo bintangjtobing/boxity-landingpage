@@ -6,34 +6,30 @@ Boxity Central Indonesia, from features, fixes, memes and more.')
 indonesia, erp boxity, warehouse management, human resources management, financial management, boxity warehouse, boxity
 WMS, boxity financial, boxity indonesia, news from boxity')
 @section('content')
-<div id="download-page" class="page-hero-section division">
-    <div class="page-hero-overlay division">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 col-xl-8">
-                    <div class="hero-txt text-center dark-color">
+<section id="hero-boxity" class="bg-scroll hero-section division"
+    style="background-image: none !important; padding-top: 80px;">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <!-- HERO TEXT -->
+            <div class="col-md-7 col-lg-6 order-first order-md-2">
+                <div class="hero-boxity-txt wow fadeInLeft">
 
-                        <!-- Title -->
-                        <h2 class="h2-xs">Relevant news and more for you. Welcome to our blog</h2>
+                    <!-- Title -->
+                    <h2 class="h2-xl"><b>Relevant news</b> and more for you. <br>Welcome to our blog.</h2>
 
-                    </div>
                 </div>
-            </div> <!-- End row -->
-        </div> <!-- End container -->
-    </div> <!-- End hero-overlay -->
+            </div> <!-- END HERO TEXT -->
 
+            <!-- HERO IMAGE -->
+            <div class="col-md-5 col-lg-6 order-last order-md-2">
+                <div class="hero-boxity-img pc-30 wow fadeInRight">
+                    <img class="img-fluid" src="{!!asset('webpage/images/blog.svg')!!}" alt="hero-image">
+                </div>
+            </div>
+        </div> <!-- End row -->
+    </div> <!-- End container -->
 
-    <!-- WAVE SHAPE BOTTOM -->
-    <div class="wave-shape-bottom">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80">
-            <path fill="#ffffff" fill-opacity="1"
-                d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
-            </path>
-        </svg>
-    </div>
-
-
-</div>
+</section>
 <section id="blog-page" class="bg-snow wide-50 inner-page-hero blog-page-section division"
     style="padding-top: 3rem !important;">
     <div class="container">
@@ -68,28 +64,20 @@ WMS, boxity financial, boxity indonesia, news from boxity')
                                 </h5>
                                 <div class="post-meta">
                                     <p class="p-md"><i class="fal fa-eye"></i>
-                                        @if ($blog->views<1000000)
-                                            {{number_format($blog->views/1000, 1).'K'}}
-                                        @elseif($blog->views<1000000000)
-                                            {{number_format($blog->views/1000000, 1).'M'}}
-                                        @else{
-                                            {{number_format($blog->views/1000000000, 1).'B'}}
-                                        }
-                                        @endif Views</p>
-                                </div>
-                            </div>
-                        </div>
-                        @endforeach
-                    </div>
-                </div>
-            </div> <!-- END BLOG POSTS -->
+                                        @if ($blog->views<1000000) {{number_format($blog->views/1000, 1).'K'}}
+                                            @elseif($blog->views<1000000000)
+                                                {{number_format($blog->views/1000000, 1).'M'}} @else{
+                                                {{number_format($blog->views/1000000000, 1).'B'}} } @endif Views</p>
+                                                </div> </div> </div> @endforeach </div> </div> </div> <!-- END BLOG
+                                                POSTS -->
 
 
-        </div> <!-- END POSTS WRAPPER -->
+                                </div> <!-- END POSTS WRAPPER -->
 
 
-    </div> <!-- End container -->
-</section> <!-- END BLOG POSTS LISTING --><!-- PAGE PAGINATION
+                            </div> <!-- End container -->
+</section> <!-- END BLOG POSTS LISTING -->
+<!-- PAGE PAGINATION
 			============================================= -->
 <div class="bg-snow pb-100 page-pagination division">
     <div class="container">

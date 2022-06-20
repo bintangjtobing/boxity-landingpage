@@ -2,36 +2,31 @@
 @section('title', 'Career Apply')
 @section('page_description', '')
 @section('content')
-<div id="apply-jobs" class="page-hero-section division">
-    <div class="page-hero-overlay division">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 col-xl-8">
-                    <div class="hero-txt text-center dark-color">
+<section id="hero-boxity" class="bg-scroll hero-section division" style="background-image: none !important;">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <!-- HERO TEXT -->
+            <div class="col-md-7 col-lg-6 order-first order-md-2">
+                <div class="hero-boxity-txt wow fadeInLeft">
 
-                        <!-- Title -->
-                        <h2 class="h2-xs">Application Form</h2>
+                    <!-- Title -->
+                    <h2 class="h2-xl">Fill the application form for we can fast work together</h2>
+                    <p class="p-xl">Jobs interested: <b>{{$job->title}}</b>
+                    </p>
 
-                        <!-- Text -->
-                        <p class="p-xl">{{$job->title}}
-                        </p>
-
-                    </div>
                 </div>
-            </div> <!-- End row -->
-        </div> <!-- End container -->
-    </div> <!-- End hero-overlay -->
+            </div> <!-- END HERO TEXT -->
 
+            <!-- HERO IMAGE -->
+            <div class="col-md-5 col-lg-6 order-last order-md-2">
+                <div class="hero-boxity-img pc-30 wow fadeInRight">
+                    <img class="img-fluid" src="{!!asset('webpage/images/vacant.svg')!!}" alt="hero-image">
+                </div>
+            </div>
+        </div> <!-- End row -->
+    </div> <!-- End container -->
 
-    <!-- WAVE SHAPE BOTTOM -->
-    <div class="wave-shape-bottom">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80">
-            <path fill="#ffffff" fill-opacity="1"
-                d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
-            </path>
-        </svg>
-    </div>
-</div>
+</section>
 <section id="contacts-2" class="bg-snow wide-50 inner-page-hero contacts-section division apply-jobs-class">
     <div class="container">
         <div class="row justify-content-center">
