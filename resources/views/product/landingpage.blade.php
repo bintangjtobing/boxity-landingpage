@@ -246,7 +246,7 @@ Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bik
             <!-- IMAGE BLOCK -->
             <div class="col-md-6 col-lg-7">
                 <div class="img-block right-column wow fadeInLeft">
-                    <img class="img-fluid" src="{!!asset('images/boxity/img-20-circle.png')!!}" alt="content-image">
+                    <img class="img-fluid" src="{!!asset('images/boxity/Integrated-modules.svg')!!}" alt="content-image">
                 </div>
             </div>
 
