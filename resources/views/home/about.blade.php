@@ -24,9 +24,11 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         <p class="p-xl">PT Boxity Central Indonesia was founded in 2020 to be part of
                             Indonesia's go-digital movement and to be an important part of
                             the contribution of MSMEs in Indonesia's economic development,
-                            with a full focus on developing ERP and SaaS applications with
+                            with a full focus on developing <span style="color: #000;">ERP and SaaS applications</span>
+                            with
                             the latest mobile and web models. We build a system that
-                            integrates all the business processes needed by MSME clients
+                            <span style="color: #000;">integrates all the business processes needed</span> by MSME
+                            clients
                             to run their business from planning, purchasing, inventory, sales,
                             marketing, finance, human resources, and others.
                         </p>
@@ -99,7 +101,8 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                                 Boxity has small business development in mind when founding the
                                 company. We build each system with our client’s typology and needs front
                                 and center in the process. One of our differentiating factors is our
-                                commitment to building the capacity of our small business clients in each
+                                <span style="color: #000;">commitment to building the capacity of our small business
+                                    clients</span> in each
                                 of the business processes.
                             </p>
 
@@ -122,8 +125,9 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                             <h5 class="h5-md">Mission Statement</h5>
 
                             <!-- Text -->
-                            <p>We set a mission to build a robust yet nimble Enterprise Resource Planning
-                                System accessible for MSMEs at their fingertips. We believe that the world
+                            <p>We set a mission <span style="color: #000;">to build a robust yet nimble Enterprise
+                                    Resource Planning
+                                    System accessible for MSMEs</span> at their fingertips. We believe that the world
                                 is going digital, and opportunities are no longer limited by physical
                                 borders. Likewise, to seize the economic opportunity in Indonesia’s
                                 business landscape, we believe MSME should be going digital in their
@@ -369,24 +373,29 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         <ul class="simple-list">
 
                             <li class="list-item">
-                                <p class="p-lg">MSMEs/Establised corporate that have a less than 2 Billion turnover per
-                                    year and have a less
+                                <p class="p-lg">MSMEs/Establised corporate that have a less than <span
+                                        style="color: #000;">2 Billion turnover per
+                                        year</span> and have a less
                                     than 100 Employees and vice versa.
                                 </p>
                             </li>
 
                             <li class="list-item">
-                                <p class="p-lg">Are concerned that they can no longer track the efforts of their growing
+                                <p class="p-lg">Are concerned that they can <span style="color: #000;">no longer track
+                                        the efforts</span> of their growing
                                     team.</p>
                             </li>
 
                             <li class="list-item">
-                                <p class="p-lg">Have experienced an increase in business that no longer allows them to
-                                    handle everything “in-house”.
+                                <p class="p-lg">Have experienced an increase in business that <span
+                                        style="color: #000;">no longer allows them to
+                                        handle everything “in-house”</span>.
                                 </p>
                             </li>
                             <li class="list-item">
-                                <p class="p-lg">Often keep stock in multiple warehouses in multiple geographic
+                                <p class="p-lg">Often <span style="color: #000;">keep stock in multiple
+                                        warehouses</span> in
+                                    multiple geographic
                                     territories.</p>
                             </li>
 
@@ -414,7 +423,6 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
         </div> <!-- End row -->
     </div> <!-- End container -->
 </section>
-
 <div id="brands-2" class="wide-70 brands-section division">
     <div class="container">
 
@@ -423,7 +431,517 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="brands-title text-center">
-                    <p class="p-xl">{{__('clients')}}</p>
+                    <h3 class="h3-md">Our Capabilities</h3>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- BRANDS-2 WRAPPER -->
+        <div class="brands-2-wrapper">
+            <div class="row mt-3 justify-content-md-center row-cols-2 row-cols-sm-3 row-cols-md-5">
+                <!-- BRAND LOGO IMAGE -->
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/android.png')!!}"
+                                alt="capabilities-boxity-central-indonesia" title="capabilities boxity - android">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- BRAND LOGO IMAGE -->
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/apple.png')!!}"
+                                alt="capabilities-boxity-central-indonesia" title="capabilities boxity - apple">
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- BRAND LOGO IMAGE -->
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/cloud.png')!!}"
+                                alt="capabilities-boxity-central-indonesia" title="capabilities boxity - cloud">
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- BRAND LOGO IMAGE -->
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/cloudflare.png')!!}"
+                                alt="capabilities-boxity-central-indonesia" title="capabilities boxity - cloudflare">
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- BRAND LOGO IMAGE -->
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/cloudinary.png')!!}"
+                                alt=alt="capabilities-boxity-central-indonesia" title="capabilities boxity - ">
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- BRAND LOGO IMAGE -->
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/contabo.png')!!}"
+                                alt=alt="capabilities-boxity-central-indonesia" title="capabilities boxity - contabo">
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- BRAND LOGO IMAGE -->
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/css3.png')!!}"
+                                alt=alt="capabilities-boxity-central-indonesia" title="capabilities boxity - css3">
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- BRAND LOGO IMAGE -->
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/figma.png')!!}"
+                                alt=alt="capabilities-boxity-central-indonesia" title="capabilities boxity - figma">
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- BRAND LOGO IMAGE -->
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/firebase.png')!!}"
+                                alt=alt="capabilities-boxity-central-indonesia" title="capabilities boxity - firebase">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/html5.png')!!}"
+                                alt=alt="capabilities-boxity-central-indonesia" title="capabilities boxity - html5">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/illustrator.png')!!}"
+                                alt=alt="capabilities-boxity-central-indonesia" title="capabilities boxity -
+                                illustrator">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/js.png')!!}"
+                                alt=alt="capabilities-boxity-central-indonesia"
+                                title="capabilities boxity - javascript">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/laravel.png')!!}"
+                                alt=alt="capabilities-boxity-central-indonesia" title="capabilities boxity - laravel">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/lumen.png')!!}"
+                                alt=alt="capabilities-boxity-central-indonesia" title="capabilities boxity - lumen">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/nodejs.png')!!}"
+                                alt=alt="capabilities-boxity-central-indonesia" title="capabilities boxity - nodejs">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/react.png')!!}"
+                                alt=alt="capabilities-boxity-central-indonesia" title="capabilities boxity - react">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/vue.png')!!}"
+                                alt=alt="capabilities-boxity-central-indonesia" title="capabilities boxity - vue">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/capabilities/wordpress.png')!!}"
+                                alt=alt="capabilities-boxity-central-indonesia" title="capabilities boxity - wordpress">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div> <!-- END BRANDS-2 WRAPPER -->
+
+
+    </div> <!-- End container -->
+</div>
+<section id="reviews-1" class="bg-whitesmoke-gradient wide-100 reviews-section division">
+    <div class="container">
+
+
+        <!-- SECTION TITLE -->
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8">
+                <div class="section-title title-02 mb-75">
+
+                    <!-- Section ID -->
+                    <span class="section-id txt-upcase">What People Are Saying</span>
+
+                    <!-- Title -->
+                    <h2 class="h2-xs">We're very happy to help a companies of all sizes, all around the world</h2>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- TESTIMONIALS CONTENT -->
+        <div class="row">
+            <div class="col">
+                <div class="owl-carousel owl-theme reviews-1-wrapper">
+                    <div class="review-1">
+
+                        <!-- Quote Icon -->
+                        <div class="review-1-ico ico-25">
+                            <span class="flaticon-left-quote"></span>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="review-1-txt">
+
+                            <!-- Text -->
+                            <p class="p-lg">Kami merasa layanan Boxity, merupakan layanan yang sangat responsif, sangat
+                                bertanggung jawab, cepat dan tepat pada masalah yang sedang dialami oleh kami
+                                terkhususnya mengenai tentang website.
+                            </p>
+
+                            <!-- Testimonial Author -->
+                            <div class="author-data clearfix">
+
+                                <!-- Testimonial Avatar -->
+                                <div class="review-avatar">
+                                    <img src="{!!asset('images/testimonials/1.png')!!}"
+                                        alt="review testimonials avatar">
+                                </div>
+
+                                <!-- Testimonial Author -->
+                                <div class="review-author">
+
+                                    <h6 class="h6-xl">Jansen</h6>
+                                    <p class="p-md">PT. Berlian Transtar Abadi</p>
+
+                                    <!-- Rating -->
+                                    <div class="review-rating ico-15 yellow-color">
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-half-empty"></span>
+                                    </div>
+
+                                </div>
+
+                            </div> <!-- End Testimonial Author -->
+
+                        </div> <!-- End Text -->
+
+                    </div>
+                    <div class="review-1">
+
+                        <!-- Quote Icon -->
+                        <div class="review-1-ico ico-25">
+                            <span class="flaticon-left-quote"></span>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="review-1-txt">
+
+                            <!-- Text -->
+                            <p class="p-lg">Pembuatan situs website yang tepat, cepat, rapi, dan menggunakan desain yang
+                                elegan lain dari yang lain. Pertahankan nilai
+                                kalian!
+                            </p>
+
+                            <!-- Testimonial Author -->
+                            <div class="author-data clearfix">
+
+                                <!-- Testimonial Avatar -->
+                                <div class="review-avatar">
+                                    <img src="{!!asset('images/testimonials/2.png')!!}"
+                                        alt="review testimonials avatar">
+                                </div>
+
+                                <!-- Testimonial Author -->
+                                <div class="review-author">
+
+                                    <h6 class="h6-xl">Iqbal S.</h6>
+                                    <p class="p-md">Cargill Indonesia</p>
+
+                                    <!-- Rating -->
+                                    <div class="review-rating ico-15 yellow-color">
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-half-empty"></span>
+                                    </div>
+
+                                </div>
+
+                            </div> <!-- End Testimonial Author -->
+
+                        </div> <!-- End Text -->
+
+                    </div>
+                    <div class="review-1">
+
+                        <!-- Quote Icon -->
+                        <div class="review-1-ico ico-25">
+                            <span class="flaticon-left-quote"></span>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="review-1-txt">
+
+                            <!-- Text -->
+                            <p class="p-lg">Overall bagus, semua sistem yang diminta tepat dan cepat. Proses
+                                pembuatannya juga terarah dan rapi. Bang, izin iklan juga ya, cek website kami di
+                                euroupvc.co.id
+                            </p>
+
+                            <!-- Testimonial Author -->
+                            <div class="author-data clearfix">
+
+                                <!-- Testimonial Avatar -->
+                                <div class="review-avatar">
+                                    <img src="{!!asset('images/testimonials/3.png')!!}"
+                                        alt="review testimonials avatar">
+                                </div>
+
+                                <!-- Testimonial Author -->
+                                <div class="review-author">
+
+                                    <h6 class="h6-xl">Acai</h6>
+                                    <p class="p-md">CV. EURO UPVC</p>
+
+                                    <!-- Rating -->
+                                    <div class="review-rating ico-15 yellow-color">
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-half-empty"></span>
+                                    </div>
+
+                                </div>
+
+                            </div> <!-- End Testimonial Author -->
+
+                        </div> <!-- End Text -->
+
+                    </div>
+                    <div class="review-1">
+
+                        <!-- Quote Icon -->
+                        <div class="review-1-ico ico-25">
+                            <span class="flaticon-left-quote"></span>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="review-1-txt">
+
+                            <!-- Text -->
+                            <p class="p-lg">Mantap bro!! Semuanya berjalan dengan baik, pelayanannya pun juga bisa kapan
+                                aja tanpa mengenal waktu, ini yang baru namanya 24x7, gada istirahat. Hahaha
+                            </p>
+
+                            <!-- Testimonial Author -->
+                            <div class="author-data clearfix">
+
+                                <!-- Testimonial Avatar -->
+                                <div class="review-avatar">
+                                    <img src="{!!asset('images/testimonials/4.png')!!}"
+                                        alt="review testimonials avatar">
+                                </div>
+
+                                <!-- Testimonial Author -->
+                                <div class="review-author">
+
+                                    <h6 class="h6-xl">Kevin</h6>
+                                    <p class="p-md">CV. PUTRA KARYA LOGAM SUKSES</p>
+
+                                    <!-- Rating -->
+                                    <div class="review-rating ico-15 yellow-color">
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-half-empty"></span>
+                                    </div>
+
+                                </div>
+
+                            </div> <!-- End Testimonial Author -->
+
+                        </div> <!-- End Text -->
+
+                    </div>
+                    <div class="review-1">
+
+                        <!-- Quote Icon -->
+                        <div class="review-1-ico ico-25">
+                            <span class="flaticon-left-quote"></span>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="review-1-txt">
+
+                            <!-- Text -->
+                            <p class="p-lg">Proses pembuatan nya lain dari yang lain, itu yang saya senangi dari sini.
+                            </p>
+
+                            <!-- Testimonial Author -->
+                            <div class="author-data clearfix">
+
+                                <!-- Testimonial Avatar -->
+                                <div class="review-avatar">
+                                    <img src="{!!asset('images/testimonials/1.png')!!}"
+                                        alt="review testimonials avatar">
+                                </div>
+
+                                <!-- Testimonial Author -->
+                                <div class="review-author">
+
+                                    <h6 class="h6-xl">Ationg A</h6>
+                                    <p class="p-md">CV. Makmur Jaya Ban</p>
+
+                                    <!-- Rating -->
+                                    <div class="review-rating ico-15 yellow-color">
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-half-empty"></span>
+                                    </div>
+
+                                </div>
+
+                            </div> <!-- End Testimonial Author -->
+
+                        </div> <!-- End Text -->
+
+                    </div>
+                    <div class="review-1">
+
+                        <!-- Quote Icon -->
+                        <div class="review-1-ico ico-25">
+                            <span class="flaticon-left-quote"></span>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="review-1-txt">
+
+                            <!-- Text -->
+                            <p class="p-lg">Selalu ready di waktu yang seharusnya tidak ada dalam jam kerja, itu yang
+                                kami sangat apresiasi. Semua error yang ada pada sistem ataupun server, bisa di handle
+                                dengan baik. Development nya sangat rapi dan tepat pada apa yang kami minta.
+                            </p>
+
+                            <!-- Testimonial Author -->
+                            <div class="author-data clearfix">
+
+                                <!-- Testimonial Avatar -->
+                                <div class="review-avatar">
+                                    <img src="{!!asset('images/testimonials/5.png')!!}"
+                                        alt="review testimonials avatar">
+                                </div>
+
+                                <!-- Testimonial Author -->
+                                <div class="review-author">
+
+                                    <h6 class="h6-xl">Vidya</h6>
+                                    <p class="p-md">PT. MULTI MAS CHEMINDO INDONESIA</p>
+
+                                    <!-- Rating -->
+                                    <div class="review-rating ico-15 yellow-color">
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-half-empty"></span>
+                                    </div>
+
+                                </div>
+
+                            </div> <!-- End Testimonial Author -->
+
+                        </div> <!-- End Text -->
+
+                    </div>
+                </div>
+            </div>
+        </div> <!-- END TESTIMONIALS CONTENT -->
+
+
+    </div> <!-- End container -->
+</section> <!-- END TESTIMONIALS-1 -->
+
+
+
+
+<!-- DIVIDER LINE -->
+<hr class="divider">
+<div id="brands-2" class="wide-70 brands-section division">
+    <div class="container">
+
+
+        <!-- BRANDS TITLE -->
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="brands-title text-center">
+                    <h4 class="h4-md">{{__('clients')}}</h4>
                 </div>
             </div>
         </div>

@@ -72,34 +72,34 @@ Route::get('/study/case/webstatic', function () {
 });
 Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => 'LanguageController@switchLang']);
 
-Route::get('/', 'webpageController@index');
-Route::get('/about', 'webpageController@about');
-Route::get('/blog', 'webpageController@blog');
-Route::get('/blog/read/{id}', 'webpageController@readBlog');
-Route::get('/contact', 'webpageController@contact');
-Route::get('/job-vacancies', 'webpageController@career');
-Route::get('/job-openings/{id}', 'webpageController@getJobs');
-Route::get('/job-openings/apply/{id}', 'webpageController@getJobsApply');
-Route::post('/job-openings/apply/{id}', 'webpageController@postJobsApply');
+Route::get('/', 'webpageController@index')->name('home');
+Route::get('/about', 'webpageController@about')->name('about');
+Route::get('/blog', 'webpageController@blog')->name('blog');
+Route::get('/blog/read/{id}', 'webpageController@readBlog')->name('blog');
+Route::get('/contact', 'webpageController@contact')->name('contact');
+Route::get('/job-vacancies', 'webpageController@career')->name('career');
+Route::get('/job-openings/{id}', 'webpageController@getJobs')->name('career');
+Route::get('/job-openings/apply/{id}', 'webpageController@getJobsApply')->name('career');
+Route::post('/job-openings/apply/{id}', 'webpageController@postJobsApply')->name('career');
 Route::post('/subscription/new', 'webpageController@addSubscription');
 // Route::get('/our-team', 'webpageController@teams');
 
 // Process the data
 Route::post('/contact', 'webpageController@postContact');
-Route::get('/schedule-demo', 'webpageController@scheduleDemo');
+Route::get('/schedule-demo', 'webpageController@scheduleDemo')->name('contact');
 
 // Product Explanation
 // Route::get('/products/boxity-erp', 'webpageController@erp');
-Route::get('/products/fornax', 'webpageController@fornax');
-Route::get('/products/lyra', 'webpageController@lyra');
-Route::get('/products/orion', 'webpageController@orion');
-Route::get('/products/stockpile', 'webpageController@stockpile');
-Route::get('/products/lunar', 'webpageController@lunar');
-// Route::get('/products/octans', 'webpageController@octans');
-// Route::get('/products/pyxis', 'webpageController@pyxis');
-// Route::get('/products/aquila', 'webpageController@aquila');
-Route::get('/products/chatifine', 'webpageController@chatifine');
-Route::get('/services/landingpage', 'webpageController@landingpage');
+Route::get('/products/fornax', 'webpageController@fornax')->name('products');
+Route::get('/products/lyra', 'webpageController@lyra')->name('products');
+Route::get('/products/orion', 'webpageController@orion')->name('products');
+Route::get('/products/stockpile', 'webpageController@stockpile')->name('products');
+Route::get('/products/lunar', 'webpageController@lunar')->name('products');
+// Route::get('/products/octans', 'webpageController@octans')->name('products');
+// Route::get('/products/pyxis', 'webpageController@pyxis')->name('products');
+// Route::get('/products/aquila', 'webpageController@aquila')->name('products');
+Route::get('/products/chatifine', 'webpageController@chatifine')->name('products');
+Route::get('/services/landingpage', 'webpageController@landingpage')->name('products');
 
 // additional
 Route::get('/terms-conditions', 'additionalController@terms');

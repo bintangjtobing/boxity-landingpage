@@ -7450,3 +7450,8 @@ nav a#pull {
     padding: 3px;
     font-size: 10px;
 }
+
+.active-menu a {
+    color: #F95B12 !important;
+    font-weight: bolder !important;
+}

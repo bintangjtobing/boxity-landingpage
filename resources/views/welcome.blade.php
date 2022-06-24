@@ -108,7 +108,7 @@
     <link href="{!!asset('webpage/css/animate.css?'.rand(10000,99999))!!}" rel="stylesheet">
 
     <!-- TEMPLATE CSS -->
-    <link href="{!!asset('webpage/css/style-min.css?'.rand(10000,99999))!!}" rel="stylesheet">
+    <link href="{!!asset('webpage/css/style.css?'.rand(10000,99999))!!}" rel="stylesheet">
 
     <!-- RESPONSIVE CSS -->
     <link href="{!!asset('webpage/css/responsive.css?'.rand(10000,99999))!!}" rel="stylesheet">
@@ -196,10 +196,14 @@
 
 
                                 <!-- MEGAMENU -->
-                                <li class="nl-simple" aria-haspopup="true"><a href="/">{{__('home')}}</a></li>
-
-                                <li aria-haspopup="true" class="mg_link"><a href="#">{{__('product')}} <span
-                                            class="wsarrow"></span></a>
+                                <li class="nl-simple {{ (\Request::route()->getName() == 'home') ? 'active-menu' : '' }}"
+                                    aria-haspopup="true"><a href="/">{{__('home')}}</a>
+                                </li>
+                                <li class="nl-simple  {{ (\Request::route()->getName() == 'about') ? 'active-menu' : '' }}"
+                                    aria-haspopup="true"><a href="/about">{{__('about')}}</a></li>
+                                <li aria-haspopup="true"
+                                    class="mg_link  {{ (\Request::route()->getName() == 'products') ? 'active-menu' : '' }}">
+                                    <a href="#">{{__('product')}} <span class="wsarrow"></span></a>
                                     <div class="wsmegamenu w-75 clearfix">
                                         <div class="container">
                                             <div class="row">
@@ -239,31 +243,32 @@
                                         </div> <!-- End container -->
                                     </div> <!-- End wsmegamenu -->
                                 </li>
-                                <!-- DROPDOWN MENU -->
-                                <li class="nl-simple" aria-haspopup="true"><a href="/about">{{__('about')}}</a></li>
-                                <li class="nl-simple" aria-haspopup="true"><a href="/blog">Blog</a></li>
+                                <li class="nl-simple  {{ (\Request::route()->getName() == 'blog') ? 'active-menu' : '' }}"
+                                    aria-haspopup="true"><a href="/blog">Blog</a></li>
                                 {{-- <li class="nl-simple" aria-haspopup="true"><a href="/plans">Pricing</a></li> --}}
                                 <!-- SIMPLE NAVIGATION LINK -->
                                 @php
                                 $career = DB::table('jobvacancies')->where('status','=', 0)->get();
                                 @endphp
-                                <li class="nl-simple" aria-haspopup="true"><a href="/job-vacancies">{{__('career')}}
+                                <li class="nl-simple  {{ (\Request::route()->getName() == 'career') ? 'active-menu' : '' }}"
+                                    aria-haspopup="true"><a href="/job-vacancies">{{__('career')}}
                                         @if ($career->count() >= 1)
                                         <sup>We're hiring</sup>
                                         @else
                                         @endif</a></li>
-                                <li aria-haspopup="true"><a href="#">{{ Config::get('languages')[App::getLocale()] }}
-                                        <span class="wsarrow"></span></a>
-                                    <ul class="sub-menu">
-                                        @foreach (Config::get('languages') as $lang => $language)
-                                        @if ($lang != App::getLocale())
-                                        <li><a href="{{ route('lang.switch', $lang) }}">{{$language}}</a>
-                                        </li>
-                                        @endif
-                                        @endforeach
-                                    </ul>
-                                </li>
-                                <li class="nl-simple" aria-haspopup="true">
+                                {{-- <li aria-haspopup="true"><a href="#">{{ Config::get('languages')[App::getLocale()] }}
+                                <span class="wsarrow"></span></a>
+                                <ul class="sub-menu">
+                                    @foreach (Config::get('languages') as $lang => $language)
+                                    @if ($lang != App::getLocale())
+                                    <li><a href="{{ route('lang.switch', $lang) }}">{{$language}}</a>
+                                    </li>
+                                    @endif
+                                    @endforeach
+                                </ul>
+                                </li> --}}
+                                <li class="nl-simple  {{ (\Request::route()->getName() == 'contact') ? 'active-menu' : '' }}"
+                                    aria-haspopup="true">
                                     <a href="/contact" class="btn btn-skyboxity">{{__('contact_sales')}}</a>
                                 </li>
 
@@ -297,7 +302,8 @@
                                 src="https://res.cloudinary.com/boxity-id/image/upload/v1638440373/assets/site%20needs/color_logo_boxity_yor31q.png"
                                 alt="footer-logo">
                             <!-- Text -->
-                            <p>Grand Silipi Tower, Lt 9 Unit O, <br> Jl. Jend. S.
+                            <p><strong>PT. Boxity Central Indonesia</strong><br> Grand Silipi Tower, Lt 9 Unit O, <br>
+                                Jl. Jend. S.
                                 Parman Kav 22-24 <br> Jakarta Barat,
                                 11480 <br><br>
                                 <span><i class="fal fa-phone-alt"></i></span> <a href="tel:+622129021873">021
