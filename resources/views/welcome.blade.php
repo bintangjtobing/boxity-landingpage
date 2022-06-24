@@ -247,7 +247,7 @@
                                 @php
                                 $career = DB::table('jobvacancies')->where('status','=', 0)->get();
                                 @endphp
-                                <li class="nl-simple" aria-haspopup="true"><a href="/career">{{__('career')}}
+                                <li class="nl-simple" aria-haspopup="true"><a href="/job-vacancies">{{__('career')}}
                                         @if ($career->count() >= 1)
                                         <sup>We're hiring</sup>
                                         @else
@@ -329,7 +329,7 @@
                                     @php
                                     $careerGet = DB::table('jobvacancies')->where('status','=', 0)->get();
                                     @endphp
-                                    <p><a href="/career">{{__('career')}} @if ($careerGet->count()>=1)
+                                    <p><a href="/job-vacancies">{{__('career')}} @if ($careerGet->count()>=1)
                                             <span>- {{__('we_hiring')}}</span>
                                             @endif</a></p>
                                 </li>

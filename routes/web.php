@@ -25,6 +25,9 @@ Route::get('/facebook', function () {
 Route::get('/tiktok', function () {
     return Redirect::to('https://www.tiktok.com/@godigitalwithboxity');
 });
+Route::get('/career', function () {
+    return Redirect::to('/job-vacancies');
+});
 
 Route::prefix('e-certificate/v')->group(function () {
     Route::get('/5f61e3c6-a6a0-11ec-b909-0242ac120002', function () {
@@ -74,10 +77,10 @@ Route::get('/about', 'webpageController@about');
 Route::get('/blog', 'webpageController@blog');
 Route::get('/blog/read/{id}', 'webpageController@readBlog');
 Route::get('/contact', 'webpageController@contact');
-Route::get('/career', 'webpageController@career');
-Route::get('/jobs/{id}', 'webpageController@getJobs');
-Route::get('/jobs/a/{id}', 'webpageController@getJobsApply');
-Route::post('/jobs/a/{id}', 'webpageController@postJobsApply');
+Route::get('/job-vacancies', 'webpageController@career');
+Route::get('/job-openings/{id}', 'webpageController@getJobs');
+Route::get('/job-openings/apply/{id}', 'webpageController@getJobsApply');
+Route::post('/job-openings/apply/{id}', 'webpageController@postJobsApply');
 Route::post('/subscription/new', 'webpageController@addSubscription');
 // Route::get('/our-team', 'webpageController@teams');
 
