@@ -5601,7 +5601,8 @@ h2.statistic-number {
 .review-2 .review-author p {
     line-height: 1;
     font-weight: 300;
-    margin-bottom: 0
+    margin-bottom: 0;
+    font-size: 14px;
 }
 
 .review-3-txt p {
