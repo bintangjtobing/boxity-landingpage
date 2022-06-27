@@ -920,6 +920,53 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         </div> <!-- End Text -->
 
                     </div>
+                    <div class="review-1">
+
+                        <!-- Quote Icon -->
+                        <div class="review-1-ico ico-25">
+                            <span class="flaticon-left-quote"></span>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="review-1-txt">
+
+                            <!-- Text -->
+                            <p class="p-lg">UI nya menarik, simple dan modern. Aftersales nya pun memuaskan. Respon
+                                pelayanan cepat dan baik. Saat kami butuh jika ada kendala selalu dilayani dengan ramah.
+                                Thanks Boxity.
+                            </p>
+
+                            <!-- Testimonial Author -->
+                            <div class="author-data clearfix">
+
+                                <!-- Testimonial Avatar -->
+                                <div class="review-avatar">
+                                    <img src="{!!asset('images/testimonials/3.png')!!}"
+                                        alt="review testimonials avatar">
+                                </div>
+
+                                <!-- Testimonial Author -->
+                                <div class="review-author">
+
+                                    <h6 class="h6-xl">Dadan</h6>
+                                    <p class="p-md">SAPADIA GROUP</p>
+
+                                    <!-- Rating -->
+                                    <div class="review-rating ico-15 yellow-color">
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-1"></span>
+                                        <span class="flaticon-star-half-empty"></span>
+                                    </div>
+
+                                </div>
+
+                            </div> <!-- End Testimonial Author -->
+
+                        </div> <!-- End Text -->
+
+                    </div>
                 </div>
             </div>
         </div> <!-- END TESTIMONIALS CONTENT -->
@@ -950,17 +997,6 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
         <!-- BRANDS-2 WRAPPER -->
         <div class="brands-2-wrapper">
             <div class="row justify-content-md-center row-cols-2 row-cols-sm-3 row-cols-md-5">
-                <!-- BRAND LOGO IMAGE -->
-                <div class="col">
-                    <div class="brand-logo">
-                        <a href="#">
-                            <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-12.png')!!}"
-                                alt="partner-boxity-central-indonesia" />
-                        </a>
-                    </div>
-                </div>
-
-                <!-- BRAND LOGO IMAGE -->
                 <div class="col">
                     <div class="brand-logo">
                         <a href="#">
@@ -969,9 +1005,14 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         </a>
                     </div>
                 </div>
-
-
-                <!-- BRAND LOGO IMAGE -->
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-2.png')!!}"
+                                alt="partner-boxity-central-indonesia" />
+                        </a>
+                    </div>
+                </div>
                 <div class="col">
                     <div class="brand-logo">
                         <a href="#">
@@ -980,20 +1021,14 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         </a>
                     </div>
                 </div>
-
-
-                <!-- BRAND LOGO IMAGE -->
                 <div class="col">
                     <div class="brand-logo">
                         <a href="#">
                             <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-4.png')!!}"
-                                alt="partner-boxity-central-indonesia" />
+                                alt="partner-boxity-central-indonesia">
                         </a>
                     </div>
                 </div>
-
-
-                <!-- BRAND LOGO IMAGE -->
                 <div class="col">
                     <div class="brand-logo">
                         <a href="#">
@@ -1002,9 +1037,6 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         </a>
                     </div>
                 </div>
-
-
-                <!-- BRAND LOGO IMAGE -->
                 <div class="col">
                     <div class="brand-logo">
                         <a href="#">
@@ -1013,9 +1045,6 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         </a>
                     </div>
                 </div>
-
-
-                <!-- BRAND LOGO IMAGE -->
                 <div class="col">
                     <div class="brand-logo">
                         <a href="#">
@@ -1024,9 +1053,6 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         </a>
                     </div>
                 </div>
-
-
-                <!-- BRAND LOGO IMAGE -->
                 <div class="col">
                     <div class="brand-logo">
                         <a href="#">
@@ -1035,13 +1061,42 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         </a>
                     </div>
                 </div>
-
-
-                <!-- BRAND LOGO IMAGE -->
                 <div class="col">
                     <div class="brand-logo">
                         <a href="#">
                             <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-9.png')!!}"
+                                alt="partner-boxity-central-indonesia">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-10.png')!!}"
+                                alt="partner-boxity-central-indonesia">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-11.png')!!}"
+                                alt="partner-boxity-central-indonesia">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-12.png')!!}"
+                                alt="partner-boxity-central-indonesia">
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brand-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-13.png')!!}"
                                 alt="partner-boxity-central-indonesia">
                         </a>
                     </div>

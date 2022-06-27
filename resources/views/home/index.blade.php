@@ -85,15 +85,9 @@ erp saas, best erp, best saas')
 
                     <!-- BRAND LOGO IMAGE -->
                     <div class="partner-logo-logo mx-2">
-                        <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-12.png')!!}"
-                            alt="partner-boxity-central-indonesia" />
-                    </div>
-                    <!-- BRAND LOGO IMAGE -->
-                    <div class="partner-logo-logo mx-2">
                         <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-1.png')!!}"
                             alt="partner-boxity-central-indonesia" />
                     </div>
-
                     <!-- BRAND LOGO IMAGE -->
                     <div class="partner-logo-logo mx-2">
                         <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-2.png')!!}"
@@ -115,13 +109,13 @@ erp saas, best erp, best saas')
                     <!-- BRAND LOGO IMAGE -->
                     <div class="partner-logo-logo mx-2">
                         <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-5.png')!!}"
-                            alt="partner-boxity-central-indonesia">
+                            alt="partner-boxity-central-indonesia" />
                     </div>
 
                     <!-- BRAND LOGO IMAGE -->
                     <div class="partner-logo-logo mx-2">
                         <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-6.png')!!}"
-                            alt="partner-boxity-central-indonesia" />
+                            alt="partner-boxity-central-indonesia">
                     </div>
 
                     <!-- BRAND LOGO IMAGE -->
@@ -139,6 +133,24 @@ erp saas, best erp, best saas')
                     <!-- BRAND LOGO IMAGE -->
                     <div class="partner-logo-logo mx-2">
                         <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-9.png')!!}"
+                            alt="partner-boxity-central-indonesia" />
+                    </div>
+
+                    <!-- BRAND LOGO IMAGE -->
+                    <div class="partner-logo-logo mx-2">
+                        <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-10.png')!!}"
+                            alt="partner-boxity-central-indonesia" />
+                    </div>
+                    <div class="partner-logo-logo mx-2">
+                        <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-11.png')!!}"
+                            alt="partner-boxity-central-indonesia" />
+                    </div>
+                    <div class="partner-logo-logo mx-2">
+                        <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-12.png')!!}"
+                            alt="partner-boxity-central-indonesia" />
+                    </div>
+                    <div class="partner-logo-logo mx-2">
+                        <img class="img-fluid" src="{!!asset('images/boxity/partner-logo-13.png')!!}"
                             alt="partner-boxity-central-indonesia" />
                     </div>
 
