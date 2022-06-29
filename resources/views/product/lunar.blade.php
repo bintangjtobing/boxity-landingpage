@@ -4,6 +4,8 @@
 @section('page_keywords', 'boxity, boxityerp, realizeboxity, boxity central indonesia, lyra by
 boxity, lyra ecommerce
 management system, lyra boxity, ecommerce management system, cms ecommerce, ecommerce online, e business e commerce')
+@section('icon',
+'https://res.cloudinary.com/boxity-id/image/upload/c_fit,w_64/v1656495455/asset/logo-products/lunar_logo_yellow_wmtuly.png')
 @section('content')
 <section id="hero-boxity" class="bg-scroll hero-section division">
     <div class="container">
@@ -221,7 +223,8 @@ management system, lyra boxity, ecommerce management system, cms ecommerce, ecom
             <!-- IMAGE BLOCK -->
             <div class="col-md-6 col-lg-7">
                 <div class="img-block right-column wow fadeInLeft">
-                    <img class="img-fluid" src="{!!asset('images/boxity/Integrated-modules.png')!!}" alt="content-image">
+                    <img class="img-fluid" src="{!!asset('images/boxity/Integrated-modules.png')!!}"
+                        alt="content-image">
                 </div>
             </div>
 
@@ -269,14 +272,15 @@ management system, lyra boxity, ecommerce management system, cms ecommerce, ecom
                         <h5 class="h5-md">{{__('domain_cloud_storage')}}</h5>
 
                         <!-- Text -->
-                        <p>{{__('dsc_domain_cloud_storage')}} </p> </div> </div>
-                                <div class="col">
-                            <div class="fbox-8 mb-40 wow fadeInUp">
+                        <p>{{__('dsc_domain_cloud_storage')}} </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="fbox-8 mb-40 wow fadeInUp">
 
-                                <!-- Image -->
-                                <div class="fbox-img bg-whitesmoke-gradient">
-                                    <img class="img-fluid" src="{!!asset('images/boxity/img-21.png')!!}"
-                                alt="feature-icon" />
+                        <!-- Image -->
+                        <div class="fbox-img bg-whitesmoke-gradient">
+                            <img class="img-fluid" src="{!!asset('images/boxity/img-21.png')!!}" alt="feature-icon" />
                         </div>
 
                         <!-- Title -->
@@ -291,14 +295,17 @@ management system, lyra boxity, ecommerce management system, cms ecommerce, ecom
 
                         <!-- Image -->
                         <div class="fbox-img bg-whitesmoke-gradient">
-                            <img class="img-fluid" src="{!!asset('images/boxity/img-24.png')!!}"" alt="feature-icon" />
-                                        </div>
+                            <img class="img-fluid" src="{!!asset('images/boxity/img-24.png')!!}"" alt=" feature-icon" />
+                        </div>
 
-                                        <!-- Title -->
-                                        <h5 class="h5-md">{{__('business_mail')}}</h5>
+                        <!-- Title -->
+                        <h5 class="h5-md">{{__('business_mail')}}</h5>
 
-                                        <!-- Text -->
-                                        <p class="p-lg">{{__('dsc_business_mail')}}</p> </div> </div> </div> <!-- End row -->
+                        <!-- Text -->
+                        <p class="p-lg">{{__('dsc_business_mail')}}</p>
+                    </div>
+                </div>
+            </div> <!-- End row -->
 
 </section>
 
@@ -317,237 +324,228 @@ management system, lyra boxity, ecommerce management system, cms ecommerce, ecom
                     <!-- Text -->
                     <p class="p-xl">No credit card required. Call, discuss, and apply.<br></p>
 
-                                        </div>
-                                    </div>
-                                </div>
+                </div>
+            </div>
+        </div>
 
 
-                                <!-- PRICING TABLES -->
-                                <div class="pricing-2-row pc-25">
-                                    <div class="row row-cols-1 row-cols-md-3">
+        <!-- PRICING TABLES -->
+        <div class="pricing-2-row pc-25">
+            <div class="row row-cols-1 row-cols-md-3">
 
 
-                                        <!-- BASIC PLAN -->
-                                        <div class="col">
-                                            <div class="pricing-2-table bg-white mb-40 wow fadeInUp">
+                <!-- BASIC PLAN -->
+                <div class="col">
+                    <div class="pricing-2-table bg-white mb-40 wow fadeInUp">
 
-                                                <!-- Plan Price -->
-                                                <div class="pricing-plan">
+                        <!-- Plan Price -->
+                        <div class="pricing-plan">
 
-                                                    <!-- Plan Title -->
-                                                    <div class="pricing-plan-title">
-                                                        <h5 class="h5-xs">Basic</h5>
-                                                        <h6 class="h6-sm bg-lightgrey">1 Year</h6>
-                                                    </div>
+                            <!-- Plan Title -->
+                            <div class="pricing-plan-title">
+                                <h5 class="h5-xs">Basic</h5>
+                                <h6 class="h6-sm bg-lightgrey">1 Year</h6>
+                            </div>
 
-                                                    {{-- <p>for maintenance start from</p>
+                            {{-- <p>for maintenance start from</p>
                                                     <sup class="dark-color">IDR</sup>
                                                     <span class="dark-color">2jt</span>
                                                     <sup class="validity dark-color"> / month</sup>
                                                     <p>*exclude license price</p> --}}
 
-                                                    <a href="/schedule-demo"
-                                                        target="_blank"
-                                                        class="btn btn-sm btn-skyboxity tra-boxity-hover">Start free 14
-                                                        days<br><span>Contact our sales</span></a>
+                            <a href="/schedule-demo" target="_blank"
+                                class="btn btn-sm btn-skyboxity tra-boxity-hover">Start free 14
+                                days<br><span>Contact our sales</span></a>
 
-                                                </div>
+                        </div>
 
-                                                <!-- Plan Features  -->
-                                                <ul class="features">
-                                                    <li>
-                                                        <p><span><i
-                                                                    class="fad boxity-primary-color
+                        <!-- Plan Features  -->
+                        <ul class="features">
+                            <li>
+                                <p><span><i
+                                            class="fad boxity-primary-color
                                                                     fa-check-circle"></i></span>&nbsp;<span><b>256GB</b></span>
-                                                            Cloud VPS Storage</p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i
-                                                                    class="fad boxity-primary-color
-                                                                    fa-check-circle"></i></span>&nbsp;<b>Unlimited users
-                                                                        and clients</b></p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i
-                                                                    class="fad boxity-primary-color
+                                    Cloud VPS Storage</p>
+                            </li>
+                            <li>
+                                <p><span><i class="fad boxity-primary-color
+                                                                    fa-check-circle"></i></span>&nbsp;<b>Unlimited
+                                        users
+                                        and clients</b></p>
+                            </li>
+                            <li>
+                                <p><span><i class="fad boxity-primary-color
                                                                     fa-check-circle"></i></span>&nbsp;<b>Free server &
-                                                                        domain</b></p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i
-                                                                    class="fad boxity-primary-color fa-check-circle"></i></span>&nbsp;Business mail</p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i
-                                                                    class="fad boxity-primary-color
+                                        domain</b></p>
+                            </li>
+                            <li>
+                                <p><span><i class="fad boxity-primary-color fa-check-circle"></i></span>&nbsp;Business
+                                    mail</p>
+                            </li>
+                            <li>
+                                <p><span><i class="fad boxity-primary-color
                                                                     fa-check-circle"></i></span>&nbsp;Business
-                                                                    <b>premium</b> website config</p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i
-                                                                    class="fad boxity-primary-color fa-check-circle"></i></span>&nbsp;Report
-                                                            adjustments
-                                                            <span class="text-danger">*</span></p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i
-                                                                    class="fad boxity-primary-color
+                                    <b>premium</b> website config</p>
+                            </li>
+                            <li>
+                                <p><span><i class="fad boxity-primary-color fa-check-circle"></i></span>&nbsp;Report
+                                    adjustments
+                                    <span class="text-danger">*</span></p>
+                            </li>
+                            <li>
+                                <p><span><i
+                                            class="fad boxity-primary-color
                                                                     fa-check-circle"></i></span>&nbsp;<span><b>VIP</b></span>
-                                                            support</p>
-                                                    </li>
-                                                </ul>
+                                    support</p>
+                            </li>
+                        </ul>
 
-                                            </div>
-                                        </div> <!-- END BASIC PLAN -->
+                    </div>
+                </div> <!-- END BASIC PLAN -->
 
 
-                                        <!-- AGENCY PLAN -->
-                                        <div class="col">
-                                            <div class="pricing-2-table bg-white mb-40 wow fadeInUp">
+                <!-- AGENCY PLAN -->
+                <div class="col">
+                    <div class="pricing-2-table bg-white mb-40 wow fadeInUp">
 
-                                                <!-- Plan Price -->
-                                                <div class="pricing-plan">
+                        <!-- Plan Price -->
+                        <div class="pricing-plan">
 
-                                                    <!-- Plan Title -->
-                                                    <div class="pricing-plan-title">
-                                                        <h5 class="h5-xs">Agency</h5>
-                                                        <h6 class="h6-sm bg-lightgrey">3 Years</h6>
-                                                    </div>
+                            <!-- Plan Title -->
+                            <div class="pricing-plan-title">
+                                <h5 class="h5-xs">Agency</h5>
+                                <h6 class="h6-sm bg-lightgrey">3 Years</h6>
+                            </div>
 
-                                                    {{-- <p>for maintenance start from</p>
+                            {{-- <p>for maintenance start from</p>
                                                     <sup class="dark-color">IDR</sup>
                                                     <span class="dark-color">2jt</span>
                                                     <sup class="validity dark-color"> / month</sup>
                                                     <p>*exclude license price</p> --}}
-                                                    <a href="/schedule-demo"
-                                                        target="_blank" class="btn btn-sm btn-skyboxity tra-boxity-hover">Start free 20
-                                                        days<br><span>Contact our sales</span></a>
-                                                </div>
+                            <a href="/schedule-demo" target="_blank"
+                                class="btn btn-sm btn-skyboxity tra-boxity-hover">Start free 20
+                                days<br><span>Contact our sales</span></a>
+                        </div>
 
-                                                <!-- Plan Features  -->
-                                                <ul class="features">
-                                                    <li>
-                                                        <p><span><i
-                                                                    class="fad boxity-primary-color
+                        <!-- Plan Features  -->
+                        <ul class="features">
+                            <li>
+                                <p><span><i
+                                            class="fad boxity-primary-color
                                                                     fa-check-circle"></i></span>&nbsp;<span><b>500GB</b></span>
-                                                            Cloud VPS Storage</p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i class="fad boxity-primary-color
+                                    Cloud VPS Storage</p>
+                            </li>
+                            <li>
+                                <p><span><i class="fad boxity-primary-color
                                                                     fa-check-circle"></i></span>&nbsp;<b>Unlimited
-                                                                users
-                                                                and clients</b></p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i class="fad boxity-primary-color
+                                        users
+                                        and clients</b></p>
+                            </li>
+                            <li>
+                                <p><span><i class="fad boxity-primary-color
                                                                     fa-check-circle"></i></span>&nbsp;<b>Free server &
-                                                                domain</b></p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i
-                                                                    class="fad boxity-primary-color fa-check-circle"></i></span>&nbsp;Business
-                                                            mail</p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i class="fad boxity-primary-color
+                                        domain</b></p>
+                            </li>
+                            <li>
+                                <p><span><i class="fad boxity-primary-color fa-check-circle"></i></span>&nbsp;Business
+                                    mail</p>
+                            </li>
+                            <li>
+                                <p><span><i class="fad boxity-primary-color
                                                                     fa-check-circle"></i></span>&nbsp;Business
-                                                            <b>premium</b> website config</p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i
-                                                                    class="fad boxity-primary-color fa-check-circle"></i></span>&nbsp;Report
-                                                            adjustments
-                                                            <span class="text-danger">*</span></p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i
-                                                                    class="fad boxity-primary-color
+                                    <b>premium</b> website config</p>
+                            </li>
+                            <li>
+                                <p><span><i class="fad boxity-primary-color fa-check-circle"></i></span>&nbsp;Report
+                                    adjustments
+                                    <span class="text-danger">*</span></p>
+                            </li>
+                            <li>
+                                <p><span><i
+                                            class="fad boxity-primary-color
                                                                     fa-check-circle"></i></span>&nbsp;<span><b>VIP</b></span>
-                                                            support</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div> <!-- END AGENCY PLAN  -->
+                                    support</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- END AGENCY PLAN  -->
 
 
-                                        <!-- ADVANCED PLAN -->
-                                        <div class="col">
-                                            <div class="pricing-2-table bg-white mb-40 wow fadeInUp">
+                <!-- ADVANCED PLAN -->
+                <div class="col">
+                    <div class="pricing-2-table bg-white mb-40 wow fadeInUp">
 
-                                                <!-- Plan Price  -->
-                                                <div class="pricing-plan highlight">
+                        <!-- Plan Price  -->
+                        <div class="pricing-plan highlight">
 
-                                                    <!-- Plan Title -->
-                                                    <div class="pricing-plan-title">
-                                                        <h5 class="h5-xs">Advanced</h5>
-                                                        <h6 class="h6-sm bg-lightgrey">5 Years</h6>
-                                                    </div>
+                            <!-- Plan Title -->
+                            <div class="pricing-plan-title">
+                                <h5 class="h5-xs">Advanced</h5>
+                                <h6 class="h6-sm bg-lightgrey">5 Years</h6>
+                            </div>
 
-                                                    {{-- <p>for maintenance start from</p>
+                            {{-- <p>for maintenance start from</p>
                                                     <sup class="dark-color">IDR</sup>
                                                     <span class="dark-color">2jt</span>
                                                     <sup class="validity dark-color"> / month</sup>
                                                     <p>*exclude license price</p> --}}
 
-                                                    <!-- Pricing Plan Button -->
-                                                    <a href="/schedule-demo"
-                                                        target="_blank"
-                                                        class="btn btn-sm btn-skyboxity tra-boxity-hover">Start free 30
-                                                        days<br><span>Contact our sales</span></a>
-                                                </div>
+                            <!-- Pricing Plan Button -->
+                            <a href="/schedule-demo" target="_blank"
+                                class="btn btn-sm btn-skyboxity tra-boxity-hover">Start free 30
+                                days<br><span>Contact our sales</span></a>
+                        </div>
 
-                                                <!-- Plan Features  -->
-                                                <ul class="features">
-                                                    <li>
-                                                        <p><span><i
-                                                                    class="fad boxity-primary-color
+                        <!-- Plan Features  -->
+                        <ul class="features">
+                            <li>
+                                <p><span><i
+                                            class="fad boxity-primary-color
                                                                     fa-check-circle"></i></span>&nbsp;<span><b>1TB</b></span>
-                                                            Cloud VPS Storage</p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i class="fad boxity-primary-color
+                                    Cloud VPS Storage</p>
+                            </li>
+                            <li>
+                                <p><span><i class="fad boxity-primary-color
                                                                     fa-check-circle"></i></span>&nbsp;<b>Unlimited
-                                                                users
-                                                                and clients</b></p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i class="fad boxity-primary-color
+                                        users
+                                        and clients</b></p>
+                            </li>
+                            <li>
+                                <p><span><i class="fad boxity-primary-color
                                                                     fa-check-circle"></i></span>&nbsp;<b>Free server &
-                                                                domain</b></p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i
-                                                                    class="fad boxity-primary-color fa-check-circle"></i></span>&nbsp;Business
-                                                            mail</p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i class="fad boxity-primary-color
+                                        domain</b></p>
+                            </li>
+                            <li>
+                                <p><span><i class="fad boxity-primary-color fa-check-circle"></i></span>&nbsp;Business
+                                    mail</p>
+                            </li>
+                            <li>
+                                <p><span><i class="fad boxity-primary-color
                                                                     fa-check-circle"></i></span>&nbsp;Business
-                                                            <b>premium</b> website config</p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i
-                                                                    class="fad boxity-primary-color fa-check-circle"></i></span>&nbsp;Report
-                                                            adjustments
-                                                            <span class="text-danger">*</span></p>
-                                                    </li>
-                                                    <li>
-                                                        <p><span><i
-                                                                    class="fad boxity-primary-color
+                                    <b>premium</b> website config</p>
+                            </li>
+                            <li>
+                                <p><span><i class="fad boxity-primary-color fa-check-circle"></i></span>&nbsp;Report
+                                    adjustments
+                                    <span class="text-danger">*</span></p>
+                            </li>
+                            <li>
+                                <p><span><i
+                                            class="fad boxity-primary-color
                                                                     fa-check-circle"></i></span>&nbsp;<span><b>VVIP</b></span>
-                                                            support<span class="text-danger">*</span></p>
-                                                    </li>
-                                                </ul>
+                                    support<span class="text-danger">*</span></p>
+                            </li>
+                        </ul>
 
 
 
-                                            </div>
-                                        </div> <!-- END ADVANCED PLAN -->
+                    </div>
+                </div> <!-- END ADVANCED PLAN -->
 
 
-                                    </div>
-                                </div>
-                            </div> <!-- End container -->
+            </div>
+        </div>
+    </div> <!-- End container -->
 </section>
 
 <div class="cta-section division">
@@ -558,30 +556,29 @@ management system, lyra boxity, ecommerce management system, cms ecommerce, ecom
                 <div class="col-lg-12 text-center">
                     <div class="cta-7-img">
                         <img src="{!!asset('images/boxity/just-logo.png')!!}" class="img-responsive img-logo-cta"
-                                alt="Boxity Central Indonesia Logo">
-                        </div>
+                            alt="Boxity Central Indonesia Logo">
                     </div>
+                </div>
 
-                    <!-- TEXT -->
-                    <div class="col-lg-12 text-center">
-                        <div class="cta-7-txt">
-                            <h3>{{__('ready_to_move')}}</h3>
-                            <h3>{{__('dsc_ready_to_move')}}</h3>
-                        </div>
+                <!-- TEXT -->
+                <div class="col-lg-12 text-center">
+                    <div class="cta-7-txt">
+                        <h3>{{__('ready_to_move')}}</h3>
+                        <h3>{{__('dsc_ready_to_move')}}</h3>
                     </div>
+                </div>
 
 
-                    <!-- BUTTON -->
-                    <div class="col-lg-12 text-center">
-                        <div class="cta-7-btn">
-                            <a href="/contact"
-                                class="btn btn-skyboxity tra-boxity-hover my-4">{{__('contact_sales')}}</a>
-                        </div>
+                <!-- BUTTON -->
+                <div class="col-lg-12 text-center">
+                    <div class="cta-7-btn">
+                        <a href="/contact" class="btn btn-skyboxity tra-boxity-hover my-4">{{__('contact_sales')}}</a>
                     </div>
+                </div>
 
 
-                </div> <!-- End row -->
-            </div> <!-- End cta-7-wrapper -->
-        </div> <!-- End container -->
-    </div>
-    @endsection
+            </div> <!-- End row -->
+        </div> <!-- End cta-7-wrapper -->
+    </div> <!-- End container -->
+</div>
+@endsection

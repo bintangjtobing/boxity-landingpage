@@ -43,7 +43,7 @@
     </script>
 
     <!-- SITE TITLE -->
-    <title>Boxity Central Indonesia - @yield('title')</title>
+    <title>@yield('title') - Boxity Central Indonesia</title>
 
     <!-- FAVICON AND TOUCH ICONS -->
     <link rel="icon"
@@ -74,7 +74,7 @@
         content="PT Boxity Central Indonesia is here to help and support companies in the 4.0 business industrial revolution, by providing a cloud-based system with a full focus on developing ERP (Enterprise Resources and Planning) and SaaS (Software as a Service) applications with the latest mobile and web models for companies with large valuations, and for MSMEs (Micro, Small, and Medium Enterprise)." />
     <link rel="canonical" href="https://boxity.id/" />
     <link rel="shortcut icon"
-        href="https://res.cloudinary.com/boxity-id/image/upload/v1634800361/assets/site%20needs/icon_za3vme.png"
+        href="@if(View::hasSection('icon'))@yield('icon')@else https://res.cloudinary.com/boxity-id/image/upload/v1634800361/assets/site%20needs/icon_za3vme.png @endif"
         type="image/png" sizes="64x64" />
     <meta name="og:email" content="info@boxity.id" />
     <meta name="og:phone_number" content="02129021873" />

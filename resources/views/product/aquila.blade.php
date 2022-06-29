@@ -1,5 +1,6 @@
 @extends('welcome')
 @section('title', 'Aquila by Boxity')
+@section('icon', 'https://res.cloudinary.com/boxity-id/image/upload/v1656495474/asset/logo-products/aquila_logo_lvv4ho.png')
 @section('page_description', 'Calculate and process employee payroll faster, and in real-time with the Aquila by Boxity
 payroll application.')
 @section('page_keywords', 'boxity, boxityerp, realizeboxity, boxity central indonesia, aquila by
