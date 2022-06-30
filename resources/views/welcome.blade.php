@@ -5,13 +5,13 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="Boxity | PT Boxity Central Indonesia" />
+    <meta name="author" content="@yield('title') - Boxity | PT Boxity Central Indonesia" />
     <meta name="description" content="@yield('page_description')" />
     <meta name="keywords" content="godigitalwithboxity, @yield('page_keywords')" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="copyright" content="PT Boxity Central Indonesia">
-    <meta name="url" content="http://www.boxity.id">
-    <meta name="identifier-URL" content="http://www.boxity.id">
+    <meta name="url" content="{{Request::url()}}">
+    <meta name="identifier-URL" content="{{Request::url()}}">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VLZMGJP9FS"></script>
@@ -57,22 +57,20 @@
         href="https://res.cloudinary.com/boxity-id/image/upload/c_scale,w_76/v1634800361/assets/site%20needs/icon_za3vme.png">
 
     {{-- Meta --}}
-    <meta name="og:title" property="og:title" content="Boxity | PT Boxity Central Indonesia" />
-    <meta name="og:url" property="og:url" content="https://boxity.id" />
+    <meta name="og:title" property="og:title" content="@yield('title') - Boxity | PT Boxity Central Indonesia" />
+    <meta name="og:url" property="og:url" content="{{Request::url()}}" />
     <meta name="og:type" property="og:type" content="website" />
     <meta name="og:image" property="og:image"
         content="https://res.cloudinary.com/boxity-id/image/upload/v1642815378/assets/site%20needs/tag_cover_hsiapv.jpg" />
-    <meta name="og:description" property="og:description"
-        content="PT Boxity Central Indonesia is here to help and support companies in the 4.0 business industrial revolution, by providing a cloud-based system with a full focus on developing ERP (Enterprise Resources and Planning) and SaaS (Software as a Service) applications with the latest mobile and web models for companies with large valuations, and for MSMEs (Micro, Small, and Medium Enterprise)." />
-    <meta name="twitter:card" content="Boxity | PT Boxity Central Indonesia" />
-    <meta name="twitter:title" property="og:title" content="Boxity | PT Boxity Central Indonesia" />
-    <meta name="twitter:url" property="og:url" content="https://boxity.id" />
+    <meta name="og:description" property="og:description" content="@yield('page_description')" />
+    <meta name="twitter:card" content="@yield('title') - Boxity | PT Boxity Central Indonesia" />
+    <meta name="twitter:title" property="og:title" content="@yield('title') - Boxity | PT Boxity Central Indonesia" />
+    <meta name="twitter:url" property="og:url" content="{{Request::url()}}" />
     <meta name="twitter:type" property="og:type" content="website" />
     <meta name="twitter:image" property="og:image"
         content="https://res.cloudinary.com/boxity-id/image/upload/v1642815378/assets/site%20needs/tag_cover_hsiapv.jpg" />
-    <meta name="twitter:description" property="og:description"
-        content="PT Boxity Central Indonesia is here to help and support companies in the 4.0 business industrial revolution, by providing a cloud-based system with a full focus on developing ERP (Enterprise Resources and Planning) and SaaS (Software as a Service) applications with the latest mobile and web models for companies with large valuations, and for MSMEs (Micro, Small, and Medium Enterprise)." />
-    <link rel="canonical" href="https://boxity.id/" />
+    <meta name="twitter:description" property="og:description" content="@yield('page_description')" />
+    <link rel="canonical" href="{{Request::url()}}/" />
     <link rel="shortcut icon"
         href="@if(View::hasSection('icon'))@yield('icon')@else https://res.cloudinary.com/boxity-id/image/upload/v1634800361/assets/site%20needs/icon_za3vme.png @endif"
         type="image/png" sizes="64x64" />
