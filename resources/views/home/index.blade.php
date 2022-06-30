@@ -449,7 +449,7 @@ erp saas, best erp, best saas')
 
                             <!-- Title -->
                             <h4 class="h4-sm">Semplice <sup>New</sup></h4>
-                            <h6>Create a mini website before your coffee gets cold.</h6>
+                            <h6>Create your micro-site before your coffee gets cold.</h6>
                             <!-- Text -->
                             <p>a platform that can help SMEs specifically and focused on increasing their customer reach
                                 online by integrating all their business links or contact information in 1 microsite
