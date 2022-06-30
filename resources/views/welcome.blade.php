@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="@yield('title') - Boxity | PT Boxity Central Indonesia" />
+    <meta name="author" content="@yield('title') | PT Boxity Central Indonesia" />
     <meta name="description" content="@yield('page_description')" />
     <meta name="keywords" content="godigitalwithboxity, @yield('page_keywords')" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -57,14 +57,14 @@
         href="https://res.cloudinary.com/boxity-id/image/upload/c_scale,w_76/v1634800361/assets/site%20needs/icon_za3vme.png">
 
     {{-- Meta --}}
-    <meta name="og:title" property="og:title" content="@yield('title') - Boxity | PT Boxity Central Indonesia" />
+    <meta name="og:title" property="og:title" content="@yield('title') | PT Boxity Central Indonesia" />
     <meta name="og:url" property="og:url" content="{{Request::url()}}" />
     <meta name="og:type" property="og:type" content="website" />
     <meta name="og:image" property="og:image"
         content="https://res.cloudinary.com/boxity-id/image/upload/v1642815378/assets/site%20needs/tag_cover_hsiapv.jpg" />
     <meta name="og:description" property="og:description" content="@yield('page_description')" />
-    <meta name="twitter:card" content="@yield('title') - Boxity | PT Boxity Central Indonesia" />
-    <meta name="twitter:title" property="og:title" content="@yield('title') - Boxity | PT Boxity Central Indonesia" />
+    <meta name="twitter:card" content="@yield('title') | PT Boxity Central Indonesia" />
+    <meta name="twitter:title" property="og:title" content="@yield('title') | PT Boxity Central Indonesia" />
     <meta name="twitter:url" property="og:url" content="{{Request::url()}}" />
     <meta name="twitter:type" property="og:type" content="website" />
     <meta name="twitter:image" property="og:image"
