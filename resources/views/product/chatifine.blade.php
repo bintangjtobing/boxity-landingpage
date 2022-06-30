@@ -5,6 +5,8 @@
 @section('page_description', 'Communication now more convenient, safe with the Chatifine by Boxity chat application.')
 @section('page_keywords', 'boxity, boxityerp, realizeboxity, boxity central indonesia, chatifine by
 boxity, chatifine secure chat app, chatifine chat, chatifine business chat app, chatifine boxity, business chat app')
+@section('tag_cover',
+'https://res.cloudinary.com/boxity-id/image/upload/v1656579852/asset/logo-products/tag-cover/tag_cover-chatifine_tbdhbj.png')
 @section('content')
 <section id="hero-boxity" class="bg-scroll hero-section division">
     <div class="container">

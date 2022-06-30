@@ -7,6 +7,8 @@ Boxity.')
 @section('page_keywords', 'boxity, boxityerp, realizeboxity, boxity central indonesia, aquila by
 boxity, fornax by
 boxity, fornax issue center system, issue center system, issue center management system, fornax boxity')
+@section('tag_cover',
+'https://res.cloudinary.com/boxity-id/image/upload/v1656579852/asset/logo-products/tag-cover/tag_cover-fornax_ykjf0x.png')
 @section('content')
 <section id="hero-boxity" class="bg-scroll hero-section division">
     <div class="container">

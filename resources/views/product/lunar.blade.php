@@ -6,6 +6,8 @@ boxity, lyra ecommerce
 management system, lyra boxity, ecommerce management system, cms ecommerce, ecommerce online, e business e commerce')
 @section('icon',
 'https://res.cloudinary.com/boxity-id/image/upload/c_fit,w_64/v1656495455/asset/logo-products/lunar_logo_yellow_wmtuly.png')
+@section('tag_cover',
+'https://res.cloudinary.com/boxity-id/image/upload/v1656579852/asset/logo-products/tag-cover/tag_cover-lunar_qvlorm.png')
 @section('content')
 <section id="hero-boxity" class="bg-scroll hero-section division">
     <div class="container">

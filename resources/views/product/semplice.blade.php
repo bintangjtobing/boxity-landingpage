@@ -6,6 +6,8 @@ customer reach online by integrating all their business links or contact informa
 'https://res.cloudinary.com/boxity-id/image/upload/v1656495388/asset/logo-products/semplice_logo_goxdbe.png')
 @section('page_keywords', 'buat mini website mudah dan terjangkau dengan semplice dari boxity, semplice by boxity,
 semplice boxity, semplice micro site, micro site')
+@section('tag_cover',
+'https://res.cloudinary.com/boxity-id/image/upload/v1656579851/asset/logo-products/tag-cover/tag_cover-semplice_aisiuj.png')
 @section('content')
 <section id="hero-boxity" class="bg-scroll hero-section division">
     <div class="container">

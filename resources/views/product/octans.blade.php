@@ -7,6 +7,8 @@ boxity, octans finance and accounting management system, finance and accounting 
 octans accounting system, octans boxity')
 @section('icon',
 'https://res.cloudinary.com/boxity-id/image/upload/c_fit,w_64/v1656495429/asset/logo-products/octans_logo_sejiuv.png')
+@section('tag_cover',
+'https://res.cloudinary.com/boxity-id/image/upload/v1656579851/asset/logo-products/tag-cover/tag_cover-octans_abx78w.png')
 @section('content')
 <section id="hero-boxity" class="bg-scroll hero-section division">
     <div class="container">

@@ -8,6 +8,8 @@ orion Human Resources Information system, orion HRM, orion boxity, HRIS terbaik,
 management system, payroll, best hris, HR partner, hr talent, junior hr')
 @section('icon',
 'https://res.cloudinary.com/boxity-id/image/upload/c_fit,w_64/v1656495423/asset/logo-products/orion_logo_zahqjy.png')
+@section('tag_cover',
+'https://res.cloudinary.com/boxity-id/image/upload/v1656579851/asset/logo-products/tag-cover/tag_cover-orion_s79ory.png')
 @section('content')
 <section id="hero-boxity" class="bg-scroll hero-section division">
     <div class="container">

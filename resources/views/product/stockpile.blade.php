@@ -7,6 +7,8 @@ boxity, stockpile
 warehouse management system, stockpile WMS Boxity, stockpile WMS, stockpile boxity, WMS, warehouse management system')
 @section('icon',
 'https://res.cloudinary.com/boxity-id/image/upload/c_fit,w_64/v1656495403/asset/logo-products/stockpile_logo_eqxu8d.png')
+@section('tag_cover',
+'https://res.cloudinary.com/boxity-id/image/upload/v1656579851/asset/logo-products/tag-cover/tag_cover-stockpile_s6lvvn.png')
 @section('content')
 <section id="hero-boxity" class="bg-scroll hero-section division">
     <div class="container">

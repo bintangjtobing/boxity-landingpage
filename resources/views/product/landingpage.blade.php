@@ -7,6 +7,7 @@ your website now.')
 berkualitas, jasa pembuatan landingpage terjangkau, landingpage
 berkualitas di indonesia, jasa landingpage murah, Membuat Website, Membuat Website Gratis, Buat Website, Buat Website
 Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bikin web, Manfaat Website')
+@section('tag_cover', '')
 @section('content')
 <section id="hero-boxity" class="bg-scroll hero-section division">
     <div class="container">
