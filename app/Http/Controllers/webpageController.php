@@ -187,4 +187,8 @@ class webpageController extends Controller
     {
         return view('product.landingpage');
     }
+    public function semplice()
+    {
+        return view('product.semplice');
+    }
 }

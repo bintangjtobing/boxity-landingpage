@@ -89,17 +89,22 @@ Route::post('/contact', 'webpageController@postContact');
 Route::get('/schedule-demo', 'webpageController@scheduleDemo')->name('contact');
 
 // Product Explanation
-// Route::get('/products/boxity-erp', 'webpageController@erp');
-Route::get('/products/fornax', 'webpageController@fornax')->name('products');
-Route::get('/products/lyra', 'webpageController@lyra')->name('products');
-Route::get('/products/orion', 'webpageController@orion')->name('products');
-Route::get('/products/stockpile', 'webpageController@stockpile')->name('products');
-Route::get('/products/lunar', 'webpageController@lunar')->name('products');
-// Route::get('/products/octans', 'webpageController@octans')->name('products');
-// Route::get('/products/pyxis', 'webpageController@pyxis')->name('products');
-// Route::get('/products/aquila', 'webpageController@aquila')->name('products');
-Route::get('/products/chatifine', 'webpageController@chatifine')->name('products');
-Route::get('/services/landingpage', 'webpageController@landingpage')->name('products');
+Route::prefix('products')->group(function () {
+    // Route::get('/boxity-erp', 'webpageController@erp');
+    Route::get('/fornax', 'webpageController@fornax')->name('products');
+    Route::get('/lyra', 'webpageController@lyra')->name('products');
+    Route::get('/orion', 'webpageController@orion')->name('products');
+    Route::get('/stockpile', 'webpageController@stockpile')->name('products');
+    Route::get('/lunar', 'webpageController@lunar')->name('products');
+    // Route::get('/octans', 'webpageController@octans')->name('products');
+    // Route::get('/pyxis', 'webpageController@pyxis')->name('products');
+    // Route::get('/aquila', 'webpageController@aquila')->name('products');
+    Route::get('/chatifine', 'webpageController@chatifine')->name('products');
+});
+Route::prefix('services')->group(function () {
+    Route::get('/landingpage', 'webpageController@landingpage')->name('products');
+    Route::get('/semplice', 'webpageController@semplice')->name('products');
+});
 
 // additional
 Route::get('/terms-conditions', 'additionalController@terms');

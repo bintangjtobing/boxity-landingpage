@@ -208,6 +208,10 @@
                                         <div class="container">
                                             <div class="row">
                                                 <ul class="col-md-12 col-lg-6 link-list">
+                                                    <li><a href="/services/semplice"> Semplice
+                                                            <sup>New</sup><br><span
+                                                                class="sub-link-list">{{__('semplice')}}</span></a>
+                                                    </li>
                                                     <li><a href="/services/landingpage">Landing page
                                                             <sup>New</sup><br><span
                                                                 class="sub-link-list">{{__('landingpage')}}</span></a>
@@ -402,6 +406,9 @@
                             <ul class="foo-links text-secondary clearfix">
                                 <li>
                                     <p><a href="/services/landingpage">Landing page <span>- New</span></a></p>
+                                </li>
+                                <li>
+                                    <p><a href="/services/semplice">Semplice <span>- New</span></a></p>
                                 </li>
                             </ul>
 
