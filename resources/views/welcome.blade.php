@@ -61,16 +61,14 @@
     <meta name="og:url" property="og:url" content="{{Request::url()}}" />
     <meta name="og:type" property="og:type" content="website" />
     <meta name="og:image" property="og:image"
-        content="@if(View::hasSection('tag_cover'))@yield('tag_cover')@else
-        https://res.cloudinary.com/boxity-id/image/upload/v1642815378/assets/site%20needs/tag_cover_hsiapv.jpg @endif" />
+        content="@if(View::hasSection('tag_cover'))@yield('tag_cover')@else https://res.cloudinary.com/boxity-id/image/upload/v1642815378/assets/site%20needs/tag_cover_hsiapv.jpg @endif" />
     <meta name="og:description" property="og:description" content="@yield('page_description')" />
     <meta name="twitter:card" content="@yield('title') | PT Boxity Central Indonesia" />
     <meta name="twitter:title" property="og:title" content="@yield('title') | PT Boxity Central Indonesia" />
     <meta name="twitter:url" property="og:url" content="{{Request::url()}}" />
     <meta name="twitter:type" property="og:type" content="website" />
     <meta name="twitter:image" property="og:image"
-        content="@if(View::hasSection('tag_cover'))@yield('tag_cover')@else
-        https://res.cloudinary.com/boxity-id/image/upload/v1642815378/assets/site%20needs/tag_cover_hsiapv.jpg @endif" />
+        content="@if(View::hasSection('tag_cover'))@yield('tag_cover')@else https://res.cloudinary.com/boxity-id/image/upload/v1642815378/assets/site%20needs/tag_cover_hsiapv.jpg @endif" />
     <meta name="twitter:description" property="og:description" content="@yield('page_description')" />
     <link rel="canonical" href="{{Request::url()}}/" />
     <link rel="shortcut icon"
