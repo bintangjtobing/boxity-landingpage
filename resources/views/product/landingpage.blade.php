@@ -7,7 +7,6 @@ your website now.')
 berkualitas, jasa pembuatan landingpage terjangkau, landingpage
 berkualitas di indonesia, jasa landingpage murah, Membuat Website, Membuat Website Gratis, Buat Website, Buat Website
 Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bikin web, Manfaat Website')
-@section('tag_cover', '')
 @section('content')
 <section id="hero-boxity" class="bg-scroll hero-section division">
     <div class="container">
@@ -247,7 +246,8 @@ Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bik
             <!-- IMAGE BLOCK -->
             <div class="col-md-6 col-lg-7">
                 <div class="img-block right-column wow fadeInLeft">
-                    <img class="img-fluid" src="{!!asset('images/boxity/Integrated-modules.png')!!}" alt="content-image">
+                    <img class="img-fluid" src="{!!asset('images/boxity/Integrated-modules.png')!!}"
+                        alt="content-image">
                 </div>
             </div>
 
@@ -577,8 +577,8 @@ Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bik
                             <span class="dark-color">2,99jt</span>
                             <sup class="validity dark-color"> /OTC</sup>
 
-                            <a href="/contact" target="_blank"
-                                class="btn btn-sm btn-skyboxity tra-boxity-hover">Contact our sales</a>
+                            <a href="/contact" target="_blank" class="btn btn-sm btn-skyboxity tra-boxity-hover">Contact
+                                our sales</a>
 
                         </div>
 
@@ -639,8 +639,8 @@ Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bik
                             <span class="dark-color">5,499jt</span>
                             <sup class="validity dark-color"> /OTC</sup>
 
-                            <a href="/contact" target="_blank"
-                                class="btn btn-sm btn-skyboxity tra-boxity-hover">Contact our sales</a>
+                            <a href="/contact" target="_blank" class="btn btn-sm btn-skyboxity tra-boxity-hover">Contact
+                                our sales</a>
 
                         </div>
 
@@ -701,8 +701,8 @@ Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bik
                             <span class="dark-color">8,499jt</span>
                             <sup class="validity dark-color"> /OTC</sup>
 
-                            <a href="/contact" target="_blank"
-                                class="btn btn-sm btn-skyboxity tra-boxity-hover">Contact our sales</a>
+                            <a href="/contact" target="_blank" class="btn btn-sm btn-skyboxity tra-boxity-hover">Contact
+                                our sales</a>
 
                         </div>
 
