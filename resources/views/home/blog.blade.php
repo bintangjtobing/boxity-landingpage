@@ -64,10 +64,11 @@ WMS, boxity financial, boxity indonesia, news from boxity')
                                 </h5>
                                 <div class="post-meta">
                                     <p class="p-md"><i class="fal fa-eye"></i>
-                                        @if ($blog->views<1000000) {{number_format($blog->views/1000, 1).'K'}}
-                                            @elseif($blog->views<1000000000)
-                                                {{number_format($blog->views/1000000, 1).'M'}} @else{
-                                                {{number_format($blog->views/1000000000, 1).'B'}} } @endif Views</p>
+                                        @if ($blog->views<1000) {{number_format($blog->views)}} @elseif($blog->views
+                                            <1000000) {{number_format($blog->views/1000, 1).'K'}} @elseif($blog->views
+                                                <1000000000) {{number_format($blog->views/1000000, 1).'M'}} @else{
+                                                    {{number_format($blog->views/1000000000, 1).'B'}} } @endif
+                                                    Views</p>
                                                 </div> </div> </div> @endforeach </div> </div> </div> <!-- END BLOG
                                                 POSTS -->
 

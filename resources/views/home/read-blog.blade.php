@@ -37,31 +37,33 @@ WMS, boxity financial, boxity indonesia, news from boxity')
                             <div class="post-author">
                                 <h6 class="h6-xl">{{$blogs->user->name}}</h6>
                                 <p class="p-md">Posted on {{  date('M d, Y', strtotime($blogs->created_at)) }} | <i
-                                        class="far fa-eye"></i> {{$blogs->views}} views</p>
+                                        class="far fa-eye"></i> @if ($blogs->views<1000)
+                                        {{number_format($blogs->views)}} @elseif($blogs->views<1000000)
+                                            {{number_format($blogs->views/1000, 1).'K'}} @elseif($blogs->views
+                                            <1000000000) {{number_format($blogs->views/1000000, 1).'M'}} @else{
+                                                {{number_format($blogs->views/1000000000, 1).'B'}} } @endif views</p>
+                                                </div> </div> <!-- END POST DATA -->
+
+
+                            </div> <!-- END SINGLE POST TITLE -->
+
+
+                            <!-- BLOG POST INNER IMAGE -->
+                            <div class="post-inner-img">
+                                <img class="img-fluid" src="{{$blogs->image->file}}" alt="blog-post-image" />
                             </div>
 
-                        </div> <!-- END POST DATA -->
+
+                            <!-- BLOG POST TEXT -->
+                            <div class="single-post-txt">
+
+                                {!!$blogs->description!!}
+
+                            </div> <!-- END BLOG POST TEXT -->
 
 
-                    </div> <!-- END SINGLE POST TITLE -->
-
-
-                    <!-- BLOG POST INNER IMAGE -->
-                    <div class="post-inner-img">
-                        <img class="img-fluid" src="{{$blogs->image->file}}" alt="blog-post-image" />
-                    </div>
-
-
-                    <!-- BLOG POST TEXT -->
-                    <div class="single-post-txt">
-
-                        {!!$blogs->description!!}
-
-                    </div> <!-- END BLOG POST TEXT -->
-
-
-                    <!-- SINGLE POST SHARE LINKS -->
-                    {{-- <div class="row post-share-links d-flex align-items-center">
+                            <!-- SINGLE POST SHARE LINKS -->
+                            {{-- <div class="row post-share-links d-flex align-items-center">
 
                         <!-- POST TAGS -->
                         <div class="col-md-9 col-xl-8 post-tags-list">
@@ -82,12 +84,12 @@ WMS, boxity financial, boxity indonesia, news from boxity')
 
                     </div> <!-- END SINGLE POST SHARE --> --}}
 
-                </div>
-            </div>
-        </div> <!-- END SINGLE POST CONTENT -->
+                        </div>
+                    </div>
+                </div> <!-- END SINGLE POST CONTENT -->
 
 
-    </div> <!-- End container -->
+            </div> <!-- End container -->
 </section> <!-- END SINGLE POST -->
 <section id="blog-1" class="bg-whitesmoke-gradient wide-60 blog-section division">
     <div class="container">
@@ -131,18 +133,21 @@ WMS, boxity financial, boxity indonesia, news from boxity')
 
                         <!-- Post Meta -->
                         <div class="post-meta">
-                            <p class="p-md">{{$blogGet->views}} Views</p>
+                            <p class="p-md"><i class="far fa-eye"></i>@if ($blogGet->views<1000)
+                                    {{number_format($blogGet->views)}} @elseif($blogGet->
+                                    views<1000000) {{number_format($blogGet->views/1000, 1).'K'}} @elseif($blogGet->
+                                        views
+                                        <1000000000) {{number_format($blogGet->views/1000000, 1).'M'}} @else{
+                                            {{number_format($blogGet->views/1000000000, 1).'B'}} } @endif Views</p>
+                                            </div> </div> <!-- END BLOG POST TEXT -->
+
                         </div>
-
-                    </div> <!-- END BLOG POST TEXT -->
-
-                </div>
-            </div> <!-- END  BLOG POST #1 -->
-            @endforeach
-        </div> <!-- END BLOG POSTS -->
+                    </div> <!-- END  BLOG POST #1 -->
+                    @endforeach
+                </div> <!-- END BLOG POSTS -->
 
 
-    </div> <!-- End container -->
+            </div> <!-- End container -->
 </section>
 
 
