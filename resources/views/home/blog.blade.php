@@ -58,7 +58,7 @@ WMS, boxity financial, boxity indonesia, news from boxity')
                             <div class="blog-post-txt">
                                 <p class="p-md post-tag">{{$blog->created_at->diffForHumans()}}</p>
                                 <h5 class="h5-md">
-                                    <a href="/blog/read/{{Crypt::encrypt($blog->id)}}">
+                                    <a href="/blog/read/{{$blog->slug}}">
                                         {{$blog->title}}
                                     </a>
                                 </h5>

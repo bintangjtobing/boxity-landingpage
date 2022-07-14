@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Crypt;
 use App\candidates;
 use App\careerViews;
 use App\blog;
+use App\blogs;
 use CloudinaryLabs\CloudinaryLaravel\Facades\Cloudinary;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\confirmationToCandidate;
@@ -30,20 +31,21 @@ class webpageController extends Controller
     public function blog()
     {
         $blog = blog::orderBy('created_at', 'desc')->where('status', 1)->with('user', 'image')->paginate(9);
+        // $blog = blogs::orderBy('created_at', 'desc')->paginate(9);
+        // dd($blog);
         return view('home.blog', ['blogs' => $blog]);
         // return response()->json($blog);
     }
-    public function readBlog($id, Request $request)
+    public function readBlog($slug, Request $request)
     {
         // Update job count views
-        $blogView = blog::where('id', Crypt::decrypt($id))->with('user', 'image')->first();
+        $blogView = blog::where('slug', $slug)->with('user', 'image')->first();
         $blogView->views += 1;
         $blogView->save();
 
-        $blog = DB::table('blogs')->find(Crypt::decrypt($id));
-        $blogGet = blog::where('id', '!=', Crypt::decrypt($id))->with('user', 'image')->inRandomOrder()->get();
+        $blogGet = blog::where('slug', $slug)->with('user', 'image')->inRandomOrder()->get();
         return view('home.read-blog', ['blogs' => $blogView, 'blogArr' => $blogGet]);
-        // return response()->json($blogView);
+        // return response()->json($blogGet);
     }
     public function about()
     {

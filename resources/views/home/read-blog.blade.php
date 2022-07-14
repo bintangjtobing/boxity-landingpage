@@ -126,7 +126,7 @@ WMS, boxity financial, boxity indonesia, news from boxity')
 
                         <!-- Post Link -->
                         <h5 class="h5-md">
-                            <a href="/blog/read/{{Crypt::encrypt($blogGet->id)}}">{{$blogGet->title}}</a>
+                            <a href="/blog/read/{{$blogGet->slug}}">{{$blogGet->title}}</a>
                         </h5>
 
                         <!-- Post Meta -->

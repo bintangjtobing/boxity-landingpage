@@ -693,7 +693,7 @@ Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bik
 
                             <!-- Plan Title -->
                             <div class="pricing-plan-title">
-                                <h5 class="h5-xs">Basic Plan</h5>
+                                <h5 class="h5-xs">Enterprise Plan</h5>
                             </div>
 
                             <p>Suitable for your establish business</p>

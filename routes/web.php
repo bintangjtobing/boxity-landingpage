@@ -75,7 +75,7 @@ Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => 'LanguageController@
 Route::get('/', 'webpageController@index')->name('home');
 Route::get('/about', 'webpageController@about')->name('about');
 Route::get('/blog', 'webpageController@blog')->name('blog');
-Route::get('/blog/read/{id}', 'webpageController@readBlog')->name('blog');
+Route::get('/blog/read/{slug}', 'webpageController@readBlog')->name('blog');
 Route::get('/contact', 'webpageController@contact')->name('contact');
 Route::get('/job-vacancies', 'webpageController@career')->name('career');
 Route::get('/job-openings/{id}', 'webpageController@getJobs')->name('career');
