@@ -1,5 +1,5 @@
 @extends('welcome')
-@section('title', $blogs->seo_title)
+@section('title', $blogs->seo_title ?? $blogs->title)
 @section('page_description', $blogs->seo_description)
 @section('page_keywords', 'blog boxity, boxity, boxityerp, realizeboxity, boxity central
 indonesia, erp boxity, warehouse management, human resources management, financial management, boxity warehouse, boxity
@@ -60,6 +60,20 @@ WMS, boxity financial, boxity indonesia, news from boxity')
                                 {!!$blogs->description!!}
 
                             </div> <!-- END BLOG POST TEXT -->
+                            <div class="single-post-txt">
+                                <?php $getExt = substr($blogs->file->files, -3) ?>
+                                {{-- {{$getExt}} --}}
+                                @if ($getExt == 'pdf')
+                                <iframe src="{{$blogs->file->files}}" align="center" height="620" width="100%"
+                                    frameborder="0" scrolling="auto"></iframe>
+                                @endif
+                                @if($getExt == 'ptx' || $getExt == 'ppt')
+                                <iframe
+                                    src="https://view.officeapps.live.com/op/view.aspx?src={{ENV('APP_BE').'/asset/files/'.$blogs->file->files}}"
+                                    align="center" height="620" width="100%" frameborder="0" scrolling="auto"></iframe>
+                                @endif
+
+                            </div>
 
 
                             <!-- SINGLE POST SHARE LINKS -->
