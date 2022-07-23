@@ -71,7 +71,7 @@
                                         <option value="" selected>Choose one...</option>
                                         <option value="Semplice">Semplice - Make your micro-site before your coffee cold
                                         </option>
-                                        <option value="Landingpage">Landingpage - Make your great landing page with us
+                                        <option value="Landingpage">landing page - Make your great landing page with us
                                         </option>
                                         <option value="Octans">Octans - Finance and accounting software</option>
                                         <option value="Fornax">Fornax - Issue center management software</option>

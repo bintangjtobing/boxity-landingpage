@@ -31,13 +31,14 @@ semplice boxity, semplice micro site, micro site')
                     <h2 class="h2-xl">Create a mini-website before your coffee gets cold.</h2>
 
                     <!-- Text -->
-                    <p class="p">Websites that contain a focus on business-exclusive purposes such as promotions,
+                    <p class="p">Website that focuses on business-exclusive purposes such as promotions,
                         business contact information, and links to client markets.
                     </p>
 
                     <!-- Buttons Group -->
                     <div class="btns-group mb-20">
-                        <a href="/contact" class="btn btn-skyboxity tra-white-hover mr-15">{{__('contact_sales')}}</a>
+                        <a href="/contact" class="btn btn-skyboxity tra-white-hover mr-15">Create your mini-website
+                            here</a>
                     </div>
 
                 </div>
@@ -69,7 +70,7 @@ semplice boxity, semplice micro site, micro site')
                 <div class="section-title title-01 mb-70">
 
                     <!-- Title -->
-                    <h2 class="h2-md">Why you should <span>Semplice</span>?</h2>
+                    <h2 class="h2-md">Why you should use <span>Semplice</span>?</h2>
 
                 </div>
             </div>
@@ -345,7 +346,7 @@ semplice boxity, semplice micro site, micro site')
                 <div class="section-title title-01 mb-80">
 
                     <!-- Title -->
-                    <h2 class="h2-md"> Pricing plans to get the best<br>micro-site for your business</h2>
+                    <h2 class="h2-md">Landing page plans specially curated for your business</h2>
 
                     <!-- Text -->
                     <p class="p-xl">No credit card required. Call, discuss, and apply.<br></p>

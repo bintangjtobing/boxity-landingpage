@@ -30,8 +30,8 @@ Route::get('/career', function () {
 });
 
 Route::prefix('e-certificate/v')->group(function () {
-    Route::get('/5f61e3c6-a6a0-11ec-b909-0242ac120002', function () {
-        return Redirect::to('/e-certificate/v/0242ac120002.jpg');
+    Route::get('/{uuid}', function ($uuid) {
+        return Redirect::to('/e-certificate/v/' . $uuid . '.jpg');
     });
 });
 Route::prefix('sc/business')->group(function () {

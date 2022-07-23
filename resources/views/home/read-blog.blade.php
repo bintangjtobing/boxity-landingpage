@@ -60,20 +60,22 @@ WMS, boxity financial, boxity indonesia, news from boxity')
                                 {!!$blogs->description!!}
 
                             </div> <!-- END BLOG POST TEXT -->
+                            {{-- @if (!$blogs->file['files']->isEmpty()) --}}
                             <div class="single-post-txt">
-                                <?php $getExt = substr($blogs->file->files, -3) ?>
+                                <?php $getExt = substr($blogs->file['files'], -3) ?>
                                 {{-- {{$getExt}} --}}
                                 @if ($getExt == 'pdf')
-                                <iframe src="{{$blogs->file->files}}" align="center" height="620" width="100%"
+                                <iframe src="{{$blogs->file['files']}}" align="center" height="620" width="100%"
                                     frameborder="0" scrolling="auto"></iframe>
                                 @endif
                                 @if($getExt == 'ptx' || $getExt == 'ppt')
                                 <iframe
-                                    src="https://view.officeapps.live.com/op/view.aspx?src={{ENV('APP_BE').'/asset/files/'.$blogs->file->files}}"
+                                    src="https://view.officeapps.live.com/op/view.aspx?src={{ENV('APP_BE').'/asset/files/'.$blogs->file['files']}}"
                                     align="center" height="620" width="100%" frameborder="0" scrolling="auto"></iframe>
                                 @endif
 
                             </div>
+                            {{-- @endif --}}
 
 
                             <!-- SINGLE POST SHARE LINKS -->

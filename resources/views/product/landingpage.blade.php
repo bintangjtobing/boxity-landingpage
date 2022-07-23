@@ -3,9 +3,10 @@
 @section('page_description', 'Web creation services in Boxity are ready to help you to be able to scale-up in the online
 world. Enjoy the ease of managing the website according to your wishes with great performance and full features. Order
 your website now.')
-@section('page_keywords', 'landingpage boxity, boxity landingpage, landingpage dari boxity, jasa pembuatan landingpage
-berkualitas, jasa pembuatan landingpage terjangkau, landingpage
-berkualitas di indonesia, jasa landingpage murah, Membuat Website, Membuat Website Gratis, Buat Website, Buat Website
+@section('page_keywords', 'landing page boxity, boxity landing page, landing page dari boxity, jasa pembuatan landing
+page
+berkualitas, jasa pembuatan landing page terjangkau, landing page
+berkualitas di indonesia, jasa landing page murah, Membuat Website, Membuat Website Gratis, Buat Website, Buat Website
 Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bikin web, Manfaat Website')
 @section('content')
 <section id="hero-boxity" class="bg-scroll hero-section division">
@@ -16,8 +17,8 @@ Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bik
             <!-- HERO IMAGE -->
             <div class="col-md-5 col-lg-6 order-last order-md-2">
                 <div class="hero-boxity-img pc-30 wow fadeInRight">
-                    <img class="img-fluid" src="{!!asset('product/landingpage/asset-1.png')!!}"
-                        alt="landingpage-by-boxity">
+                    <img class="img-fluid" src="{!!asset('product/landing page/asset-1.png')!!}"
+                        alt="landing page-by-boxity">
                 </div>
             </div>
 
@@ -36,7 +37,7 @@ Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bik
 
                     <!-- Buttons Group -->
                     <div class="btns-group mb-20">
-                        <a href="/contact" class="btn btn-skyboxity tra-white-hover mr-15">{{__('contact_sales')}}</a>
+                        <a href="/contact" class="btn btn-skyboxity tra-white-hover mr-15">Get your landing page now</a>
                     </div>
 
                 </div>
@@ -127,7 +128,7 @@ Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bik
 
                             <!-- Text -->
                             <p class="p-lg">We do not use CMS panels from wordpress or blogger, because we create and
-                                provide quality and professional things for our clients.
+                                provide professional quality services for our clients.
                             </p>
 
                         </div>
@@ -404,7 +405,7 @@ Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bik
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="brands-title text-center">
-                    <p class="p-xl">This guys are using services from BOXITY and they are more than happier ever</p>
+                    <p class="p-xl">This guys are using services from BOXITY and they are happier than ever</p>
                 </div>
             </div>
         </div>
@@ -545,7 +546,7 @@ Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bik
                 <div class="section-title title-01 mb-80">
 
                     <!-- Title -->
-                    <h2 class="h2-md"> Pricing plans to get the best<br>suitable landing page for your business</h2>
+                    <h2 class="h2-md">Landing page plans specially curated for your business</h2>
 
                     <!-- Text -->
                     <p class="p-xl">No credit card required. Call, discuss, and apply.<br></p>
@@ -696,7 +697,7 @@ Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bik
                                 <h5 class="h5-xs">Enterprise Plan</h5>
                             </div>
 
-                            <p>Suitable for your establish business</p>
+                            <p>Suitable for your established business</p>
                             <sup class="dark-color">IDR</sup>
                             <span class="dark-color">8,499jt</span>
                             <sup class="validity dark-color"> /OTC</sup>
