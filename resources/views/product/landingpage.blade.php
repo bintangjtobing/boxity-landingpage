@@ -17,7 +17,7 @@ Gratis, Membuat Website Sendiri, pembuatan website, bikin website, buat web, bik
             <!-- HERO IMAGE -->
             <div class="col-md-5 col-lg-6 order-last order-md-2">
                 <div class="hero-boxity-img pc-30 wow fadeInRight">
-                    <img class="img-fluid" src="{!!asset('product/landing page/asset-1.png')!!}"
+                    <img class="img-fluid" src="{!!asset('product/landingpage/asset-1.png')!!}"
                         alt="landing page-by-boxity">
                 </div>
             </div>
