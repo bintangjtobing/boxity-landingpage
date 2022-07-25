@@ -1,6 +1,6 @@
 @extends('welcome')
 @section('title', $blogs->seo_title ?? $blogs->title)
-@section('page_description', $blogs->seo_description)
+@section('page_description', $blogs->seo_description ?? '')
 @section('page_keywords', 'blog boxity, boxity, boxityerp, realizeboxity, boxity central
 indonesia, erp boxity, warehouse management, human resources management, financial management, boxity warehouse, boxity
 WMS, boxity financial, boxity indonesia, news from boxity')
