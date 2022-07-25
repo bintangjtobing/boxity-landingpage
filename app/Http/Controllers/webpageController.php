@@ -39,13 +39,13 @@ class webpageController extends Controller
     public function readBlog($slug, Request $request)
     {
         // Update job count views
-        $blogView = blog::where('slug', $slug)->first();
-        $blogView->views += 1;
-        $blogView->save();
+        $blogView = blog::where('slug', $slug)->with('user', 'image', 'file', 'categories', 'subcategories')->first();
+        // $blogView->views += 1;
+        // $blogView->save();
 
-        $blogGet = blog::where('slug', $slug)->with('user', 'image', 'file')->inRandomOrder()->get();
+        $blogGet = blog::where('userid', $blogView->user->id)->orderBy('views', 'DESC')->with('user', 'image', 'file')->limit(3)->get();
         return view('home.read-blog', ['blogs' => $blogView, 'blogArr' => $blogGet]);
-        // return response()->json($blogGet);
+        // return response()->json($blogView);
     }
     public function about()
     {

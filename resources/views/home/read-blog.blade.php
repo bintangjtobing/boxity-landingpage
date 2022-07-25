@@ -60,7 +60,7 @@ WMS, boxity financial, boxity indonesia, news from boxity')
                                 {!!$blogs->description!!}
 
                             </div> <!-- END BLOG POST TEXT -->
-                            {{-- @if (!$blogs->file['files']->isEmpty()) --}}
+                            @if ($blogs->file['files']!=null)
                             <div class="single-post-txt">
                                 <?php $getExt = substr($blogs->file['files'], -3) ?>
                                 {{-- {{$getExt}} --}}
@@ -75,7 +75,7 @@ WMS, boxity financial, boxity indonesia, news from boxity')
                                 @endif
 
                             </div>
-                            {{-- @endif --}}
+                            @endif
 
 
                             <!-- SINGLE POST SHARE LINKS -->
@@ -138,7 +138,6 @@ WMS, boxity financial, boxity indonesia, news from boxity')
 
                     <!-- BLOG POST TEXT -->
                     <div class="blog-post-txt">
-
                         <!-- Post Tag -->
                         <p class="p-md post-tag">{{$blogGet->created_at->diffForHumans()}}</p>
 
@@ -161,8 +160,6 @@ WMS, boxity financial, boxity indonesia, news from boxity')
                     </div> <!-- END  BLOG POST #1 -->
                     @endforeach
                 </div> <!-- END BLOG POSTS -->
-
-
             </div> <!-- End container -->
 </section>
 
