@@ -43,7 +43,7 @@ class webpageController extends Controller
         // $blogView->views += 1;
         // $blogView->save();
 
-        $blogGet = blog::where('userid', $blogView->user->id)->orderBy('views', 'DESC')->with('user', 'image', 'file')->limit(3)->get();
+        $blogGet = blog::where('userid', $blogView->user->id)->orderBy('views', 'DESC')->with('image')->limit(3)->get();
         return view('home.read-blog', ['blogs' => $blogView, 'blogArr' => $blogGet]);
         // return response()->json($blogView);
     }

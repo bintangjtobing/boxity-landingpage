@@ -19,7 +19,7 @@ class blog extends Model
     ];
     public function user()
     {
-        return $this->belongsTo(User::class, 'userid');
+        return $this->belongsTo(User::class, 'userid', 'id');
     }
     public function image()
     {
