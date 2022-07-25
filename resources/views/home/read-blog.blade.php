@@ -1,10 +1,10 @@
 @extends('welcome')
-@section('title', $blogs->seo_title ?? $blogs->title)
+@section('title', $blogs->seo_title ?? '')
 @section('page_description', $blogs->seo_description ?? '')
 @section('page_keywords', 'blog boxity, boxity, boxityerp, realizeboxity, boxity central
 indonesia, erp boxity, warehouse management, human resources management, financial management, boxity warehouse, boxity
 WMS, boxity financial, boxity indonesia, news from boxity')
-@section('tag_cover',$blogs->image->file)
+@section('tag_cover',$blogs->image->file ?? '')
 @section('content')
 <section id="single-post" class="wide-100 inner-page-hero single-post-section division">
     <div class="container">
@@ -35,7 +35,8 @@ WMS, boxity financial, boxity indonesia, news from boxity')
 
                             <!-- Author Data -->
                             <div class="post-author">
-                                <h6 class="h6-xl">{{$blogs->user->name}}</h6>
+
+                                <h6 class="h6-xl">{{$blogs->user->name ?? ''}}</h6>
                                 <p class="p-md">Posted on {{  date('M d, Y', strtotime($blogs->created_at)) }} | <i
                                         class="far fa-eye"></i> @if ($blogs->views<1000)
                                         {{number_format($blogs->views)}} @elseif($blogs->views<1000000)
@@ -60,7 +61,7 @@ WMS, boxity financial, boxity indonesia, news from boxity')
                                 {!!$blogs->description!!}
 
                             </div> <!-- END BLOG POST TEXT -->
-                            @if ($blogs->file['files']!=null)
+                            @if ($blogs->file['files'] ?? '')
                             <div class="single-post-txt">
                                 <?php $getExt = substr($blogs->file['files'], -3) ?>
                                 {{-- {{$getExt}} --}}
