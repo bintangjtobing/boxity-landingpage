@@ -34,6 +34,10 @@ Route::prefix('e-certificate/v')->group(function () {
         return Redirect::to('/e-certificate/v/' . $uuid . '.jpg');
     });
 });
+Route::get('/log-viewer', [
+    'as'   => 'log-viewer::dashboard',
+    'uses' => '\Arcanedev\LogViewer\Http\Controllers\LogViewerController@index',
+]);
 Route::prefix('sc/business')->group(function () {
     Route::get('/pitch/2022/en', function () {
         return Redirect::to('/business/pitch/Eng_pitch_deck_2022.pdf');

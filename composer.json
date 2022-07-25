@@ -10,6 +10,7 @@
     "require": {
         "php": "^7.2.5|^8.0",
         "anhskohbo/no-captcha": "^3.3",
+        "arcanedev/log-viewer": "~7",
         "cloudinary-labs/cloudinary-laravel": "^1.0",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
