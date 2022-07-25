@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 
 
-class blog extends Model
+class Blog extends Model
 {
     protected $table = 'blogs';
     protected $fillable = [
