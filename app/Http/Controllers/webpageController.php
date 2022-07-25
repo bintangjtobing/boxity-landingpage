@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Crypt;
 use App\candidates;
 use App\careerViews;
-use App\Blog;
 use CloudinaryLabs\CloudinaryLaravel\Facades\Cloudinary;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\confirmationToCandidate;
@@ -16,6 +15,7 @@ use App\subscription;
 use Cloudinary\Cloudinary as CloudinaryCloudinary;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Http;
+use App\Blog;
 
 class webpageController extends Controller
 {
