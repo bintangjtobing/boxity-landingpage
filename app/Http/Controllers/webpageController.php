@@ -39,7 +39,7 @@ class webpageController extends Controller
     public function readBlog($slug, Request $request)
     {
         // Update job count views
-        $blogView = blog::where('slug', $slug)->with('user', 'image', 'file')->first();
+        $blogView = blog::where('slug', $slug)->first();
         $blogView->views += 1;
         $blogView->save();
 
