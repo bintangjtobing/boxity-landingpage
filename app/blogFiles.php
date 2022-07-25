@@ -12,6 +12,6 @@ class blogFiles extends Model
     ];
     public function blog()
     {
-        return $this->belongsTo(Blog::class, 'blog_id');
+        return $this->belongsTo(blog::class, 'blog_id');
     }
 }

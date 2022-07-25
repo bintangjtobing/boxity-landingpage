@@ -15,7 +15,7 @@ use App\subscription;
 use Cloudinary\Cloudinary as CloudinaryCloudinary;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Http;
-use App\Blog;
+use App\blog;
 
 class webpageController extends Controller
 {
@@ -29,7 +29,7 @@ class webpageController extends Controller
     }
     public function blog()
     {
-        $blog = Blog::orderBy('created_at', 'desc')->where('status', 1)->with('user', 'image', 'file')->paginate(9);
+        $blog = blog::orderBy('created_at', 'desc')->where('status', 1)->with('user', 'image', 'file')->paginate(9);
         // $blog = blogs::orderBy('created_at', 'desc')->paginate(9);
         // dd($blog);
         return view('home.blog', ['blogs' => $blog]);
@@ -38,11 +38,11 @@ class webpageController extends Controller
     public function readBlog($slug, Request $request)
     {
         // Update job count views
-        $blogView = Blog::where('slug', $slug)->with('user', 'image', 'file', 'categories', 'subcategories')->first();
+        $blogView = blog::where('slug', $slug)->with('user', 'image', 'file', 'categories', 'subcategories')->first();
         $blogView->views += 1;
         $blogView->save();
 
-        $blogGet = Blog::where('userid', $blogView->user->id)->orderBy('views', 'DESC')->with('image')->limit(3)->get();
+        $blogGet = blog::where('userid', $blogView->user->id)->orderBy('views', 'DESC')->with('image')->limit(3)->get();
         return view('home.read-blog', ['blogs' => $blogView, 'blogArr' => $blogGet]);
         // return response()->json($blogView);
     }
