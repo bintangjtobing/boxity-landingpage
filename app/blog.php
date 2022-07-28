@@ -37,6 +37,10 @@ class blog extends Model
     {
         return $this->belongsTo(blogFiles::class, 'id', 'blog_id');
     }
+    public function comments()
+    {
+        return $this->hasMany(comments::class)->whereNull('parent_id');
+    }
     protected $casts = [
         'created_at' => 'datetime:d M, Y',
     ];

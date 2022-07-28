@@ -67,10 +67,9 @@ WMS, boxity financial, boxity indonesia, news from boxity')
                                         @if ($blog->views<1000) {{number_format($blog->views)}} @elseif($blog->views
                                             <1000000) {{number_format($blog->views/1000, 1).'K'}} @elseif($blog->views
                                                 <1000000000) {{number_format($blog->views/1000000, 1).'M'}} @else{
-                                                    {{number_format($blog->views/1000000000, 1).'B'}} } @endif
-                                                    Views</p>
-                                                </div> </div> </div> @endforeach </div> </div> </div> <!-- END BLOG
-                                                POSTS -->
+                                                    {{number_format($blog->views/1000000000, 1).'B'}} } @endif Views</p>
+                                                    </div> </div> </div> @endforeach </div> </div> </div> <!-- END BLOG
+                                                    POSTS -->
 
 
                                 </div> <!-- END POSTS WRAPPER -->

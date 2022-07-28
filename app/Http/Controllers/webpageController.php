@@ -16,6 +16,7 @@ use Cloudinary\Cloudinary as CloudinaryCloudinary;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Http;
 use App\blog;
+use App\comments;
 
 class webpageController extends Controller
 {
@@ -191,5 +192,18 @@ class webpageController extends Controller
     public function semplice()
     {
         return view('product.semplice');
+    }
+    public function postComments(Request $request, $slug)
+    {
+        $blog = blog::where('slug', $slug)->first();
+        $comments = new comments();
+        $comments->user_id = $request->user_id;
+        $comments->name = $request->name;
+        $comments->email = $request->email;
+        $comments->post_id = $blog->id;
+        $comments->parent_id = $request->parent_id;
+        $comments->body = $request->body;
+        $comments->save();
+        return back();
     }
 }
