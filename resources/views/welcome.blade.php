@@ -110,7 +110,7 @@
 
     <!-- RESPONSIVE CSS -->
     <link href="{!!asset('webpage/css/responsive.css?'.rand(10000,99999))!!}" rel="stylesheet">
-    <link href="{!!asset('webpage/custom-min.css?'.rand(10000,99999))!!}" rel="stylesheet">
+    <link href="{!!asset('webpage/custom.css?'.rand(10000,99999))!!}" rel="stylesheet">
 
 </head>
 
@@ -332,6 +332,14 @@
                             <ul class="foo-links text-secondary clearfix">
                                 <li>
                                     <p><a href="/about">{{__('about')}}</a></p>
+                                </li>
+                                <li>
+                                    @php
+                                    $careerGet = DB::table('events')->where('status','=', 1)->get();
+                                    @endphp
+                                    <p><a href="/events">Events @if ($careerGet->count()>=1)
+                                            <span>- New</span>
+                                            @endif</a></p>
                                 </li>
                                 <li>
                                     @php

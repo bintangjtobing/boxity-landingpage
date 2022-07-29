@@ -85,6 +85,12 @@ Route::get('/job-vacancies', 'webpageController@career')->name('career');
 Route::get('/job-openings/{id}', 'webpageController@getJobs')->name('career');
 Route::get('/job-openings/apply/{id}', 'webpageController@getJobsApply')->name('career');
 Route::post('/job-openings/apply/{id}', 'webpageController@postJobsApply')->name('career');
+
+Route::get('/events', 'webpageController@events')->name('events');
+Route::get('/events/{slug}', 'webpageController@getEvents')->name('events');
+Route::get('/events/registration/{slug}', 'webpageController@getEventsApply')->name('events');
+Route::post('/events/registration/{slug}', 'webpageController@postEventsApply')->name('events');
+
 Route::post('/subscription/new', 'webpageController@addSubscription');
 // Route::get('/our-team', 'webpageController@teams');
 

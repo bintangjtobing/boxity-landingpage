@@ -120,3 +120,13 @@
 .footer-links li p {
     margin-bottom: 0px;
 }
+
+.btn-primary-boxity {
+    background-color: rgba(249, 91, 18, .7);
+    border: 1px solid rgb(249, 91, 18);
+    border-radius: 9%;
+    padding: .3rem 1rem;
+    color: #fff;
+    cursor: none;
+    margin: 0 0 1rem 0;
+}
