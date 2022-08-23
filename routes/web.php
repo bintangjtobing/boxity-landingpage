@@ -28,6 +28,9 @@ Route::get('/tiktok', function () {
 Route::get('/career', function () {
     return Redirect::to('/job-vacancies');
 });
+Route::get('/facebook-community', function(){
+    return Redirect::to('https://www.facebook.com/groups/boxitycustomersuccess');
+});
 
 Route::prefix('e-certificate/v')->group(function () {
     Route::get('/{uuid}', function ($uuid) {

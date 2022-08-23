@@ -14,23 +14,41 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
 
             <!-- ABOUT-2 TITLE -->
             <div class="row justify-content-center">
-                <div class="col-md-10 col-lg-10">
+                <div class="col-md-12 col-lg-12">
                     <div class="about-2-title">
 
                         <!-- Title -->
-                        <h2 class="h2-xl">#godigitalwith<b><i>Boxity</i></b></h2>
+                        <h2 class="h2-xl">About Us</h2>
 
                         <!-- Text -->
-                        <p class="p-xl">PT Boxity Central Indonesia was founded in 2020 to be part of
-                            Indonesia's go-digital movement and to be an important part of
-                            the contribution of MSMEs in Indonesia's economic development,
-                            with a full focus on developing <span style="color: #000;">ERP and SaaS applications</span>
-                            with
-                            the latest mobile and web models. We build a system that
-                            <span style="color: #000;">integrates all the business processes needed</span> by MSME
-                            clients
-                            to run their business from planning, purchasing, inventory, sales,
+                        <p align="justify">PT Boxity Central Indonesia was established in 2020 to be part of Indonesia's
+                            go-digital movement and to be an important part of the contribution of MSMEs in Indonesia's
+                            economic development, with a full focus on developing ERP and SaaS applications with the
+                            latest mobile and web models. We build a system that integrates all the business processes
+                            needed by MSME clients to run their business from planning, purchasing, inventory, sales,
                             marketing, finance, human resources, and others.
+                            <br><br>
+                            Boxity (PT Boxity Central Indonesia) is a technology company engaged in SaaS to build a
+                            system that integrates all business processes needed by MSME clients to run their business
+                            from planning, purchasing, inventory, sales, marketing, finance, human resources. , and
+                            others.
+                            <br><br>
+                            We dream that every micro, small and medium enterprise in Indonesia can manage their
+                            business processes digitally to facilitate their growth. MSMEs had in mind when setting up
+                            Boxity so our Enterprise Resources Planning (ERP) and Software as a Service (SaaS) systems
+                            were built according to the typology and needs of the client. We are also committed to
+                            strengthening the capacity of our clients in every business process when using our system.
+                            In addition to system support, we are committed to strengthening the capacity of our clients
+                            through online training materials in finance, warehouse management, staff management and
+                            more. We will connect with other organizations for the provision of online training
+                            materials.
+                            <br><br>
+                            To realize this vision, Boxity developed various applications they needed, such as problem
+                            management, warehouse management, cashier applications, financial management, and human
+                            resource management.
+                            <br><br>
+                            Packaged in one good platform, Boxity is ready to be a friend for those of you who are
+                            difficult in managing your business.
                         </p>
 
                     </div>
@@ -335,6 +353,63 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
 
                                     <!-- Text -->
                                     <p class="p-lg">{{__('dsc_secure_safe')}}
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+
+                                <!-- Icon -->
+                                <div class="fbox-ico">
+                                    <div class="ico-60 shape-ico boxity-primary-color">
+                                        <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}"
+                                            alt="ico-bkg">
+                                        <span class="flaticon-tv"></span>
+                                    </div>
+                                </div>
+
+                                <!-- Text -->
+                                <div class="fbox-txt">
+
+                                    <!-- Title -->
+                                    <h5 class="h5-md">Media and Learning Methods Varies</h5>
+
+                                    <!-- Text -->
+                                    <p class="p-lg">Media and how to learn SaaS or ERP systems in the form of
+                                        face-to-face, online, and learning videos.
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <!-- FEATURE BOX #6 -->
+                        <div class="col">
+                            <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+
+                                <!-- Icon -->
+                                <div class="fbox-ico">
+                                    <div class="ico-60 shape-ico boxity-primary-color">
+                                        <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}"
+                                            alt="ico-bkg">
+                                        <span class="flaticon-share-1"></span>
+                                    </div>
+                                </div>
+
+                                <!-- Text -->
+                                <div class="fbox-txt">
+
+                                    <!-- Title -->
+                                    <h5 class="h5-md">Community Support</h5>
+
+                                    <!-- Text -->
+                                    <p class="p-lg">Sharpen your SaaS/ERP system skills and insights into SaaS/ERP
+                                        systems by joining our community of partners.
                                     </p>
 
                                 </div>

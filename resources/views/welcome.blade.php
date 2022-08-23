@@ -298,7 +298,7 @@
 
 
                     <!-- FOOTER INFO -->
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <div class="footer-info mb-40">
                             <img class="footer-logo mb-25"
                                 src="https://res.cloudinary.com/boxity-id/image/upload/v1638440373/assets/site%20needs/color_logo_boxity_yor31q.png"
@@ -424,7 +424,7 @@
 
 
                     <!-- FOOTER LINKS -->
-                    <div class="col-sm-6 col-md-3 col-lg-2">
+                    <div class="col-sm-6 col-md-3 col-lg-3">
                         <div class="footer-links mb-40">
 
                             <!-- Title -->
@@ -434,6 +434,8 @@
                             <ul class="footer-socials text-secondary ico-25 text-center clearfix">
                                 <li><a href="/facebook" target="_blank"><i
                                             class="fa-brands fa-facebook-square fa-2x"></i></a>
+                                </li>
+                                <li><a href="/facebook-community" target="_blank"><i class="fad fa-users fa-2x"></i></a>
                                 </li>
                                 <li><a href="/instagram" target="_blank"><i
                                             class="fa-brands fa-instagram fa-2x"></i></a>
