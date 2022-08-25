@@ -7456,3 +7456,15 @@ nav a#pull {
     color: #F95B12 !important;
     font-weight: bolder !important;
 }
+
+.img-journey {
+    width: auto;
+    margin-top: 2rem;
+    filter: grayscale(100);
+}
+
+.img-journey:hover {
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    filter: grayscale(0);
+}

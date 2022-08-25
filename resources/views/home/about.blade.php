@@ -686,6 +686,30 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
 
     </div> <!-- End container -->
 </div>
+<div id="brands-2" class="wide-90 brands-section division">
+    <div class="container">
+
+
+        <!-- BRANDS TITLE -->
+        <div class="row justify-content-center">
+            <div class="col-lg-12 text-center">
+                <div class="brands-title text-center">
+                    <h3 class="h3-md">Our Journey</h3>
+                    <?php $currentdate = date('Y, M d') ?>
+                    <span>from <abbr title="Boxity founded!">2021, Jun 10</abbr> until <abbr
+                            title="Current Date">{{$currentdate}}</abbr></span>
+                </div>
+                <a href="{{asset('webpage/images/journey.pdf')}}" target="_blank"><img
+                        title="Journey roadmap Boxity Central from 2021, Jun 10 until {{$currentdate}}"
+                        src="{{asset('webpage/images/journey.svg')}}"
+                        alt="Journey roadmap Boxity Central from 2021, Jun 10 until {{$currentdate}}"
+                        class="img-fluid img-journey"></a>
+            </div>
+        </div>
+
+
+    </div> <!-- End container -->
+</div>
 <section id="reviews-1" class="bg-whitesmoke-gradient wide-100 reviews-section division">
     <div class="container">
 
