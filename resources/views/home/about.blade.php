@@ -21,13 +21,7 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         <h2 class="h2-xl">About Us</h2>
 
                         <!-- Text -->
-                        <p align="justify">PT Boxity Central Indonesia was established in 2020 to be part of Indonesia's
-                            go-digital movement and to be an important part of the contribution of MSMEs in Indonesia's
-                            economic development, with a full focus on developing ERP and SaaS applications with the
-                            latest mobile and web models. We build a system that integrates all the business processes
-                            needed by MSME clients to run their business from planning, purchasing, inventory, sales,
-                            marketing, finance, human resources, and others.
-                            <br><br>
+                        <p align="justify">
                             Boxity (PT Boxity Central Indonesia) is a technology company engaged in SaaS to build a
                             system that integrates all business processes needed by MSME clients to run their business
                             from planning, purchasing, inventory, sales, marketing, finance, human resources. , and
