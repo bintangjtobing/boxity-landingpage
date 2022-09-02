@@ -7441,7 +7441,7 @@ img.footer-logo {
     background-color: rgba(0, 0, 0, .4)
 }
 
-nav a#pull {
+nav a #pull {
     display: none
 }
 
@@ -7467,4 +7467,9 @@ nav a#pull {
     cursor: pointer;
     transition: all .3s ease-in-out;
     filter: grayscale(0);
+}
+
+p img {
+    max-width: 100%;
+    height: auto;
 }
