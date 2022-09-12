@@ -24,18 +24,10 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         <p align="justify">
                             Boxity (PT Boxity Central Indonesia) is a technology company engaged in SaaS to build a
                             system that integrates all business processes needed by MSME clients to run their business
-                            from planning, purchasing, inventory, sales, marketing, finance, human resources. , and
+                            from planning, purchasing, inventory, sales, marketing, finance, human resources, and
                             others.
                             <br><br>
-                            We dream that every micro, small and medium enterprise in Indonesia can manage their
-                            business processes digitally to facilitate their growth. MSMEs had in mind when setting up
-                            Boxity so our Enterprise Resources Planning (ERP) and Software as a Service (SaaS) systems
-                            were built according to the typology and needs of the client. We are also committed to
-                            strengthening the capacity of our clients in every business process when using our system.
-                            In addition to system support, we are committed to strengthening the capacity of our clients
-                            through online training materials in finance, warehouse management, staff management and
-                            more. We will connect with other organizations for the provision of online training
-                            materials.
+                            We dream that every micro, small and medium enterprise in Indonesia can manage their business processes digitally to facilitate their growth. MSMEs had in mind when setting up Boxity so our Enterprise Resources Planning (ERP) and Software as a Service (SaaS) systems were built according to the typology and needs of the client. We are also committed to strengthening the capacity of our clients in every business process when using our system. In addition to system support, we are committed to enhancing our clients' capacity through online training materials in finance, warehouse management, staff management, and more. We will connect with other organizations for the provision of online training materials.
                             <br><br>
                             To realize this vision, Boxity developed various applications they needed, such as problem
                             management, warehouse management, cashier applications, financial management, and human
