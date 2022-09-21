@@ -74,14 +74,13 @@ class webpageController extends Controller
         $job = DB::table('jobvacancies')->where('slug', $slug)->first();
 
         // Update job count views
-        $jobGetViews = DB::table('jobvacancies_views')->where('job_id', $slug)->first();
+        $jobGetViews = DB::table('jobvacancies_views')->where('job_id', $job->id)->first();
         if ($jobGetViews) {
             $jobViews = careerViews::where('job_id', $slug)->first();
             $jobViews->views += 1;
             $jobViews->save();
         } else {
             $jobViews = new careerViews();
-            $job = DB::table('jobvacancies')->where('slug', $slug)->first();
             $jobViews->ip_address = $req->ip();
             $jobViews->views += 1;
             $jobViews->job_id = $job->id;
