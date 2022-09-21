@@ -81,6 +81,7 @@ class webpageController extends Controller
             $jobViews->save();
         } else {
             $jobViews = new careerViews();
+            $job = DB::table('jobvacancies')->find($slug);
             $jobViews->ip_address = $req->ip();
             $jobViews->views += 1;
             $jobViews->job_id = $job->id;
