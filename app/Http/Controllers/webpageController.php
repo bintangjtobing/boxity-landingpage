@@ -76,7 +76,7 @@ class webpageController extends Controller
         // Update job count views
         $jobGetViews = DB::table('jobvacancies_views')->where('job_id', $job->id)->first();
         if ($jobGetViews) {
-            $jobViews = careerViews::where('job_id', $slug)->first();
+            $jobViews = careerViews::where('job_id', $job->id)->first();
             $jobViews->views += 1;
             $jobViews->save();
         } else {
