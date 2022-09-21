@@ -91,20 +91,21 @@ class webpageController extends Controller
         // return response()->json($job);
         // dd($job);
     }
-    public function getJobsApply($id)
+    public function getJobsApply($slug)
     {
         $job = DB::table('jobvacancies')->where('slug', $slug)->first();
         return view('home.jobsApply', ['job' => $job]);
         // dd($job);
     }
-    public function postJobsApply($id, Request $request)
+    public function postJobsApply($slug, Request $request)
     {
         $request->validate([
             'g-recaptcha-response' => 'required|captcha'
         ]);
         $company = DB::table('company_details')->first();
+        $job = DB::table('jobvacancies')->where('slug', $slug)->first();
         $candidate = new candidates();
-        $candidate->posisi = $slug ?? '-';
+        $candidate->posisi = $job->id ?? '-';
         $candidate->nama_lengkap = $request->nama_lengkap;
         $candidate->email = $request->email;
         $candidate->nohp = $request->nohp;
