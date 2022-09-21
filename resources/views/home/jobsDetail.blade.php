@@ -1,6 +1,6 @@
 @extends('welcome')
-@section('title', 'Career')
-@section('page_description', '')
+@section('title', $job->title ?? 'Career')
+@section('page_description', Str::limit($job->description, 150))
 @section('content')
 <section id="hero-boxity" class="bg-scroll hero-section division" style="background-image: none !important;">
     <div class="container">
