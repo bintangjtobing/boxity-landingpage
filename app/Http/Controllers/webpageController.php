@@ -69,21 +69,21 @@ class webpageController extends Controller
         // return response()->json($job);
         // dd($job);
     }
-    public function getJobs(Request $req, $id)
+    public function getJobs(Request $req, $slug)
     {
-        $job = DB::table('jobvacancies')->find(Crypt::decrypt($id));
+        $job = DB::table('jobvacancies')->find($slug);
 
         // Update job count views
-        $jobGetViews = DB::table('jobvacancies_views')->where('job_id', Crypt::decrypt($id))->first();
+        $jobGetViews = DB::table('jobvacancies_views')->where('job_id', $slug)->first();
         if ($jobGetViews) {
-            $jobViews = careerViews::where('job_id', Crypt::decrypt($id))->first();
+            $jobViews = careerViews::where('job_id', $slug)->first();
             $jobViews->views += 1;
             $jobViews->save();
         } else {
             $jobViews = new careerViews();
             $jobViews->ip_address = $req->ip();
             $jobViews->views += 1;
-            $jobViews->job_id = Crypt::decrypt($id);
+            $jobViews->job_id = $job->id;
             $jobViews->save();
         }
         return view('home.jobsDetail', ['job' => $job]);
@@ -92,7 +92,7 @@ class webpageController extends Controller
     }
     public function getJobsApply($id)
     {
-        $job = DB::table('jobvacancies')->find(Crypt::decrypt($id));
+        $job = DB::table('jobvacancies')->find($slug);
         return view('home.jobsApply', ['job' => $job]);
         // dd($job);
     }
@@ -103,7 +103,7 @@ class webpageController extends Controller
         ]);
         $company = DB::table('company_details')->first();
         $candidate = new candidates();
-        $candidate->posisi = Crypt::decrypt($id) ?? '-';
+        $candidate->posisi = $slug ?? '-';
         $candidate->nama_lengkap = $request->nama_lengkap;
         $candidate->email = $request->email;
         $candidate->nohp = $request->nohp;

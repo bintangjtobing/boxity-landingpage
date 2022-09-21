@@ -76,7 +76,7 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
                         <div class="col-lg-3 text-end">
                             <div class="cta-7-btn">
                                 @if ($job->status == 0)
-                                <a href="/job-openings/{{Crypt::encrypt($job->id)}}"
+                                <a href="/job-openings/{{$job->slug}}"
                                     class="btn btn-skyboxity tra-boxity-hover">Read
                                     more</a>
                                 @else

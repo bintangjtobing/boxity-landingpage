@@ -85,9 +85,9 @@ Route::get('/blog', 'webpageController@blog')->name('blog');
 Route::get('/blog/read/{slug}', 'webpageController@readBlog')->name('blog');
 Route::get('/contact', 'webpageController@contact')->name('contact');
 Route::get('/job-vacancies', 'webpageController@career')->name('career');
-Route::get('/job-openings/{id}', 'webpageController@getJobs')->name('career');
-Route::get('/job-openings/apply/{id}', 'webpageController@getJobsApply')->name('career');
-Route::post('/job-openings/apply/{id}', 'webpageController@postJobsApply')->name('career');
+Route::get('/job-openings/{slug}', 'webpageController@getJobs')->name('career');
+Route::get('/job-openings/apply/{slug}', 'webpageController@getJobsApply')->name('career');
+Route::post('/job-openings/apply/{slug}', 'webpageController@postJobsApply')->name('career');
 
 Route::get('/events', 'webpageController@events')->name('events');
 Route::get('/events/{slug}', 'webpageController@getEvents')->name('events');

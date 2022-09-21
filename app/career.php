@@ -8,6 +8,6 @@ class career extends Model
 {
     protected $table = 'jobvacancies';
     protected $fillable = [
-        'status', 'title', 'location', 'divisi', 'part', 'description'
+        'status', 'title', 'location', 'divisi', 'part', 'description', 'slug'
     ];
 }
