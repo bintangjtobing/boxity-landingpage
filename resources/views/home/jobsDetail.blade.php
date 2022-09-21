@@ -41,7 +41,7 @@
                         <!-- Version Data -->
                         <div class="rel">
                             <span class="release-date">Location &nbsp; : {{$job->location}}</span>
-                            <a href="/job-openings/apply/{{Crypt::encrypt($job->id)}}"
+                            <a href="/job-openings/apply/{{$job->slug}}"
                                 class="btn btn-skyboxity tra-boxity-hover ico-15 ico-left release-download">
                                 Apply Now
                             </a>
@@ -54,7 +54,7 @@
                         {!!$job->description!!}
                     </div>
 
-                    <a href="/job-openings/apply/{{Crypt::encrypt($job->id)}}" class="btn btn-skyboxity tra-boxity-hover">Apply
+                    <a href="/job-openings/apply/{{$job->slug}}" class="btn btn-skyboxity tra-boxity-hover">Apply
                         Now</a>
 
                 </div>

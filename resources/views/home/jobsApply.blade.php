@@ -41,7 +41,7 @@
             @endif
             <div class="col-lg-10 col-xl-8">
                 <div class="form-holder">
-                    <form action="/job-openings/apply/{{Crypt::encrypt($job->id)}}" method="POST" class="row contact-form"
+                    <form action="/job-openings/apply/{{$job->slug}}" method="POST" class="row contact-form"
                         enctype="multipart/form-data">
                         @csrf
 
