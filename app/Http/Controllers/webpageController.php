@@ -71,7 +71,7 @@ class webpageController extends Controller
     }
     public function getJobs(Request $req, $slug)
     {
-        $job = DB::table('jobvacancies')->find($slug);
+        $job = DB::table('jobvacancies')->where('slug', $slug)->first();
 
         // Update job count views
         $jobGetViews = DB::table('jobvacancies_views')->where('job_id', $slug)->first();
@@ -81,7 +81,7 @@ class webpageController extends Controller
             $jobViews->save();
         } else {
             $jobViews = new careerViews();
-            $job = DB::table('jobvacancies')->find($slug);
+            $job = DB::table('jobvacancies')->where('slug', $slug)->first();
             $jobViews->ip_address = $req->ip();
             $jobViews->views += 1;
             $jobViews->job_id = $job->id;
@@ -93,7 +93,7 @@ class webpageController extends Controller
     }
     public function getJobsApply($id)
     {
-        $job = DB::table('jobvacancies')->find($slug);
+        $job = DB::table('jobvacancies')->where('slug', $slug)->first();
         return view('home.jobsApply', ['job' => $job]);
         // dd($job);
     }
