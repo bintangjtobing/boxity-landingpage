@@ -28,7 +28,7 @@ Route::get('/tiktok', function () {
 Route::get('/career', function () {
     return Redirect::to('/job-vacancies');
 });
-Route::get('/facebook-community', function(){
+Route::get('/facebook-community', function () {
     return Redirect::to('https://www.facebook.com/groups/boxitycustomersuccess');
 });
 
@@ -56,6 +56,9 @@ Route::prefix('sc/business')->group(function () {
     });
     Route::get('/profile/2022/id', function () {
         return Redirect::to('/business/profile/Company Profile - 2022.pdf');
+    });
+    Route::get('/portfolio/2022', function () {
+        return Redirect::to('/business/portfolio/portfolio-bci-2022.pdf');
     });
 });
 Route::prefix('sc/dev')->group(function () {
