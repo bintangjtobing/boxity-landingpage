@@ -60,6 +60,12 @@ Route::prefix('sc/business')->group(function () {
     Route::get('/portfolio/2022', function () {
         return Redirect::to('/business/portfolio/portfolio-bci-2022.pdf');
     });
+    Route::get('/portfolio/smm/2022', function () {
+        return Redirect::to('/business/portfolio/smm/portfolio-media-management-boxity-2022.pdf');
+    });
+    Route::get('/rate-card/smm/2022', function () {
+        return Redirect::to('/business/rate-card/rate-card-social-media-management-boxity-2022.pdf');
+    });
 });
 Route::prefix('sc/dev')->group(function () {
     Route::get('/uat', function () {
