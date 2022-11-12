@@ -432,18 +432,22 @@
 
                             <!-- Social Links -->
                             <ul class="footer-socials text-secondary ico-25 text-center clearfix">
-                                <li><a href="/facebook" target="_blank"><i
-                                            class="fa-brands fa-facebook-square fa-2x"></i></a>
+                                <li><a href="/facebook" target="_blank"><img
+                                            src="{{asset('webpage/svgs/brands/facebook-square.svg')}}"
+                                            alt="facebook boxity"></a>
                                 </li>
-                                <li><a href="/facebook-community" target="_blank"><i class="fad fa-users fa-2x"></i></a>
+                                <li><a href="/facebook-community" target="_blank"><img
+                                            src="{{asset('webpage/svgs/duotone/users.svg')}}"
+                                            alt="facebook community"></a>
                                 </li>
-                                <li><a href="/instagram" target="_blank"><i
-                                            class="fa-brands fa-instagram fa-2x"></i></a>
+                                <li><a href="/instagram" target="_blank"><i class="fab fa-instagram"></i></a>
                                 </li>
-                                <li><a href="/linkedin" target="_blank"><i
-                                            class="fa-brands fa-linkedin fa-2x"></i></span></a>
+                                <li><a href="/linkedin" target="_blank"><img
+                                            src="{{asset('webpage/svgs/brands/linkedin.svg')}}"
+                                            alt="linkedin boxity"></a>
                                 </li>
-                                <li><a href="/tiktok" target="_blank"><i class="fa-brands fa-tiktok fa-2x"></i></a>
+                                <li><a href="/tiktok" target="_blank"><img
+                                            src="{{asset('webpage/svgs/brands/tiktok.svg')}}" alt="tiktok boxity"></a>
                                 </li>
                             </ul>
 
