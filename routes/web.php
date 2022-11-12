@@ -17,7 +17,7 @@ Route::get('/linkedin', function () {
     return Redirect::to('https://linkedin.com/company/boxity-central-indonesia');
 });
 Route::get('/instagram', function () {
-    return Redirect::to('http://www.instagram.com/godigitalwithboxity');
+    return Redirect::to('http://www.instagram.com/boxityid');
 });
 Route::get('/facebook', function () {
     return Redirect::to('http://www.facebook.com/boxitycentralindonesia');
