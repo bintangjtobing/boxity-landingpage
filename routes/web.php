@@ -48,6 +48,9 @@ Route::prefix('sc/business')->group(function () {
     Route::get('/pitch/2022/id', function () {
         return Redirect::to('/business/pitch/Ind_pitch_deck_2022.pdf');
     });
+    Route::get('/pitch/2022', function () {
+        return Redirect::to('/business/pitch/Ind_pitch_deck_q42022.pdf');
+    });
     Route::get('/plan/2022/id', function () {
         return Redirect::to('/business/plan/Ind_Business_Plan_2022.pdf');
     });
