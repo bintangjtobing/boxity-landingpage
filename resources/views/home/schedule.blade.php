@@ -69,7 +69,7 @@
                                 <div class="col-md-6">
                                     <select name="application" id="" class="form-control">
                                         <option value="" selected>Choose one...</option>
-                                        <option value="Semplice">Semplice - Make your micro-site before your coffee cold
+                                        {{-- <option value="Semplice">Semplice - Make your micro-site before your coffee cold
                                         </option>
                                         <option value="Landingpage">landing page - Make your great landing page with us
                                         </option>
@@ -84,15 +84,18 @@
                                         <option value="Chatifine">Chatifine - Secure and encrypted business chat app
                                         </option>
                                         <option value="Stockpile">Stockpile - Warehouse management system software
+                                        </option> --}}
+                                        <option value="ERP Manufacturer - UAT Version">ERP Manufacturer - <i>UAT
+                                                Version</i>
                                         </option>
                                     </select>
                                 </div>
                                 <div class="col-md-6">
                                     <select name="terms" id="" class="form-control">
                                         <option value="" selected>Choose plans...</option>
-                                        <option value="1yr">1 Year</option>
-                                        <option value="3yrs">3 Years</option>
-                                        <option value="5yrs">5 Years</option>
+                                        <option value="1yr">1 Month</option>
+                                        <option value="3yrs">3 Months</option>
+                                        <option value="5yrs">1 Year</option>
                                     </select>
                                 </div>
                                 <div class="col-md-12">
