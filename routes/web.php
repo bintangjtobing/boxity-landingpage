@@ -34,7 +34,7 @@ Route::get('/facebook-community', function () {
 
 Route::prefix('e-certificate/v')->group(function () {
     Route::get('/{uuid}', function ($uuid) {
-        return Redirect($uuid);
+        return response($uuid, 200);
     });
 });
 Route::get('/log-viewer', [
