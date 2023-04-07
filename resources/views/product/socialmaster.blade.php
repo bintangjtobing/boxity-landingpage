@@ -3,8 +3,22 @@
 @section('page_description', 'A comprehensive social media management tool for businesses and individuals to master their online presence.')
 @section('icon',
 'https://res.cloudinary.com/boxity-id/image/upload/c_fit,w_64/v1680894882/socialmaster_oxbhev.png')
-@section('page_keywords', 'buat mini website mudah dan terjangkau dengan semplice dari boxity, semplice by boxity,
-semplice boxity, semplice micro site, micro site')
+@section('page_keywords',
+'Social media marketing,
+Social media strategy,
+Social media optimization,
+Social media analytics,
+Social media advertising,
+Content creation,
+Brand awareness,
+Engagement,
+Community management,
+Influencer marketing,
+Social media platform management,
+Social media scheduling,
+Social media reporting,
+Targeted advertising,
+Social media trends, socialmaster, boxity socialmaster, boxity smm, boxity social media management')
 @section('tag_cover',
 'https://res.cloudinary.com/boxity-id/image/upload/v1680894882/tag_socialmaster_dmbtax.png')
 @section('content')
