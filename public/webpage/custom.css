@@ -130,3 +130,40 @@
     cursor: none;
     margin: 0 0 1rem 0;
 }
+.videoHomepage {
+    max-width: 992px;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .videoHomepage {
+        max-width: 350px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .videoHomepage {
+        max-width: 650px;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .videoHomepage {
+        max-width: 850px;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    .videoHomepage {
+        max-width: 850px;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {
+    .videoHomepage {
+        max-width: 850px;
+    }
+ }

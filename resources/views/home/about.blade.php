@@ -66,353 +66,256 @@ human resources management, financial management, boxity warehouse, boxity WMS, 
 
 <!-- FEATURES-4
 			============================================= -->
-<section id="features-4" class="wide-60 features-section division">
-    <div class="container">
+            <section id="features-4" class="wide-60 features-section division">
+                <div class="container">
 
-        <!-- SECTION TITLE -->
-        <div class="row justify-content-center">
-            <div class="col-lg-10 col-xl-8">
-                <div class="section-title title-01 mb-70">
 
-                    <!-- Title -->
-                    <h2 class="h2-md">What is our goals?</h2>
+                    <!-- SECTION TITLE -->
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 col-xl-8">
+                            <div class="section-title title-01 mb-70">
 
-                </div>
-            </div>
-        </div>
+                                <!-- Title -->
+                                <h2 class="h2-md">{{__('were_better')}}</h2>
 
-        <!-- FEATURES-4 WRAPPER -->
-        <div class="fbox-4-wrapper fbox-4-wide">
-            <div class="row row-cols-1 row-cols-md-2">
-                <div class="col">
-                    <div class="fbox-4 pr-25 mb-40 wow fadeInUp">
+                                <!-- Text -->
+                                <p class="p-xl">{{__('why_are_we_so_confident')}}
+                                </p>
 
-                        <!-- Icon -->
-                        <div class="fbox-ico">
-                            <div class="ico-65">
-                                <span class="flaticon-line-graph-1"></span>
                             </div>
-                        </div>
-
-                        <!-- Text -->
-                        <div class="fbox-txt">
-                            <h5 class="h5-md">Our visions</h5>
-
-                            <!-- Text -->
-                            <p>
-                                We set envision every micro, small and medium enterprise being enabled
-                                to digitally manage their operation hence facilitating their business growth.
-                                Boxity has small business development in mind when founding the
-                                company. We build each system with our client’s typology and needs front
-                                and center in the process. One of our differentiating factors is our
-                                <span style="color: #000;">commitment to building the capacity of our small business
-                                    clients</span> in each
-                                of the business processes.
-                            </p>
-
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="fbox-4 pr-25 mb-40 wow fadeInUp">
-
-                        <!-- Icon -->
-                        <div class="fbox-ico">
-                            <div class="ico-65">
-                                <span class="flaticon-arrow"></span>
-                            </div>
-                        </div>
-
-                        <!-- Text -->
-                        <div class="fbox-txt">
-                            <h5 class="h5-md">Mission Statement</h5>
-
-                            <!-- Text -->
-                            <p>We set a mission <span style="color: #000;">to build a robust yet nimble Enterprise
-                                    Resource Planning
-                                    System accessible for MSMEs</span> at their fingertips. We believe that the world
-                                is going digital, and opportunities are no longer limited by physical
-                                borders. Likewise, to seize the economic opportunity in Indonesia’s
-                                business landscape, we believe MSME should be going digital in their
-                                operation.</p>
-
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </div>
-        </div> <!-- END FEATURES-4 WRAPPER -->
-
-        <hr class="divider">
-        <section id="features-4" class="wide-60 features-section division">
-            <div class="container">
-
-
-                <!-- SECTION TITLE -->
-                <div class="row justify-content-center">
-                    <div class="col-lg-10 col-xl-8">
-                        <div class="section-title title-01 mb-70">
-
-                            <!-- Title -->
-                            <h2 class="h2-md">{{__('were_better')}}</h2>
-
-                            <!-- Text -->
-                            <p class="p-xl">{{__('why_are_we_so_confident')}}
-                            </p>
-
                         </div>
                     </div>
-                </div>
 
 
-                <!-- FEATURES-4 WRAPPER -->
-                <div class="fbox-4-wrapper">
-                    <div class="row row-cols-1 row-cols-md-2">
+                    <!-- FEATURES-4 WRAPPER -->
+                    <div class="fbox-4-wrapper">
+                        <div class="row row-cols-1 row-cols-md-2">
 
 
-                        <!-- FEATURE BOX #1 -->
-                        <div class="col">
-                            <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+                            <!-- FEATURE BOX #1 -->
+                            <div class="col">
+                                <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
 
-                                <!-- Icon -->
-                                <div class="fbox-ico">
-                                    <div class="ico-60 shape-ico boxity-primary-color">
-                                        <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}"
-                                            alt="ico-bkg">
-                                        <span class="flaticon-signal"></span>
+                                    <!-- Icon -->
+                                    <div class="fbox-ico">
+                                        <div class="ico-60 shape-ico boxity-primary-color">
+                                            <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}" alt="ico-bkg">
+                                            <span class="flaticon-signal"></span>
+                                        </div>
                                     </div>
-                                </div>
-
-                                <!-- Text -->
-                                <div class="fbox-txt">
-
-                                    <!-- Title -->
-                                    <h5 class="h5-md">{{__('quick_access')}}</h5>
 
                                     <!-- Text -->
-                                    <p class="p-lg">{{__('dsc_quick_access')}}
-                                    </p>
+                                    <div class="fbox-txt">
 
-                                </div>
+                                        <!-- Title -->
+                                        <h5 class="h5-md">{{__('quick_access')}}</h5>
 
-                            </div>
-                        </div>
+                                        <!-- Text -->
+                                        <p class="p-lg">{{__('dsc_quick_access')}}
+                                        </p>
 
-
-                        <!-- FEATURE BOX #2 -->
-                        <div class="col">
-                            <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
-
-                                <!-- Icon -->
-                                <div class="fbox-ico">
-                                    <div class="ico-60 shape-ico boxity-primary-color">
-                                        <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}"
-                                            alt="ico-bkg">
-                                        <span class="flaticon-smartphone-2"></span>
                                     </div>
+
                                 </div>
+                            </div>
+                            <div class="col">
+                                <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
 
-                                <!-- Text -->
-                                <div class="fbox-txt">
-
-                                    <!-- Title -->
-                                    <h5 class="h5-md">{{__('device_accessibility')}}</h5>
+                                    <!-- Icon -->
+                                    <div class="fbox-ico">
+                                        <div class="ico-60 shape-ico boxity-primary-color">
+                                            <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}" alt="ico-bkg">
+                                            <span class="flaticon-chat-1"></span>
+                                        </div>
+                                    </div>
 
                                     <!-- Text -->
-                                    <p class="p-lg">{{__('dsc_device_accessibility')}}
-                                    </p>
+                                    <div class="fbox-txt">
 
-                                </div>
+                                        <!-- Title -->
+                                        <h5 class="h5-md">Real-Time Interaction</h5>
 
-                            </div>
-                        </div>
+                                        <!-- Text -->
+                                        <p class="p-lg">With the chat feature, users can interact with each other in real-time, allowing for instant responses to questions and inquiries. This can enhance the user experience and increase engagement.
+                                        </p>
 
-
-                        <!-- FEATURE BOX #3 -->
-                        <div class="col">
-                            <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
-
-                                <!-- Icon -->
-                                <div class="fbox-ico">
-                                    <div class="ico-60 shape-ico boxity-primary-color">
-                                        <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}"
-                                            alt="ico-bkg">
-                                        <span class="flaticon-hosting-servers"></span>
                                     </div>
+
                                 </div>
+                            </div>
+                            <div class="col">
+                                <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
 
-                                <!-- Text -->
-                                <div class="fbox-txt">
-
-                                    <!-- Title -->
-                                    <h5 class="h5-md">{{__('customers_private')}}</h5>
+                                    <!-- Icon -->
+                                    <div class="fbox-ico">
+                                        <div class="ico-60 shape-ico boxity-primary-color">
+                                            <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}" alt="ico-bkg">
+                                            <span class="flaticon-priority"></span>
+                                        </div>
+                                    </div>
 
                                     <!-- Text -->
-                                    <p class="p-lg">{{__('dsc_customers_private')}}
-                                    </p>
+                                    <div class="fbox-txt">
 
-                                </div>
+                                        <!-- Title -->
+                                        <h5 class="h5-md">Issue Centre Tracking</h5>
 
-                            </div>
-                        </div>
+                                        <!-- Text -->
+                                        <p class="p-lg">The issue ticket feature allows users to report and track issues in a structured way. This can help identify trends and patterns in issues, making it easier to resolve them quickly and prevent similar issues from occurring in the future.
+                                        </p>
 
-
-                        <!-- FEATURE BOX #4 -->
-                        <div class="col">
-                            <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
-
-                                <!-- Icon -->
-                                <div class="fbox-ico">
-                                    <div class="ico-60 shape-ico boxity-primary-color">
-                                        <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}"
-                                            alt="ico-bkg">
-                                        <span class="flaticon-flow-chart"></span>
                                     </div>
+
                                 </div>
+                            </div>
 
-                                <!-- Text -->
-                                <div class="fbox-txt">
 
-                                    <!-- Title -->
-                                    <h5 class="h5-md">{{__('integration')}}</h5>
+                            <!-- FEATURE BOX #2 -->
+                            <div class="col">
+                                <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+
+                                    <!-- Icon -->
+                                    <div class="fbox-ico">
+                                        <div class="ico-60 shape-ico boxity-primary-color">
+                                            <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}" alt="ico-bkg">
+                                            <span class="flaticon-smartphone-2"></span>
+                                        </div>
+                                    </div>
 
                                     <!-- Text -->
-                                    <p class="p-lg">{{__('dsc_integration')}}
-                                    </p>
+                                    <div class="fbox-txt">
 
-                                </div>
+                                        <!-- Title -->
+                                        <h5 class="h5-md">{{__('device_accessibility')}}</h5>
 
-                            </div>
-                        </div>
+                                        <!-- Text -->
+                                        <p class="p-lg">{{__('dsc_device_accessibility')}}
+                                        </p>
 
-
-                        <!-- FEATURE BOX #5 -->
-                        <div class="col">
-                            <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
-
-                                <!-- Icon -->
-                                <div class="fbox-ico">
-                                    <div class="ico-60 shape-ico boxity-primary-color">
-                                        <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}"
-                                            alt="ico-bkg">
-                                        <span class="flaticon-cloud-computing"></span>
                                     </div>
+
                                 </div>
+                            </div>
 
-                                <!-- Text -->
-                                <div class="fbox-txt">
 
-                                    <!-- Title -->
-                                    <h5 class="h5-md">{{__('storage_backup')}}</h5>
+                            <!-- FEATURE BOX #3 -->
+                            <div class="col">
+                                <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+
+                                    <!-- Icon -->
+                                    <div class="fbox-ico">
+                                        <div class="ico-60 shape-ico boxity-primary-color">
+                                            <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}" alt="ico-bkg">
+                                            <span class="flaticon-hosting-servers"></span>
+                                        </div>
+                                    </div>
 
                                     <!-- Text -->
-                                    <p class="p-lg">{{__('dsc_storage_backup')}}
-                                    </p>
+                                    <div class="fbox-txt">
 
-                                </div>
+                                        <!-- Title -->
+                                        <h5 class="h5-md">{{__('customers_private')}}</h5>
 
-                            </div>
-                        </div>
+                                        <!-- Text -->
+                                        <p class="p-lg">{{__('dsc_customers_private')}}
+                                        </p>
 
-
-                        <!-- FEATURE BOX #6 -->
-                        <div class="col">
-                            <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
-
-                                <!-- Icon -->
-                                <div class="fbox-ico">
-                                    <div class="ico-60 shape-ico boxity-primary-color">
-                                        <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}"
-                                            alt="ico-bkg">
-                                        <span class="flaticon-shield"></span>
                                     </div>
+
                                 </div>
+                            </div>
 
-                                <!-- Text -->
-                                <div class="fbox-txt">
 
-                                    <!-- Title -->
-                                    <h5 class="h5-md">{{__('secure_safe')}}</h5>
+                            <!-- FEATURE BOX #4 -->
+                            <div class="col">
+                                <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+
+                                    <!-- Icon -->
+                                    <div class="fbox-ico">
+                                        <div class="ico-60 shape-ico boxity-primary-color">
+                                            <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}" alt="ico-bkg">
+                                            <span class="flaticon-flow-chart"></span>
+                                        </div>
+                                    </div>
 
                                     <!-- Text -->
-                                    <p class="p-lg">{{__('dsc_secure_safe')}}
-                                    </p>
+                                    <div class="fbox-txt">
 
-                                </div>
+                                        <!-- Title -->
+                                        <h5 class="h5-md">{{__('integration')}}</h5>
 
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+                                        <!-- Text -->
+                                        <p class="p-lg">{{__('dsc_integration')}}
+                                        </p>
 
-                                <!-- Icon -->
-                                <div class="fbox-ico">
-                                    <div class="ico-60 shape-ico boxity-primary-color">
-                                        <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}"
-                                            alt="ico-bkg">
-                                        <span class="flaticon-tv"></span>
                                     </div>
+
                                 </div>
+                            </div>
 
-                                <!-- Text -->
-                                <div class="fbox-txt">
 
-                                    <!-- Title -->
-                                    <h5 class="h5-md">Media and Learning Methods Varies</h5>
+                            <!-- FEATURE BOX #5 -->
+                            <div class="col">
+                                <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+
+                                    <!-- Icon -->
+                                    <div class="fbox-ico">
+                                        <div class="ico-60 shape-ico boxity-primary-color">
+                                            <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}" alt="ico-bkg">
+                                            <span class="flaticon-cloud-computing"></span>
+                                        </div>
+                                    </div>
 
                                     <!-- Text -->
-                                    <p class="p-lg">Media and how to learn SaaS or ERP systems in the form of
-                                        face-to-face, online, and learning videos.
-                                    </p>
+                                    <div class="fbox-txt">
 
-                                </div>
+                                        <!-- Title -->
+                                        <h5 class="h5-md">{{__('storage_backup')}}</h5>
 
-                            </div>
-                        </div>
+                                        <!-- Text -->
+                                        <p class="p-lg">{{__('dsc_storage_backup')}}
+                                        </p>
 
-
-                        <!-- FEATURE BOX #6 -->
-                        <div class="col">
-                            <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
-
-                                <!-- Icon -->
-                                <div class="fbox-ico">
-                                    <div class="ico-60 shape-ico boxity-primary-color">
-                                        <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}"
-                                            alt="ico-bkg">
-                                        <span class="flaticon-share-1"></span>
                                     </div>
+
                                 </div>
+                            </div>
 
-                                <!-- Text -->
-                                <div class="fbox-txt">
 
-                                    <!-- Title -->
-                                    <h5 class="h5-md">Community Support</h5>
+                            <!-- FEATURE BOX #6 -->
+                            <div class="col">
+                                <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+
+                                    <!-- Icon -->
+                                    <div class="fbox-ico">
+                                        <div class="ico-60 shape-ico boxity-primary-color">
+                                            <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}" alt="ico-bkg">
+                                            <span class="flaticon-shield"></span>
+                                        </div>
+                                    </div>
 
                                     <!-- Text -->
-                                    <p class="p-lg">Sharpen your SaaS/ERP system skills and insights into SaaS/ERP
-                                        systems by joining our community of partners.
-                                    </p>
+                                    <div class="fbox-txt">
+
+                                        <!-- Title -->
+                                        <h5 class="h5-md">{{__('secure_safe')}}</h5>
+
+                                        <!-- Text -->
+                                        <p class="p-lg">{{__('dsc_secure_safe')}}
+                                        </p>
+
+                                    </div>
 
                                 </div>
-
                             </div>
+
+
                         </div>
+                    </div> <!-- END FEATURES-4 WRAPPER -->
 
 
-                    </div>
-                </div> <!-- END FEATURES-4 WRAPPER -->
-
-
-            </div> <!-- End container -->
-        </section>
-
-    </div> <!-- End container -->
-</section> <!-- END FEATURES-4 -->
+                </div> <!-- End container -->
+            </section>
 
 <section id="content-5" class="content-5 ws-wrapper content-section division">
     <div class="container">

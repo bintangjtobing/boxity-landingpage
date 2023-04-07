@@ -58,6 +58,12 @@ erp saas, best erp, best saas')
                     <img class="img-fluid" src="{!!asset('images/boxity/saas-banner-img-copy.png')!!}"
                         alt="video-preview">
 
+                    {{-- Video preview --}}
+                    {{-- <video autoplay loop class="videoHomepage">
+                        <source src="{!!asset('images/boxity/video/1.mp4')!!}" type="video/mp4">
+                        <source src="{!!asset('images/boxity/video/1.ogg')!!}" type="video/ogg">
+                        Your browser does not support the video tag.
+                      </video> --}}
                 </div>
             </div>
         </div>
@@ -206,6 +212,56 @@ erp saas, best erp, best saas')
 
                             <!-- Text -->
                             <p class="p-lg">{{__('dsc_quick_access')}}
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+
+                        <!-- Icon -->
+                        <div class="fbox-ico">
+                            <div class="ico-60 shape-ico boxity-primary-color">
+                                <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}" alt="ico-bkg">
+                                <span class="flaticon-chat-1"></span>
+                            </div>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="fbox-txt">
+
+                            <!-- Title -->
+                            <h5 class="h5-md">Real-Time Interaction</h5>
+
+                            <!-- Text -->
+                            <p class="p-lg">With the chat feature, users can interact with each other in real-time, allowing for instant responses to questions and inquiries. This can enhance the user experience and increase engagement.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="fbox-4 pc-25 mb-40 wow fadeInUp">
+
+                        <!-- Icon -->
+                        <div class="fbox-ico">
+                            <div class="ico-60 shape-ico boxity-primary-color">
+                                <img class="ico-bkg" src="{!!asset('images/boxity/ico-bkg.png')!!}" alt="ico-bkg">
+                                <span class="flaticon-priority"></span>
+                            </div>
+                        </div>
+
+                        <!-- Text -->
+                        <div class="fbox-txt">
+
+                            <!-- Title -->
+                            <h5 class="h5-md">Issue Centre Tracking</h5>
+
+                            <!-- Text -->
+                            <p class="p-lg">The issue ticket feature allows users to report and track issues in a structured way. This can help identify trends and patterns in issues, making it easier to resolve them quickly and prevent similar issues from occurring in the future.
                             </p>
 
                         </div>
@@ -573,6 +629,16 @@ erp saas, best erp, best saas')
                             <h6>{{__('chatifine')}}</h6>
                             <!-- Text -->
                             <p>{{__('dsc_chatifine')}}
+                            </p>
+
+                        </li>
+                        <li class="tab-link" data-tab="tab-4">
+
+                            <!-- Title -->
+                            <h4 class="h4-sm">Socialmaster. <sup>New</sup></h4>
+                            <h6>{{__('socialmaster')}}</h6>
+                            <!-- Text -->
+                            <p>{{__('dsc_socialmaster')}}
                             </p>
 
                         </li>
