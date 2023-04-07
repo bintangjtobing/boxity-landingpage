@@ -239,7 +239,7 @@
                                                     <li><a href="#">Octans <sup>Soon</sup><br><span
                                                                 class="sub-link-list">{{__('octans')}}</span></a>
                                                     </li>
-                                                    <li><a href="/services/socialmaster">Social Master <sup>Soon</sup><br><span
+                                                    <li><a href="/services/socialmaster">Social Master <sup>New</sup><br><span
                                                                 class="sub-link-list">{{__('socialmaster')}}</span></a>
                                                     </li>
                                                 </ul>
