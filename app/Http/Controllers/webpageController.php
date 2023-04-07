@@ -196,6 +196,10 @@ class webpageController extends Controller
     {
         return view('product.semplice');
     }
+    public function socialmaster()
+    {
+        return view('product.socialmaster');
+    }
     public function postComments(Request $request, $slug)
     {
         $blog = blog::where('slug', $slug)->first();

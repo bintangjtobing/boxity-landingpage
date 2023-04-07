@@ -47,7 +47,7 @@
 
     <!-- FAVICON AND TOUCH ICONS -->
     <link rel="icon"
-        href="https://res.cloudinary.com/boxity-id/image/upload/v1634800361/assets/site%20needs/icon_za3vme.png"
+        href="@if(View::hasSection('icon'))@yield('icon')@else https://res.cloudinary.com/boxity-id/image/upload/v1634800361/assets/site%20needs/icon_za3vme.png @endif"
         type="image/png">
     <link rel="apple-touch-icon" sizes="152x152"
         href="https://res.cloudinary.com/boxity-id/image/upload/c_scale,w_152/v1634800361/assets/site%20needs/icon_za3vme.png">
@@ -239,7 +239,7 @@
                                                     <li><a href="#">Octans <sup>Soon</sup><br><span
                                                                 class="sub-link-list">{{__('octans')}}</span></a>
                                                     </li>
-                                                    <li><a href="#">Social Master <sup>Soon</sup><br><span
+                                                    <li><a href="/services/socialmaster">Social Master <sup>Soon</sup><br><span
                                                                 class="sub-link-list">{{__('socialmaster')}}</span></a>
                                                     </li>
                                                 </ul>
@@ -417,6 +417,9 @@
                                 </li>
                                 <li>
                                     <p><a href="/services/semplice">Semplice <span>- New</span></a></p>
+                                </li>
+                                <li>
+                                    <p><a href="/services/socialmaster">Socialmaster <span>- New</span></a></p>
                                 </li>
                             </ul>
 

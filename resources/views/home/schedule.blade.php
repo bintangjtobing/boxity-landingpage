@@ -69,33 +69,36 @@
                                 <div class="col-md-6">
                                     <select name="application" id="" class="form-control">
                                         <option value="" selected>Choose one...</option>
-                                        {{-- <option value="Semplice">Semplice - Make your micro-site before your coffee cold
-                                        </option>
-                                        <option value="Landingpage">landing page - Make your great landing page with us
-                                        </option>
-                                        <option value="Octans">Octans - Finance and accounting software</option>
+                                        {{-- <option value="Octans">Octans - Finance and accounting software</option>
                                         <option value="Fornax">Fornax - Issue center management software</option>
                                         <option value="Pyxis">Pyxis - Hotel reservation management system software
-                                        </option>
-                                        <option value="Aquila">Aquila - Payroll management automated software</option>
-                                        <option value="Lyra">Lyra - E-Commerce management software</option>
-                                        <option value="Orion">Orion - Human resources information system software
-                                        </option>
-                                        <option value="Chatifine">Chatifine - Secure and encrypted business chat app
-                                        </option>
-                                        <option value="Stockpile">Stockpile - Warehouse management system software
                                         </option> --}}
+                                        <option value="Aquila">Aquila - Payroll management automated software</option>
+                                        {{-- <option value="Lyra">Lyra - E-Commerce management software</option>
+                                        <option value="Orion">Orion - Human resources information system software
+                                        </option> --}}
+                                        {{-- <option value="Chatifine">Chatifine - Secure and encrypted business chat app
+                                        </option> --}}
+                                        <option value="Stockpile">Stockpile - Warehouse management system software
+                                        </option>
                                         <option value="ERP Manufacturer - UAT Version">ERP Manufacturer - <i>UAT
                                                 Version</i>
+                                        </option>
+                                        <option value="Semplice - Make your micro-site, before your coffee cold">Semplice - Make your micro-site, before your coffee cold
+                                        </option>
+                                        <option value="Landingpage - Make your great landing page">Landingpage - Make your great landing page
+                                        </option>
+                                        <option value="Socialmaster - Social media management tool for businesses">Socialmaster - Social media management tool for businesses
                                         </option>
                                     </select>
                                 </div>
                                 <div class="col-md-6">
                                     <select name="terms" id="" class="form-control">
                                         <option value="" selected>Choose plans...</option>
-                                        <option value="1yr">1 Month</option>
-                                        <option value="3yrs">3 Months</option>
-                                        <option value="5yrs">1 Year</option>
+                                        <option value="trial">Trial 2 weeks</option>
+                                        <option value="1month">1 Month</option>
+                                        <option value="3months">3 Months</option>
+                                        <option value="1yr">1 Year</option>
                                     </select>
                                 </div>
                                 <div class="col-md-12">

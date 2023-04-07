@@ -129,6 +129,7 @@ Route::prefix('products')->group(function () {
 Route::prefix('services')->group(function () {
     Route::get('/landingpage', 'webpageController@landingpage')->name('products');
     Route::get('/semplice', 'webpageController@semplice')->name('products');
+    Route::get('/socialmaster', 'webpageController@socialmaster')->name('products');
 });
 Route::post('/comments/{slug}', 'webpageController@postComments');
 

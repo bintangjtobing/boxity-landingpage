@@ -3,7 +3,7 @@
 @section('page_description', 'Semplice is a platform that can help SMEs specifically and focused on increasing their
 customer reach online by integrating all their business links or contact information in 1 microsite with 1 click.')
 @section('icon',
-'https://res.cloudinary.com/boxity-id/image/upload/v1656495388/asset/logo-products/semplice_logo_goxdbe.png')
+'https://res.cloudinary.com/boxity-id/image/upload/c_fit,w_64/v1656495388/asset/logo-products/semplice_logo_goxdbe.png')
 @section('page_keywords', 'buat mini website mudah dan terjangkau dengan semplice dari boxity, semplice by boxity,
 semplice boxity, semplice micro site, micro site')
 @section('tag_cover',
