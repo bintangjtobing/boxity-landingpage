@@ -535,7 +535,7 @@ semplice boxity, semplice micro site, micro site')
 
                 <div class="col-lg-12 text-center">
                     <div class="cta-7-img">
-                        <img src="{!!asset('images/boxity/just-logo.png')!!}" class="img-responsive img-logo-cta"
+                        <img src="https://res.cloudinary.com/boxity-id/image/upload/v1678791753/asset_boxity/logo/icon-web_qusdsv.png" class="img-responsive img-logo-cta"
                             alt="Boxity Central Indonesia Logo">
                     </div>
                 </div>

@@ -47,14 +47,14 @@
 
     <!-- FAVICON AND TOUCH ICONS -->
     <link rel="icon"
-        href="@if(View::hasSection('icon'))@yield('icon')@else https://res.cloudinary.com/boxity-id/image/upload/v1634800361/assets/site%20needs/icon_za3vme.png @endif"
+        href="@if(View::hasSection('icon'))@yield('icon')@else https://res.cloudinary.com/boxity-id/image/upload/v1678791753/asset_boxity/logo/icon-web_qusdsv.png @endif"
         type="image/png">
     <link rel="apple-touch-icon" sizes="152x152"
-        href="https://res.cloudinary.com/boxity-id/image/upload/c_scale,w_152/v1634800361/assets/site%20needs/icon_za3vme.png">
+        href="https://res.cloudinary.com/boxity-id/image/upload/v1678791753/asset_boxity/logo/icon-web_qusdsv.png">
     <link rel="apple-touch-icon" sizes="120x120"
-        href="https://res.cloudinary.com/boxity-id/image/upload/c_scale,w_120/v1634800361/assets/site%20needs/icon_za3vme.png">
+        href="https://res.cloudinary.com/boxity-id/image/upload/v1678791753/asset_boxity/logo/icon-web_qusdsv.png">
     <link rel="apple-touch-icon" sizes="76x76"
-        href="https://res.cloudinary.com/boxity-id/image/upload/c_scale,w_76/v1634800361/assets/site%20needs/icon_za3vme.png">
+        href="https://res.cloudinary.com/boxity-id/image/upload/v1678791753/asset_boxity/logo/icon-web_qusdsv.png">
 
     {{-- Meta --}}
     <meta name="og:title" property="og:title" content="@yield('title') | PT Boxity Central Indonesia" />
@@ -72,7 +72,7 @@
     <meta name="twitter:description" property="og:description" content="@yield('page_description')" />
     <link rel="canonical" href="{{Request::url()}}/" />
     <link rel="shortcut icon"
-        href="@if(View::hasSection('icon'))@yield('icon')@else https://res.cloudinary.com/boxity-id/image/upload/v1634800361/assets/site%20needs/icon_za3vme.png @endif"
+        href="@if(View::hasSection('icon'))@yield('icon')@else https://res.cloudinary.com/boxity-id/image/upload/v1678791753/asset_boxity/logo/icon-web_qusdsv.png @endif"
         type="image/png" sizes="64x64" />
     <meta name="og:email" content="info@boxity.id" />
     <meta name="og:phone_number" content="02129021873" />
@@ -168,7 +168,7 @@
                 <!-- MOBILE HEADER -->
                 <div class="wsmobileheader clearfix">
                     <span class="smllogo"><a href="/"><img
-                                src="https://res.cloudinary.com/boxity-id/image/upload/v1638440373/assets/site%20needs/color_logo_boxity_yor31q.png"
+                                src="https://res.cloudinary.com/boxity-id/image/upload/v1678791965/asset_boxity/logo/logo_primary_um5cgb.png"
                                 alt="mobile-logo" /></a></span>
                     <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
                 </div>
@@ -181,7 +181,7 @@
 
                         <!-- HEADER LOGO -->
                         <div class="desktoplogo"><a href="/" class="logo-black"><img
-                                    src="https://res.cloudinary.com/boxity-id/image/upload/v1638440373/assets/site%20needs/color_logo_boxity_yor31q.png"
+                                    src="https://res.cloudinary.com/boxity-id/image/upload/v1678791965/asset_boxity/logo/logo_primary_um5cgb.png"
                                     alt="header-logo"></a></div>
                         <div class="desktoplogo"><a href="/" class="logo-white"><img
                                     src="https://res.cloudinary.com/boxity-id/image/upload/v1638440372/assets/site%20needs/color_logo_boxity_white_kcrqbo.png"
@@ -304,7 +304,7 @@
                     <div class="col-lg-3">
                         <div class="footer-info mb-40">
                             <img class="footer-logo mb-25"
-                                src="https://res.cloudinary.com/boxity-id/image/upload/v1638440373/assets/site%20needs/color_logo_boxity_yor31q.png"
+                                src="https://res.cloudinary.com/boxity-id/image/upload/v1678791965/asset_boxity/logo/logo_primary_um5cgb.png"
                                 alt="footer-logo">
                             <!-- Text -->
                             <p><strong>PT. Boxity Central Indonesia</strong><br> Grand Silipi Tower, Lt 9 Unit O, <br>
