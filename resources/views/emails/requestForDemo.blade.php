@@ -155,15 +155,22 @@
                                                         Message : {{$datas['message']}} <br>
                                                         <br>
                                                         <b><i>Message from CMO and CEO:</i></b> <br>
-                                                        Hello sales team, you must be very happy, right, you got a new
-                                                        prospective customer? <br>
-                                                        I always believed, you guys can get this. Marketing and sales
-                                                        team, I depend on you. <br>
-                                                        This is an opportunity, don't miss it. Keep the spirit! <br>
-                                                        If there is a problem, I am always by your side. Don't be
-                                                        afraid, we are one. <br><br>
-                                                        Thank you ya sales team and marketing team ;)
-
+                                                        I hope this email finds you well. As the Chief Marketing Officer, I wanted to take a moment to express my gratitude for the hard work that you have been doing to promote our demo application and connect with potential customers.
+                                                        <br><br>
+                                                        I understand that your role is crucial in driving the growth of our business, and I want to assure you that the marketing team is fully committed to supporting you in any way that we can. We are working hard to create compelling content and develop effective campaigns that will help to generate interest in our demo application and drive conversions.
+                                                        <br><br>
+                                                        I also want to emphasize how much we value the relationships that you are building with our customers. Your ability to listen to their needs, answer their questions, and provide them with the information they need to make an informed decision is critical to our success.
+                                                        <br><br>
+                                                        Please know that I am here to support you in any way that I can. If there is anything that you need from the marketing team to help you close deals or address customer concerns, please do not hesitate to reach out.
+                                                        <br><br>
+                                                        Together, I am confident that we can continue to build momentum and drive the growth of our business. This is an opportunity, don't miss it. Keep the spirit!
+                                                        If there is a problem, I am always by your side. Don't be afraid, we are one. Thank you for your hard work and dedication to our customers.
+                                                        <br><br>
+                                                        Best regards,
+                                                        <br><br>
+                                                        Bintang Tobing
+                                                        <br><br>
+                                                        Chief Marketing Officer
                                                     </p>
                                                 </div>
                                             </div>
