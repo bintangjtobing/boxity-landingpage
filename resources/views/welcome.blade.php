@@ -315,7 +315,7 @@
                                     2902
                                     1873</a> <br>
                                 <span><i class="fab fa-whatsapp"></i></span> <a
-                                    href="https://wa.me/6281262845980?text=Hello,%20I%20am%20*Your%20name*%0AI%20want%20to%20know%20about%20your%20services%20in%20*Our%20services%20that%20you%20choose*.%0ACan%20we%20schedule%20a%20meeting?">0812 6284 5980</a> <br>
+                                    href="https://wa.me/6281779813032?text=Hello,%20I%20am%20*Your%20name*%0AI%20want%20to%20know%20about%20your%20services%20in%20*Our%20services%20that%20you%20choose*.%0ACan%20we%20schedule%20a%20meeting?">0817 7981 3032</a> <br>
                                 <span><i class="fal fa-envelope-open-text"></i></span> <a
                                     href="mailto:info@boxity.id">info@boxity.id</a>
                             </p>
