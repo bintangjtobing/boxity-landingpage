@@ -57,8 +57,8 @@ Route::prefix('sc/business')->group(function () {
     Route::get('/plan/2022/en', function () {
         return Redirect::to('/business/plan/Eng_Business_Plan_2022.pdf');
     });
-    Route::get('/profile/2022/id', function () {
-        return Redirect::to('/business/profile/Company Profile - 2022.pdf');
+    Route::get('/profile/2023/id', function () {
+        return Redirect::to('/business/profile/Company Profile - 2023.pdf');
     });
     Route::get('/portfolio/2022', function () {
         return Redirect::to('/business/portfolio/portfolio-bci-2022.pdf');
