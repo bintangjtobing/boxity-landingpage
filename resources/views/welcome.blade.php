@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="@yield('title') | PT Boxity Central Indonesia" />
     <meta name="description" content="@yield('page_description')" />
-    <meta name="keywords" content="godigitalwithboxity, @yield('page_keywords')" />
+    <meta name="keywords" content="godigitalwithboxity, BoxityERP, @yield('page_keywords')" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="copyright" content="PT Boxity Central Indonesia">
-    <meta name="url" content="{{Request::url()}}">
-    <meta name="identifier-URL" content="{{Request::url()}}">
+    <meta name="url" content="{{ Request::url() }}">
+    <meta name="identifier-URL" content="{{ Request::url() }}">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VLZMGJP9FS"></script>
@@ -24,12 +24,10 @@
         gtag('js', new Date());
 
         gtag('config', 'G-VLZMGJP9FS');
-
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-217791541-1">
-    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-217791541-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -39,15 +37,14 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-217791541-1');
-
     </script>
 
     <!-- SITE TITLE -->
-    <title>@yield('title') - Boxity Central Indonesia</title>
+    <title>@yield('title') - BoxityERP by Boxity Central Indonesia</title>
 
     <!-- FAVICON AND TOUCH ICONS -->
     <link rel="icon"
-        href="@if(View::hasSection('icon'))@yield('icon')@else https://res.cloudinary.com/boxity-id/image/upload/v1678791753/asset_boxity/logo/icon-web_qusdsv.png @endif"
+        href="@if (View::hasSection('icon')) @yield('icon')@else https://res.cloudinary.com/boxity-id/image/upload/v1678791753/asset_boxity/logo/icon-web_qusdsv.png @endif"
         type="image/png">
     <link rel="apple-touch-icon" sizes="152x152"
         href="https://res.cloudinary.com/boxity-id/image/upload/v1678791753/asset_boxity/logo/icon-web_qusdsv.png">
@@ -58,21 +55,21 @@
 
     {{-- Meta --}}
     <meta name="og:title" property="og:title" content="@yield('title') | PT Boxity Central Indonesia" />
-    <meta name="og:url" property="og:url" content="{{Request::url()}}" />
+    <meta name="og:url" property="og:url" content="{{ Request::url() }}" />
     <meta name="og:type" property="og:type" content="website" />
     <meta name="og:image" property="og:image"
-        content="@if(View::hasSection('tag_cover'))@yield('tag_cover')@else https://res.cloudinary.com/boxity-id/image/upload/v1642815378/assets/site%20needs/tag_cover_hsiapv.jpg @endif" />
+        content="@if (View::hasSection('tag_cover')) @yield('tag_cover')@else https://res.cloudinary.com/boxity-id/image/upload/v1642815378/assets/site%20needs/tag_cover_hsiapv.jpg @endif" />
     <meta name="og:description" property="og:description" content="@yield('page_description')" />
     <meta name="twitter:card" content="@yield('title') | PT Boxity Central Indonesia" />
     <meta name="twitter:title" property="og:title" content="@yield('title') | PT Boxity Central Indonesia" />
-    <meta name="twitter:url" property="og:url" content="{{Request::url()}}" />
+    <meta name="twitter:url" property="og:url" content="{{ Request::url() }}" />
     <meta name="twitter:type" property="og:type" content="website" />
     <meta name="twitter:image" property="og:image"
-        content="@if(View::hasSection('tag_cover'))@yield('tag_cover')@else https://res.cloudinary.com/boxity-id/image/upload/v1642815378/assets/site%20needs/tag_cover_hsiapv.jpg @endif" />
+        content="@if (View::hasSection('tag_cover')) @yield('tag_cover')@else https://res.cloudinary.com/boxity-id/image/upload/v1642815378/assets/site%20needs/tag_cover_hsiapv.jpg @endif" />
     <meta name="twitter:description" property="og:description" content="@yield('page_description')" />
-    <link rel="canonical" href="{{Request::url()}}/" />
+    <link rel="canonical" href="{{ Request::url() }}/" />
     <link rel="shortcut icon"
-        href="@if(View::hasSection('icon'))@yield('icon')@else https://res.cloudinary.com/boxity-id/image/upload/v1678791753/asset_boxity/logo/icon-web_qusdsv.png @endif"
+        href="@if (View::hasSection('icon')) @yield('icon')@else https://res.cloudinary.com/boxity-id/image/upload/v1678791753/asset_boxity/logo/icon-web_qusdsv.png @endif"
         type="image/png" sizes="64x64" />
     <meta name="og:email" content="info@boxity.id" />
     <meta name="og:phone_number" content="02129021873" />
@@ -89,28 +86,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
 
     <!-- BOOTSTRAP CSS -->
-    <link href="{!!asset('webpage/css/bootstrap.min.css?'.rand(10000,99999))!!}" rel="stylesheet">
+    <link href="{!! asset('webpage/css/bootstrap.min.css?' . rand(10000, 99999)) !!}" rel="stylesheet">
 
     <!-- FONT ICONS -->
-    <link href="{!!asset('webpage/css/flaticon.css?'.rand(10000,99999))!!}" rel="stylesheet">
+    <link href="{!! asset('webpage/css/flaticon.css?' . rand(10000, 99999)) !!}" rel="stylesheet">
 
     <!-- PLUGINS STYLESHEET -->
-    <link href="{!!asset('webpage/css/menu.css?'.rand(10000,99999))!!}" rel="stylesheet">
-    <link id="effect" href="{!!asset('webpage/css/dropdown-effects/fade-down.css')!!}" media="all" rel="stylesheet">
-    <link href="{!!asset('webpage/css/magnific-popup.css')!!}" rel="stylesheet">
-    <link href="{!!asset('webpage/css/owl.carousel.min.css')!!}" rel="stylesheet">
-    <link href="{!!asset('webpage/css/owl.theme.default.min.css')!!}" rel="stylesheet">
+    <link href="{!! asset('webpage/css/menu.css?' . rand(10000, 99999)) !!}" rel="stylesheet">
+    <link id="effect" href="{!! asset('webpage/css/dropdown-effects/fade-down.css') !!}" media="all" rel="stylesheet">
+    <link href="{!! asset('webpage/css/magnific-popup.css') !!}" rel="stylesheet">
+    <link href="{!! asset('webpage/css/owl.carousel.min.css') !!}" rel="stylesheet">
+    <link href="{!! asset('webpage/css/owl.theme.default.min.css') !!}" rel="stylesheet">
     <script src="https://kit.fontawesome.com/98c197c895.js" crossorigin="anonymous"></script>
 
     <!-- ON SCROLL ANIMATION -->
-    <link href="{!!asset('webpage/css/animate.css?'.rand(10000,99999))!!}" rel="stylesheet">
+    <link href="{!! asset('webpage/css/animate.css?' . rand(10000, 99999)) !!}" rel="stylesheet">
 
     <!-- TEMPLATE CSS -->
-    <link href="{!!asset('webpage/css/style.css?'.rand(10000,99999))!!}" rel="stylesheet">
+    <link href="{!! asset('webpage/css/style.css?' . rand(10000, 99999)) !!}" rel="stylesheet">
 
     <!-- RESPONSIVE CSS -->
-    <link href="{!!asset('webpage/css/responsive.css?'.rand(10000,99999))!!}" rel="stylesheet">
-    <link href="{!!asset('webpage/custom.css?'.rand(10000,99999))!!}" rel="stylesheet">
+    <link href="{!! asset('webpage/css/responsive.css?' . rand(10000, 99999)) !!}" rel="stylesheet">
+    <link href="{!! asset('webpage/custom.css?' . rand(10000, 99999)) !!}" rel="stylesheet">
 
 </head>
 
@@ -126,19 +123,18 @@
         var chatbox = document.getElementById('fb-customer-chat');
         chatbox.setAttribute("page_id", "102076822285817");
         chatbox.setAttribute("attribution", "biz_inbox");
-
     </script>
 
     <!-- Your SDK code -->
     <script>
-        window.fbAsyncInit = function () {
+        window.fbAsyncInit = function() {
             FB.init({
                 xfbml: true,
                 version: 'v13.0'
             });
         };
 
-        (function (d, s, id) {
+        (function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
             js = d.createElement(s);
@@ -146,21 +142,20 @@
             js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
-
     </script>
 
 
 
 
     <!-- PAGE CONTENT
-		============================================= -->
+  ============================================= -->
     <div id="page" class="page">
 
 
 
 
         <!-- HEADER
-			============================================= -->
+   ============================================= -->
         <header id="header" class="header tra-menu navbar-dark">
             <div class="header-wrapper">
 
@@ -194,53 +189,60 @@
 
 
                                 <!-- MEGAMENU -->
-                                <li class="nl-simple {{ (\Request::route()->getName() == 'home') ? 'active-menu' : '' }}"
-                                    aria-haspopup="true"><a href="/">{{__('home')}}</a>
+                                <li class="nl-simple {{ \Request::route()->getName() == 'home' ? 'active-menu' : '' }}"
+                                    aria-haspopup="true"><a href="/">{{ __('home') }}</a>
                                 </li>
-                                <li class="nl-simple  {{ (\Request::route()->getName() == 'about') ? 'active-menu' : '' }}"
-                                    aria-haspopup="true"><a href="/about">{{__('about')}}</a></li>
+                                <li class="nl-simple  {{ \Request::route()->getName() == 'about' ? 'active-menu' : '' }}"
+                                    aria-haspopup="true"><a href="/about">{{ __('about') }}</a></li>
                                 <li aria-haspopup="true"
-                                    class="mg_link  {{ (\Request::route()->getName() == 'products') ? 'active-menu' : '' }}">
-                                    <a href="#">{{__('product')}} <span class="wsarrow"></span></a>
+                                    class="mg_link  {{ \Request::route()->getName() == 'products' ? 'active-menu' : '' }}">
+                                    <a href="#">{{ __('product') }} <span class="wsarrow"></span></a>
                                     <div class="wsmegamenu w-75 clearfix">
                                         <div class="container">
                                             <div class="row">
                                                 <ul class="col-md-12 col-lg-6 link-list">
                                                     <li><a href="/services/semplice"> Semplice
                                                             <sup>New</sup><br><span
-                                                                class="sub-link-list">{{__('semplice')}}</span></a>
+                                                                class="sub-link-list">{{ __('semplice') }}</span></a>
                                                     </li>
                                                     <li><a href="/services/landingpage">Landing page
                                                             <sup>New</sup><br><span
-                                                                class="sub-link-list">{{__('landingpage')}}</span></a>
+                                                                class="sub-link-list">{{ __('landingpage') }}</span></a>
                                                     </li>
                                                     <li><a href="/products/fornax">Fornax<br><span
-                                                                class="sub-link-list">{{__('fornax')}}</span></a></li>
+                                                                class="sub-link-list">{{ __('fornax') }}</span></a>
+                                                    </li>
                                                     <li><a href="#">Pyxis <sup>Soon</sup><br><span
-                                                                class="sub-link-list">{{__('pyxis')}}</span></a></li>
+                                                                class="sub-link-list">{{ __('pyxis') }}</span></a>
+                                                    </li>
                                                     <li><a href="#">Aquila <sup>Soon</sup><br><span
-                                                                class="sub-link-list">{{__('aquila')}}</span></a></li>
+                                                                class="sub-link-list">{{ __('aquila') }}</span></a>
+                                                    </li>
                                                     <li><a href="/products/lunar">Lunar<br><span
-                                                                class="sub-link-list">{{__('lunar')}}</span></a></li>
+                                                                class="sub-link-list">{{ __('lunar') }}</span></a>
+                                                    </li>
                                                 </ul>
 
                                                 <!-- MEGAMENU LINKS -->
                                                 <ul class="col-md-12 col-lg-6 link-list">
                                                     <li><a href="/products/lyra">Lyra<br><span
-                                                                class="sub-link-list">{{__('lyra')}}</span></a></li>
+                                                                class="sub-link-list">{{ __('lyra') }}</span></a>
+                                                    </li>
                                                     <li><a href="/products/orion">Orion<br><span
-                                                                class="sub-link-list">{{__('orion')}}</span></a></li>
+                                                                class="sub-link-list">{{ __('orion') }}</span></a>
+                                                    </li>
                                                     <li><a href="/products/chatifine">Chatifine<br><span
-                                                                class="sub-link-list">{{__('chatifine')}}</span></a>
+                                                                class="sub-link-list">{{ __('chatifine') }}</span></a>
                                                     </li>
                                                     <li><a href="/products/stockpile">Stockpile<br><span
-                                                                class="sub-link-list">{{__('stockpile')}}</span></a>
+                                                                class="sub-link-list">{{ __('stockpile') }}</span></a>
                                                     </li>
                                                     <li><a href="#">Octans <sup>Soon</sup><br><span
-                                                                class="sub-link-list">{{__('octans')}}</span></a>
+                                                                class="sub-link-list">{{ __('octans') }}</span></a>
                                                     </li>
-                                                    <li><a href="/services/socialmaster">Social Master <sup>New</sup><br><span
-                                                                class="sub-link-list">{{__('socialmaster')}}</span></a>
+                                                    <li><a href="/services/socialmaster">Social Master
+                                                            <sup>New</sup><br><span
+                                                                class="sub-link-list">{{ __('socialmaster') }}</span></a>
                                                     </li>
                                                 </ul>
 
@@ -248,19 +250,23 @@
                                         </div> <!-- End container -->
                                     </div> <!-- End wsmegamenu -->
                                 </li>
-                                <li class="nl-simple  {{ (\Request::route()->getName() == 'blog') ? 'active-menu' : '' }}"
+                                <li class="nl-simple  {{ \Request::route()->getName() == 'blog' ? 'active-menu' : '' }}"
                                     aria-haspopup="true"><a href="/blog">Blog</a></li>
                                 {{-- <li class="nl-simple" aria-haspopup="true"><a href="/plans">Pricing</a></li> --}}
                                 <!-- SIMPLE NAVIGATION LINK -->
                                 @php
-                                $career = DB::table('jobvacancies')->where('status','=', 0)->get();
+                                    $career = DB::table('jobvacancies')
+                                        ->where('status', '=', 0)
+                                        ->get();
                                 @endphp
-                                <li class="nl-simple  {{ (\Request::route()->getName() == 'career') ? 'active-menu' : '' }}"
-                                    aria-haspopup="true"><a href="/job-vacancies">{{__('career')}}
+                                <li class="nl-simple  {{ \Request::route()->getName() == 'career' ? 'active-menu' : '' }}"
+                                    aria-haspopup="true"><a href="/job-vacancies">{{ __('career') }}
                                         @if ($career->count() >= 1)
-                                        <sup>We're hiring</sup>
+                                            <sup>We're hiring</sup>
                                         @else
-                                        @endif</a></li>
+                                        @endif
+                                    </a>
+                                </li>
                                 {{-- <li aria-haspopup="true"><a href="#">{{ Config::get('languages')[App::getLocale()] }}
                                 <span class="wsarrow"></span></a>
                                 <ul class="sub-menu">
@@ -272,9 +278,9 @@
                                     @endforeach
                                 </ul>
                                 </li> --}}
-                                <li class="nl-simple  {{ (\Request::route()->getName() == 'contact') ? 'active-menu' : '' }}"
+                                <li class="nl-simple  {{ \Request::route()->getName() == 'contact' ? 'active-menu' : '' }}"
                                     aria-haspopup="true">
-                                    <a href="/contact" class="btn btn-skyboxity">{{__('contact_sales')}}</a>
+                                    <a href="/contact" class="btn btn-skyboxity">{{ __('contact_sales') }}</a>
                                 </li>
 
                             </ul>
@@ -291,7 +297,7 @@
         @yield('content')
 
         <!-- FOOTER-4
-			============================================= -->
+   ============================================= -->
         <footer id="footer-4" class="footer division">
             <div class="container">
 
@@ -315,7 +321,8 @@
                                     2902
                                     1873</a> <br>
                                 <span><i class="fab fa-whatsapp"></i></span> <a
-                                    href="https://wa.me/6281779813032?text=Hello,%20I%20am%20*Your%20name*%0AI%20want%20to%20know%20about%20your%20services%20in%20*Our%20services%20that%20you%20choose*.%0ACan%20we%20schedule%20a%20meeting?">0817 7981 3032</a> <br>
+                                    href="https://wa.me/6281779813032?text=Hello,%20I%20am%20*Your%20name*%0AI%20want%20to%20know%20about%20your%20services%20in%20*Our%20services%20that%20you%20choose*.%0ACan%20we%20schedule%20a%20meeting?">0817
+                                    7981 3032</a> <br>
                                 <span><i class="fal fa-envelope-open-text"></i></span> <a
                                     href="mailto:info@boxity.id">info@boxity.id</a>
                             </p>
@@ -333,29 +340,36 @@
                             <!-- Footer Links -->
                             <ul class="foo-links text-secondary clearfix">
                                 <li>
-                                    <p><a href="/about">{{__('about')}}</a></p>
+                                    <p><a href="/about">{{ __('about') }}</a></p>
                                 </li>
                                 <li>
                                     @php
-                                    $careerGet = DB::table('events')->where('status','=', 1)->get();
+                                        $careerGet = DB::table('events')
+                                            ->where('status', '=', 1)
+                                            ->get();
                                     @endphp
-                                    <p><a href="/events">Events @if ($careerGet->count()>=1)
-                                            <span>- New</span>
-                                            @endif</a></p>
+                                    <p><a href="/events">Events @if ($careerGet->count() >= 1)
+                                                <span>- New</span>
+                                            @endif
+                                        </a>
+                                    </p>
                                 </li>
                                 <li>
                                     @php
-                                    $careerGet = DB::table('jobvacancies')->where('status','=', 0)->get();
+                                        $careerGet = DB::table('jobvacancies')
+                                            ->where('status', '=', 0)
+                                            ->get();
                                     @endphp
-                                    <p><a href="/job-vacancies">{{__('career')}} @if ($careerGet->count()>=1)
-                                            <span>- {{__('we_hiring')}}</span>
-                                            @endif</a></p>
+                                    <p><a href="/job-vacancies">{{ __('career') }} @if ($careerGet->count() >= 1)
+                                                <span>- {{ __('we_hiring') }}</span>
+                                            @endif
+                                        </a></p>
                                 </li>
                                 <li>
-                                    <p><a href="/contact">{{__('contact')}}</a></p>
+                                    <p><a href="/contact">{{ __('contact') }}</a></p>
                                 </li>
                                 <li>
-                                    <p><a href="/privacy-policy">{{__('privacy_policy')}}</a></p>
+                                    <p><a href="/privacy-policy">{{ __('privacy_policy') }}</a></p>
                                 </li>
                             </ul>
 
@@ -366,7 +380,7 @@
                         <div class="footer-links mb-40">
 
                             <!-- Title -->
-                            <h6 class="h6-xl">{{__('product')}}</h6>
+                            <h6 class="h6-xl">{{ __('product') }}</h6>
 
                             <!-- Footer Links -->
                             <ul class="foo-links text-secondary clearfix">
@@ -408,7 +422,7 @@
                         <div class="footer-links mb-40">
 
                             <!-- Title -->
-                            <h6 class="h6-xl">{{__('services')}}</h6>
+                            <h6 class="h6-xl">{{ __('services') }}</h6>
 
                             <!-- Footer Links -->
                             <ul class="foo-links text-secondary clearfix">
@@ -433,26 +447,27 @@
                         <div class="footer-links mb-40">
 
                             <!-- Title -->
-                            <h6 class="h6-xl">{{__('connect_with_us')}}</h6>
+                            <h6 class="h6-xl">{{ __('connect_with_us') }}</h6>
 
                             <!-- Social Links -->
                             <ul class="footer-socials text-secondary ico-25 text-center clearfix">
                                 <li><a href="/facebook" target="_blank"><img
-                                            src="{{asset('webpage/svgs/brands/facebook-square.svg')}}"
+                                            src="{{ asset('webpage/svgs/brands/facebook-square.svg') }}"
                                             alt="facebook boxity"></a>
                                 </li>
                                 <li><a href="/facebook-community" target="_blank"><img
-                                            src="{{asset('webpage/svgs/duotone/users.svg')}}"
+                                            src="{{ asset('webpage/svgs/duotone/users.svg') }}"
                                             alt="facebook community"></a>
                                 </li>
                                 <li><a href="/instagram" target="_blank"><i class="fab fa-instagram"></i></a>
                                 </li>
                                 <li><a href="/linkedin" target="_blank"><img
-                                            src="{{asset('webpage/svgs/brands/linkedin.svg')}}"
+                                            src="{{ asset('webpage/svgs/brands/linkedin.svg') }}"
                                             alt="linkedin boxity"></a>
                                 </li>
                                 <li><a href="/tiktok" target="_blank"><img
-                                            src="{{asset('webpage/svgs/brands/tiktok.svg')}}" alt="tiktok boxity"></a>
+                                            src="{{ asset('webpage/svgs/brands/tiktok.svg') }}"
+                                            alt="tiktok boxity"></a>
                                 </li>
                             </ul>
 
@@ -474,8 +489,9 @@
                         <!-- FOOTER COPYRIGHT -->
                         <div class="col">
                             <div class="footer-copyright">
-                                <?php $y = Date('Y') ?>
-                                <p>&copy;{{$y}} PT. Boxity Central Indonesia. All rights reserved.</p>
+                                <?php $y = Date('Y'); ?>
+                                <p>&copy;{{ $y }} BoxityERP by PT. Boxity Central Indonesia. All rights
+                                    reserved.</p>
                             </div>
                         </div>
 
@@ -484,10 +500,10 @@
                         <div class="col">
                             <ul class="bottom-footer-list text-secondary text-end">
                                 <li class="first-li">
-                                    <p><a href="/privacy-policy">{{__('privacy_policy')}}</a></p>
+                                    <p><a href="/privacy-policy">{{ __('privacy_policy') }}</a></p>
                                 </li>
                                 <li class="last-li">
-                                    <p><a href="/terms-conditions">{{__('terms_condition')}}</a></p>
+                                    <p><a href="/terms-conditions">{{ __('terms_condition') }}</a></p>
                                 </li>
                             </ul>
                         </div>
@@ -509,26 +525,26 @@
 
 
     <!-- EXTERNAL SCRIPTS
-		============================================= -->
-    <script src="{!!asset('webpage/js/jquery-3.6.0.min.js')!!}"></script>
-    <script src="{!!asset('webpage/js/bootstrap.min.js')!!}"></script>
-    <script src="{!!asset('webpage/js/modernizr.custom.js')!!}"></script>
-    <script src="{!!asset('webpage/js/jquery.easing.js')!!}"></script>
-    <script src="{!!asset('webpage/js/jquery.appear.js')!!}"></script>
-    <script src="{!!asset('webpage/js/jquery.scrollto.js')!!}"></script>
-    <script src="{!!asset('webpage/js/menu.js')!!}"></script>
-    <script src="{!!asset('webpage/js/imagesloaded.pkgd.min.js')!!}"></script>
-    <script src="{!!asset('webpage/js/isotope.pkgd.min.js')!!}"></script>
-    <script src="{!!asset('webpage/js/owl.carousel.min.js')!!}"></script>
-    <script src="{!!asset('webpage/js/jquery.magnific-popup.min.js')!!}"></script>
-    <script src="{!!asset('webpage/js/quick-form.js')!!}"></script>
-    <script src="{!!asset('webpage/js/request-form.js')!!}"></script>
-    <script src="{!!asset('webpage/js/jquery.validate.min.js')!!}"></script>
-    <script src="{!!asset('webpage/js/jquery.ajaxchimp.min.js')!!}"></script>
-    <script src="{!!asset('webpage/js/wow-mini.js')!!}"></script>
+  ============================================= -->
+    <script src="{!! asset('webpage/js/jquery-3.6.0.min.js') !!}"></script>
+    <script src="{!! asset('webpage/js/bootstrap.min.js') !!}"></script>
+    <script src="{!! asset('webpage/js/modernizr.custom.js') !!}"></script>
+    <script src="{!! asset('webpage/js/jquery.easing.js') !!}"></script>
+    <script src="{!! asset('webpage/js/jquery.appear.js') !!}"></script>
+    <script src="{!! asset('webpage/js/jquery.scrollto.js') !!}"></script>
+    <script src="{!! asset('webpage/js/menu.js') !!}"></script>
+    <script src="{!! asset('webpage/js/imagesloaded.pkgd.min.js') !!}"></script>
+    <script src="{!! asset('webpage/js/isotope.pkgd.min.js') !!}"></script>
+    <script src="{!! asset('webpage/js/owl.carousel.min.js') !!}"></script>
+    <script src="{!! asset('webpage/js/jquery.magnific-popup.min.js') !!}"></script>
+    <script src="{!! asset('webpage/js/quick-form.js') !!}"></script>
+    <script src="{!! asset('webpage/js/request-form.js') !!}"></script>
+    <script src="{!! asset('webpage/js/jquery.validate.min.js') !!}"></script>
+    <script src="{!! asset('webpage/js/jquery.ajaxchimp.min.js') !!}"></script>
+    <script src="{!! asset('webpage/js/wow-mini.js') !!}"></script>
 
     <!-- Custom Script -->
-    <script src="{!!asset('webpage/js/custom-mini.js?'.rand(10000,99999))!!}"></script>
+    <script src="{!! asset('webpage/js/custom-mini.js?' . rand(10000, 99999)) !!}"></script>
 
 </body>
 
