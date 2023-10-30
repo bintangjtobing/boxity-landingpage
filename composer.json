@@ -15,7 +15,7 @@
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^6.3.1|^7.0.1",
-        "htmlmin/htmlmin": "^8.0",
+        "htmlmin/htmlmin": "^9.0",
         "laravel/framework": "^7.29",
         "laravel/tinker": "^2.5"
     },
