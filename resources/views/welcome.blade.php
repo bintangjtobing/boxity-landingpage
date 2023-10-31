@@ -237,7 +237,8 @@
                                                     <li><a href="/products/stockpile">Stockpile<br><span
                                                                 class="sub-link-list">{{ __('stockpile') }}</span></a>
                                                     </li>
-                                                    <li><a href="#">Octans <sup>Soon</sup><br><span
+                                                    <li><a href="https://octansidn.com" target="_blank">Octans
+                                                            <br><span
                                                                 class="sub-link-list">{{ __('octans') }}</span></a>
                                                     </li>
                                                     <li><a href="/services/socialmaster">Social Master
