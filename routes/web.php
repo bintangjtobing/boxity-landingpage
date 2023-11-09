@@ -70,6 +70,23 @@ Route::prefix('sc/business')->group(function () {
         return Redirect::to('/business/rate-card/rate-card-social-media-management-boxity-2022.pdf');
     });
 });
+Route::prefix('sc/legal')->group(function () {
+    Route::get('/akta-pendirian', function () {
+        return Redirect::to('/legality/akta_pendirian.pdf');
+    });
+    Route::get('/nib', function () {
+        return Redirect::to('/legality/nib.pdf');
+    });
+    Route::get('/npwp', function () {
+        return Redirect::to('/legality/npwp.pdf');
+    });
+    Route::get('/sk-ahu', function () {
+        return Redirect::to('/legality/sk_ahu.pdf');
+    });
+    Route::get('/surat-keterangan-terdaftar', function () {
+        return Redirect::to('/legality/skt.pdf');
+    });
+});
 Route::prefix('sc/dev')->group(function () {
     Route::get('/uat', function () {
         return Redirect::to('https://docs.google.com/spreadsheets/d/e/2PACX-1vSycOCdD0t9L7Hoo9PKTC21qMjzBY763d9q8Uf_ycSeeWzYErkjh4AJwDF7vS2ZpffhlVuuGLF0mhzJ/pubhtml?gid=0&single=true');

@@ -372,6 +372,33 @@
                                 <li>
                                     <p><a href="/privacy-policy">{{ __('privacy_policy') }}</a></p>
                                 </li>
+                                <li>
+                                    <p><a href="/sc/business/portfolio/2022">Portfolio</a></p>
+                                </li>
+                            </ul>
+                            <!-- Title -->
+                            <h6 class="h6-xl mt-4">Legal</h6>
+
+                            <!-- Footer Links -->
+                            <ul class="foo-links text-secondary clearfix">
+                                <li>
+                                    <p><a href="/sc/business/profile/2023/id">Company Profile</a></p>
+                                </li>
+                                <li>
+                                    <p><a href="/sc/legal/akta-pendirian">Akta Pendirian</a></p>
+                                </li>
+                                <li>
+                                    <p><a href="/sc/legal/nib">NIB</a></p>
+                                </li>
+                                <li>
+                                    <p><a href="/sc/legal/npwp">NPWP</a></p>
+                                </li>
+                                <li>
+                                    <p><a href="/sc/legal/sk-ahu">SK AHU</a></p>
+                                </li>
+                                <li>
+                                    <p><a href="/sc/legal/skt">SKT</a></p>
+                                </li>
                             </ul>
 
                         </div>
